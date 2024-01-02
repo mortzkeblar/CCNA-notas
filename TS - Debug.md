@@ -1,4 +1,11 @@
+![](_anexos_/Screenshot%20from%202024-01-02%2003-39-06.png)
+
 > Recomendación: no tener el proceso `debug` corriendo demasiado tiempo, dependiendo el equipo puede que lo llegue a sobrecargar y dejarlo temporalmente fuera de servicio.
+
+``` bash
+# Habilitar la salida de debug en terminales remotas, por defecto los mensajes de debug se van a la consola serial del dispositivo
+R1$ terminal monitor
+```
 
 ``` bash
 R1$ debug ip icmp
