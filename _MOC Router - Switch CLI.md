@@ -1,2 +1,0 @@
-- [Add IP to switch (VLAN admin)](Add%20IP%20to%20switch%20(VLAN%20admin).md)
-- [ACL Standard - CLI Command](ACL%20Standard%20-%20CLI%20Command.md)
