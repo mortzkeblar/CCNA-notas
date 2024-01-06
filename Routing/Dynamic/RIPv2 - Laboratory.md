@@ -1,3 +1,6 @@
+
+Video referencia: https://www.youtube.com/watch?v=5hIXd4WfB7w&list=PL2A7l6PiV52esSwosIAO86zf0RGe2pjTZ&index=26
+
 ![](_anexos_/Screenshot%20from%202023-12-27%2021-21-51.png)
 
 #### Configuración de RIPv2
@@ -38,7 +41,7 @@ R3(config-router)$ version 2
 ```
 
 
-> Importante: es recomendable siempre deshabilitar la auto-sumarización al trabajar en RIPv2. Ver [Automatic Network Summarization (RIP)](Routing/Dynamic/Automatic%20Network%20Summarization%20(RIP).md)
+> Importante: es recomendable siempre deshabilitar la auto-sumarización al trabajar en RIPv2. Ver [Automatic Network Summarization (in RIP)](Automatic%20Network%20Summarization%20(in%20RIP).md)
 
 Para filtrar las rutas configuradas por `RIP`. 
 ``` bash
@@ -93,5 +96,4 @@ Para verificar que no se este enviando por `loopback0` mensajes podemos hacer de
 _Ver: [TS - Debug](TS/TS%20-%20Debug.md)_.
 
 
-Video referencia: https://www.youtube.com/watch?v=5hIXd4WfB7w&list=PL2A7l6PiV52esSwosIAO86zf0RGe2pjTZ&index=26
 

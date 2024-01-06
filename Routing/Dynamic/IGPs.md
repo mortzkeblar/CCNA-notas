@@ -1,6 +1,6 @@
 # Interior Gateway Protocols (IGPs)
 
-_Este protocolo forma es uno de los dos metodos de enrutamiento dinamico. Ver: [Dynamic routing protocols](../Dynamic%20routing%20protocols.md)_
+_Este protocolo forma parte de los metodos de enrutamiento dinamico. Ver: [Dynamic routing protocols](Dynamic%20routing%20protocols.md)_
 
 ![](_anexos_/Screenshot%20from%202024-01-05%2009-27-06.png)
 
@@ -20,7 +20,7 @@ Notas:
 	- DV: Distance vector
 	- LS: Link state
 	- PV: Path vector
-- AD: es un valor que usan los routers para elegir la mejor ruta en base al protocolo usado
+- AD: es un valor que usan los routers para elegir la mejor ruta en base al protocolo usado (*Ver: [Metric and AD](Metric%20and%20AD.md)*)
 - Metrica
 	- BW: bandwidth (ancho de banda)
 - Actualización de enrutamiento

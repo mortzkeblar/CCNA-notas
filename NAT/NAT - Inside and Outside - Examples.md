@@ -1,3 +1,5 @@
+_Para entender mejor el concepto de inside/outside ver: [NAT - Inside and Outside](NAT%20-%20Inside%20and%20Outside.md)_
+
 #### Example 1
 
 ![](_anexos_/Screenshot%20from%202024-01-01%2008-51-30.png)

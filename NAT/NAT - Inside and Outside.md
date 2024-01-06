@@ -15,4 +15,6 @@ Pro  Inside global        Inside local        Outside local     Outside global
 tcp  66.178.221.10:23781  192.168.0.10:23781  200.23.101.44:80  200.23.101.44:80
 ```
 
+### Examples
+
 _Ver: [NAT - Inside and Outside - Examples](NAT%20-%20Inside%20and%20Outside%20-%20Examples.md)_
