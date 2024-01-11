@@ -1,6 +1,6 @@
 _Ver: [DHCP Snooping - Mitigation](DHCP%20Snooping%20-%20Mitigation.md)
 
-![](_anexos_/Screenshot%20from%202024-01-05%2009-11-03.png)
+![](../../_anexos_/Screenshot%20from%202024-01-05%2009-11-03.png)
 
 En un ejemplo más complejo nos preguntamos, _donde deberian ir las interfaces trust y untrust?_
 Para esto, seguimos una serie de reglas

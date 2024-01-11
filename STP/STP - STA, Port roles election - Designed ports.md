@@ -1,6 +1,6 @@
 En este punto debemos calcular cuales interfaces quedan en rol _**Designated**_ y cuales quedan en _**Non-designated**_.
 
-![](_anexos_/Screenshot%20from%202024-01-02%2012-34-47.png)
+![](../_anexos_/Screenshot%20from%202024-01-02%2012-34-47.png)
 
 El _root bridge_ genera las BPDUs con costo inicial 0. Cada switch toma la BPDU recibida en su _root port_ yu la reenvía por las demás interfaces añadiendo el costo contenido dentro de la BPDU al costo del puerto donde la recibió.
 - En el ejemplo, S2 reenvía el BPDU de S1 a S3 con el costo que recibio (es decir, 19)
@@ -17,4 +17,4 @@ En cada segmento donde no hay un RP (_root port_), STP seleccionará un extremo 
 
 _En nuestro ejemplo, el desempate surge con la opción nro. 3, esto implica que la ruta entre S2 y S3 queda eliminada (a nivel lógico) pero S2 queda en modo Forwarding a la espera de otra conexión, S3 queda bloquado._
 
-![](_anexos_/Screenshot%20from%202024-01-02%2012-46-27.png)
+![](../_anexos_/Screenshot%20from%202024-01-02%2012-46-27.png)

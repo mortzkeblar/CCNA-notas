@@ -8,5 +8,5 @@ Nos debería saltar un error de tipo `VLAN mismatch`. La solución a este tipo d
 
 ``` bash
 R1(config)$ int e0/0.30
-R1(config)$ encapsulation dot1Q 30 native
+R1(config)$ encapsulation dot1q 30 native
 ```

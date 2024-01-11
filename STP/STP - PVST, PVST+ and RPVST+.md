@@ -1,5 +1,5 @@
 
-![](_anexos_/Screenshot%20from%202024-01-04%2015-42-52.png)
+![](../_anexos_/Screenshot%20from%202024-01-04%2015-42-52.png)
 
 > _**PVST**_: Per VLAN Spanning Tree
 > _**PVST+**_: PVST + 802.1q support

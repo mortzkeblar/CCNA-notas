@@ -1,7 +1,7 @@
 > Las diferencias generalmente estan en torno a la *perpectiva* del usuario que analiza su situación.
 
 
-![](_anexos_/Screenshot%20from%202024-01-01%2009-18-35.png)
+![](../_anexos_/Screenshot%20from%202024-01-01%2009-18-35.png)
 
 - **Inside local:** es la dirección del host ubicado en la _inside_, segun como se ve desde la _inside_. (Es la IP address del host interno)
 - **Inside global:** es la dirección dle host ubicado en la _inside_, pero segun como se ve desde la _outside_ (Es la IP publica que esta siendo utilizada como NAT) 

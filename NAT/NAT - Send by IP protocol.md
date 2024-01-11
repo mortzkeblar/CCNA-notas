@@ -2,7 +2,7 @@ _Ver: [NAT - Inside and Outside](NAT%20-%20Inside%20and%20Outside.md)_
 
 Esta sección consiste de una pequeña explicación de como funciona NAT a nivel del protocolo IP. 
 
-![](_anexos_/Screenshot%20from%202024-01-01%2009-46-54.png)
+![](../_anexos_/Screenshot%20from%202024-01-01%2009-46-54.png)
 
 ``` txt
 Consideramos un paquete que esta en proceso en encapsular el contenido de la cabezera IP, asumimos que tiene la DATA de las capas superiores.

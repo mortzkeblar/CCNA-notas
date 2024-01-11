@@ -1,8 +1,8 @@
-![normal](_anexos_/Screenshot%20from%202024-01-02%2012-49-57.png)
+![normal](../_anexos_/Screenshot%20from%202024-01-02%2012-49-57.png)
 
 ## Solución
 
-![](_anexos_/Screenshot%20from%202024-01-04%2011-02-53.png)
+![](../_anexos_/Screenshot%20from%202024-01-04%2011-02-53.png)
 - El Root Bridge (RB), si bien todos tienen el mismo valor en la _prioridad + VLAN ID_, es el valor de MAC address el que decide el RB, en este caso es S1 por tener el valor más bajo
 - Ahora toca decidir por los Root Ports (RP) 
 	- S1 automaticamente pone todos sus puertos en _designated_ y comienza a enviar BPDUs a las demas switches

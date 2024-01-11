@@ -53,4 +53,4 @@ Con esto podemos llegar desde los hosts hasta el router, también entre los host
 > Este metodo no es recomendable, porque si bien es escalable a nivel de hosts. Se genera congestión en el enlace troncal (bottle neck) lo cual puede generar un mal performance.
 
 
-Ver: [VLAN mismatch](VLAN/VLAN%20mismatch.md)
+Ver: [VLAN mismatch](../VLAN/VLAN%20mismatch.md)

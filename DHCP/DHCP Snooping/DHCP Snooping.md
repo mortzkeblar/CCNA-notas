@@ -1,4 +1,4 @@
-_Ver: [DHCP](../DHCP.md) y [DHCP - Discover Examples](DHCP/DHCP%20-%20Discover%20Examples.md)_
+_Ver: [DHCP](../DHCP.md) y [DHCP - Discover Examples](../DHCP%20-%20Discover%20Examples.md)_
 
 Este tipo de ataque consiste basicamente en falsificar que somos un servidor DHCP. Cuando otros dispositivos se conecten se van a reenviar a la red que podemas generar (ej: 10.0.0.0/24) con un gateway que definamos (ej: 10.0.0.1, nuestra propia IP). 
 Esto genera que el trafico de la red se reenvie al falso gateway y asi interceptar todo el trafico de la red LAN, las victimas no se darian cuanta puesto que podemos reenviar el trafico hacia/desde internet para que sus solicitudades salgan sin problemas. 

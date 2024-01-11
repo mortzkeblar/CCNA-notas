@@ -23,7 +23,7 @@ VLAN30(config-if)$ ip add 192.168.30.100 255.255.255.0
 
 ## Configuración de los switches
 
-> A veces pasa que no se crean las VLAN correctamente, en este caso la creamos nuevamente y deberia aparecer en el `show brief`. Esto se debe a un problema en el emulador de GNS3.
+> A veces pasa que no se crean las VLAN correctamente , en este caso la creamos nuevamente y deberia aparecer en el `show brief`. Esto se debe a un problema en el emulador de GNS3.
 
 ``` bash
 IOU2$ conf t
@@ -60,8 +60,8 @@ IOU2(config-if)$ switchport access vlan 10
 ```
 
 Para poder comunicar los hosts que estan en `VLAN10` y `VLAN20` debemos aun, configurar el router. Cuestiones a considerar.
-- `e0/2` de IOU2 -> `e0/1` de R1
-- `e0/3` de IOU2 -> `e0/2` de R1
+- `e0/2` de IOU2 esta conectado a `e0/1` de R1
+- `e0/3` de IOU2 esta conectado `e0/2` de R1
 Cada una de esas interfaces deben ser asignados a una VLAN correspondiente.
 - `e0/2` -> VLAN10
 - `e0/3` -> VLAN20

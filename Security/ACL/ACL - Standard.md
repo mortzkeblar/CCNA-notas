@@ -1,6 +1,6 @@
 
 #### Wildcards masks
-_Ver: [Wildcard masks](Wildcard%20masks.md)_
+_Ver: [Wildcard masks](../../Wildcard%20masks.md)_
 
 #### Ejercicios wildcards
 _Ver: [Wildcards examples](Wildcards%20examples.md)_

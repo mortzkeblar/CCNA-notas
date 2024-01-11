@@ -18,6 +18,6 @@ Cuando termina el intercambio de BPDUs, el switch con _BID MÁS BAJO_ será elec
 > **Importante**: recordar que el valor de BID se define por:
 > - _Prioridad del bridge (`32768`, default) + VLAN ID (`1`, default) + MAC address_
 
-![normal](_anexos_/Screenshot%20from%202024-01-02%2011-49-46.png)
+![normal](../_anexos_/Screenshot%20from%202024-01-02%2011-49-46.png)
 
 Luego de esto pasamos a la elección de puertos designados (Ver: [STP - STA, Port roles election - Root port](STP%20-%20STA,%20Port%20roles%20election%20-%20Root%20port.md))

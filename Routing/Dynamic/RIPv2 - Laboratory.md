@@ -93,7 +93,7 @@ router rip
 ```
 
 Para verificar que no se este enviando por `loopback0` mensajes podemos hacer debug.
-_Ver: [TS - Debug](TS/TS%20-%20Debug.md)_.
+_Ver: [TS - Debug](../../TS/TS%20-%20Debug.md)_.
 
 
 

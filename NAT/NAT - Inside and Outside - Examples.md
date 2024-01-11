@@ -2,7 +2,7 @@ _Para entender mejor el concepto de inside/outside ver: [NAT - Inside and Outsid
 
 #### Example 1
 
-![](_anexos_/Screenshot%20from%202024-01-01%2008-51-30.png)
+![](../_anexos_/Screenshot%20from%202024-01-01%2008-51-30.png)
 
 ``` bash
 ## En este caso, el trafico siempre va desde la LAN hacia internet
@@ -19,7 +19,7 @@ R1(config-if)$ ip nat inside
 
 #### Example 2
 
-![](_anexos_/Screenshot%20from%202024-01-01%2008-55-59.png)
+![](../_anexos_/Screenshot%20from%202024-01-01%2008-55-59.png)
 
 ``` bash
 # Aca como estamos trabajando con interfaces virtuales, la instruccion solo enciende la interfaz fisica pero no lo configura en ip nat porque no tiene asignada una IP. Recordad que NAT trabaja sobre L3, entonces asignamos ip nat sobre las interfaces virtuales.

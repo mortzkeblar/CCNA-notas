@@ -1,5 +1,5 @@
 
-> ![](_anexos_/Screenshot%20from%202024-01-01%2014-05-22.png)
+> ![](../_anexos_/Screenshot%20from%202024-01-01%2014-05-22.png)
 > 
 > _Ejemplo_:
 > Un host que acaba de conectarse fisicamente a la red. Como no esta configurado de antemano, envia un mensaje _broadcast_ preguntando si existe un servidor DHCP (DHCP discover).
@@ -13,7 +13,7 @@
 
 _ACK: el concepto de ACK es cuando se envia un dato de origen/destino y ese dato es confirmado por el receptor de que llego correctamente (en español, ACUSO DE RECIBO)._
 
-##### DHCP Discover Example - Wireshark
-![](_anexos_/Screenshot%20from%202024-01-01%2014-06-51.png)
+## DHCP Discover Example - Wireshark
+![](../_anexos_/Screenshot%20from%202024-01-01%2014-06-51.png)
 - Se puede ver un DHCP discover hecho por _nadie (0.0.0.0)_ y enviado a _todos (255.255.255.255)._
 - Se puede ver que la información esta dirigida desde la MAC address L2, pero si vemos en L3 aun no tiene ninguna configuración de IP. 

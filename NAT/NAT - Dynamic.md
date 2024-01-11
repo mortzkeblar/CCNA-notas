@@ -9,7 +9,7 @@ El rango de IPs publicas que tiene el ISP es 200.1.1.1/29.
 - Quedan 5 IPs, de las cuales una IP se asigna como dirección IP a la interfaz f0/1 del router
 - Los restantes 4 IPs se configuran para la red interna con dynamic NAT
 ```
-![](_anexos_/Screenshot%20from%202023-12-29%2012-27-30.png)
+![](../_anexos_/Screenshot%20from%202023-12-29%2012-27-30.png)
 ``` bash
 # Configuración global
 R(config)$ ip nat pool RANGO_PUBLICO 200.1.1.2 200.1.1.4 netmask 255.255.255.248

@@ -7,17 +7,17 @@ A grandes rasgos consiste en un mensaje que envia a través de la red tratando d
 
 ## Composición de la BPDU
 
-![](_anexos_/Screenshot%20from%202024-01-02%2011-21-26.png)
+![](../_anexos_/Screenshot%20from%202024-01-02%2011-21-26.png)
 
 - Los campos en naranja se fueron agregando a medida que se fue desarrollando STP.
 
 #### BPDU  - Bridge ID Field
 
-![](_anexos_/Screenshot%20from%202024-01-02%2011-23-14.png)
+![](../_anexos_/Screenshot%20from%202024-01-02%2011-23-14.png)
 
 - `Extended System-ID` es un campo que se agrego en la versión actual de STP (IEEE 802.1D-2004)
 
-![](_anexos_/Screenshot%20from%202024-01-02%2011-25-25.png)
+![](../_anexos_/Screenshot%20from%202024-01-02%2011-25-25.png)
 
 #### Proceso de convergencia de STA
 _Ver: [STP - STA](STP%20-%20STA.md)_

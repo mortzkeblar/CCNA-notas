@@ -6,4 +6,4 @@ La diferencia en métrica reside esencialmente en que la métrica rige cuando se
 
 En este caso, todos los routers funcionan bajo el protocolo RIP con los mismos valores de `default distance`. Entonces la decisión se basa en los diversos metodos que aplica cada protocolo, RIP por ejemplo usa `Hop Count`, OSPF usa `Cost(Band Width)`, etc.
 
-Ver: [Best routing path selection criteria](Routing/Dynamic/Best%20routing%20path%20selection%20criteria.md)
+Ver: [Best routing path selection criteria](Best%20routing%20path%20selection%20criteria.md)
