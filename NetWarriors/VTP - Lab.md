@@ -9,7 +9,7 @@ La idea de este lab es implementar el protocolo _VTP_ para que las VLAN se confi
 
 ![](_anexos_/Screenshot%20from%202024-01-10%2004-30-49.png)
 
-Primero habilitamos el servidor VTP en el switch central
+Primero habilitamos el servidor VTP en el switch central, este es el que va a actuar como VTP server.
 
 ``` bash
 # Creamos las VLANs 

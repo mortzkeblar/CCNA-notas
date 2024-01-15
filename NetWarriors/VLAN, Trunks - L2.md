@@ -11,6 +11,7 @@ Notas del  video:
 # Configuración de VLANs
 Creamos las VLANs en el primer switch
 ``` bash
+Switch(config)$ vlan 10
 Switch(config-vlan)$name DEPARTAMENTO_A
 Switch(config-vlan)$exit
 Switch(config)$ vlan 20

@@ -1,19 +1,22 @@
 ``` bash
 # Comandos relevantes para depuración
-SW1$ show vlan brief
-
+SW1$ show vlan brief 
+SW1$ show vlan-switch # igual al comando anterior, esta version suele estar mas en dispositivos viejos
 SW1$ show interfaces trunk
 
 ## Esto aplica si tienes instalado nmap en tu contenedor o VM
-
 host1$ nmap --script broadcast-dhcp-discover
 
 ```
 
+La idea en esta ocación es poder configurar un server DHCP en un switch/router Cisco (en la imagen, SW1-C va actuar como server). Antes de eso vamos a necesitar tener configurados las VLAN y el enrutamiento entre los switches. 
+
+_Ver: [DHCP](../DHCP/DHCP.md)_ 
+
 ![](_anexos_/Screenshot%20from%202024-01-11%2014-32-59.png)
 
-## Antecedentes 
-En este caso se supone que SW1-C actua como servidor VTP con los demás switches actuando como clientes. Todo esto se ve en [VTP - Lab](VTP%20-%20Lab.md), en todo caso abajo dejo ejemplos de forma basica para esta configuración.
+## Configuración previa
+En este caso usamos SW1-C como servidor VTP con los demás switches actuando como clientes. Todo esto se ve en [VTP - Lab](VTP%20-%20Lab.md), en todo caso abajo dejo ejemplos de forma basica para esta configuración.
 
 ``` bash
 # Configuracion de SW1-C en modo server

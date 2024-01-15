@@ -28,7 +28,7 @@ Primero configuramos las VLAN con el `mode access` en las distintas interfaces q
 SW1$ conf t
 SW1(config)$ int g0/2
 SW1(config)$ switchport mode access 
-SW1(config)$ switchport vlan 202
+SW1(config)$ switchport access vlan 202
 SW1(config)$ exit
 
 ## Realizar los mismos pasos en las interfaces de los otros SWs que correspondan 
@@ -43,7 +43,7 @@ SW1$ int g0/0
 SW1(config)$ no shut
 SW1(config)$ switchport trunk encapsulation dot1q
 SW1(config)$ switchport mode trunk 
-SW1(config)$ switchport allowed vlan all # Para permitir el acceso o negar el trafico de VLANs 
+SW1(config)$ switchport trunk allowed vlan all # Para permitir el acceso o negar el trafico de VLANs 
 SW1(config)$ do show interces trunk
 
 ```
