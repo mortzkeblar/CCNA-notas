@@ -1,3 +1,10 @@
+---
+tags:
+  - STP
+  - concept
+  - example
+---
+
 En este punto debemos calcular cuales interfaces quedan en rol _**Designated**_ y cuales quedan en _**Non-designated**_.
 
 ![](../_anexos_/Screenshot%20from%202024-01-02%2012-34-47.png)
@@ -7,7 +14,7 @@ El _root bridge_ genera las BPDUs con costo inicial 0. Cada switch toma la BPDU 
 	- Al llegar a S3, este le suma otro costo de 19, quedando en 38.
 - Lo mismo ocurre a la inversa, como ambos tiene los mismos valores. No es suficiente para poder elegir los puertos designados.
 
-En caso de empate, STP contempla los siguientes casos hasta encontrar uno que pueda generar el desempate:
+En caso de empate, [STP](STP.md) contempla los siguientes casos hasta encontrar uno que pueda generar el desempate:
 1. Prefiere siempre el switch con el Root Bridge ID más bajo
 2. Prefiere siempre el switch que tenga el costo de ruta más baja hacia el Root Bridge
 3. Prefiere siempre el switch que emita la BPDU con Bridge ID más bajo

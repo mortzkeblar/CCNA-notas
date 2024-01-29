@@ -1,3 +1,9 @@
+---
+tags:
+  - ACL
+  - concept
+---
+
 # Access Control List
 
 Es utilizado para _SELECCIONAR_ flujos de tráfico segun algun criterio especifico. _EJ:_
@@ -27,8 +33,3 @@ Para crear una ACL:
 - Crear una política de seguridad mediante el comando `access-list` o `ip access-list`
 - Aplicar  esa política en una interfaz del router (física o subinterfaz) en modo entrada (in) o salida (out)
 
-### Standard ACL 
-_Ver: [ACL - Standard](ACL%20-%20Standard.md)_
-
-### Extended ACL
-_Ver: [ACL - Extended](ACL%20-%20Extended.md)_

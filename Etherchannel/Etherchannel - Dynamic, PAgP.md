@@ -1,3 +1,10 @@
+---
+tags:
+  - ETHERCHANNEL
+  - concept
+  - configuration
+---
+
 Se utiliza el protocolo PAgP para negociar y mantener el etherchannel entre dos switches Cisco unicamente.
 
 ![](_anexos_/Screenshot%20from%202024-01-04%2017-15-46.png)

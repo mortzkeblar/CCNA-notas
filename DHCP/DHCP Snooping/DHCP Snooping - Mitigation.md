@@ -1,3 +1,9 @@
+---
+tags:
+  - DHCP
+  - configuration
+---
+
 # Mitigación
 
 Al configurar el switch con DHCP snooping, todos los puertos quedan en modo UNTRUST. Solo los puertos TRUST podrán enviar mensajes DISCOVER (Broadcast) y responder los OFFER.

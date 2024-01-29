@@ -1,4 +1,14 @@
+---
+tags:
+  - NAT
+  - concept
+---
+
 # Network Address Translation
+NAT es un proceso (diseñado específicamente para IPv4 y el problema de la falta de direcciones) de cambio de las direcciones IP y los puertos de origen/destino. La traducción de direcciones reduce la necesidad de direcciones publicas IPv4 y oculta rangos de direcciones privadas (definidos en [NAT - RFC 1918](NAT%20-%20RFC%201918.md)). De este proceso generalmente se encargan los routers o firewalls. 
+
+#TODO Agregar una entrada sobre el agotamiento actual de las direcciones IPv4
+
 > NAT, VLSM y CIDR son tres técnicas ampliamente utilizadas para prolongar el uso de direcciones IPv4 en internet.
 > 
 > Sin embargo NAT trajo limitaciones como la conexión end-to-end, etc.
@@ -13,17 +23,8 @@
 - NAT64
 
 
-_En este punto es importante ver el rango de IP privadas establecidas en la RFC 1918 y el porque de seguir las buenas practicas [NAT - RFC 1918](NAT%20-%20RFC%201918.md)_
+#TODO Agregar una entrada desmintiendo la falsa seguridad y aislamiento que supuestamente proporciona NAT
 
-> Importante: en el examen de certificación es comun ver algun ejercicio relacionada a un mal funcionamiento de NAT. Por general suele ser con `inside/outside` mal configurado. Tomar enfasis en ese punto.
-
-
-#### Formalidades en la syntaxis
-- Red interna LAN (`inside`)
-- Red externa WAN (`outside`)
-
-### Misc
-##### Inside/Outside NAT examples
-_Ver: [NAT - Inside and Outside](NAT%20-%20Inside%20and%20Outside.md)_
-##### CLI commands
-_Ver: [NAT  - CLI commands](NAT%20%20-%20CLI%20commands.md)_
+### References
+- https://www.ccnablog.com/nat-network-address-translation/
+- https://ccnadesdecero.es/nat-network-address-translation/

@@ -1,3 +1,8 @@
+---
+tags:
+  - general
+---
+
 
 ``` bash
 interface GigabitEthernet1/0/1

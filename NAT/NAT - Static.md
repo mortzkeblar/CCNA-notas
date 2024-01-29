@@ -1,3 +1,10 @@
+---
+tags:
+  - NAT
+  - concept
+  - configuration
+---
+#TODO agregar mas teoria
 En el NAT estático es posible asignar estáticamente una dirección IP publica única a una dirección IP privada, asegurando disponibilidad y acceso desde internet hacia un servidor ubicado en la LAN.
 - Tambien llamado `NAT 1:1`
 - Este método puede convivir con otros mecanismos de NAT

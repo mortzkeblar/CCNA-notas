@@ -1,3 +1,10 @@
+---
+tags:
+  - STP
+  - concept
+  - example
+---
+
 > Para ver los valores de las distintas unidades, _ver: [STP - Bridges](STP%20-%20Bridges.md)_
 
 Luego de elegir al Root bridge, cada switch deberá asignar un rol a sus puertos calculando el costo acumulativo hacia el Root bridge (**STP Root Path Cost**) por cada una de sus interfaces.

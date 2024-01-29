@@ -1,3 +1,9 @@
+---
+tags:
+  - general
+  - configuration
+---
+
 ##### Algunos detalles
 - El comando `show` no se ejecuta dentro de una configuración global, es decir, cuando el _prompt_ sea del estilo `Router (config)#`
 ### General

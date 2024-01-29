@@ -1,3 +1,10 @@
+---
+tags:
+  - ETHERCHANNEL
+  - concept
+  - example
+---
+
 ### Catalyst 2960
 - Maximo de 8 etherchannels de L2
 - Maximo de 8 puertos en cada etherchannel

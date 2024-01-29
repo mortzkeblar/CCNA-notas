@@ -1,3 +1,9 @@
+---
+tags:
+  - SYSLOG
+  - configuration
+---
+
 ``` bash
 R1(config)$ service timestamp log
 R1(config)$ logging console disable

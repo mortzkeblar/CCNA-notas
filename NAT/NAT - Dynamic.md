@@ -1,3 +1,10 @@
+---
+tags:
+  - NAT
+  - concept
+  - configuration
+---
+#TODO agregar mas teoria
 En el NAT dinámico, las IP internas de cada cliente de una LAN se asocian dinamicamente con cada IP externa (pública).
 - Red interna LAN (`inside`)
 - Red externa WAN (`outside`)

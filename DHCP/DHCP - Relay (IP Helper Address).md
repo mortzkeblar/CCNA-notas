@@ -1,3 +1,10 @@
+---
+tags:
+  - DHCP
+  - example
+  - concept
+---
+
 >Situación de ejemplo:
 > Si tenemos varios hosts conectados a un switch, ese switch a su vez esta conectado a un router. Entendemos que el router actua de servidor DHCP. 
 > Ya sabemos que si un host quiere conectarse a la red, envia un mensaje broadcast a toda la red. En este caso el router deberia poder responder correctamente.

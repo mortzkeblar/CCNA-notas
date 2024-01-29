@@ -1,3 +1,9 @@
+---
+tags:
+  - DHCP
+  - example
+---
+
 _Ver: [DHCP Snooping - Mitigation](DHCP%20Snooping%20-%20Mitigation.md)
 
 ![](../../_anexos_/Screenshot%20from%202024-01-05%2009-11-03.png)

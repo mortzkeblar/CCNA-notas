@@ -1,3 +1,10 @@
+---
+tags:
+  - ACL
+  - ACL_extended
+  - lab
+---
+
 _Ver: [ACL - Extended, Examples](ACL%20-%20Extended,%20Examples.md)_
 ![](_anexos_/Screenshot%20from%202023-12-29%2008-36-59.png)
 

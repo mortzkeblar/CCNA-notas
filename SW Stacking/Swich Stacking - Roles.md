@@ -1,3 +1,9 @@
+---
+tags:
+  - SW_stacking
+  - concept
+---
+
 # Elección de roles
 
 Para el que el switch stacking funcione necesitamos definir un switch _master_ y otros switch en mode _slave_. 

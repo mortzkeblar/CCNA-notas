@@ -1,3 +1,8 @@
+---
+tags:
+  - problem
+---
+
 ``` bash
 *Jan 12 13:22:14.276: %IP-4-DUPADDR: Duplicate address 192.168.40.1 on Vlan40, sourced by 0cf7.3  
 ```

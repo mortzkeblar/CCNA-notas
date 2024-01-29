@@ -1,3 +1,9 @@
+---
+tags:
+  - IOS
+  - configuration
+---
+
 ![](../_anexos_/Screenshot%20from%202024-01-02%2001-31-47.png)
 
 _Cables de conexión y tipos para poder trabajar en CONSOLE:_
@@ -5,7 +11,7 @@ _Cables de conexión y tipos para poder trabajar en CONSOLE:_
 - USB A a RJ45
 - USB A a Mini USB (en dispositivos Cisco más modernos)
 
-##### Pasos a seguir
+## Pasos a seguir
 1. Reiniciar el router y presionar la secuencia de quiebre o _Break Sequence_ del terminal (`Ctrl + Break` o `Ctrl + Pause`)
 	- El router/switch al encender ejecuta un proceso POST (Power On Self Test)
 	- Luego pasa a un ROM Monitor, en este punto ejecutamos los comandos de recuperación

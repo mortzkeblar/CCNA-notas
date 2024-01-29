@@ -1,3 +1,10 @@
+---
+tags:
+  - VLAN
+  - concept
+  - configuration
+---
+#TODO agregar teoria
 ## Enrutamiento tradicional
 
 ![](_anexos_/Screenshot%20from%202023-12-27%2010-43-58.png)

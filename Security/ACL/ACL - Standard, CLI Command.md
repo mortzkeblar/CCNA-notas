@@ -1,3 +1,10 @@
+---
+tags:
+  - ACL
+  - ACL_standard
+  - configuration
+---
+
 _Ver: [ACL - Standard, IN OUT](ACL%20-%20Standard,%20IN%20OUT.md)_
 ### Standard ACL numbered
 - `1-99; 1300 a 1999`

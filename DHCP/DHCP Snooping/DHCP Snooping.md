@@ -1,3 +1,11 @@
+---
+tags:
+  - DHCP
+  - concept
+---
+
+
+
 _Ver: [DHCP](../DHCP.md) y [DHCP - Discover Examples](../DHCP%20-%20Discover%20Examples.md)_
 
 Este tipo de ataque consiste basicamente en falsificar que somos un servidor DHCP. Cuando otros dispositivos se conecten se van a reenviar a la red que podemas generar (ej: 10.0.0.0/24) con un gateway que definamos (ej: 10.0.0.1, nuestra propia IP). 

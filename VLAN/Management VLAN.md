@@ -1,3 +1,10 @@
+---
+tags:
+  - configuration
+  - example
+  - VLAN
+---
+
 Se trata de crear una VLAN administrativa para que se pueda gestionar de manera remota a través de SSH o Telnet. 
 Tambien puede ser util a la hora de hacer troubleshooting. `Por ejemplo` cuando existen problemas de conectividad entre el router y el host, el cual involucra un switch de por medio. 
 

@@ -1,3 +1,9 @@
+---
+tags:
+  - PNAC
+  - configuration
+---
+
 # Configuración de PNAC
 
 ``` bash

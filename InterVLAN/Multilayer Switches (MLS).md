@@ -1,3 +1,11 @@
+---
+tags:
+  - VLAN
+  - concept
+  - configuration
+---
+#TODO agregar teoria
+
 _SVI: Switch VLAN interface (VLAN administrativa)_
 
 ![](_anexos_/Screenshot%20from%202023-12-27%2013-15-58.png)

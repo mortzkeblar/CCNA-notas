@@ -1,3 +1,11 @@
+---
+tags:
+  - ACL
+  - ACL_standard
+  - concept
+---
+
+
 - Las ACL Standard son aquellas que van numeradas entre el `1 y 99` y `1300 a 1999`. 
 	- Un ACL con un número entre `100 y 199` o `2000 a 2699` se considera `ACL Extended`.
 - Las ACL Standard solamente pueden bloquear tráfico basándose en la dirección `IP de origen`. Las `ACL Extended` miran la `IP de origen, IP de destino, puertos de origen y destino`.

@@ -1,6 +1,12 @@
-La idea detras de _Etherchannel_ es ofrecer mayor ancho de banda disponible para los enlaces que tienen una carga superior a la media.
+---
+tags:
+  - ETHERCHANNEL
+  - concept
+---
+
+Es una tecnologia desarrollada por Cisco destinada a funcionar entre switches, la idea detras de _Etherchannel_ es ofrecer mayor ancho de banda disponible para los enlaces que tienen una carga superior a la media.
 - Funciona por ejemplo al tener enlaces redundantes pero en segmentos que son paralelos
-	- Aunque sean paralelos forman un camino cíclico , entonces [STP](../STP/STP.md) actua para eliminar uno de los enlaces
+	- Aunque sean paralelos forman un bucle de conmutación , entonces [STP](../STP/STP.md) actua para eliminar uno de los enlaces
 
 ![](_anexos_/Screenshot%20from%202024-01-04%2016-47-27.png)
 
@@ -10,7 +16,7 @@ Si lo que necesitamos es usar todos los enlaces simultáneamente. Necesitamos ha
 > _Ej:_ si hacemos etherchanel sobre dos enlaces de 1Gb cada una, la fusión de ambas sigue dando como resultado 1Gb. Solo que permite usar ese ancho de banda de forma paralela.
 > 
 
-Considerar que si usamos dos enlaces paralelos que usan _etherchannel_, STP va a actuar de igual manera porque va a detectar un camino ciclico (aun asi los dos enlaces sean etherchannel).
+Considerar que si usamos dos enlaces paralelos que usan _etherchannel_, STP va a actuar de igual manera porque va a detectar un bucle (aun asi los dos enlaces sean etherchannel).
 
 Los situaciones donde se suele usar los _etherchannel_ son
 - Multiples conexiones en switches
@@ -26,7 +32,12 @@ Los situaciones donde se suele usar los _etherchannel_ son
 > Importante: etherchannel aumenta el ancho de banda disponible al balancear la carga de los enlaces. El metodo por defecto de balance de carga es utilizar la MAC address origin.
 
 Las tramas provenientes de diferentes MAC se enviaran por distintos puertos, pero las tramas provenientes de una misma MAC se enviaran por el mismo puerto de salida.
-
+### Algunos detalles
+- No podemos asociar dos interfaces diferentes (p. ej. un fast ethernet con un gigabit ethernet)
+- Etherchanel proporciona un ancho de banda de 800mb/s full duplex con una conexión fast ethernet 
+- Etherchanel proporciona un ancho de banda de 8gb/s full duplex con una conexión gigabit ethernet 
+- No puedes enviar trafico a dos dispositivos diferentes a través de un mismo etherchanel 
+- La conexión de los puertos que estan asociados a un etherchanel deben ser igual en ambos extremos
 ### L2 and Trunk
 [Etherchannel - L2 and Trunk Mode](Etherchannel%20-%20L2%20and%20Trunk%20Mode.md)
 ### L3

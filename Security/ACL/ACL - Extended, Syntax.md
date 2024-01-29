@@ -1,3 +1,10 @@
+---
+tags:
+  - ACL
+  - ACL_extended
+  - configuration
+---
+
 > Las standard ACL se instalan siempre lo más cerca del destino
 > Las extended ACL se instalan siempre lo más cerca del origen
 
@@ -8,6 +15,7 @@ _Ver: [ACL - Extended, Examples](ACL%20-%20Extended,%20Examples.md)_
 
 ![](_anexos_/Screenshot%20from%202023-12-29%2000-38-49.png)
 
+> #exam 
 > Importante: practicar ACL named, es posible encontrar con un ejercicio de este tipo en el examen de CCNA
 
 #### Composition

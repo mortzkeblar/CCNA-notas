@@ -1,3 +1,9 @@
+---
+tags:
+  - SYSLOG
+  - concept
+---
+
 ![](_anexos_/Screenshot%20from%202024-01-02%2000-54-22.png)
 
 Debido a que los dispositivos Cisco, a diferencia de un server, tienen muy poca capacidad de almacenamiento, existen dos alternativas para administrar los mensajes de registro.
@@ -13,5 +19,3 @@ https://tftpd32.jounin.net
 
 ![](_anexos_/Screenshot%20from%202024-01-02%2000-55-45.png)
 
-### Configuración
-_Ver: [Syslog - Configuration](Syslog%20-%20Configuration.md)_

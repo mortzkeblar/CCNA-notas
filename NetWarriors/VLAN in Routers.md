@@ -1,3 +1,11 @@
+---
+tags:
+  - VLAN
+  - configuration
+  - lab
+---
+
+
 
 ``` bash
 # Comandos utiles para depuración

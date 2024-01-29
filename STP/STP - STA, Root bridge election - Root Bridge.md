@@ -1,3 +1,10 @@
+---
+tags:
+  - STP
+  - concept
+  - example
+---
+
 > Referencia: para no mezclar los conceptos acerca de los valores con respecto a la prioridad. Recordar que:
 > - En L3, los protocolos que usan prioridad en sus procesos, suelen elegir el valor más alto para tomar una desición
 > - En L2 (como vemos en STP), el valor de prioridad que se usa como ser el más bajo

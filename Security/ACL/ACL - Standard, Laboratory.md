@@ -1,3 +1,10 @@
+---
+tags:
+  - ACL
+  - ACL_standard
+  - lab
+---
+
 ![](_anexos_/Screenshot%20from%202023-12-28%2023-12-58.png)
 
 ### Consigna

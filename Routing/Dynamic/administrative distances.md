@@ -1,10 +1,9 @@
 
-Los valores del Routing Table Entry provienen de `show ip route`. 
-
+Esto es usado por el router para determinar las rutas más _fiables_ dependiendo el protocolo de routing. Generalmente siempre se prefiere a los protocolos con el AD más bajo. 
 ![](_anexos_/Screenshot%20from%202023-12-27%2016-43-38.png)
 
 ### Valores importantes (CCNA) sobre la distancia por defecto
-_Este punto es para remarcar estos valores por su importancia para el examen de certificación_
+#exam _Este punto es para remarcar estos valores por su importancia para el examen de certificación_
 
 | Route Source                       | Default Distance |
 | ---------------------------------- | ---------------- |

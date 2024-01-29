@@ -1,5 +1,12 @@
+---
+tags:
+  - ACL
+  - ACL_extended
+  - example
+---
+
 - Es necesario identificar el `sentido del trafico` a la hora de crear un _Security Police_.
-	- En un interfaz especifica (i.e. `e0/0`), la politica se aplica para los paquetes de entrada o salida?
+- En un interfaz especifica (i.e. `e0/0`), la politica se aplica para los paquetes de entrada o salida?
 
 _Ver: [ACL - Standard, IN OUT](ACL%20-%20Standard,%20IN%20OUT.md)_
 

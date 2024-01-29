@@ -1,3 +1,8 @@
+---
+tags:
+  - NTP
+  - concept
+---
 
 # Network Time Protocol
 NTP es un protocolo estándar de la industria que se utiliza para sincronizar la hora y fecha de un dispositivo de red con la información de un servidor centralizado. Utiliza el puerto `123 UDP`.  

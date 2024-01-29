@@ -1,3 +1,8 @@
+---
+tags:
+  - NTP
+  - configuration
+---
 
 ### Configuración de hora y fecha con NTP
 ``` bash

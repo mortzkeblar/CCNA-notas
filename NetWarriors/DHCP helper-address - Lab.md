@@ -1,3 +1,8 @@
+---
+tags:
+  - DHCP
+  - lab
+---
 
 ``` bash
 # Comandos relevantes para depuración

@@ -1,3 +1,9 @@
+---
+tags:
+  - NAT
+  - example
+---
+#TODO que es RFC 1918?
 # Address allocation for Private Internet
 
 Bloque de IP privadas:

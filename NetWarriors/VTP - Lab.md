@@ -1,3 +1,10 @@
+---
+tags:
+  - VLAN
+  - configuration
+  - lab
+---
+
 ``` bash
 # Comandos relevantes para depuración 
 SW1$ show vlan brief

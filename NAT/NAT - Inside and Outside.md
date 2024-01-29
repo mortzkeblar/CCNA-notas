@@ -1,4 +1,13 @@
+---
+tags:
+  - NAT
+  - concept
+---
+
+
 > Las diferencias generalmente estan en torno a la *perpectiva* del usuario que analiza su situación.
+> - Red interna LAN (`inside`)
+> - Red externa WAN (`outside`)
 
 
 ![](../_anexos_/Screenshot%20from%202024-01-01%2009-18-35.png)

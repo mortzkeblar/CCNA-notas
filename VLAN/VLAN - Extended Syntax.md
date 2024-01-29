@@ -1,3 +1,10 @@
+---
+tags:
+  - VLAN
+  - configuration
+---
+
+
 ``` bash
 S1(config)$ do show vtp status
 ...

@@ -1,3 +1,9 @@
+---
+tags:
+  - PNAC
+  - concept
+---
+
 # EAPOL (Extensible Authentication Protocol over LAN)
 
 EAPOL es una modificación del protocolo EAP (un protocolo bastante usado en redes inalambricas, lo cual tiene sentido teniendo en cuenta la forma de autenticación). 

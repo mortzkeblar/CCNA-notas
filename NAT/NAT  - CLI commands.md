@@ -1,3 +1,10 @@
+---
+tags:
+  - NAT
+  - configuration
+---
+
+
 ``` bash
 # Mostrar las traducciones en tiempo real
 R1$ show ip nat translations

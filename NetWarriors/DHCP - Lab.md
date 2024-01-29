@@ -1,3 +1,9 @@
+---
+tags:
+  - DHCP
+  - lab
+---
+
 ``` bash
 # Comandos relevantes para depuración
 SW1$ show vlan brief 

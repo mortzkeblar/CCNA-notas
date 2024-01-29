@@ -1,3 +1,9 @@
+---
+tags:
+  - general
+  - concept
+---
+
 Las IP nos sirven para poder identificarnos en la red. Generalmente se compone de cuatro octetos (8 bits) dado por: 
 _Porción de RED + Porcion de HOST_
 

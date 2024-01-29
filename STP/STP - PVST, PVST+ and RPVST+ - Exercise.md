@@ -1,3 +1,8 @@
+---
+tags:
+  - STP
+  - lab
+---
 
 _Para ver el ejercicio y resolución: https://youtu.be/dcTzBa9A43g?list=PL2A7l6PiV52esSwosIAO86zf0RGe2pjTZ&t=270_
 
@@ -43,3 +48,5 @@ DLS2(config)$ spanning-tree vlan 10 root secundary
 
 DLS2(config)$ spanning-tree mode rapid-pvst
 ```
+
+_Ver: [STP](STP.md)_

@@ -1,3 +1,12 @@
+---
+tags:
+  - VLAN
+  - concept
+  - configuration
+---
+
+#TODO agregar teoria
+
 ![](_anexos_/Screenshot%20from%202023-12-27%2012-24-31.png)
 
 *GNS3*:

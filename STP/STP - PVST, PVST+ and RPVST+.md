@@ -1,3 +1,9 @@
+---
+tags:
+  - STP
+  - concept
+---
+
 
 ![](../_anexos_/Screenshot%20from%202024-01-04%2015-42-52.png)
 
@@ -8,7 +14,7 @@
 	- Cada topologia en una VLAN puede ser totalmente independiente de otra 
 - PVST viene por defecto en los switches Cisco
 
-El estandar IEEE 802.1d/1w define una instancia de STP en todas las VLANs.
+El estandar IEEE 802.1d/1w define una instancia de [STP](STP.md)  en todas las [VLAN](../VLAN/VLAN.md).
 Habitualmente se conoce con el nombre de MST (Mono Spanning Tree). No confundir con MSTP (Multiple Spanning Tree).
 
 _IEEE_

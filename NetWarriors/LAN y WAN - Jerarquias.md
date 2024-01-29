@@ -1,3 +1,8 @@
+---
+tags:
+  - general
+---
+
 - Red pequeña: servicio para hasta 200 dispositivos
 - Red mediana: servicio desde 200 a 1000 dispositivos
 - Red grande: servicio para más de 1000 dispositivos
@@ -37,3 +42,12 @@ TODO
 - Debe proporcionar confiabilidad y tolerancia a fallas
 - Debe lograr la escalabilidad mediante equipos mas rapidos, calidad sobre cantidad
 - Debe evitar la manipulacion de paquetes que implica una gran exigencia en la CPU a causa de la seguridad, la inspeccion, la clasificacion de la calidad de servicio (QaS) u otros procesos
+
+
+# CISCO SBA FOR ENTERPRISE ORGANIZATION
+
+## Principios de ingenieria estructura
+- Jerarquia 
+- Modularidad
+- Resistencia
+- Flexibilidad

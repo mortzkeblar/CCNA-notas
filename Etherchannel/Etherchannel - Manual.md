@@ -1,3 +1,9 @@
+---
+tags:
+  - ETHERCHANNEL
+  - configuration
+---
+
 Ambos extremos deben ser configurados manualmente y no existe ningun protocolo de autonegociación.
 
 ![](_anexos_/Screenshot%20from%202024-01-04%2017-12-19.png)

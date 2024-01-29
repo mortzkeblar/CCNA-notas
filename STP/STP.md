@@ -1,9 +1,15 @@
+---
+tags:
+  - STP
+  - concept
+---
+
 # Spanning Tree Protocol
 
 - Los _loops_ físicos siempre deben existir
 - Los _loops_ lógicos deben ser controlados
 
-## Antecedentes
+## A considerar 
 
 **Control de bucles en capa 3**
 - En L3 el principal metodo para evitar los bucles dentro de la red, es el campo TTL (time to live, 0 to 255) que viene dentro del IP header. 
@@ -19,11 +25,5 @@ A considerar:
 	- No confundir con _IEEE 802.1D-1998_ (deprecated)
 - Los protocolos en verde (en la imagen), son implementaciones de STP propietarias de Cisco. En cambio los violetas son implementaciones estándar definidos por la IEEE.
 
-## Bridges
-_Ver: [STP - Bridges](STP%20-%20Bridges.md)_
-## Bridge Protocol Data Unit (BPDU)
-_Ver: [STP - BPDU](STP%20-%20BPDU.md)_
-## Spanning Tree Algorithm
-_Ver: [STP - STA](STP%20-%20STA.md)_
 ##### References
 - https://www.networkplayroom.com/2017/10/quick-notes-spanning-tree-protocol-ccie.html

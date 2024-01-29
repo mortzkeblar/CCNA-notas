@@ -1,3 +1,9 @@
+---
+tags:
+  - ETHERCHANNEL
+  - configuration
+---
+
 
 Este modo suele ser el modo más comun de configuración de etherchannel.
 ![](_anexos_/Screenshot%20from%202024-01-04%2018-23-03.png)

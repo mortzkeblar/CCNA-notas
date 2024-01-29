@@ -1,3 +1,9 @@
+---
+tags:
+  - example
+  - general
+---
+
 _Tomado de la clase 27, ACL estándar. [Link](https://youtu.be/nq1SoUM6XA0?list=PL2A7l6PiV52esSwosIAO86zf0RGe2pjTZ)_
 
 > Nota: en la wildcard, un `0` significa que seleccionarán exactamente esos bits de la IP, mientras que un `1` significa que el bit en la IP puede cambiar, pero se seleccionará igual. 

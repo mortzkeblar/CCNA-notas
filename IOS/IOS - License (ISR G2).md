@@ -1,3 +1,8 @@
+---
+tags:
+  - IOS
+  - concept
+---
 
 ### IOS 12.3
 - Una de las características principales es que para adquirir funcionalidades especiales (más allá de lo que ofrecía IP base). Se necesitaba cambiar el IOS completamente, en este gráfico se pueden observar los distintos IOS según funcionalidad, el precio también subía de acuerdo a los requerimientos.

@@ -1,3 +1,9 @@
+---
+tags:
+  - SW_stacking
+  - concept
+---
+
 # Ventajas de Stack Switching
 
 ![](_anexos_/Screenshot%20from%202024-01-05%2007-36-51.png)

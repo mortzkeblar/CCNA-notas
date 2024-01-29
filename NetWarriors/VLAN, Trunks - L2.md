@@ -1,3 +1,9 @@
+---
+tags:
+  - VLAN
+  - lab
+---
+
 https://www.youtube.com/watch?v=dpTCpqZH3zY&list=PLoqM5eIpDpUEhtUNKuOd-sGll7NrvlwD7&index=15
 
 ![](_anexos_/Screenshot%20from%202024-01-09%2016-49-08.png)

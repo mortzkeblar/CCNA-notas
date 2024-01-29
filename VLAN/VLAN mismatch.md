@@ -1,3 +1,10 @@
+---
+tags:
+  - configuration
+  - problem
+  - VLAN
+---
+
 Si en el switch cambian la `VLAN nativa` a otro valor diferente de 1.
 
 ``` bash
