@@ -41,7 +41,7 @@ R3(config-router)$ version 2
 ```
 
 
-> Importante: es recomendable siempre deshabilitar la auto-sumarización al trabajar en RIPv2. Ver [Automatic Network Summarization (in RIP)](Automatic%20Network%20Summarization%20(in%20RIP).md)
+> Importante: es recomendable siempre deshabilitar la auto-sumarización al trabajar en RIPv2. Ver [automatic network summarization (in RIP)](automatic%20network%20summarization%20(in%20RIP).md)
 
 Para filtrar las rutas configuradas por `RIP`. 
 ``` bash

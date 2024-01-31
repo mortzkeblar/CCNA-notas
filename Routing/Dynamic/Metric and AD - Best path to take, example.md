@@ -1,5 +1,5 @@
 # Toma de desición, el mejor camino
-_Ver: [Best routing path selection criteria](Best%20routing%20path%20selection%20criteria.md)_
+_Ver: [best routing path selection criteria](best%20routing%20path%20selection%20criteria.md)_
 
 ![](_anexos_/Screenshot%20from%202023-12-27%2016-57-08.png)
 

@@ -1,11 +1,10 @@
-# IP route 0.0.0.0 
 Este comando resulta util para configurar varias rutas sin necesidad de  especificar cada una. En el ejemplo podemos configurar con un solo comando todas la rutas necesarias solo especificando la interface de salida, en este caso, `S0` en `stub router`.
 
 ``` bash
-_Router(config)#ip route 0.0.0.0 0.0.0.0 Serial0_
+Router(config)#ip route 0.0.0.0 0.0.0.0 Serial0
 
 Con un next-hop IP, suponiendo que el router vecino tiene esa IP
-_Router(config)#ip route 0.0.0.0 0.0.0.0 192.168.1.2_
+Router(config)#ip route 0.0.0.0 0.0.0.0 192.168.1.2
 ```
 
 Los 0s indican cualquier red en cualquier subnet mask. Eso quiere decir que cualquier trafico que pase por el router puede pasar por la next-hop IP (o interface).  
