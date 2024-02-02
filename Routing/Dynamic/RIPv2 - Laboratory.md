@@ -1,3 +1,4 @@
+En este lab vamos a crear una red que funcione bajo [RIPv2](RIPv2.md).
 
 Video referencia: https://www.youtube.com/watch?v=5hIXd4WfB7w&list=PL2A7l6PiV52esSwosIAO86zf0RGe2pjTZ&index=26
 
@@ -41,7 +42,7 @@ R3(config-router)$ version 2
 ```
 
 
-> Importante: es recomendable siempre deshabilitar la auto-sumarización al trabajar en RIPv2. Ver [automatic network summarization (in RIP)](automatic%20network%20summarization%20(in%20RIP).md)
+> Importante: es recomendable siempre deshabilitar la auto-sumarización al trabajar en RIPv2. Ver [auto summarization](auto%20summarization.md)
 
 Para filtrar las rutas configuradas por `RIP`. 
 ``` bash

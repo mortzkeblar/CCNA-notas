@@ -52,7 +52,7 @@ R2#
 *Mar  1 06:15:42.906: RIP: sending v2 update to 224.0.0.9 via FastEthernet0/0 (192.168.1.2)
 ```
 
-La red `172` todavia se muestra en `/16` (Class B) en nuestra tabla. cuando nosotros configuramos la IP al principio en `/24`. Esto se llama [summarization](automatic%20network%20summarization%20(in%20RIP).md) , algunos protocolos hacen esto por defecto. Podemos desactivarlo con:
+La red `172` todavia se muestra en `/16` (Class B) en nuestra tabla. cuando nosotros configuramos la IP al principio en `/24`. Esto se llama [summarization](auto%20summarization.md) , algunos protocolos hacen esto por defecto. Podemos desactivarlo con:
 
 ``` bash
 R1(config)#router rip
