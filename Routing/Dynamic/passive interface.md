@@ -25,5 +25,5 @@ R1(config-router)#neighbor 192.168.1.10
 `neighbor` puede ser usado en redes non-broadcast, como los frame relay, para permitir que actualizaciones unicast pasen a través del medio.
 
 
-### relacionado
+### linked 
 [passive interface in RIP](passive%20interface%20in%20RIP.md) 

@@ -1,4 +1,4 @@
-Esta es una función de [RIPv2](RIPv2.md) que 'resume' automaticamente las redes en los limites de las clases [classful](../../../../../classful.md). 
+Esta es una función de [RIPv2](RIPv2.md) que 'resume' automaticamente las redes en los limites de las clases [classful](../classful.md). 
 - P. ej. si se anuncia la red `172.6.1.0/26`, cruza por la red `10.0.0.0/8`. La ruta `172` se resumira automaticamente a `172.6.1.0/16` (Clase B). 
 
 

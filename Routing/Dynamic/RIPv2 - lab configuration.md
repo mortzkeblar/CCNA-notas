@@ -15,7 +15,7 @@ R1(config-router)#network 10.0.0.0
 R1(config-router)#net 192.168.1.0
 ```
 
-Una vez que estan configurados R1 y R2 (con una [IP Address](../../NetWarriors/IP%20Address.md) y [RIPv2](RIPv2.md)) para la red `10`, deberiamos ver la ruta `192` como ruta [RIP](../../../../../RIP.md) en la tabla de enrutamiento.
+Una vez que estan configurados R1 y R2 (con una [IP Address](../../NetWarriors/IP%20Address.md) y [RIPv2](RIPv2.md)) para la red `10`, deberiamos ver la ruta `192` como ruta [RIP](../RIP.md) en la tabla de enrutamiento.
 
 ``` bash
 R2#show ip route
