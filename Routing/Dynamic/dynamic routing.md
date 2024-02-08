@@ -5,8 +5,8 @@ En terminos simples, el routing dinamico hace uso de un protocolo de routing par
 El routing dinamico nos facilita la adminstración de redes, sobrotodo con redes medias o grandes. El routing estatico sin embargo sigue siendo util para cuestiones excepcionales o para redes más pequeñas. 
 
 Los protocolos de routing dinamico se dividen en dos tipos:
-- Distance vector
-- Link state 
+- [distance vector protocols](distance%20vector%20protocols.md) 
+- [link state protocols](link%20state%20protocols.md) 
 
 Ambos hacen el mismo trabajo pero por diferentes vias, un hibrido de ambos es EIGRP por ejemplo. Algunas de las funciones de estos protocolos son:
 - Anunciar redes conectadas

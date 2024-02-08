@@ -1,6 +1,7 @@
 
 - [InterVLAN Routing](InterVLAN/InterVLAN%20Routing.md)
-- [Dynamic routing](Routing/Dynamic/Dynamic%20routing.md)
+- [static routing](Routing/Dynamic/static%20routing.md) 
+- [dynamic routing](Routing/Dynamic/Dynamic%20routing.md)
 - [Security routing](Security/Security%20routing.md)
 - [NAT](NAT/NAT.md)
 - [STP](STP/STP.md)

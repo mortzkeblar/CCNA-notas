@@ -9,5 +9,3 @@ Todas la rutas conocidas por RIP son enviadas mediante broadcast fuera de las in
 Su única [metrics](Dynamic/metrics.md) consiste en el _hop count_, por ende, no considera ni la velocidad o la confiabilidad del enlace. 
 
 La [administrative distances](Project/Networking/CCNA-notas/Routing/Dynamic/administrative%20distances.md) de RIP es de 120 (tanto para RIPv1 como [RIPv2](Dynamic/RIPv2.md)). 
-
-![](Project/Networking/CCNA-notas/_anexos_/Screenshot%20from%202023-12-27%2018-32-39.png)

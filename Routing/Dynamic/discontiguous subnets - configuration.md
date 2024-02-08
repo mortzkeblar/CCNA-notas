@@ -2,7 +2,7 @@
 En la imagen se muestra una topologia mal diseñada. Especificamente la red `10`, esa forma de dividir la red se conoce como discontiguous subnets. 
 Esto es un problema porque R2 intentará enviar cualquier tráfico por la red 10 por cualquiera de las interfaces, lo que provocara una perdida de paquetes del 50% o más. 
 
-![](anexos/14-5.png)
+![](_anexos_/14-5.png)
 
 Podemos ver que tenemos [auto summarization](auto%20summarization.md) en R1.
 ``` bash
