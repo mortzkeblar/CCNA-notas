@@ -1,5 +1,5 @@
 Temas a tratar:
-- [RIP](../RIP.md) 
+- [RIP](RIP.md) 
 - [RIPv2](RIPv2.md) 
 - [default routes for RIPv2](default%20routes%20for%20RIPv2.md) 
 - [gateway of last resort](gateway%20of%20last%20resort.md) 

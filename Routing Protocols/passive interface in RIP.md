@@ -1,6 +1,6 @@
 _Ver: [passive interface](passive%20interface.md)_ 
 
-En [RIP](../RIP.md), una interface pasiva recibira actualizaciones de enrutamiento pero no enviará ninguna. 
+En [RIP](RIP.md), una interface pasiva recibira actualizaciones de enrutamiento pero no enviará ninguna. 
 
 Si se trata de un gran número de interfaces para agregar, se puede usar el `default` para hacer pasivas todas las interfaces.
 
@@ -13,7 +13,7 @@ default            Suppress routing updates on all interfaces
 
 ![](_anexos_/14-7.png)
 
-En este imagen podemos ver que el multicast [RIP](../RIP.md) esta anulado por la LAN. La red `172` se difunde a través del enlace serial, la interfaz LAN es [passive interface](passive%20interface.md) en este caso. 
+En este imagen podemos ver que el multicast [RIP](RIP.md) esta anulado por la LAN. La red `172` se difunde a través del enlace serial, la interfaz LAN es [passive interface](passive%20interface.md) en este caso. 
 
 ``` bash
 R1(config-if)#router rip

@@ -20,7 +20,7 @@ Router(config-router)#network address wildcard-mask area [area ID]
 ```
 
 - Address - la dirección de red 
-- [Wildcard mask](../../Wildcard/wildcard%20mask.md) 
+- [wildcard mask](../L2/Wildcard/wildcard%20mask.md) 
 - Area/area ID - es el area [OSPF](OSPF.md) en que quieres que este la red/interface. Si estas usando más de una area, una de ellas debe ser el area 0. 
 
 Para la red de la imagen, pon las dos interfaces fastethernet dentro del Area 0, tambien la interface Loopback en R2:
@@ -69,7 +69,7 @@ C 192.168.1.0/24 is directly connected, FastEthernet0/0
 
 ## conclusions
 Es importante notar que le comando `network` no se usa para anunciar subnets en OSPF, se usa para determinar que interfaces participan en [OSPF](OSPF.md) y las subnet mask en esas interfaces en particular son las que determinan que subredes se anuncian. 
-La [wildcard mask](../../Wildcard/wildcard%20mask.md) no tiene que ser la inversa de la subnet mask configurada en una interface particular. Abajo esta una lista de comandos `show` necesarios para seguir la configuración.
+La [wildcard mask](../L2/Wildcard/wildcard%20mask.md)  no tiene que ser la inversa de la subnet mask configurada en una interface particular. Abajo esta una lista de comandos `show` necesarios para seguir la configuración.
 
 ``` bash
 show ip route 
@@ -95,4 +95,4 @@ Routing for Networks:
 0.0.0.0 255.255.255.255 area 0
 ```
 
-Cualquier [IP Address](../../NetWarriors/IP%20Address.md) en cualquier interface habilitada sera añadida al Area 0 de [OSPF](OSPF.md). 
+Cualquier [IP Address](../NetWarriors/IP%20Address.md) en cualquier interface habilitada sera añadida al Area 0 de [OSPF](OSPF.md). 

@@ -1,4 +1,4 @@
-Open Shortest Path First (OSPF protocol) es un protocolo estandár abierto que usa algoritmos _link state_ para calcular el mejor camino para llegar a una red particular. Desarrollado en el '98 por IETF para cubrir las necesidades y las carencias del [RIP](../RIP.md). Es un protocolo más robusto y flexible que los predecesores [distance vector protocol](distance%20vector%20protocol.md) y es ideal para usarlo en entornos enterprise. 
+Open Shortest Path First (OSPF protocol) es un protocolo estandár abierto que usa algoritmos _link state_ para calcular el mejor camino para llegar a una red particular. Desarrollado en el '98 por IETF para cubrir las necesidades y las carencias del [RIP](RIP.md). Es un protocolo más robusto y flexible que los predecesores [distance vector protocol](distance%20vector%20protocol.md) y es ideal para usarlo en entornos enterprise. 
 
 OSPF emplea el uso de _areas_ para simplificar la administración de la red y confinar la inestabilidad de la red a un sector especifico. Además permite un amplio control sobre las actualizaciones de enrutamiento.
 
@@ -9,7 +9,7 @@ Tiene una [administrative distance](administrative%20distance.md) de 110.
 Además de mejorar los metodos de protocolos anteriores, introduce caracteristicas como:
 - No limitaciones en hop-count
 - Rapida convergencia
-- [classless](../classless.md) (permite el uso de [VLSM](../../VLSM.md))
+- [classless](classless.md)  (permite el uso de [VLSM](../VLSM.md))
 - Autenticación de contraseña
 - Metodos avanzados de selección de rutas
 - Etiquetado para rutas externas
@@ -19,3 +19,11 @@ Además de mejorar los metodos de protocolos anteriores, introduce caracteristic
 - Usa equal-cost load balancing sobre multiples rutas para optimizar el uso de ancho de banda. 
 - Soporta MD5 authentication para el intercambio seguro de rutas.
 - No tiene problemas de [split horizon](split%20horizon.md). 
+
+
+## connected
+
+- [OSPF terminology](OSPF%20terminology.md)
+- [OSPF overview](OSPF%20overview.md) 
+- [OSPF network types and neighbors](OSPF%20network%20types%20and%20neighbors.md) 
+- [OSPF routes](OSPF%20routes.md) 

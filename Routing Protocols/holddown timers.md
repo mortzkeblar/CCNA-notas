@@ -5,7 +5,7 @@ Cuando _holddown timer_ esta en uso, el router activa el temporizador cuando ve 
 
  > holddown timers prevent routing table updates for X seconds
 
-Algo que pueda ocurrir mientras este activo el _holddown timer_ es que el router reciba una actualización con una [metrics](Dynamic/metrics.md) mejor desde un router diferente. Esta ruta sera agregada una vez que termine el tiempo de espera. El tiempo de espera puede modificarse según sea necesario (no recomendable).
+Algo que pueda ocurrir mientras este activo el _holddown timer_ es que el router reciba una actualización con una [metrics](metrics.md) mejor desde un router diferente. Esta ruta sera agregada una vez que termine el tiempo de espera. El tiempo de espera puede modificarse según sea necesario (no recomendable).
 - Valores muy altos provocan que el tiempo de convergencia sea más lento.
 - Valores muy bajos producen una rapida convergencia pero puede ser ineficaz para casos de _link flapping_.
 

@@ -5,7 +5,7 @@ A diferencia de los protocolos _route-by-rumor_ como [distance vector protocol](
 La decisiones de routing se toman en base al _Shortest Path First (SPF)_, o al _Dijkstra's algorithm_, con el fin de calcular el camino más corto (shortest path) para llegar al destino. 
 
 ### link state routing protocol behavior
-Los link state protocol actualizan la información de enrutamiento cada 30 minutos (en [distance vector protocol](distance%20vector%20protocol.md) eran cada 30 segundos en promedio, [RIPv2](RIPv2.md) p. ej.), no existe un temporizador con intervalos regulares como [holddown timers](../holddown%20timers.md). 
+Los link state protocol actualizan la información de enrutamiento cada 30 minutos (en [distance vector protocol](distance%20vector%20protocol.md) eran cada 30 segundos en promedio, [RIPv2](RIPv2.md) p. ej.), no existe un temporizador con intervalos regulares como [holddown timers](holddown%20timers.md). 
 Esto tiene grandes ventajas frente a [distance vector protocol](distance%20vector%20protocol.md) porque:
 - La información enviada es solo una actualización con los cambios especificos
 - Una vez los cambios llegan a toda la red, no se vuelve a intercambiar información. Lo cual reduce el ancho de banda al no enviar actualizaciones innecesarias. 

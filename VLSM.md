@@ -2,7 +2,7 @@ Variable Length Subnet Masks (VLSM) es un metodo [classless](Routing%20Protocols
 
 El concepto básico de VLSM es muy simple: se toma una red y se divide en subredes fijas, luego se toma una de esas [subredes](https://es.wikipedia.org/wiki/Subred "Subred") y se vuelve a dividir, tomando bits "prestados" de la porción de hosts, ajustándose a la cantidad de hosts requeridos por cada segmento de nuestra red.
 
-Algunos de los protocolos que soportan [VLSM]() son [RIPv2](Routing/Dynamic/RIPv2.md), OSPF y las versiones más recientes de BGP y EIGRP.
+Algunos de los protocolos que soportan [VLSM]() son [RIPv2](Routing%20Protocols/RIPv2.md) , OSPF y las versiones más recientes de BGP y EIGRP.
 
 
 ### some examples 

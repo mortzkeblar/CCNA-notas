@@ -1,4 +1,4 @@
-Por defecto, [RIP](../RIP.md) realiza load balancing sobre cuatro rutas de igual coste. Esto ayuda a no saturar un solo enlace cuando tenemos grandes cargas. 
+Por defecto, [RIP](RIP.md) realiza load balancing sobre cuatro rutas de igual coste. Esto ayuda a no saturar un solo enlace cuando tenemos grandes cargas. 
 
 Considerar que los enlaces deben ser iguales para que el load balancing sea equitativo. 
 - En la primer etapa, el router elegirá la ruta con la [administrative distance](administrative%20distance.md) más baja. 

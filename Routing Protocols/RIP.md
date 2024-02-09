@@ -4,8 +4,8 @@ Routing Information Protocol (RIP) esta basado en el algoritmo _Bellman-Ford_, d
 
 RIPv1 al ser un protocol [classful](classful.md) , no reconoce [VLSM](../VLSM.md). Por lo cual no puede interpretar la información respecto a subnet mask.   
 
-Todas la rutas conocidas por RIP son enviadas mediante broadcast fuera de las interfaces RIP cada 30 segundos (y que no pasen la frontera de 15 hops de [maximum hop count](maximum%20hop%20count.md), ni [split horizon](Project/Networking/CCNA-notas/Routing/Dynamic/split%20horizon.md)), incluyendo routers no configurados en RIP. 
+Todas la rutas conocidas por RIP son enviadas mediante broadcast fuera de las interfaces RIP cada 30 segundos (y que no pasen la frontera de 15 hops de [maximum hop count](maximum%20hop%20count.md), ni [split horizon](split%20horizon.md)), incluyendo routers no configurados en RIP. 
 
-Su única [metrics](Dynamic/metrics.md) consiste en el _hop count_, por ende, no considera ni la velocidad o la confiabilidad del enlace. 
+Su única [metric](metrics.md)  consiste en el _hop count_, por ende, no considera ni la velocidad o la confiabilidad del enlace. 
 
-La [administrative distance](Dynamic/administrative%20distance.md) de RIP es de 120 (tanto para RIPv1 como [RIPv2](Dynamic/RIPv2.md)). 
+La [administrative distance](administrative%20distance.md)  de RIP es de 120 (tanto para RIPv1 como [RIPv2](RIPv2.md)). 

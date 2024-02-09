@@ -13,6 +13,8 @@ Esta indica que un router siempre va a preferir la entrada de la tabla de routin
 | 1.1.0.0/16 | 3rd |
 | 1.0.0.0/8 | 4th |
 | 0.0.0.0/0 | 5th |
-#[building the IP routing table](Project/Networking/CCNA-notas/Routing/Dynamic/building%20the%20IP%20routing%20table.md)
+## connected
+- [building the IP routing table](building%20the%20IP%20routing%20table.md) 
+- [example work routing table entry](example%20work%20routing%20table%20entry.md) 
 
-#[example work routing table entry](Project/Networking/CCNA-notas/Routing/Dynamic/example%20work%20routing%20table%20entry.md) 
+
