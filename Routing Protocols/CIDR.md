@@ -1,3 +1,8 @@
+---
+tags:
+  - routing
+---
+
 Classless inter-domain routing es un metodo de asignamiento de IPs públicas, introducido en el '93 por la IETF con los siguientes objetivos.
 - Tratar de resolver el problema de agotamiento de direcciones IPv4.
 - Relantizar el crecimiento de la tablas de enrutamiento en los routers de internet.

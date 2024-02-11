@@ -1,3 +1,8 @@
+---
+tags:
+  - routing
+---
+
 El direccionamiento [classful]() se hizo en la etapas tempranas de internet, se trata del asignamiento IP en base a octetos.
 
 ![](_anexos_/ip-address-classes-1024x424.png)

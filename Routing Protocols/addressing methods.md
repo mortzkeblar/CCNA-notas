@@ -1,3 +1,8 @@
+---
+tags:
+  - routing
+---
+
 Tanto [classful](classful.md) como [CIDR](CIDR.md) se refieren al asignamiento IP. 
 - [classful](classful.md) addressing is IANA/RIRs assigning IP space from Class A, B, or C blocks (_legacy_).
 - [classless](classless.md) ([CIDR](CIDR.md))  is IANA/RIRs assigning IP space in any size block, as required (_modern standard_).

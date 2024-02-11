@@ -1,3 +1,9 @@
+---
+tags:
+  - routing
+  - protocol
+---
+
 > _Para más información, puede ver el especificación [RFC 1812](https://datatracker.ietf.org/doc/html/rfc1812#section-5.3.1), punto 5.3.1_
 
 Time-to-live es un campo del IP header (cabezera), esta definido para ser un timer del tiempo de vida de un datagrama. 

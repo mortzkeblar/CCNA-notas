@@ -1,3 +1,11 @@
+---
+tags:
+  - routing
+  - dynamic
+  - RIP
+  - lab
+---
+
 En este lab vamos a crear una red que funcione bajo [RIPv2](RIPv2.md).
 
 Video referencia: https://www.youtube.com/watch?v=5hIXd4WfB7w&list=PL2A7l6PiV52esSwosIAO86zf0RGe2pjTZ&index=26

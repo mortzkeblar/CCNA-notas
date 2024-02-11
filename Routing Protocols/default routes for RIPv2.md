@@ -1,3 +1,10 @@
+---
+tags:
+  - routing
+  - dynamic
+  - RIP
+---
+
 Los rutas por defecto, ahorran tiempo de administración al tener multiples routers finales que usan la misma ruta por defecto para el tráfico. La alternativa a esto es agregar [static route](static%20routing.md) en cada uno de los routers, lo cual puede ser tedioso y demorado. 
 
 En una topologia _mental_, cualquier trafico no local va hacia R1 para ser reenviado a R2, y entonces hacia internet. Se hubiera configurado [static routing](static%20routing.md) en R3 y R4, pero el [default route](default%20routes%20for%20RIPv2.md) se hace mucho más simple y sencillo de mantener. 

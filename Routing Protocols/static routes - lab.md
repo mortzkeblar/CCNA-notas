@@ -1,3 +1,11 @@
+---
+tags:
+  - routing
+  - static
+  - lab
+---
+
+
 ![](_anexos_/13-27-scaled.jpg)
 
 ## Lab objetives

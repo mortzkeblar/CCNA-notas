@@ -1,3 +1,11 @@
+---
+tags:
+  - routing
+  - dynamic
+  - OSPF
+  - example
+---
+
 [OSPF](OSPF.md) usa varios timers (temporizadores) para el control broadcast, link state propagation y otras operaciones. 
 
 Los timers por defecto pueden variar dependiendo el tipo de red en el que se esta configurando [OSPF](OSPF.md) (p. ej. point-to-point o non-broadcast). 

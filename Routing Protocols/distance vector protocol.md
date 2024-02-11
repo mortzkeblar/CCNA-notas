@@ -1,3 +1,9 @@
+---
+tags:
+  - routing
+  - dynamic
+---
+
 Tambien lo puede encontrar como _Bellman-Ford algorithms_. Son algoritmos usados para calcular el mejor camino para llegar a las rutas definidas por otros routers, despues actualizan sus tablas de routing con esa información, esto permite que las rutas sean cambiantes en la topologia de red. 
 Con distancia se refiere a la medición usada para calcular la distancia de la ruta en la tabla, el vector es la dirección que debe tomar el tráfico hacia la ruta. 
 

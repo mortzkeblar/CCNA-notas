@@ -1,3 +1,9 @@
+---
+tags:
+  - routing
+  - dynamic
+---
+
 En terminos simples, el routing dinamico hace uso de un protocolo de routing para descubrir redes alcanzables y poder definir las mejores rutas para poder llegar hacia ellas. 
 
 ![](_anexos_/13-13.jpg)

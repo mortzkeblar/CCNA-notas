@@ -1,3 +1,10 @@
+---
+tags:
+  - routing
+  - dynamic
+  - problem
+---
+
 Esto siempre depende de si las ventajas superan las desventajas, pero en general los dos principales problemas al usar un protocolo como [OSPF](OSPF.md) son:
 - Alto uso de CPU
 - Uso del ancho de banda

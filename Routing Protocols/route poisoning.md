@@ -1,3 +1,10 @@
+---
+tags:
+  - routing
+  - dynamic
+  - RIP
+---
+
 > route poisoning sets the hop count as unreachable on this RIP network 
 
 Tambien llamada poison reverse, es una forma de [split horizon](split%20horizon.md)   que permite establecer la distancia de la red como infinita, provocando así que el resto de la red converga sin recibir actualizaciones imprecisas. Junto a [holddown timers](holddown%20timers.md)  puede ser una solución eficiente para evitar loops. 

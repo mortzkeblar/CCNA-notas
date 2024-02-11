@@ -1,3 +1,9 @@
+---
+tags:
+  - routing
+  - static
+---
+
 De esta forma, podemos configurar un router para que el trafico de la red pueda salir por una determinada interface, o bien a través de la next-hop [IP Address](../NetWarriors/IP%20Address.md). 
 
 Esta configuración es ideal cuando la red no cambia a menudo (p. ej. stub network). También nos otorga cierto grado de seguridad al no permitir que un atacante pueda inyectar rutas dinámicas falsas (si su red solo usa rutas estáticas).

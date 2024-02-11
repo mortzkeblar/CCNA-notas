@@ -1,3 +1,10 @@
+---
+tags:
+  - routing
+  - dynamic
+  - OSPF
+---
+
 Como se dijo antes, [OSPF](OSPF.md) trata a sus vecinos de diferente forma dependiendo el tipo de enlace que los une. Estos se clasifican en cinco tipos.
 
 - **Point-to-point** - un ejemplo de esto es un enlace simple T1 entre dos routers o una conexión frame relay point-to-point. 

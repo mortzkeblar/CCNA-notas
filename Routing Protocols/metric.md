@@ -1,4 +1,3 @@
-# Diferencia entre Metrica y Distancia Administrativa
 
 La diferencia en métrica reside esencialmente en que la métrica rige cuando se aprende el prefijo a través de una único método de enrutamiento. 
 

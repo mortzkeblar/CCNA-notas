@@ -1,3 +1,11 @@
+---
+tags:
+  - routing
+  - dynamic
+  - RIP
+  - lab
+---
+
 Vamos a configurar estos dos routers para que trabajen bajo [RIPv2](RIPv2.md). 
 
 ![](_anexos_/14-6.png)

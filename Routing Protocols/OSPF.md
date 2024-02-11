@@ -1,3 +1,11 @@
+---
+tags:
+  - routing
+  - dynamic
+  - OSPF
+  - protocol
+---
+
 Open Shortest Path First (OSPF protocol) es un protocolo estandár abierto que usa algoritmos _link state_ para calcular el mejor camino para llegar a una red particular. Desarrollado en el '98 por IETF para cubrir las necesidades y las carencias del [RIP](RIP.md). Es un protocolo más robusto y flexible que los predecesores [distance vector protocol](distance%20vector%20protocol.md) y es ideal para usarlo en entornos enterprise. 
 
 OSPF emplea el uso de _areas_ para simplificar la administración de la red y confinar la inestabilidad de la red a un sector especifico. Además permite un amplio control sobre las actualizaciones de enrutamiento.
@@ -27,3 +35,5 @@ Además de mejorar los metodos de protocolos anteriores, introduce caracteristic
 - [OSPF overview](OSPF%20overview.md) 
 - [OSPF network types and neighbors](OSPF%20network%20types%20and%20neighbors.md) 
 - [OSPF routes](OSPF%20routes.md) 
+- [OSPF router types](OSPF%20router%20types.md) 
+- [LSA](LSA.md) 

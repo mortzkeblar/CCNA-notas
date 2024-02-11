@@ -1,3 +1,10 @@
+---
+tags:
+  - routing
+  - dynamic
+  - RIP
+---
+
 _Ver: [passive interface](passive%20interface.md)_ 
 
 En [RIP](RIP.md), una interface pasiva recibira actualizaciones de enrutamiento pero no enviará ninguna. 

@@ -1,3 +1,9 @@
+---
+tags:
+  - routing
+  - dynamic
+  - RIP
+---
 
 En la imagen se muestra una topologia mal diseñada. Especificamente la red `10`, esa forma de dividir la red se conoce como discontiguous subnets. 
 Esto es un problema porque R2 intentará enviar cualquier tráfico por la red 10 por cualquiera de las interfaces, lo que provocara una perdida de paquetes del 50% o más. 

@@ -1,3 +1,9 @@
+---
+tags:
+  - routing
+  - dynamic
+  - RIP
+---
 
 
 _Ver: [TTL](TTL.md) _

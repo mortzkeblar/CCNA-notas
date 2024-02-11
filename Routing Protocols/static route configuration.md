@@ -1,3 +1,10 @@
+---
+tags:
+  - routing
+  - static
+  - example
+---
+
 ``` bash
 RouterA(config)$ ip route 192.168.1.0 255.255.255.0 172.16.1.2 110
 

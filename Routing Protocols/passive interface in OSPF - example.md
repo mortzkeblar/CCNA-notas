@@ -1,3 +1,10 @@
+---
+tags:
+  - routing
+  - dynamic
+  - OSPF
+---
+
 Recordad que en [OSPF](OSPF.md) se puede utilizar `passive-interface default` para configurar una [passive interface](passive%20interface.md). 
 
 ``` bash

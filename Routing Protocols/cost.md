@@ -1,3 +1,10 @@
+---
+tags:
+  - routing
+  - OSPF
+  - example
+---
+
 Este es una valor [OSPF](OSPF.md) asignado a un enlace para otro router. El costo se basa en el ancho de banda de un enlace, los routers Cisco calculan el costo como $108/bandwidth$ (redondeo hacia abajo). Se puede usar un bandwidth configurado o el que viene por defecto.
 
 | Interface | Cost $108/bandwidth$ |

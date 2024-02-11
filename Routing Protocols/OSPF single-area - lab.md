@@ -1,5 +1,13 @@
+---
+tags:
+  - routing
+  - dynamic
+  - OSPF
+  - lab
+---
+
 Temas a tratar: 
-- [OSPF](Dynamic/OSPF.md) 
+- [OSPF](OSPF.md) 
 - telnet
 - authentication
 
@@ -103,7 +111,7 @@ RouterB(config-router)#network 172.31.0.0 0.0.255.255 area 0
 
 6. Comprobar que la información de routing es correcta comprobando la tabla de enrutamiento del vecino. 
 
-Podemos usar `show ip route` para determinar si las redes anunciadas por el proceso [OSPF](Dynamic/OSPF.md) del vecino estan en la tabla de enrutamiento. 
+Podemos usar `show ip route` para determinar si las redes anunciadas por el proceso OSPF del vecino estan en la tabla de enrutamiento. 
 
 ``` bash
 RouterA#show ip route
@@ -129,7 +137,7 @@ C 192.168.1.0 is directly connected, Serial0
 RouterA#
 ```
 
-Vemos la configuración de [OSPF](Dynamic/OSPF.md) con `show ip protocols`.
+Vemos la configuración de OSPF con `show ip protocols`.
 
 ``` bash
 RouterA#show ip protocols

@@ -1,3 +1,10 @@
+---
+tags:
+  - routing
+  - dynamic
+  - OSPF
+---
+
 El [OSPF](OSPF.md) process ID es localmente significativo y no necesita ser el mismo en todos los routers dentro un área o la red entera. Puedes incluso tener más de un [OSPF](OSPF.md) process corriendo en el mismo router. En las redes del mundo real, muchas veces el OSPF process ID se mantiene unico para hacer el troubleshooting más facil. 
 
 ![](_anexos_/15-6-scaled.jpg)

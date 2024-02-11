@@ -1,3 +1,8 @@
+---
+tags:
+  - routing
+  - dynamic
+---
 
 Los routing loops puede provocar castastrofes para la red, estos consumen ancho de banda y recursos causando perdida de información. Además puede tomar tiempo en localizarlo y depurarlo. 
 Esto suele suceder principalmente cuando la convergencia de la red es lenta, entonces los routers anuncian routing tables incorrectos. Un router puede perder conexión a la red, pero los demás routers aun no son conscientes del problema. 

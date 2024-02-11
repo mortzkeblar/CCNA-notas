@@ -1,7 +1,5 @@
 ---
 tags:
-  - general
-  - concept
   - routing
 ---
 
@@ -9,5 +7,7 @@ IP routing (o IP forwarding) en terminos simples hace referencia al proceso de m
 En el enrutamiento se toman dos procesos importantes, a saber:
 - Determinar la ruta más optima
 - El routing/switching de paquetes, osea, el envia de la información 
-  
-  
+
+
+## connected 
+- [IP routing - practical explain](IP%20routing%20-%20practical%20explain.md) 

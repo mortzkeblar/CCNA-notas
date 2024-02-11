@@ -1,3 +1,8 @@
+---
+tags:
+  - routing
+  - dynamic
+---
 
 Esto es usado por el router para determinar las rutas más _fiables_ dependiendo el protocolo de routing. Generalmente siempre se prefiere a los protocolos con el AD más bajo. 
 ![](_anexos_/Screenshot%20from%202023-12-27%2016-43-38.png)

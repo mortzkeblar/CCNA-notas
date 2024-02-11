@@ -1,3 +1,12 @@
+---
+tags:
+  - routing
+  - dynamic
+  - OSPF
+aliases:
+  - Router ID
+---
+
 Cada router tiene su propio ID unico de 32-bit basado en la interface, esto sirve para [OSPF](OSPF.md) como identificador de cada router, el cual ayuda a detectar facilmente LSAs y endpoints duplicados de enlaces virtuales, así como para determinar los desempates entre DR y DBR. 
 
 El router ID (RID)  se toma en base a:

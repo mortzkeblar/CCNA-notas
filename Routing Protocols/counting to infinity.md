@@ -1,3 +1,9 @@
+---
+tags:
+  - routing
+  - dynamic
+  - RIP
+---
 
 Los [routing loops](routing%20loops.md)  puede provocar otro problema, conocido como _counting to infinity_, cuando un paquete viaja a través de la red con un IP al que nunca llega. Esto sucede normalmente porque la red esta deshabilitada, pero pero el router emisor no es conciente de ello. 
 

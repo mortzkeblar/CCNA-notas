@@ -1,3 +1,10 @@
+---
+tags:
+  - routing
+  - dynamic
+  - RIP
+---
+
 Vamos a configurar RIPv1  (classful) y [RIPv2](RIPv2.md) (classless). Abajo esta la configuración para R1, sera la misma para R2 pero necesitará la dirección IP `.2` y no necesitará anunciar la red `172`.
 
 ``` bash

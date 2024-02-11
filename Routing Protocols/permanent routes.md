@@ -1,4 +1,9 @@
-# permanent routes
+---
+tags:
+  - routing
+  - static
+---
+
 Una ruta permanente puede omitir la regla de que la interface debe estar enabled y debe exister un next-hop IP alcanzable (reachable). 
 Esta ruta permanece en la tabla de enrutamiento a pesar de no cumplir con alguno o los dos requisitos anteriores.
 > Un motivo de uso es no querer que ninguna ruta vaya hacia los vecinos BGP superiores

@@ -1,3 +1,11 @@
+---
+tags:
+  - routing
+  - dynamic
+  - RIP
+  - protocol
+---
+
 Routing Information Protocol Version 2 (RFC 2453) es la segunda versión del protocolo [RIP](RIP.md), creado para tratar las limitaciones de RIPv1.
 
 - RIPv2 ahora es un protocolo [classless](classless.md) (entiende y trabaja sobre la información de las mascaras de red ([VLSM](../VLSM.md)) en las actualizaciones de routing). 

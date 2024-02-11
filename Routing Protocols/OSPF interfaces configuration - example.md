@@ -1,3 +1,10 @@
+---
+tags:
+  - routing
+  - dynamic
+  - OSPF
+---
+
  > #exam Puede configurar alternativamente areas [OSPF](OSPF.md)  por interface, deberá estar familiarizado con ambos metodos para el examen (_Ver: [single area configuration - example](single%20area%20configuration%20-%20example.md)_). 
 
 

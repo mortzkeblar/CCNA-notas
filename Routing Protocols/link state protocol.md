@@ -1,3 +1,9 @@
+---
+tags:
+  - routing
+  - dynamic
+---
+
 Tambien llamados _shortest-path-first protocols_, los routers intercambian información entre ellos sobre sus _link states_. Cada dispositivo tiene un mapa de toda la red, construido a partir de la información que otros routers generan y propagan. 
 
 A diferencia de los protocolos _route-by-rumor_ como [distance vector protocol](distance%20vector%20protocol.md), en el que solo se intercambian las mejores rutas entre vecinos. En link state protocol los dispositivos inundan TODA LA RED con información acerca de sus enlaces, esto permite que cada router tenga un conocimiento detallado de la red completa. 

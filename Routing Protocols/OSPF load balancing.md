@@ -1,3 +1,10 @@
+---
+tags:
+  - routing
+  - dynamic
+  - OSPF
+---
+
 Si hay más de un camino igual (mismo [cost](cost.md) y [administrative distance](administrative%20distance.md)) para llegar a una ruta, entonces, por defecto [OSPF](OSPF.md) hace load balance para el trafico sobre cuatro caminos. 
 
 ``` bash

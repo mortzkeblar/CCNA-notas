@@ -1,3 +1,9 @@
+---
+tags:
+  - routing
+  - dynamic
+---
+
 Este método es usado para prevenir el envió/recepción de mensajes de actualización en un periodo de tiempo, conocido como _holddown time_, previniendo así p. ej. agregar una ruta que en realidad esta caída. 
 A veces, antes que la red falle completamente, suele tener un up y down rápido, a esto se le conoce como _link flapping_, el router es consciente de esto e informa el estado de la red según su estado hasta que esta down de forma prolongada. 
 

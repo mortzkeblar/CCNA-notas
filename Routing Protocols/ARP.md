@@ -1,3 +1,9 @@
+---
+tags:
+  - routing
+  - protocol
+---
+
 Address Resolution Protocol (ARP) es un protocolo de red usado para encontrar la dirección MAC de un dispositivo a través de su dirección IP. 
 
 Las ARP request paquets se envian por mensajes broadcast (FF:FF:FF:FF:FF:FF para el broadcast ethernet, 255.255.255.255 para los mensajes IP broadcast).

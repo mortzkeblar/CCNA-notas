@@ -1,3 +1,11 @@
+---
+tags:
+  - routing
+  - dynamic
+  - RIP
+  - lab
+---
+
 Temas a tratar:
 - [RIP](RIP.md) 
 - [RIPv2](RIPv2.md) 
