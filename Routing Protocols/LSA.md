@@ -16,6 +16,8 @@ Algunos de los LSA más comunes incluyen:
 - [LSA Type 4](LSA%20Type%204.md) (ASBR summary LSA)
 - [LSA Type 5](LSA%20Type%205.md) (External summary LSA)
 
+> #exam Los LSA Types ya no son parte del examen de certificación 
+
 Se puede ver el contenido de la **link state database** usando `show ip ospf database`. 
 
 ``` bash
