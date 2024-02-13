@@ -1,7 +1,7 @@
 ---
 tags:
   - PNAC
-  - concept
+  
 ---
 
 # EAPOL (Extensible Authentication Protocol over LAN)

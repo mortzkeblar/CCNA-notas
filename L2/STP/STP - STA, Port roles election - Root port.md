@@ -1,8 +1,8 @@
 ---
 tags:
   - STP
-  - concept
-  - example
+  
+  
 ---
 
 > Para ver los valores de las distintas unidades, _ver: [STP - Bridges](STP%20-%20Bridges.md)_

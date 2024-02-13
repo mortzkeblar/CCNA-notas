@@ -2,7 +2,7 @@
 tags:
   - ACL
   - ACL_extended
-  - configuration
+  
 ---
 
 > Las standard ACL se instalan siempre lo más cerca del destino

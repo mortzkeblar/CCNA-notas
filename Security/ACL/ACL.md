@@ -1,7 +1,7 @@
 ---
 tags:
   - ACL
-  - concept
+  
 ---
 
 # Access Control List

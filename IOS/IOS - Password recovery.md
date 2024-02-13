@@ -1,7 +1,7 @@
 ---
 tags:
   - IOS
-  - configuration
+  
 ---
 
 ![](../_anexos_/Screenshot%20from%202024-01-02%2001-31-47.png)

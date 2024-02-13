@@ -1,8 +1,8 @@
 ---
 tags:
   - ETHERCHANNEL
-  - concept
-  - configuration
+  
+  
 ---
 
 Se utiliza el protocolo LACP para negociar y mantener el etherchannel entre dos switches cisco o de otro vendor. Incluso permite levantar un etherchannel entre un switch Cisco y un servidor de virtualización (hypervisor).

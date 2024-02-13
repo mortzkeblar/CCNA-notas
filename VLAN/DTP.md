@@ -1,7 +1,7 @@
 ---
 tags:
   - VLAN
-  - concept
+  
 ---
 
 # Dynamic Trunking Protocol

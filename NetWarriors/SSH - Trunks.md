@@ -1,7 +1,7 @@
 ---
 tags:
   - general
-  - configuration
+  
   - VLAN
 ---
 

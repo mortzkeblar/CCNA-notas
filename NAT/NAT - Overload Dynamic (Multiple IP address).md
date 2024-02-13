@@ -1,8 +1,8 @@
 ---
 tags:
   - NAT
-  - concept
-  - configuration
+  
+  
 ---
 
 Este tipo de NAT es uan variación del PAT tradicional pero se agrega un grupo de IP publicas para hacer la traducción. Esto permite tener más $2^{16}$ conexiones simultaneas (que es lo que permite una sola IP).

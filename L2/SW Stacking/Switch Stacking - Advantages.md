@@ -1,7 +1,7 @@
 ---
 tags:
   - SW_stacking
-  - concept
+  
 ---
 
 # Ventajas de Stack Switching

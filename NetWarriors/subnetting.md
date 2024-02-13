@@ -1,6 +1,6 @@
 ---
 tags:
-  - concept
+  
 ---
 
 Cuando hacemos subnetting, debemos revisar el requerimiento y comenzar siempre de los pedidos mas grandes a los mas pequeños.

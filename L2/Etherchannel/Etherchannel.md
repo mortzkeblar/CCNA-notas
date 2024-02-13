@@ -1,7 +1,7 @@
 ---
 tags:
   - ETHERCHANNEL
-  - concept
+  
 ---
 
 Es una tecnologia desarrollada por Cisco destinada a funcionar entre switches, la idea detras de _Etherchannel_ es ofrecer mayor ancho de banda disponible para los enlaces que tienen una carga superior a la media.

@@ -1,7 +1,7 @@
 ---
 tags:
   - STP
-  - example
+  
 ---
 _Ver: [STP - STA](STP%20-%20STA.md) _
 ![normal](../../_anexos_/Screenshot%20from%202024-01-02%2012-49-57.png)

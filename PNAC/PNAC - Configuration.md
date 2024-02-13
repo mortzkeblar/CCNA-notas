@@ -1,7 +1,7 @@
 ---
 tags:
   - PNAC
-  - configuration
+  
 ---
 
 # Configuración de PNAC

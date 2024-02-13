@@ -1,8 +1,8 @@
 ---
 tags:
   - VLAN
-  - concept
-  - configuration
+  
+  
 ---
 #TODO agregar teoria
 

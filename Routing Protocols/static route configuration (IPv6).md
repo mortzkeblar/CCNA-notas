@@ -2,7 +2,7 @@
 tags:
   - routing
   - static
-  - example
+  
 ---
 
 La configuración en IPv6 es similar a IPv4 (ver: static configuration). La diferencia principal es:

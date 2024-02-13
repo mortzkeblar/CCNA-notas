@@ -1,8 +1,8 @@
 ---
 tags:
   - ETHERCHANNEL
-  - concept
-  - example
+  
+  
 ---
 
 ### Catalyst 2960

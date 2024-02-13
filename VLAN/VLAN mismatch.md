@@ -1,6 +1,6 @@
 ---
 tags:
-  - configuration
+  
   - problem
   - VLAN
 ---

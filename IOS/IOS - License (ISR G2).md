@@ -1,7 +1,7 @@
 ---
 tags:
   - IOS
-  - concept
+  
 ---
 
 ### IOS 12.3

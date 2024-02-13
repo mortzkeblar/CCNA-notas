@@ -1,7 +1,7 @@
 ---
 tags:
   - general
-  - configuration
+  
 ---
 
 Secuencia de arranques de un switch

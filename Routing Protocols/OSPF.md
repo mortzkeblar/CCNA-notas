@@ -40,3 +40,5 @@ Además de mejorar los metodos de protocolos anteriores, introduce caracteristic
 - [OSPF routes](OSPF%20routes.md) 
 - [OSPF router types](OSPF%20router%20types.md) 
 - [LSA](LSA.md) 
+
+#TODO ver este contenido y resumir: https://itskillbuilding.com/networking/network/ospf/ospf-protocol/#tab-3711

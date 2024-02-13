@@ -25,6 +25,6 @@ Si bien el principio de atomicidad puede ser muy bueno para abstraerte de un tem
 - Inconsistencias en los formatos y tamaños de las fuentes
 - Spanglish constante, esto no es un error en si mismo sino una falta de consenso, sobretodo en el uso de traducciones. 
 	- Como se sabe el examen de certificación solo esta disponible en _ingles_ y _japones_. Entonces es clave (sobretodo si no se tiene buen dominio del ingles) estar al tanto de las palabras claves y conceptos en ingles. 
-	- Si bien trato de mantener la traducción solo en la primera mención, esto muchas veces no se cumple o bien hago traducciones que quizás no sean necesarias (ej: ejemplo - example) pero mantienen la consistencia de los encabezados. Aun tengo que establecer reglas al respecto. 
+	- Si bien trato de mantener la traducción solo en la primera mención, esto muchas veces no se cumple o bien hago traducciones que quizás no sean necesarias (ej: ejemplo ) pero mantienen la consistencia de los encabezados. Aun tengo que establecer reglas al respecto. 
 	- De todas manera siempre es recomendable priorizar el ingles, sobretodo porque en el examen hay muchas preguntas con respuestas _trampas_ (respuestas extremadamente similares entre sí, aunque solo una correcta). Por el cual es mejor estar preparados. 
 - Imágenes con mejor calidad de resolución

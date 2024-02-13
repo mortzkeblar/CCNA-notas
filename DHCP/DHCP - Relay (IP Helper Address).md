@@ -1,8 +1,8 @@
 ---
 tags:
   - DHCP
-  - example
-  - concept
+  
+  
 ---
 
 >Situación de ejemplo:

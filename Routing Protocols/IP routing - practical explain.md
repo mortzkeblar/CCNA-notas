@@ -1,7 +1,7 @@
 ---
 tags:
   - routing
-  - example
+  
 ---
 
 ![](_anexos_/13-2-scaled.jpg)

@@ -1,7 +1,7 @@
 ---
 tags:
   - STP
-  - concept
+  
 ---
 
 > Recordar: En [STP](STP.md), las palabras _bridge_ y _switch_ se pueden tomar como sinonimos.

@@ -1,7 +1,7 @@
 ---
 tags:
   - DHCP
-  - configuration
+  
 ---
 
 # Mitigación

@@ -1,7 +1,7 @@
 ---
 tags:
   - NTP
-  - concept
+  
 ---
 
 # Network Time Protocol

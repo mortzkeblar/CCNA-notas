@@ -1,7 +1,7 @@
 ---
 tags:
   - VLAN
-  - concept
+  
 ---
 #TODO completar VTP
 # Virtual Trunking Protocol (VTP)

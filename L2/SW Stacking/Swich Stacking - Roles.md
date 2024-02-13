@@ -1,7 +1,7 @@
 ---
 tags:
   - SW_stacking
-  - concept
+  
 ---
 
 # Elección de roles

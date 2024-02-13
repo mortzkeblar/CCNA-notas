@@ -1,7 +1,7 @@
 ---
 tags:
   - DHCP
-  - example
+  
 ---
 
 _Ver: [DHCP Snooping - Mitigation](DHCP%20Snooping%20-%20Mitigation.md)

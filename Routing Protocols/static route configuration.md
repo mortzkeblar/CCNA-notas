@@ -2,7 +2,7 @@
 tags:
   - routing
   - static
-  - example
+  
 ---
 
 ``` bash

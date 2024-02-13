@@ -1,7 +1,7 @@
 ---
 tags:
   - ETHERCHANNEL
-  - configuration
+  
 ---
 
 

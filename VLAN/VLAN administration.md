@@ -1,7 +1,7 @@
 ---
 tags:
   - VLAN
-  - concept
+  
 ---
 #TODO Agregar teoria sobre la administración de vlans
 

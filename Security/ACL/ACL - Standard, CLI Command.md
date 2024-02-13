@@ -2,7 +2,7 @@
 tags:
   - ACL
   - ACL_standard
-  - configuration
+  
 ---
 
 _Ver: [ACL - Standard, IN OUT](ACL%20-%20Standard,%20IN%20OUT.md)_

@@ -2,8 +2,8 @@
 tags:
   - ACL
   - ACL_standard
-  - configuration
-  - concept
+  
+  
 ---
 
 Una vez creadas las ACL, se deben aplicar en una interfaz en sentido IN o OUT. Normalmente las standard ACL se aplican lo más cerca del destino y las extended ACL lo más cerca del origen. Para ellos se utiliza `ip access-group` dentro de la  interfaz que se quiera configurar. 

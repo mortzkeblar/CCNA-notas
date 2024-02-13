@@ -1,7 +1,7 @@
 ---
 tags:
   - IOS
-  - concept
+  
 ---
 
 # Internetworking Operating System (IOS)

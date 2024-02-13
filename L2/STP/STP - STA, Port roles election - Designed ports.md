@@ -1,8 +1,8 @@
 ---
 tags:
   - STP
-  - concept
-  - example
+  
+  
 ---
 
 En este punto debemos calcular cuales interfaces quedan en rol _**Designated**_ y cuales quedan en _**Non-designated**_.

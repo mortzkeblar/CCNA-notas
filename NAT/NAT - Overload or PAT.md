@@ -1,8 +1,8 @@
 ---
 tags:
   - NAT
-  - concept
-  - configuration
+  
+  
 ---
 
 # Port Address Translation (PAT)

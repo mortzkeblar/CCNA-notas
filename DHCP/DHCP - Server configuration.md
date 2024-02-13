@@ -1,7 +1,7 @@
 ---
 tags:
   - DHCP
-  - configuration
+  
 ---
 
 Este apartado cubre la configuración de un [DHCP](DHCP.md) server en un router cisco.

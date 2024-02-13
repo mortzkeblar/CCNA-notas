@@ -3,7 +3,7 @@ tags:
   - routing
   - dynamic
   - RIP
-  - example
+  
 ---
 
 A small network running [RIP](RIP.md) 

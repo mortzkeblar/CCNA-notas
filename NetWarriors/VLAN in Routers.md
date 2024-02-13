@@ -1,7 +1,7 @@
 ---
 tags:
   - VLAN
-  - configuration
+  
   - lab
 ---
 
@@ -12,7 +12,6 @@ tags:
 Router$ show ip interface brief
 
 Switch$ show vlan brief 
-
 Switch$ show interfaces trunk
 
 ```

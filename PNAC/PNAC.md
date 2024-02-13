@@ -1,7 +1,7 @@
 ---
 tags:
   - PNAC
-  - concept
+  
 ---
 
 # PNAC (Port-Based Network Access Control) - IEEE 802.1x (Dot1x)

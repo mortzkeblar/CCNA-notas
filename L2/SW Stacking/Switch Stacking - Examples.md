@@ -1,7 +1,7 @@
 ---
 tags:
   - SW_stacking
-  - example
+  
 ---
 
 # Ejemplos de SW con y sin Switch Stacking

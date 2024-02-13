@@ -1,8 +1,8 @@
 ---
 tags:
   - STP
-  - concept
-  - configuration
+  
+  
 ---
 
 # Rapid Spanning Tree Protocol
