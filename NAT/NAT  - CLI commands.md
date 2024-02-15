@@ -3,7 +3,7 @@ tags:
   - NAT
   
 ---
-
+	
 
 ``` bash
 # Mostrar las traducciones en tiempo real

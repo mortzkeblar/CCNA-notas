@@ -1,8 +1,6 @@
 
-- [InterVLAN Routing](InterVLAN/InterVLAN%20Routing.md)
-- [static routing](Routing/Dynamic/static%20routing.md) 
-- [dynamic routing](Routing/Dynamic/Dynamic%20routing.md)
-- [Security routing](Security/Security%20routing.md)
+- [static routing](Routing%20Protocols/static%20routing.md) 
+- [dynamic routing](Routing%20Protocols/dynamic%20routing.md) 
 - [NAT](NAT/NAT.md)
 - [STP](L2/STP/STP.md)
 - [DHCP](DHCP/DHCP.md)

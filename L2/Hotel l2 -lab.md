@@ -4,6 +4,9 @@ tags:
 ---
 Este laboratorio parteneca al canal [Gurutech](https://www.youtube.com/@gurutechnetworks), playlist _Real-World Networking Projects_, [Cap3](https://www.youtube.com/watch?v=RwFJTJTe-OM&list=PLvUOx2WG6R7PlKlERb5zceXxHfC4P7gJn&index=15).
 
+Temas a tratar:
+- [OSPF](../Routing%20Protocols/OSPF.md) 
+
 ``` bash
 # comandos de ayuda
 Switch$ show interface <INTERFACE> switchport 
@@ -24,8 +27,9 @@ Se requiere implementar una red moderna para un Hotel. El hotel consta de tres p
 	- Finance
 	- HR
 	- Sales/Marketing
-- El tercer piso contiene un departamento 
-	- IT/admin
+- El tercer piso contiene dos departamento 
+	- Admin
+	- IT
 
 Además, se deben seguir estas consideraciones a la hora de la implementación de la red.
 1. Tiene que haber tres routers que conecten cada piso (todos ubicados en el server room en el departamento de IT).
