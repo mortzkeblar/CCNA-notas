@@ -14,7 +14,7 @@ Lo ideal es que cada capa sea independiente de otras y a su vez tengan definidas
 - Capa de nucleo: proporciona un transporte rapido entre los switches de distribucion dentro del campus empresarial
 
 ![](_anexos_/038.jpg)
-_La conexión de cuatro cables y un aro (en Core Layer) hace referencia a una conexión etherchannel. Ver: [Etherchannel](../L2/Etherchannel/Etherchannel.md)_
+_La conexión de cuatro cables y un aro (en Core Layer) hace referencia a una conexión etherchannel. Ver: [Etherchannel](../../L2/Etherchannel/Etherchannel.md)_
 
 ### Diseño de red empresarial en varios edificios
 TODO
@@ -26,12 +26,12 @@ TODO
 - Seguridad de puerto
 - Clasificacióny marcación de QoS, y limites de confianza
 - Listas de control de acceso virtual (VACL)
-- Arbol de expansión (_Ver: [STP](../L2/STP/STP.md)_)
+- Arbol de expansión (_Ver: [STP](../../L2/STP/STP.md)_)
 - Alimentacion por ethernet y VLAN auxiliares para VoIP
 ### Funciones en _Distribution Layer_
 - Agregación de enlaces LAN o WAN
 	- Esto conlleva a la configuración de los enlaces etherchannel y para la redundancia entre el Core Layer y el Access Layer
-- Seguridad basada en politicas en forma de listas de control de acceso (_Ver: [ACL](../Security/ACL/ACL.md)_) y filtrado
+- Seguridad basada en politicas en forma de listas de control de acceso (_Ver: [ACL](../../Security/ACL/ACL.md)_) y filtrado
 - Servicios de routing entre redes LAN y VLAN y entre dominios de routing (p. ej. EIGRP a OSPF)
 - Redundancia y balanceo de carga
 - Un limite para la agregacion y la sumarizacion de rutas que se configura en las interfaces hacia la capa de nucleo

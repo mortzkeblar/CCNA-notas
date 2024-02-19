@@ -17,7 +17,7 @@ host1$ nmap --script broadcast-dhcp-discover
 
 La idea en esta ocación es poder configurar un server DHCP en un switch/router Cisco (en la imagen, SW1-C va actuar como server). Antes de eso vamos a necesitar tener configurados las VLAN y el enrutamiento entre los switches. 
 
-_Ver: [DHCP](../DHCP/DHCP.md)_ 
+_Ver: [DHCP](../../DHCP/DHCP.md)_ 
 
 ![](_anexos_/Screenshot%20from%202024-01-11%2014-32-59.png)
 

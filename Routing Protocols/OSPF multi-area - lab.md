@@ -18,7 +18,7 @@ Temas a tratar:
 
 ## resolution
 
-1. Configurar todas la [IP Address](../NetWarriors/IP%20Address.md) segun la topologia de la imagen. 
+1. Configurar todas la [IP Address](../labs/NetWarriors/IP%20Address.md) segun la topologia de la imagen. 
 
 ``` bash
 RouterA(config)# interface s0/1/0

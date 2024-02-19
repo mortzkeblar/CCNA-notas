@@ -9,7 +9,7 @@ Classless inter-domain routing es un metodo de asignamiento de IPs públicas, in
 
 Ademas se trato de solventar el problema de desperdicio de direcciones IP con los metodos [classful](classful.md) de direccionamiento. 
 
-[CIDR]() eliminó los requisitos fijos de `/8`, `/16` y `/24` para cada clase y permitió dividirla en todo el rango unicast (primer octeto 0, 225), lo que ahora llamamos [subnetting](../NetWarriors/subnetting.md). 
+[CIDR]() eliminó los requisitos fijos de `/8`, `/16` y `/24` para cada clase y permitió dividirla en todo el rango unicast (primer octeto 0, 225), lo que ahora llamamos [subnetting](../labs/NetWarriors/subnetting.md). 
 
 Para poder simplificar la notación, se adopto la _slash notation_. P. ej. la subnet `255.255.255.128` era equivalente a `/25`.
 
