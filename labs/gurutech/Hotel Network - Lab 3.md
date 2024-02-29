@@ -118,6 +118,7 @@ int range g3/0-3
 switchport mode access
 switchport access vlan 30
 
+
 # SWF3
 
 en 
@@ -307,6 +308,7 @@ network 192.168.1.0 255.255.255.0
 default-router 192.168.1.1 
 dns-server 192.168.1.1
 exit
+
 ```
 
 Ahora configuramos [OSPF](../../Routing%20Protocols/OSPF.md) en los routers bajo el ID 10.

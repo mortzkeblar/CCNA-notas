@@ -7,7 +7,7 @@ tags:
 ---
 Temas a tratar: 
 - [OSPF](OSPF.md) 
-- [area](area.md) 
+- [OSPF area](OSPF%20area.md) 
 
 El concepto de OSPF multi-area es similar a OSPF single-area (tal como vimos en [OSPF single-area - lab](OSPF%20single-area%20-%20lab.md)). Cuando se configura OSPF multi-area, una de las areas debe ser el area 0 (backbone) y las areas distintas del backbone deben conectarse a este. 
 
