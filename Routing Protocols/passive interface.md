@@ -4,7 +4,7 @@ tags:
   - dynamic
 ---
 
-Esto se utiliza para que un router no participe de forma activa en protocolo de enrutamiento, en caso de los [dynamic routing](dynamic%20routing.md) protocols (como EIGRP, [RIPv2](RIPv2.md) o OSPF), estos envian/reciben mensajes para poder conectarse entre sí, a través de sus interfaces. 
+Esto se utiliza para que un router no participe de forma activa en protocolo de enrutamiento, en caso de los [dynamic routing](dynamic%20routing.md) protocols (como EIGRP, [RIPv2](RIPv2.md) o [OSPF](OSPF.md)), estos envian/reciben mensajes para poder conectarse entre sí, a través de sus interfaces. 
 Si desea que un interface sea pasiva:
 ``` bash
 passive-interface <INTERFACE>

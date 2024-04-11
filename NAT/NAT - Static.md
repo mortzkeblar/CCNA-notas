@@ -17,7 +17,7 @@ En este caso se toma una IP publica asociada a la interfaz externa (diferente de
  ![](../_anexos_/Screenshot%20from%202023-12-31%2017-32-45.png)
 
 ``` bash
-Router(config)$ ip inside source static 192.168.0.10 200.1.1.5
+Router(config)$ ip nat inside source static 192.168.0.10 200.1.1.5
 Router(config)$ interface f0/0
 Router(config-if)$ ip nat inside
 Router(config-if)$ exit
