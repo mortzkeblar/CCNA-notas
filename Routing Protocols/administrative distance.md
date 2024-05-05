@@ -20,4 +20,4 @@ Esto es usado por el router para determinar las rutas más _fiables_ dependiendo
 | OSPF                               | 110              |
 | RIPv1, RIPv2                       | 120              |
 | External EIGRP                     | 170              |
-| Unknown                                   | 255                 |
+| Unknown                            | 255              |
