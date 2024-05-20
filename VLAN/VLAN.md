@@ -5,7 +5,7 @@ tags:
 ---
 
 
-Las _Virtual LAN_ son agrupaciones lógicas de dispositivos en un mismo dominio [broadcast] (para entender esto ultimo ver como funciona un [switch]). 
+Las _Virtual Local Area Network_ (o VLAN) son agrupaciones lógicas de dispositivos en un mismo dominio [broadcast] (para entender esto ultimo ver como funciona un [switch]). 
 
 Esto es bastante util para _dividir_ el switch en diferentes segmentos LAN, porque con VLAN podemos crear subredes con sus propios dominios [broadcast] y definir que que dispositivos queremos que comuniquen a través de esa subred. Considerar que por defecto un switch solo tiene un dominio broadcast para enviar todo el trafico de la red y ese es el número `1`, también llamado [VLAN Native](VLAN%20Native.md).
 - Las VLAN aumentan la cantidad de dominios broadcast al tiempo que reducen su tamaño.
