@@ -4,7 +4,7 @@ tags:
   - dynamic
   - OSPF
 ---
-Si bien puede forzar la elección de un DR/BDR con `router-id` o setear una [IP Address](../labs/NetWarriors/IP%20Address.md) Loopback alta. La forma recomendada es utilizar `ip ospf priority`. 
+Si bien puede forzar la elección de un DR/BDR con `router-id` o setear una [IP address](IP%20address.md) Loopback alta. La forma recomendada es utilizar `ip ospf priority`. 
 
 ``` bash
 R1(config)#int f0/0

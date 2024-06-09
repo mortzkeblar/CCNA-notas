@@ -7,3 +7,8 @@ Esta [VLAN](VLAN.md) tiene la particularidad de ser la unica VLAN en el que los 
 
 
 En Cisco (y otros vendors), tambien esta es la _VLAN default_. Esta ya viene creada y es la única VLAN que no se puede eliminar.  
+
+## Security risks 
+- Problemas de seguridad asociada a la VLAN Nativa (1)
+	- https://learningnetwork.cisco.com/s/blogs/a0D3i000002SKPREA4/vlan1-and-vlan-hopping-attack
+	- https://networkdirection.net/articles/network-theory/taggeduntaggedandnativevlans/

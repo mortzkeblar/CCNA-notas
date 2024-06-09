@@ -102,4 +102,4 @@ Routing for Networks:
 0.0.0.0 255.255.255.255 area 0
 ```
 
-Cualquier [IP Address](../labs/NetWarriors/IP%20Address.md) en cualquier interface habilitada sera añadida al Area 0 de [OSPF](OSPF.md). 
+Cualquier [IP address](IP%20address.md) en cualquier interface habilitada sera añadida al Area 0 de [OSPF](OSPF.md). 

@@ -21,7 +21,7 @@ Como se dijo antes, [OSPF](OSPF.md) trata a sus vecinos de diferente forma depen
 - **Point-to-multipoint** - este tipo de red debe ser definido en una red NBMA por el administrador de red.
 	- No hay DR/BDR.
 	- Los paquetes [OSPF](OSPF.md) son multicast.
-	- Se necesita mapear la [IP Address](../labs/NetWarriors/IP%20Address.md) remota a la dirección L2 (DLCI para Frame Relay) y añadir la palabra broadcast para que [OSPF](OSPF.md) puede hacer multicast de sus paquetes Hello. 
+	- Se necesita mapear la [IP address](IP%20address.md) remota a la dirección L2 (DLCI para Frame Relay) y añadir la palabra broadcast para que [OSPF](OSPF.md) puede hacer multicast de sus paquetes Hello. 
 	``` bash
 		interface Serial0/1
 		ip address 10.0.0.1 255.255.0.
@@ -35,7 +35,7 @@ Como se dijo antes, [OSPF](OSPF.md) trata a sus vecinos de diferente forma depen
 
 ![](_anexos_/15-5.jpg)
 
-> Es importante considerar que a diferencia de una red EIGRP (p. ej.), [OSPF](OSPF.md) no es tolerante a topologias de red arbitrarias, esto implica que se debe ser muy cuidadoso al planear la implementación de una red OSPF, esto junto su esquema de [IP Address](../labs/NetWarriors/IP%20Address.md) jerárquicos. 
+> Es importante considerar que a diferencia de una red EIGRP (p. ej.), [OSPF](OSPF.md) no es tolerante a topologias de red arbitrarias, esto implica que se debe ser muy cuidadoso al planear la implementación de una red OSPF, esto junto su esquema de [IP address](IP%20address.md) jerárquicos. 
 > 
 > La topologia de red y el route summarization, la adopción de un entorno de direccionamiento jerarquica y una asignación de direcciones estructurada son lo más importante a la hora de determinar la escalabilidad de su internetwork (Cisco Press). 
 

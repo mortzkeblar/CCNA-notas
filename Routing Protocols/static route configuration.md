@@ -22,7 +22,7 @@ RouterA(config)$ ip route [network prefix_mask] [address | interface] [distance]
 - distance – (optional) the administrative distance of the route; this is an indicator of the validity of the routing protocol (source of the route), and lower distances are always preferred
 ```
 
-Recordar que si se usa una next-hop IP para configurar una ruta estática, esta dirección debe ser alcanzable (reachable). También es necesario añadir una [IP Address](../labs/NetWarriors/IP%20Address.md) a la interface de salida. 
+Recordar que si se usa una next-hop IP para configurar una ruta estática, esta dirección debe ser alcanzable (reachable). También es necesario añadir una [IP address](IP%20address.md) a la interface de salida. 
 
 ![](_anexos_/13-4.jpg)
 
