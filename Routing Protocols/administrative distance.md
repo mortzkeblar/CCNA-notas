@@ -8,7 +8,7 @@ Esto es usado por el router para determinar las rutas más _fiables_ dependiendo
 ![](_anexos_/Screenshot%20from%202023-12-27%2016-43-38.png)
 
 ### Valores importantes (examen) sobre la distancia por defecto
-#exam _Este punto es para remarcar estos valores por su importancia para el examen de certificación_
+> #exam _Este punto es para remarcar estos valores por su importancia para el examen de certificación_
 
 | Route Source                       | Default Distance |
 | ---------------------------------- | ---------------- |

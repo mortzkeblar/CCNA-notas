@@ -4,7 +4,7 @@ tags:
   - static
 ---
 
-Cuando se usa este comando, las rutas hacia que pasan por el router son considerar como gateway of last resort. Si existe una ruta estatica, solo afectara al trafico que salga del mismo router. 
+Cuando se usa este comando, las rutas hacia que pasan por el router son considerar como [[gateway of last resort]]. Si existe una ruta estatica, solo afectara al trafico que salga del mismo router. 
 
 Con el comando ip default-network, cada router conocerá la red por defecto a través de un protocolo de enrutamiento y enviará el tráfico a esa dirección si no hay otra ruta en la tabla de enrutamiento (en lugar de descartarlo).
 

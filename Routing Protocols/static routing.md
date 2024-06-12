@@ -13,7 +13,7 @@ Como desventaja principal es que el administrador necesita actualizar las rutas 
 - [static route configuration](static%20route%20configuration.md) 
 - [static route configuration (IPv6)](static%20route%20configuration%20(IPv6).md) 
 - [gateway of last resort](gateway%20of%20last%20resort.md) 
-- [IP default-gateway](IP%20default-gateway.md) 
+- [IP default-gateway (cisco command)](IP%20default-gateway%20(cisco%20command).md) 
 - [IP route 0.0.0.0](IP%20route%200.0.0.0.md) 
 - [IP default-network](IP%20default-network.md) 
 - [static host routes](static%20host%20routes.md) 
