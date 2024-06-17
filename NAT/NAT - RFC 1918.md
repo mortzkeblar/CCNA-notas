@@ -1,7 +1,7 @@
 ---
 tags:
   - NAT
-  
+  - CCNA
 ---
 #TODO que es RFC 1918?
 # Address allocation for Private Internet

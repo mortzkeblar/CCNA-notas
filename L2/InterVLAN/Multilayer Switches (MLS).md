@@ -1,8 +1,7 @@
 ---
 tags:
   - VLAN
-  
-  
+  - CCNA
 ---
 #TODO agregar teoria
 

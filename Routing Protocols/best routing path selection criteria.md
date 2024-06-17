@@ -1,6 +1,7 @@
 ---
 tags:
   - routing
+  - CCNA
 ---
 
 ![](_anexos_/Screenshot%20from%202023-12-27%2017-09-30.png)

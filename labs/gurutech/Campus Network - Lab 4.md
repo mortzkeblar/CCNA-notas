@@ -3,6 +3,7 @@ tags:
   - lab
   - RIP
   - VLAN
+  - CCNA
 ---
 
 Temas a tratar:

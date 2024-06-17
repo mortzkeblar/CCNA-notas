@@ -3,6 +3,7 @@ tags:
   - routing
   - dynamic
   - OSPF
+  - CCNA
 ---
 
 #exam En el examen de certificación se espera que tener conocimientos para configurar y hacer troubleshooting de [OSPF](OSPF.md) en IPv4 e IPv6, ambos en single y multi-area.

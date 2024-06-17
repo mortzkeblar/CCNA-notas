@@ -1,7 +1,7 @@
 ---
 tags:
   - PNAC
-  
+  - CCNA
 ---
 
 # PNAC (Port-Based Network Access Control) - IEEE 802.1x (Dot1x)

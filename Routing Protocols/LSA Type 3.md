@@ -3,6 +3,7 @@ tags:
   - dynamic
   - routing
   - OSPF
+  - CCNA
 ---
 **Summary Link State Advertisements**, proporciona información sobre destinos fuera del area local (inter-area routing information). A diferencia de las [LSA Type 1](LSA%20Type%201.md), las LSA Type 3 no brindan información de la topologia, sino que resumente la información topologica recibida de las [LSA Type 1](LSA%20Type%201.md) y [LSA Type 2](LSA%20Type%202.md) en un prefijo y su coste asociado. 
 

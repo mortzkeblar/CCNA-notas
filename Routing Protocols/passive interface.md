@@ -2,6 +2,7 @@
 tags:
   - routing
   - dynamic
+  - CCNA
 ---
 
 Esto se utiliza para que un router no participe de forma activa en protocolo de enrutamiento, en caso de los [dynamic routing](dynamic%20routing.md) protocols (como EIGRP, [RIPv2](RIPv2.md) o [OSPF](OSPF.md)), estos envian/reciben mensajes para poder conectarse entre sí, a través de sus interfaces. 

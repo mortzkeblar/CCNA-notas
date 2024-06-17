@@ -1,3 +1,7 @@
+---
+tags:
+  - CCNA
+---
 _Importante: [administrative distance](administrative%20distance.md)_
 ### AD (_Distancia Administrativa_)
 Es un numero (0 - 255), especifica el nivel de confiabilidad del metodo de enrutamiento, `valores más bajos = mejor`.

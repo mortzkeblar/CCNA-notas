@@ -1,6 +1,7 @@
 ---
 tags:
   - routing
+  - CCNA
 ---
 
 Recordad que la tabla de enrutamiento o Routing Information Base (RIB) contiene la información para poder reenviar el trafico (en caso de que las haya). La tabla por si mismo, no reenvía el trafico.

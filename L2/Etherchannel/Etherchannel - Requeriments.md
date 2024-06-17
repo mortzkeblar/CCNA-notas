@@ -1,8 +1,7 @@
 ---
 tags:
   - ETHERCHANNEL
-  
-  
+  - CCNA
 ---
 
 ### Catalyst 2960

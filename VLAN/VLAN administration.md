@@ -1,7 +1,7 @@
 ---
 tags:
   - VLAN
-  
+  - CCNA
 ---
 #TODO Agregar teoria sobre la administración de vlans
 

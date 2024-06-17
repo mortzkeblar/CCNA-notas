@@ -3,6 +3,7 @@ tags:
   - routing
   - dynamic
   - OSPF
+  - CCNA
 ---
 
 Los virtual link son usados para extender el Area 0 a través de otras areas y cumplen la regla que todas las areas non-zero deben conectarse directamente al Area 0 (backbone). Un virtual link es usado para LSAs tunneling en un area non-zero. 

@@ -1,7 +1,7 @@
 ---
 tags:
   - ETHERCHANNEL
-  
+  - CCNA
 ---
 
 Ambos extremos deben ser configurados manualmente y no existe ningun protocolo de autonegociación.

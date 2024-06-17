@@ -3,6 +3,7 @@ tags:
   - dynamic
   - routing
   - OSPF
+  - CCNA
 ---
 
 [OSPF](OSPF.md) usa LSAs (Link State Advertisements) para notificar a los vecinos sobre camibiso en la red. Los LSA son usados para construir la OSPF database. 

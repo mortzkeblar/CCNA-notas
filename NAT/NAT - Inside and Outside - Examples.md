@@ -1,8 +1,7 @@
 ---
 tags:
   - NAT
-  
-  
+  - CCNA
 ---
 
 _Para entender mejor el concepto de inside/outside ver: [NAT - Inside and Outside](NAT%20-%20Inside%20and%20Outside.md)_

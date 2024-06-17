@@ -2,6 +2,7 @@
 tags:
   - ETHERCHANNEL
   - lab
+  - CCNA
 ---
 
 #TODO completar

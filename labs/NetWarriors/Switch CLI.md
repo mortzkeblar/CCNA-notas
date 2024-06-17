@@ -1,7 +1,7 @@
 ---
 tags:
   - general
-  
+  - CCNA
 ---
 
 Secuencia de arranques de un switch

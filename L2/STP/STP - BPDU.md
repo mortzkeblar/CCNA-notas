@@ -1,7 +1,7 @@
 ---
 tags:
   - STP
-  
+  - CCNA
 ---
 
 Bridge Protocol Data Unit (BPDU) es el mecanismo para que [STP](STP.md) pueda funcionar. 

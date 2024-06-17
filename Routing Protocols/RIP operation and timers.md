@@ -3,6 +3,7 @@ tags:
   - routing
   - dynamic
   - RIP
+  - CCNA
 ---
 
 Tanto RIPv1 como [RIPv2](RIPv2.md)  tiene operaciones y timers para el el control de actualizaciones de routing. Abajo esta la lista ordenada por defecto de operaciones al iniciar RIP, los timers estan disponibles a través del comando `show ip protocols`.

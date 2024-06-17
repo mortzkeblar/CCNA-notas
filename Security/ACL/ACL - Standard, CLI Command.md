@@ -1,8 +1,7 @@
 ---
 tags:
   - ACL
-  - ACL_standard
-  
+  - CCNA
 ---
 
 _Ver: [ACL - Standard, IN OUT](ACL%20-%20Standard,%20IN%20OUT.md)_

@@ -1,7 +1,7 @@
 ---
 tags:
   - VLAN
-  
+  - CCNA
 ---
 #TODO completar VTP
 # Virtual Trunking Protocol (VTP)

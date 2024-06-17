@@ -1,7 +1,7 @@
 ---
 tags:
-  
   - general
+  - CCNA
 ---
 
 _Tomado de la clase 27, ACL estándar. [Link](https://youtu.be/nq1SoUM6XA0?list=PL2A7l6PiV52esSwosIAO86zf0RGe2pjTZ)_

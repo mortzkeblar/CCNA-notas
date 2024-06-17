@@ -3,7 +3,7 @@ tags:
   - routing
   - dynamic
   - RIP
-  
+  - CCNA
 ---
 
 A small network running [RIP](RIP.md) 

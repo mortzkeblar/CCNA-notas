@@ -1,7 +1,7 @@
 ---
 tags:
   - general
-  
+  - CCNA
 ---
 
 ##### Algunos detalles

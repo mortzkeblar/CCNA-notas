@@ -1,6 +1,7 @@
 ---
 tags:
   - general
+  - CCNA
 ---
 
 

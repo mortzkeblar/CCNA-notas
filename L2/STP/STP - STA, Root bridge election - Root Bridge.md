@@ -1,8 +1,7 @@
 ---
 tags:
   - STP
-  
-  
+  - CCNA
 ---
 
 > Referencia: para no mezclar los conceptos acerca de los valores con respecto a la prioridad. Recordar que:

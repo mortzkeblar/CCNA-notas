@@ -1,8 +1,7 @@
 ---
 tags:
   - NAT
-  
-  
+  - CCNA
 ---
 #TODO agregar mas teoria
 En el NAT estático es posible asignar estáticamente una dirección IP publica única a una dirección IP privada, asegurando disponibilidad y acceso desde internet hacia un servidor ubicado en la LAN.

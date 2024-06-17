@@ -1,7 +1,7 @@
 ---
 tags:
   - NAT
-  
+  - CCNA
 ---
 
 #### Exercise

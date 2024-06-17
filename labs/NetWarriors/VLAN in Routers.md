@@ -1,8 +1,8 @@
 ---
 tags:
   - VLAN
-  
   - lab
+  - CCNA
 ---
 
 

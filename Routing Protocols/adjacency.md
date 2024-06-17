@@ -3,6 +3,7 @@ tags:
   - routing
   - dynamic
   - OSPF
+  - CCNA
 ---
 
 En [OSPF](Project/Networking/CCNA-notas/Routing%20Protocols/OSPF.md), adyancencia se refiere a la relación establecida entre dos routers vecinos conectados directamente. Esta relación permite el intercambio de enrutamiento como updates de LSAs para calcular las mejores rutas en la red. 

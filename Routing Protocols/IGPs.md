@@ -1,3 +1,7 @@
+---
+tags:
+  - CCNA
+---
 # Interior Gateway Protocols (IGPs)
 
 _Este protocolo forma parte de los metodos de enrutamiento dinamico. Ver: [Dynamic routing protocols](Dynamic%20routing%20protocols.md)_

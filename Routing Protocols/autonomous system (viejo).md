@@ -1,3 +1,7 @@
+---
+tags:
+  - CCNA
+---
 Es infraestructura de red bajo una administración comun. Se le denomina AS porque cada sistema es independiente del manejo de la red en su dominio.
 - Por ejemplo, un administrador puede implementar el protocolo interno (ej: OSPF, RIPv1, etc) que desea sin depender de las otras areas y viceversa
 

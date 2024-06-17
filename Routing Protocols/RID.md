@@ -3,6 +3,7 @@ tags:
   - routing
   - dynamic
   - OSPF
+  - CCNA
 aliases:
   - Router ID
 ---

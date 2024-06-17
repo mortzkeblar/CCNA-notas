@@ -2,6 +2,7 @@
 tags:
   - DHCP
   - lab
+  - CCNA
 ---
 
 ``` bash

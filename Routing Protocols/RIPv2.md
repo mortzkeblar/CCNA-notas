@@ -4,6 +4,7 @@ tags:
   - dynamic
   - RIP
   - protocol
+  - CCNA
 ---
 
 Routing Information Protocol Version 2 (RFC 2453) es la segunda versión del protocolo [RIP](RIP.md), creado para tratar las limitaciones de RIPv1.

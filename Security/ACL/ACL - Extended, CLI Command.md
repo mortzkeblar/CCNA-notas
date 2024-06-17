@@ -1,3 +1,7 @@
+---
+tags:
+  - CCNA
+---
 Ver las instrucciones de una `access-list`
 - Este comando tambien permite ver la cantidad de veces que un solicitud hizo `match` con alguna instrucción.
 ``` bash

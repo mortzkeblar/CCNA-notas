@@ -2,6 +2,7 @@
 tags:
   - VLAN
   - lab
+  - CCNA
 ---
 
 https://www.youtube.com/watch?v=dpTCpqZH3zY&list=PLoqM5eIpDpUEhtUNKuOd-sGll7NrvlwD7&index=15

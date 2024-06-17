@@ -1,3 +1,7 @@
+---
+tags:
+  - CCNA
+---
 La tabla CAM (Content Addressable Memory), asocia direcciones MAC de dispositivos conectados con los puertos específicos del [[switch]].
 
 Las direcciones MAC las obtiene a medida que se va enviando trafico entre dispositivos, si un dispositivo no se encuentra en la tabla CAM, el switch envía mensajes broadcast a los dispositivos que se encuentran conectados, si el [[switch]] recibe una respuesta, este agregara la MAC address y el puerto de origen a la tabla CAM.

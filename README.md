@@ -1,3 +1,7 @@
+---
+tags:
+  - CCNA
+---
 # CCNA - Notas de Obsidian
 ![](_anexos_/Screenshot%20from%202024-01-06%2004-08-27.png)
 

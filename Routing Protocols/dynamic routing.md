@@ -2,6 +2,7 @@
 tags:
   - routing
   - dynamic
+  - CCNA
 ---
 
 En terminos simples, el routing dinamico hace uso de un protocolo de routing para descubrir redes alcanzables y poder definir las mejores rutas para poder llegar hacia ellas. 

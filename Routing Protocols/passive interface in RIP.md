@@ -3,6 +3,7 @@ tags:
   - routing
   - dynamic
   - RIP
+  - CCNA
 ---
 
 _Ver: [passive interface](passive%20interface.md)_ 

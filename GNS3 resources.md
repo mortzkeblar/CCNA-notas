@@ -1,3 +1,7 @@
+---
+tags:
+  - CCNA
+---
 
 - [GNS3 Documentation - Conectarse a la nube local](https://docs.gns3.com/docs/using-gns3/advanced/connect-gns3-internet/)
 

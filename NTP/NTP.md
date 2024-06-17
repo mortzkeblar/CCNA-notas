@@ -1,7 +1,7 @@
 ---
 tags:
   - NTP
-  
+  - CCNA
 ---
 
 # Network Time Protocol

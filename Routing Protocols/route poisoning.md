@@ -3,6 +3,7 @@ tags:
   - routing
   - dynamic
   - RIP
+  - CCNA
 ---
 
 > route poisoning sets the hop count as unreachable on this RIP network 

@@ -1,8 +1,8 @@
 ---
 tags:
   - general
-  
   - VLAN
+  - CCNA
 ---
 
 #### VLAN  - Trunks

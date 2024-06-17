@@ -1,3 +1,7 @@
+---
+tags:
+  - CCNA
+---
 
 _Ver: [autonomous system (viejo)](autonomous%20system%20(viejo).md)_
 

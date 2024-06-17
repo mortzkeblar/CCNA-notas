@@ -2,7 +2,7 @@
 tags:
   - routing
   - static
-  
+  - CCNA
 ---
 
 Esta es una forma de usar una IP prestada de otra interface, esto puede ser util para guardar direcciones o para asegurar que la interface esta activa. 

@@ -1,6 +1,7 @@
 ---
 tags:
   - routing
+  - CCNA
 ---
 
 Tanto [classful](classful.md) como [CIDR](CIDR.md) se refieren al asignamiento IP. 

@@ -1,6 +1,7 @@
 ---
 tags:
   - problem
+  - CCNA
 ---
 
 ``` bash

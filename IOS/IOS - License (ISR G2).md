@@ -1,7 +1,7 @@
 ---
 tags:
   - IOS
-  
+  - CCNA
 ---
 
 ### IOS 12.3

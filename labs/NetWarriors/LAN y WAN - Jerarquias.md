@@ -1,6 +1,7 @@
 ---
 tags:
   - general
+  - CCNA
 ---
 
 - Red pequeña: servicio para hasta 200 dispositivos

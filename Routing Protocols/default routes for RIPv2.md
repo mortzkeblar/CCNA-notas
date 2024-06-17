@@ -3,6 +3,7 @@ tags:
   - routing
   - dynamic
   - RIP
+  - CCNA
 ---
 
 Los rutas por defecto, ahorran tiempo de administración al tener multiples routers finales que usan la misma ruta por defecto para el tráfico. La alternativa a esto es agregar [static route](static%20routing.md) en cada uno de los routers, lo cual puede ser tedioso y demorado. 

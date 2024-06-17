@@ -1,3 +1,7 @@
+---
+tags:
+  - CCNA
+---
 Un switch es un dispositivo de red que opera en la capa 2 del modelo OSI (capa de enlace de datos). Su función principal es interconectar dispositivos en la misma red local (LAN) y facilitar la comunicación entre ellos.
 
 Los switches suelen realizar principalmente estes funciones:

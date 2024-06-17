@@ -1,7 +1,7 @@
 ---
 tags:
   - general
-  
+  - CCNA
 ---
 
 Las IP nos sirven para poder identificarnos en la red. Generalmente se compone de cuatro octetos (8 bits) dado por: 

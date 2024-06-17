@@ -1,6 +1,7 @@
 ---
 tags:
   - routing
+  - CCNA
 ---
 
 IP routing (o IP forwarding) en terminos simples hace referencia al proceso de mover información desde un punto A a un punto B. Este proceso ocurre en la capa 3 del modelo [OSI](../../Networking%20Notes/Jeremy%20IT%20lab%20-%20Notes/OSI%20Model%20-%20Jeremy's%20IT%20Lab.md), tambien llamada 'capa de red'. 

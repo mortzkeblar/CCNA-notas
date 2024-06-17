@@ -1,3 +1,7 @@
+---
+tags:
+  - CCNA
+---
 - Hot Stanby Redundancy Protocol
 - Es un protocolo propietario de Cisco (VRRP es estander de la IETF)
 - Multicast (224.0.0.2 en HRSPv1 y 224.0.0.102 en HSRPv2) - UDP 1985

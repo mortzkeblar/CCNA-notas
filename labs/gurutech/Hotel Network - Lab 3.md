@@ -1,6 +1,7 @@
 ---
 tags:
   - lab
+  - CCNA
 ---
 Este laboratorio parteneca al canal [Gurutech](https://www.youtube.com/@gurutechnetworks), playlist _Real-World Networking Projects_, [Cap3](https://www.youtube.com/watch?v=RwFJTJTe-OM&list=PLvUOx2WG6R7PlKlERb5zceXxHfC4P7gJn&index=15).
 

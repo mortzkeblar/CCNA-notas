@@ -4,6 +4,7 @@ tags:
   - dynamic
   - RIP
   - lab
+  - CCNA
 ---
 
 En este lab vamos a crear una red que funcione bajo [RIPv2](RIPv2.md).

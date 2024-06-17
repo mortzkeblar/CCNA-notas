@@ -4,6 +4,7 @@ tags:
   - routing
   - dynamic
   - minilab
+  - CCNA
 ---
 Temas a tratar: 
 - [OSPF](OSPF.md) 

@@ -2,6 +2,7 @@
 tags:
   - lab
   - VLAN
+  - CCNA
 ---
 Este laboratorio parteneca al canal [Gurutech](https://www.youtube.com/@gurutechnetworks), playlist _Real-World Networking Projects_, [Cap2](https://www.youtube.com/watch?v=F_dSpaTMyuA&list=PLvUOx2WG6R7PlKlERb5zceXxHfC4P7gJn&index=16). 
 

@@ -2,6 +2,7 @@
 tags:
   - ETHERCHANNEL
   - lab
+  - CCNA
 ---
 
 > Para ver la resolución del video ir a: https://youtu.be/pha803AApb4?list=PL2A7l6PiV52esSwosIAO86zf0RGe2pjTZ&t=1742

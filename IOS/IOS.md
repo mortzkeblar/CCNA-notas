@@ -1,7 +1,7 @@
 ---
 tags:
   - IOS
-  
+  - CCNA
 ---
 
 # Internetworking Operating System (IOS)

@@ -1,7 +1,7 @@
 ---
 tags:
   - ETHERCHANNEL
-  
+  - CCNA
 ---
 
 ![](_anexos_/Screenshot%20from%202024-01-04%2018-28-35.png)

@@ -1,7 +1,7 @@
 ---
 tags:
   - NTP
-  
+  - CCNA
 ---
 
 ### Configuración de hora y fecha con NTP

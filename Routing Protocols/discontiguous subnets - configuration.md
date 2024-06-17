@@ -3,6 +3,7 @@ tags:
   - routing
   - dynamic
   - RIP
+  - CCNA
 ---
 
 En la imagen se muestra una topologia mal diseñada. Especificamente la red `10`, esa forma de dividir la red se conoce como discontiguous subnets. 

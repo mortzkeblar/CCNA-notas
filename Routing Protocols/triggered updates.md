@@ -3,6 +3,7 @@ tags:
   - routing
   - dynamic
   - RIP
+  - CCNA
 ---
 
 Los [distance vector protocol](distance%20vector%20protocol.md)  se basan en la updates regulares de los routers vecinos, una vez los _timers_ hayan vencido. 

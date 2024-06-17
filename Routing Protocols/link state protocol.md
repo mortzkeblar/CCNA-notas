@@ -2,6 +2,7 @@
 tags:
   - routing
   - dynamic
+  - CCNA
 ---
 
 Tambien llamados _shortest-path-first protocols_, los routers intercambian información entre ellos sobre sus _link states_. Cada dispositivo tiene un mapa de toda la red, construido a partir de la información que otros routers generan y propagan. 

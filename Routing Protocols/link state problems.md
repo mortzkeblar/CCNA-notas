@@ -3,6 +3,7 @@ tags:
   - routing
   - dynamic
   - problem
+  - CCNA
 ---
 
 Esto siempre depende de si las ventajas superan las desventajas, pero en general los dos principales problemas al usar un protocolo como [OSPF](OSPF.md) son:

@@ -1,10 +1,9 @@
 ---
 tags:
   - ACL
-  - ACL_extended
   - lab
-  
   - IPv6
+  - CCNA
 ---
 
 > "¿Habrá algo más horrible que la combinación de ACL e IPv6? Sí, intentar explicar la computación cuántica a un gato."

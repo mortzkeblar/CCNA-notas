@@ -1,3 +1,7 @@
+---
+tags:
+  - CCNA
+---
 https://www.youtube.com/watch?v=1RpvaxKwQTA&list=PLoqM5eIpDpUEhtUNKuOd-sGll7NrvlwD7&index=14
 Se trata de una restricción de puertos a nivel de MAC address.
 - Es decir, cuando un dispositivo se conecte al switch. Este va a tomar su MAC address y lo va a asociar a una interfaz. 

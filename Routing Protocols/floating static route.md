@@ -2,6 +2,7 @@
 tags:
   - routing
   - static
+  - CCNA
 ---
 
 Esto es util cuando se quiere hacer un backup de una red o host particular. El proceso consiste en agregar una ruta estatica con un AD superior a la ruta primaria o al protocolo especifico. Esta ruta no sera utilizada a menos que la ruta primaria caiga. Si la ruta primaria vuelva a estar activo, volvera a ser esta la ruta usada por el router. 

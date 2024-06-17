@@ -2,6 +2,7 @@
 tags:
   - routing
   - static
+  - CCNA
 ---
 Gateway of last resort es un término que describe la capacidad de un host/device para enviar todo el tráfico L3 que no tiene un destino/ruta especificado dentro de la [[routing table]]. Sin esta configuración, el paquete seria descartado. 
 

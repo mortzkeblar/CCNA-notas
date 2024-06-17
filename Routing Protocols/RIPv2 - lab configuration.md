@@ -4,6 +4,7 @@ tags:
   - dynamic
   - RIP
   - lab
+  - CCNA
 ---
 
 Vamos a configurar estos dos routers para que trabajen bajo [RIPv2](RIPv2.md). 

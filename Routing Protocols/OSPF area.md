@@ -3,6 +3,7 @@ tags:
   - dynamic
   - OSPF
   - routing
+  - CCNA
 ---
 
 [OSPF](OSPF.md) usa el concepto de areas, los cuales son grupos lógicos asociados a las interfaces de un router. Los routers dentro de un área no mantendrán información detallada sobre los routers que estén fuera de su area específica.  

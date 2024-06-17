@@ -3,6 +3,7 @@ tags:
   - dynamic
   - routing
   - OSPF
+  - CCNA
 ---
 Estos LSA son generados por el ABR y son usados para brindar información sobre como encontrar un ASBR. 
 

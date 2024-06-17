@@ -4,6 +4,7 @@ tags:
   - dynamic
   - OSPF
   - lab
+  - CCNA
 ---
 
 Temas a tratar: 

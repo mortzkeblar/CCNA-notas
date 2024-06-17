@@ -1,7 +1,7 @@
 ---
 tags:
   - NAT
-  
+  - CCNA
 ---
 
 # Network Address Translation
@@ -16,7 +16,7 @@ NAT es un proceso (diseñado específicamente para IPv4 y el problema de la falt
 ### Tipos de NAT
 - Dynamic NAT (_Ver: [NAT - Dynamic](NAT%20-%20Dynamic.md)_)
 - Static NAT (_Ver: [NAT - Static](NAT%20-%20Static.md)_)
-- Overloaded NAT/PAT (_Ver: [NAT - Overload or PAT](NAT%20-%20Overload%20or%20PAT.md)_)
+- Overloaded NAT/PAT (_Ver: [PAT](PAT.md)_)
 - Dynamic NAT with overload (_Ver: [NAT - Overload Dynamic (Multiple IP address)](NAT%20-%20Overload%20Dynamic%20(Multiple%20IP%20address).md)_)
 - NAT-T (NAT Traversal)
 - Source NAT

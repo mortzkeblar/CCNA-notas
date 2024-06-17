@@ -1,7 +1,7 @@
 ---
 tags:
   - SW_stacking
-  
+  - CCNA
 ---
 
 # Ventajas de Stack Switching

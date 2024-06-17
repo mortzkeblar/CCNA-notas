@@ -1,3 +1,7 @@
+---
+tags:
+  - CCNA
+---
 # Toma de desición, el mejor camino
 _Ver: [best routing path selection criteria](best%20routing%20path%20selection%20criteria.md)_
 

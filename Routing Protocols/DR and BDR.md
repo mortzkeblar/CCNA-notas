@@ -3,6 +3,7 @@ tags:
   - dynamic
   - OSPF
   - routing
+  - CCNA
 ---
 
 

@@ -2,6 +2,7 @@
 tags:
   - STP
   - lab
+  - CCNA
 ---
 
 _Para ver el ejercicio y resolución: https://youtu.be/dcTzBa9A43g?list=PL2A7l6PiV52esSwosIAO86zf0RGe2pjTZ&t=270_

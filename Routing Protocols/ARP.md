@@ -2,6 +2,7 @@
 tags:
   - routing
   - protocol
+  - CCNA
 ---
 
 Address Resolution Protocol (ARP) es un protocolo de red usado para encontrar la dirección MAC de un dispositivo a través de su dirección IP. 

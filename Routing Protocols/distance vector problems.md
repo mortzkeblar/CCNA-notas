@@ -3,6 +3,7 @@ tags:
   - routing
   - dynamic
   - problem
+  - CCNA
 ---
 
 Algunos  de los inconvenientes con [distance vector protocol](distance%20vector%20protocol.md)  son:

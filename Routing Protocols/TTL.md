@@ -2,6 +2,7 @@
 tags:
   - routing
   - protocol
+  - CCNA
 ---
 
 > _Para más información, puede ver el especificación [RFC 1812](https://datatracker.ietf.org/doc/html/rfc1812#section-5.3.1), punto 5.3.1_

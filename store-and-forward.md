@@ -1,3 +1,7 @@
+---
+tags:
+  - CCNA
+---
 Este método lee el frame completo, lo copia dentro de un buffer. Realiza una _cyclic redundancy check (CRC)_, y reenvía el frame si pasa la verificación. 
 
 CRC verifica que no haya ningún error en el frame, el switch también realiza el check de que el frame este entre 64 y 1518 bytes. Cualquier frame fuera de ese rango se descarta automáticamente, además de los frames con errores. 

@@ -1,7 +1,7 @@
 ---
 tags:
   - VLAN
-  
+  - CCNA
 ---
 
 # Dynamic Trunking Protocol

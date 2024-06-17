@@ -3,7 +3,7 @@ tags:
   - routing
   - dynamic
   - OSPF
-  
+  - CCNA
 ---
 
 [OSPF](OSPF.md) usa varios timers (temporizadores) para el control broadcast, link state propagation y otras operaciones. 

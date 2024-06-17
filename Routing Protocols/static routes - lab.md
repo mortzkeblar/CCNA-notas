@@ -3,6 +3,7 @@ tags:
   - routing
   - static
   - lab
+  - CCNA
 ---
 
 

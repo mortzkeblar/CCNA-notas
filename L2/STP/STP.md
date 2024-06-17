@@ -1,7 +1,7 @@
 ---
 tags:
   - STP
-  
+  - CCNA
 ---
 
 # Spanning Tree Protocol

@@ -3,6 +3,7 @@ tags:
   - dynamic
   - routing
   - OSPF
+  - CCNA
 ---
 Tambien llamado **Router Link State Advertisements**, los LSA Type 1 son generados por cada tipo de router (backbone, stud, NSSA, non-stub, etc). 
 - Los LSA enumeran el [RID](RID.md) del router de origen

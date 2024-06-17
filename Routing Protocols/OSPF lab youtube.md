@@ -4,6 +4,7 @@ tags:
   - dynamic
   - routing
   - lab
+  - CCNA
 ---
 Temas a tratar:
 - [OSPF](OSPF.md) 

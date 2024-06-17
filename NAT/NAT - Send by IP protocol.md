@@ -1,3 +1,7 @@
+---
+tags:
+  - CCNA
+---
 _Ver: [NAT - Inside and Outside](NAT%20-%20Inside%20and%20Outside.md)_
 
 Esta sección consiste de una pequeña explicación de como funciona NAT a nivel del protocolo IP. 

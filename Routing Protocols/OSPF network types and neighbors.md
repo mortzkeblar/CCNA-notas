@@ -3,6 +3,7 @@ tags:
   - routing
   - dynamic
   - OSPF
+  - CCNA
 ---
 
 Como se dijo antes, [OSPF](OSPF.md) trata a sus vecinos de diferente forma dependiendo el tipo de enlace que los une. Estos se clasifican en cinco tipos.

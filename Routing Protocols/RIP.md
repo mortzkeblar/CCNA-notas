@@ -4,6 +4,7 @@ tags:
   - dynamic
   - RIP
   - protocol
+  - CCNA
 ---
 
 > #exam Tener en cuenta que RIP ya no es un tema a examinar en el CCNA 200-301, sin embargo, no se lo va a obviar porque es una puerta introductoria para protocolos más complejos que continúan después y si están dentro del examen de certificación. 

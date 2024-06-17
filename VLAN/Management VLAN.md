@@ -1,8 +1,7 @@
 ---
 tags:
-  
-  
   - VLAN
+  - CCNA
 ---
 
 Se trata de crear una VLAN administrativa para que se pueda gestionar de manera remota a través de SSH o Telnet. 

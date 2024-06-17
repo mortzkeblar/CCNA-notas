@@ -4,6 +4,7 @@ tags:
   - dynamic
   - OSPF
   - protocol
+  - CCNA
 ---
 
 Open Shortest Path First (OSPF protocol) es un protocolo estándar abierto que usa algoritmos _link state_ para calcular el mejor camino para llegar a una red particular. Desarrollado en el '98 por IETF para cubrir las necesidades y las carencias del [RIP](RIP.md). Es un protocolo más robusto y flexible que los predecesores [distance vector protocol](distance%20vector%20protocol.md) y es ideal para usarlo en entornos enterprise. 

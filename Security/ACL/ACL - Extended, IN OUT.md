@@ -1,8 +1,7 @@
 ---
 tags:
   - ACL
-  - ACL_extended
-  
+  - CCNA
 ---
 
 - Es necesario identificar el `sentido del trafico` a la hora de crear un _Security Police_.

@@ -1,8 +1,8 @@
 ---
 tags:
   - ACL
-  - ACL_standard
   - lab
+  - CCNA
 ---
 
 ![](_anexos_/Screenshot%20from%202023-12-28%2023-12-58.png)

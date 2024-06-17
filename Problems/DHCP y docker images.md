@@ -2,6 +2,7 @@
 tags:
   - DHCP
   - problem
+  - CCNA
 ---
 
 Aun falta trabajar aqui

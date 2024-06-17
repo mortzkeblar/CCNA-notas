@@ -1,8 +1,7 @@
 ---
 tags:
   - ACL
-  - ACL_extended
-  
+  - CCNA
 ---
 
 > Las standard ACL se instalan siempre lo más cerca del destino

@@ -1,8 +1,7 @@
 ---
 tags:
   - DHCP
-  
-  
+  - CCNA
 ---
 
 >Situación de ejemplo:

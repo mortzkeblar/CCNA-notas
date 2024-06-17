@@ -2,6 +2,7 @@
 tags:
   - routing
   - static
+  - CCNA
 ---
 
 De esta forma, podemos configurar un router para que el trafico de la red pueda salir por una determinada interface, o bien a través de la next-hop [IP address](IP%20address.md). 

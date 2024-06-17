@@ -1,7 +1,7 @@
 ---
 tags:
   - PNAC
-  
+  - CCNA
 ---
 
 # Configuración de PNAC

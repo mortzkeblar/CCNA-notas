@@ -1,6 +1,7 @@
 ---
 tags:
   - routing
+  - CCNA
 ---
 
 Un autonomous system (AS), se utiliza para especificar un dominio de routing. En protocolos como EIGRP, los routers deben estar en un mismo AS para poder intercambiar información de routing entre ellos. 

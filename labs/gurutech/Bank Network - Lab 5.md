@@ -1,3 +1,7 @@
+---
+tags:
+  - CCNA
+---
 
 ![](_anexos_/Untitled%20Diagram.drawio.png)
 

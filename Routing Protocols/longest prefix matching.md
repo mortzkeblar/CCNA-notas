@@ -2,6 +2,7 @@
 tags:
   - routing
   - RIP
+  - CCNA
 ---
 Los routers usan la regla de 'longest prefix match' para determinar que rutas se deberían usar para enviar un paquete hacia su destino. 
 Esta indica que un router siempre va a preferir la entrada de la tabla de routing más larga o especifica a las entradas menos especificas (p. ej. summary addresses), al determinar que entrada usar para reenviar el trafico.

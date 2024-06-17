@@ -1,3 +1,7 @@
+---
+tags:
+  - CCNA
+---
 ![](_anexos_/DynamicRouting-660x594.png)
 
 - Cada uno de los router informa a todos sus vecinos sobre las rutas que tiene conectadas.

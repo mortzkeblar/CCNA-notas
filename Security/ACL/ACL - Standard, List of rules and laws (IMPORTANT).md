@@ -1,8 +1,7 @@
 ---
 tags:
   - ACL
-  - ACL_standard
-  
+  - CCNA
 ---
 
 

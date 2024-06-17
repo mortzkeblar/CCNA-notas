@@ -3,6 +3,7 @@ tags:
   - routing
   - dynamic
   - RIP
+  - CCNA
 ---
 
 Por defecto, [RIP](RIP.md) realiza load balancing sobre cuatro rutas de igual coste. Esto ayuda a no saturar un solo enlace cuando tenemos grandes cargas. 

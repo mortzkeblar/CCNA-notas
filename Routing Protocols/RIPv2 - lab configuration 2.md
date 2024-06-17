@@ -4,6 +4,7 @@ tags:
   - dynamic
   - RIP
   - lab
+  - CCNA
 ---
 
 Temas a tratar:

@@ -3,6 +3,7 @@ tags:
   - routing
   - dynamic
   - OSPF
+  - CCNA
 ---
 
 [OSPF](OSPF.md) es un protocolo [classless](classless.md) , descubre y mantiene una relación con los routers vecinos mediante el envio de paquetes multicast _Hello_ y de timers _Dead_. Las actualizaciones toman la forma de _Link State Advertisements (LSAs)_. El link state database es _OSPF's topology table._ Los LSAs inundan las areas [OSPF](OSPF.md) hasta que cada router tiene un mapa consistente de la red. (p. ej. todos los link state database hacen matching). 

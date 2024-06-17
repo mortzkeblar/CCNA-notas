@@ -2,6 +2,7 @@
 tags:
   - routing
   - static
+  - CCNA
 ---
 
 Este comando resulta util para configurar varias rutas sin necesidad de  especificar cada una. En el ejemplo podemos configurar con un solo comando todas la rutas necesarias solo especificando la interface de salida, en este caso, `S0` en `stub router`.

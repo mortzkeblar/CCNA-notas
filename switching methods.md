@@ -1,3 +1,7 @@
+---
+tags:
+  - CCNA
+---
 Los [[switch]]es Cisco tienen tres metodos de conmutacion los cuales se usan dependiendo del procesamiento que se realiza en el frame. 
 
 - cut-through

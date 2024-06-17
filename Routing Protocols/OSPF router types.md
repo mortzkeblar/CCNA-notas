@@ -3,6 +3,7 @@ tags:
   - routing
   - dynamic
   - OSPF
+  - CCNA
 ---
 Algunos de los tipos de routers [OSPF](OSPF.md) más comunes son:
 - Area border routers 

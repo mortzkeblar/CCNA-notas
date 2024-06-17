@@ -3,6 +3,7 @@ tags:
   - dynamic
   - routing
   - OSPF
+  - CCNA
 ---
 **Network Link State Advertisements**, es usado para anunciar routers en segmentos multi-access. Esta LSA es originada por el [DR](DR%20and%20BDR.md) y hacen flooding dentro del area, al igual que [LSA Type 1](LSA%20Type%201.md). 
 

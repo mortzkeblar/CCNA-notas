@@ -3,6 +3,7 @@ tags:
   - routing
   - RIP
   - dynamic
+  - CCNA
 ---
 
 Esta es una función de [RIPv2](RIPv2.md) que 'resume' automaticamente las redes en los limites de las clases [classful](classful.md). 

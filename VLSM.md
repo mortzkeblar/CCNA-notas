@@ -1,3 +1,7 @@
+---
+tags:
+  - CCNA
+---
 Variable Length Subnet Masks (VLSM) es un metodo [classless](Routing%20Protocols/classless.md) que surgio como una evolución de FLSM. 
 
 El concepto básico de VLSM es muy simple: se toma una red y se divide en subredes fijas, luego se toma una de esas [subredes](https://es.wikipedia.org/wiki/Subred "Subred") y se vuelve a dividir, tomando bits "prestados" de la porción de hosts, ajustándose a la cantidad de hosts requeridos por cada segmento de nuestra red.

@@ -1,3 +1,7 @@
+---
+tags:
+  - CCNA
+---
 
 - [static routing](Routing%20Protocols/static%20routing.md) 
 - [dynamic routing](Routing%20Protocols/dynamic%20routing.md) 

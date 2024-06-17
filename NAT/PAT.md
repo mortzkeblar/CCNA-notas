@@ -1,11 +1,9 @@
 ---
 tags:
   - NAT
-  
-  
+  - CCNA
 ---
 
-# Port Address Translation (PAT)
 El tipo de NAT más ampliamente utilizado hoy en las organizaciones. Consiste en permitir que múltiples IP privadas se conecten a internet utilizando una sola IP (overloading). Aquí la traducción se hace en base a puertos.
 
 ``` txt

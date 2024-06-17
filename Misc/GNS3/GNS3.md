@@ -1,3 +1,7 @@
+---
+tags:
+  - CCNA
+---
 ### Imagenes mas comunes para el uso
 - Routers
 	- c3725
