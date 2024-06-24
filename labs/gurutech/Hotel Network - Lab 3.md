@@ -57,7 +57,7 @@ Además, se deben seguir estas consideraciones a la hora de la implementación d
 10. Todos los dispositivos de la red deberian poder comunicarse entre si.
 11. Configurar SSH en todos los routers para administración remota.
 12. En el departamento de IT, añadir una PC llamada `Test-PC` al puerto `G0/1` y usarlo como dispositivo donde hacer los tests de conección remota.
-13. Configurar port security para el IT-dept [switch](../../switch.md), para permitir el acceso solo a Test-PC en Gi0/1 (usar sticky method para obtener la MAC address con modo de violación: shutdown).
+13. Configurar port security para el IT-dept [switch](switch.md), para permitir el acceso solo a Test-PC en Gi0/1 (usar sticky method para obtener la MAC address con modo de violación: shutdown).
 
 
 ## resolution

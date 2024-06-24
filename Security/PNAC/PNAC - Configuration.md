@@ -29,4 +29,4 @@ Switch$ show dot1x interface f0/14
 - _auth-port_: puerto de _authentication_
 - _acct-port_: puerto de _accounting_
 
-![](_anexos_/Screenshot%20from%202024-01-05%2008-23-19.png)
+![](Screenshot%20from%202024-01-05%2008-23-19.png)

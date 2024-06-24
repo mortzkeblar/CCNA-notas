@@ -24,5 +24,5 @@ Esto se puede prevenir mediante [[L2/STP/STP]].
 
 ### relacionados
 - [MAC address table](MAC%20address%20table.md)
-- [frame switching](frame%20switching.md)
-- [collision domains](collision%20domains.md)
+- [frame switching](VLAN/frame%20switching.md)
+- [collision domains](VLAN/collision%20domains.md)

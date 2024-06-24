@@ -11,7 +11,7 @@ Open Shortest Path First (OSPF protocol) es un protocolo estándar abierto que u
 
 OSPF emplea el uso de _areas_ para simplificar la administración de la red y confinar la inestabilidad de la red a un sector especifico. Además permite un amplio control sobre las actualizaciones de enrutamiento.
 
-OSPF usa Dijkstra's Shortest Path Firts (SPF) algorithm, eso hace referencia a que es abierto ya que este algoritmo no es propietario a ninguna empresa o organización.
+OSPF usa Dijkstra's Shortest Path First (SPF) algorithm, eso hace referencia a que es abierto ya que este algoritmo no es propietario a ninguna empresa o organización.
 
 OSPF se considera un _Interior Gateway Protocol ([IGPs](IGPs.md))_ porque es un protocolo que puede ser usado en grupos de routers que se encuentran dentro de un [autonomous system](autonomous%20system.md). 
 
