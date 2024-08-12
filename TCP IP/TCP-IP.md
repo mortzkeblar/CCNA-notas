@@ -1,0 +1,1 @@
+El modelo TCP/IP se define en el RFC 1122.
