@@ -4,7 +4,7 @@ tags:
 ---
 # Interior Gateway Protocols (IGPs)
 
-_Este protocolo forma parte de los metodos de enrutamiento dinamico. Ver: [Dynamic routing protocols](Dynamic%20routing%20protocols.md)_
+_Este protocolo forma parte de los metodos de enrutamiento dinamico. Ver: [dynamic routing protocols](dynamic%20routing%20protocols.md)_
 
 ![](_anexos_/Screenshot%20from%202024-01-05%2009-27-06.png)
 

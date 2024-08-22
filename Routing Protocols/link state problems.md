@@ -13,7 +13,7 @@ Esto siempre depende de si las ventajas superan las desventajas, pero en general
 ## cpu and memory requirements
 Cuando se corre [OSPF](OSPF.md) se consumen una gran cantidad de ciclos de CPU, esto puede relentizar otros procesos en paralelo corriendo en el router porque recordemos que tiene una CPU limitada. 
 
-En general un [link state protocol](link%20state%20protocol.md) suele consumir más memoria y potencia de procesamiento que un [distance vector protocol](distance%20vector%20protocol.md).
+En general un [link state protocols](link%20state%20protocols.md) suele consumir más memoria y potencia de procesamiento que un [distance vector protocols](distance%20vector%20protocols.md).
 
 Como contrapartida, estos consumos más altos proporcionan una convergencia más rápida y es más flexible y potente a la hora de configurar ciertos parámetros. 
 
@@ -32,4 +32,4 @@ RouterA#show processes run
 ```
 
 ## bandwidth utilization 
-Una vez se produce la convergencia en la red, el ancho de banda que require un [link state protocol](link%20state%20protocol.md) es bajo. Cuando se habilita para que opere este, la red se inunda de paquetes LSA que se mantienen hasta que se produce la convergencia total, si tiene un ancho de banda limitado, esto puede saturar la red por un tiempo.
+Una vez se produce la convergencia en la red, el ancho de banda que require un [link state protocols](link%20state%20protocols.md) es bajo. Cuando se habilita para que opere este, la red se inunda de paquetes LSA que se mantienen hasta que se produce la convergencia total, si tiene un ancho de banda limitado, esto puede saturar la red por un tiempo.
