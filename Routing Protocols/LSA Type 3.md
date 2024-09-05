@@ -70,7 +70,7 @@ TOS: 0 Metric: 65
 [output truncated]
 ```
 
-La [metrics](metrics.md) de la ruta en la salida del comando es la distancia desde el ABR. El router receptor añade su propia métrica de interface para determinar la métrica global de la ruta. Importante considerar esto para evitar confusiones el revisar el LSDB.
+La [metric](metric%20(legacy).md) de la ruta en la salida del comando es la distancia desde el ABR. El router receptor añade su propia métrica de interface para determinar la métrica global de la ruta. Importante considerar esto para evitar confusiones el revisar el LSDB.
 
 #TODO Ver si la etiqueta metrics corresponde en ese parrafo.
 

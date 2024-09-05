@@ -10,7 +10,7 @@ tags:
 
 Una vez que el mapa es consistente, SPF corre sobre la base de datos y se construye un ruta loop-free (sin bucles) para cada red de destino. Esto se denomina _SPF tree,_ puede ser vista desde la tabla de enrutamiento. 
 
-[OSPF](OSPF.md) usa una [metrics](metrics.md) arbitraria de costo para determinar el camino más corto de A a B.
+[OSPF](OSPF.md) usa una [metric](metric%20(legacy).md) arbitraria de costo para determinar el camino más corto de A a B.
 
 - Los routers configurados con OSPF envia paquetes Hello fuera de todas las interfaces OSPF. Si el router en el enlace compartido esta de acuerdo con los paquetes Hello enviados, se convierten en vecinos.
 - Algunos vecinos forma adyacencias. Esto depende de el tipo de router [OSPF](OSPF.md)  y la red, como un point-to-point o broadcast.

@@ -11,7 +11,7 @@ Con distancia se refiere a la medición usada para calcular la distancia de la r
 ![](_anexos_/Screenshot%20from%202024-01-29%2017-25-29.png)
 
 ## routers exchange routing tables
-Distance vector routing es una propiedad de algunos protocolos de routing que hacen una 'imagen' interna de la topologia de red que intercambia periodicamente sus routing tables y [metrics](metrics.md) entre dispositivos vecinos. 
+Distance vector routing es una propiedad de algunos protocolos de routing que hacen una 'imagen' interna de la topologia de red que intercambia periodicamente sus routing tables y [metric](metric%20(legacy).md) entre dispositivos vecinos. 
 Cuando la red converge por 1ra vez, los routers primero descubren las redes adjuntas antes de intercambiar sus routing tables. 
 
 ![](_anexos_/13-15-scaled.jpg)

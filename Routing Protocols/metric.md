@@ -1,12 +1,20 @@
 ---
 tags:
+  - routing
+  - dynamic
   - CCNA
 ---
 
-La diferencia en métrica reside esencialmente en que la métrica rige cuando se aprende el prefijo a través de una único método de enrutamiento. 
+Este concepto se utiliza cuando tenemos un caso de multiples rutas aprendidas para llegar al mismo destino. Las métricas se ejecutan sobre esas rutas aprendidas para elegir el mejor camino posible según un sistema de clasificación que permite dar preferencia a unas rutas sobre otras y estas sean agregadas en la tabla de enrutamiento.
 
-![](_anexos_/Screenshot%20from%202023-12-27%2017-04-58.png)
+> P. ej. RIP usa hop count, EIGRP usa el bandwidth más bajo y el delay total, tambien crea una tabla de mejores next-hop IP en caso de que la ruta principal falle.  
 
-En este caso, todos los routers funcionan bajo el protocolo RIP con los mismos valores de `default distance`. Entonces la decisión se basa en los diversos metodos que aplica cada protocolo, RIP por ejemplo usa `Hop Count`, OSPF usa `Cost(Band Width)`, etc.
+Las metricas usadas por los protocolos incluyen:
+- Bandwidth - se elije segun la velocidad de enlace más rápida.
+- Hop count - un hop es otro router, entonces tres router equivalen a tres hops.
+- Load - la cantidad de trafico usado por el enlace, un enlace con la carga más baja es mejor. 
+- Delay - la cantidad de tiempo que toma un paquete en atravesar un camino.
+- Reliability - definido por la probabilidad de que un enlace falle debido a errores o reinicios en la interface.
+- Cost - no hay una definición fija en este valor, refleja una ruta más o menos preferida
 
-Ver: [best routing path selection criteria](best%20routing%20path%20selection%20criteria.md)
+Esta son algunas de las metricas definidas. Dependiendo el protocolo, este puede usar uno a más métricas para establecer la mejor ruta posible. 
