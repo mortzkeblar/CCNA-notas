@@ -103,4 +103,4 @@ Routing for Networks:
 0.0.0.0 255.255.255.255 area 0
 ```
 
-Cualquier [IP address](IP%20address.md) en cualquier interface habilitada sera añadida al Area 0 de [OSPF](OSPF.md). 
+Cualquier [IP](Project/Networking/CCNA-notas/labs/NetWarriors/IP.md) en cualquier interface habilitada sera añadida al Area 0 de [OSPF](OSPF.md). 

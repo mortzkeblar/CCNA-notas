@@ -5,7 +5,7 @@ tags:
 ---
 
 
-_Ver: [Communication modes](../Communication%20modes.md) _
+_Ver: [IP traffic types](IP%20traffic%20types.md) _
 
 > ![](../_anexos_/Screenshot%20from%202024-01-01%2014-05-22.png)
 > 

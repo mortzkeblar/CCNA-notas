@@ -16,14 +16,14 @@ Cuando ocurren cambios que en la topologia que hace que el _successor_ es elimin
 
 En caso de que no exista un _feasible successor_, el router envia una query a sus vecinos preguntando si tienen información sobre la red de destino. En caso de que sí, el router comienza a hacer el diffusing computation para determinar el nuevo _successor_. 
 
-![[Pasted image 20240905061929.png]]
+![[Pasted image 20240905061929.png|500]]
 
 ## EIGRP tables 
 [[EIGRP]] usa DUAL para generar tres tablas: neighbor, topology and routing. 
 ### neighbor table 
 Esta tabla mantiene la lista de router donde se haya formado adyacencias. Se puede consultar con `show ip eigrp neighbors`
 
-![[Pasted image 20240905062115.png]]
+![[Pasted image 20240905062115.png|500]]
 ``` 
 R2#show ip eigrp neighbors
 IP-EIGRP neighbors for process 1

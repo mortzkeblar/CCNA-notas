@@ -19,7 +19,7 @@ Temas a tratar:
 
 ## resolution
 
-1. Configurar todas la [IP address](IP%20address.md) segun la topologia de la imagen. 
+1. Configurar todas la [IP](Project/Networking/CCNA-notas/labs/NetWarriors/IP.md) segun la topologia de la imagen. 
 
 ``` bash
 RouterA(config)# interface s0/1/0

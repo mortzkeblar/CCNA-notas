@@ -2,7 +2,7 @@ Enhanced Interior Gateway Routing Protocol (EIGRP) es un [[dynamic routing proto
 
 EIGRP tiene varias ventajas como soporte VLSM, baja uso de CPU, se adapta bien en grandes entornos y tiene soporte para autenticación MD5. Tambien es el unico protocolo que soporta multiples protocolos de enrutamiento. 
 
-Se le considera como un protocolo [[classless]], usa _Diffusing Update Algorithm ([[DUAL]])_ para calcular las rutas loop-free en base a la información recopilada. Esta rastrea todas las rutas anunciadas por los routers vecinos y selecciona la mejor ruta basandose en metricas que consideran el ancho de banda, delay, confiabilidad y carga. 
+Se le considera como un protocolo [[classless]], usa _Diffusing Update Algorithm ([[DUAL]])_ para calcular las rutas loop-free en base a la información recopilada. Esta rastrea todas las rutas anunciadas por los routers vecinos y selecciona la mejor ruta basándose en métricas que consideran el ancho de banda, delay, confiabilidad y carga. 
 
 EIGRP realiza la summarization en subredes mayores, si se utiliza [[VLSM]] en la red, se debe desactivar la summarization con `no auto-summary` para no ocasionar problemas a la hora de publicar nuestras rutas.
 
