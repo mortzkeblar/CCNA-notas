@@ -1,3 +1,7 @@
+---
+tags:
+  - CCNA
+---
 Kerberos es un [[user authentication]] protocol que permite a un usuario ingresar sus credenciales una vez y recibir acceso a todos los recursos de red necesarios  sin necesidad de volver a autenticarse contra cada uno de ellos. Ofrece funciones criptográficas avanzada utilizando authentication mutua entre el cliente - servidor para proteger de ataques MITM. 
 
 Fue desarrollado por el MIT y esta cubierto en el _RFC 4120_. Microsoft utiliza Kerberos como metodo de autenticación desde Windows 2000.

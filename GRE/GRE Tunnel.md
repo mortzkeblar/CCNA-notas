@@ -1,3 +1,7 @@
+---
+tags:
+  - CCNA
+---
 GRE (Generic Routing Encapsulation) es una tecnica de tunelización que permite crear conexiones point-to-point. GRE por si sola no es segura ya que no tiene ningun tipo de encriptación, para agregar seguridad se debe agregar una capa de encriptación como IPSec. 
 
 ![[Pasted image 20241009000246.png]]

@@ -1,3 +1,7 @@
+---
+tags:
+  - CCNA
+---
 Diffusing Update Algorithm (DUAL) es el algoritmo que usa [[EIGRP]] para determinar el mejor camino (el caminio loop-free con la menor [[metric]]) a una red de destino. 
 - La ruta seleccionada es conocida como _Successor route_
 - La metrica seleccionada es conocida como _Feasible distance (FD)_

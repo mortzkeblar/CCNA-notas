@@ -23,6 +23,6 @@ Tener multiples rutas hacia los destinos pueden provocar loops si se envian broa
 Esto se puede prevenir mediante [[L2/STP/STP]]. 
 
 ### relacionados
-- [MAC address table](MAC%20address%20table.md)
-- [frame switching](VLAN/frame%20switching.md)
+- [MAC address table](../Ethernet%20LAN%20switching/MAC%20address%20table.md)
 - [collision domains](VLAN/collision%20domains.md)
+- [[Project/Networking/CCNA-notas/Ethernet LAN switching/Frame switching|Frame switching]] 

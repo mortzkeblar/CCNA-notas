@@ -1,3 +1,7 @@
+---
+tags:
+  - CCNA
+---
 - **Ethernet Header Summary**
 	- **Preamble**
 	- **SFD (Start Frame Delimiter):** are used for synchronization and to allow the receiving device to be prepared to receive the rest of the data in the frame.

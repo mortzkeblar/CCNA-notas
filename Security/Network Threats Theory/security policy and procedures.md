@@ -1,3 +1,7 @@
+---
+tags:
+  - CCNA
+---
 > Declaración formal de las reglas y pautas que deben seguir los usuarios, contratistas y empleados temporales de la organización, así com cualquier persona que tenga acceso a los datos y activos informaticos de la empresa - _RFC 2196_
 
 Estas políticas se pueden formar a partir de un esquema modular, lo cual permite desarrollar una política separada para cada modulo o una política global. Este enfoque también se recomienda al realizar evaluciones de riesgos y [[threat]]s.

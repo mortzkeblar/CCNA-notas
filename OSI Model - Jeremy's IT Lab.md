@@ -1,3 +1,7 @@
+---
+tags:
+  - CCNA
+---
 > Reference: https://www.youtube.com/watch?v=t-ai8JzhHuY&list=PLxbwE86jKRgMpuZuLBivzlM8s2Dk5lXBQ&index=6
 
 ### Layer 4 (Transport)

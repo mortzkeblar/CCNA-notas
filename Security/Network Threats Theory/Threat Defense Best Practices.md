@@ -1,3 +1,7 @@
+---
+tags:
+  - CCNA
+---
 - Usar servicios [[AAA]] con servidores RADIUS/TACACS+
 - Usar IEEE 802.1X
 - Registros usando [[Syslog]] para crear informes completos 

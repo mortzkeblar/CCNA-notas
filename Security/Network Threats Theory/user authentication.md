@@ -1,3 +1,7 @@
+---
+tags:
+  - CCNA
+---
 Desde la perpectiva del usuario, este se puede componer de 
 - Nombre de usuario y contraseña
 - Generadores de tokens

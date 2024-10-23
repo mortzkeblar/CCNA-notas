@@ -1,3 +1,7 @@
+---
+tags:
+  - CCNA
+---
 **Protocol Data Units**, en el proceso de [[encapsulation (network layers)]] cada mensaje que pasa a través de una capa recibe un nombre. 
 - La combinación de los datos y L4 header es llamada _segment_ (L4 PDU)
 - La combinación de un _segment_ y el L3 header es llamada _packet_ (L3 PDU)

@@ -1,3 +1,7 @@
+---
+tags:
+  - CCNA
+---
 Los mecanismos de seguridad eficientes deben abordar [[threat]] organizacionales y mitigar riesgos. Una característica clave de una seguridad exitosa es su transparencia para el usuario final. El gerente de seguridad debe equilibrar entre políticas de seguridad estrictas y la productividad. Políticas demasiado estrictas pueden afectar la experiencia del usuario y dificultar tareas, mientras que políticas muy permisivas pueden hacer la red más vulnerable. Es crucial crear un entorno seguro previniendo ataques sin afectar la productividad de los usuarios.
 
 La implementación de seguridad de red debe poder:

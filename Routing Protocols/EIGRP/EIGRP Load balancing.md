@@ -1,3 +1,7 @@
+---
+tags:
+  - CCNA
+---
 El protocolo [[EIGRP]] permite el unequal-cost load balancing. Esto significa que el trafico se distribuya sobre enlaces con diferentes velocidades. 
 
 ``` 

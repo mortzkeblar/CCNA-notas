@@ -1,3 +1,7 @@
+---
+tags:
+  - CCNA
+---
 La gestión de confianza e identidad establece quien o que puede acceder a la red, cuando, donde y como. Estos se componen de:
 - Confianza 
 - Identidad 

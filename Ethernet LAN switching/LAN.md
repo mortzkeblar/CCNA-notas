@@ -1,3 +1,7 @@
+---
+tags:
+  - CCNA
+---
 **Local Area Network**, se define como un grupo de dispositivos interconectados dentro de un area limitada. 
 
 En este punto entra el concepto de [[switch]] como dispositivo que ayuda a conectar dispositivos dentro de una LAN. Y luego el de router, que proporciona la conectividad entre LANs.  

@@ -1,3 +1,7 @@
+---
+tags:
+  - CCNA
+---
 El concepto de encapsulación es el que permite al modelo de capas [[TCP-IP]] trabajar y comunicarse entre ellas. 
 
 ## Data encapsulation 

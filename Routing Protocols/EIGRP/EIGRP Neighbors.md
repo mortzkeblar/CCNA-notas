@@ -1,3 +1,7 @@
+---
+tags:
+  - CCNA
+---
 [[EIGRP]], a diferencia de protocolos como [[RIP]] no anuncia toda la [[routing table]] en intervalos de tiempo. En cambio, este utiliza el concepto de _neighbor relationships_ para obtener ese resultado. 
 
 Cuando una interface se configura con [[EIGRP]], este comienza a enviar _Hello packets_ para tratar de encontrar vecinos. Lo hace cada 5 segundos usando la multicast address `244.0.0.10`. 

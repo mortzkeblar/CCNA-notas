@@ -1,3 +1,7 @@
+---
+tags:
+  - CCNA
+---
 Router ID es una caracteristica que emplea [[EIGRP]] para la prevención de routing loops. 
 
 > Esta se diferencia de OSPF Router ID, que la emplea para la identificación de vecinos 

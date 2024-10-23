@@ -1,3 +1,7 @@
+---
+tags:
+  - CCNA
+---
 El modelo TCP/IP fue creado por el US Departament of Defense, luego definida en el RFC 1122. Originalmente fue definida en cuatro capas, pero la versión más utilizada es la de cinco capaz haciendo similitudes con el modelo OSI.
 
 Estas capas trabajan mediante juntas haciendo uso del proceso de [[encapsulation (network layers)]]. 

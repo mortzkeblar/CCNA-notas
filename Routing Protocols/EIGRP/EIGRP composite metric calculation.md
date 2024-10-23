@@ -1,3 +1,7 @@
+---
+tags:
+  - CCNA
+---
 [[EIGRP]] usa una [[metric]] compuesta para determinar el mejor camino entre A y B. Esta composición se basa en cuatro atributos principales:
 - Bandwidth
 - Delay 

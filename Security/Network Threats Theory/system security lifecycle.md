@@ -1,3 +1,7 @@
+---
+tags:
+  - CCNA
+---
 ![[Pasted image 20240624035520.png]]
 
 Las póliticas de seguridad es parte de un ciclo de vida más amplio del sistema de seguridad de al red que está impulsado por una evalución de las necesidades del negocio y analisis de riesgos integral. Esto se puede evaluar mediante practicas de pentesting y herramientas de escaneo de vulnerabilidades.
