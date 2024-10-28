@@ -25,7 +25,7 @@ Hoy en dia todos los cables UTP usan el esquema de cuatro pares de hilos (8 hilo
 - 1000BASE-T usa cuatro pares (ocho hilos)
 - 10GBASE-T usa cuatro pares (ocho hilos)
 
-Cada hilo dentro de un cable esta conectado a uno de los 8 pines del conector 8P8C. Cada par de hilos forma un circuito electrico entre los dos dispositivos conectados.
+Cada hilo dentro de un cable esta conectado a uno de los 8 pines del conector 8P8C (tambien registrado como _Jack-45_ o RJ45). Cada par de hilos forma un circuito electrico entre los dos dispositivos conectados.
 
 > En las conexiones 10BASE-T y 100BASE-T es especialmente importante ya que se deben garantizar que los pines de un lado esten en el mismo orden que en el otro lado de la conexión. 
 
