@@ -24,5 +24,5 @@ Esto se puede prevenir mediante [[L2/STP/STP]].
 
 ### relacionados
 - [MAC address table](../Ethernet%20LAN%20switching/MAC%20address%20table.md)
-- [collision domains](VLAN/collision%20domains.md)
+- [collision domain](collision%20domain.md)
 - [[Project/Networking/CCNA-notas/Ethernet LAN switching/Frame switching|Frame switching]] 
