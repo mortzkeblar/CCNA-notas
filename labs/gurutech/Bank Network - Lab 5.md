@@ -42,7 +42,7 @@ Radeon Company Ltd. is una compañia de US que brinda servicios bancarios y de a
 1. Use un software de modelación de red para visualizar la topologia de red
 2. Puede usar un software de emulación para implementar la siguiente topologia
 	- Debe haber un router para cada piso (floor). Los routers debe esta conectados a los switches en ese piso
-	- Use [OSPF](../../Routing%20Protocols/OSPF.md) como protocolo de enrutamiento
+	- Use [OSPF](OSPF.md) como protocolo de enrutamiento
 	- Cada departamento requiere tener una red inalambrica para sus usarios
 	- Se espera que cada departamento (excepto el server room) tenga al menos 60 usuarios totales
 	- Se espera que todos los hosts en la red deben obtener IP de forma automatica, con un servidor DHCP ubicado en el server room

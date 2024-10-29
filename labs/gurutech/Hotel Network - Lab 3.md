@@ -6,7 +6,7 @@ tags:
 Este laboratorio parteneca al canal [Gurutech](https://www.youtube.com/@gurutechnetworks), playlist _Real-World Networking Projects_, [Cap3](https://www.youtube.com/watch?v=RwFJTJTe-OM&list=PLvUOx2WG6R7PlKlERb5zceXxHfC4P7gJn&index=15).
 
 Temas a tratar:
-- [OSPF](../../Routing%20Protocols/OSPF.md) 
+- [OSPF](OSPF.md) 
 
 ``` bash
 # comandos de ayuda
@@ -52,7 +52,7 @@ Además, se deben seguir estas consideraciones a la hora de la implementación d
 		1. Admin - VLAN20, red: `192.168.2.0/24`
 		2. IT - VLAN10, red: `192.168.1.0/24`
 
-8. Usar [OSPF](../../Routing%20Protocols/OSPF.md) como protocolo de enrutamiento para anunciar rutas. 
+8. Usar [OSPF](OSPF.md) como protocolo de enrutamiento para anunciar rutas. 
 9. Todos los dispositivos en la red deberian poder obtener una IP dinamicamente con sus respectivos routers configurados como DHCP server. 
 10. Todos los dispositivos de la red deberian poder comunicarse entre si.
 11. Configurar SSH en todos los routers para administración remota.
@@ -312,7 +312,7 @@ exit
 
 ```
 
-Ahora configuramos [OSPF](../../Routing%20Protocols/OSPF.md) en los routers bajo el ID 10.
+Ahora configuramos [OSPF](OSPF.md) en los routers bajo el ID 10.
 
 ``` bash
 # RF1
