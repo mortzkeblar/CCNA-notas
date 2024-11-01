@@ -11,7 +11,7 @@ Esto es un problema porque R2 intentará enviar cualquier tráfico por la red 10
 
 ![](14-5.png)
 
-Podemos ver que tenemos [auto summarization](auto%20summarization.md) en R1.
+Podemos ver que tenemos [auto summarization](RIP/auto%20summarization.md) en R1.
 ``` bash
 R1#show ip protocols
 Routing Protocol is “rip”
@@ -71,14 +71,14 @@ Route metric is 1, traffic share count is 1
 Route metric is 1, traffic share count is 1
 ```
 
-El `*` junto a `172.16.1.1` nos indica que el siguiente paquete usará el next-hop en 172.16.1.1 porque RIP esta haciendo load balancing sobre lo que piensa son dos enlaces de red. Para solucionar esto debemos desactivar el [auto summarization](auto%20summarization.md).
+El `*` junto a `172.16.1.1` nos indica que el siguiente paquete usará el next-hop en 172.16.1.1 porque RIP esta haciendo load balancing sobre lo que piensa son dos enlaces de red. Para solucionar esto debemos desactivar el [auto summarization](RIP/auto%20summarization.md).
 
 ``` bash
 R2(config)#router rip
 R2(config-router)#no auto-summary
 ```
 
-#exam Esto debe ser aplicado en todos los routers afectados, cualquier router sin aplicar mantendrá la [auto summarization](auto%20summarization.md) (cuidado con esto en el examen). 
+#exam Esto debe ser aplicado en todos los routers afectados, cualquier router sin aplicar mantendrá la [auto summarization](RIP/auto%20summarization.md) (cuidado con esto en el examen). 
 
 ``` bash
 R2#show ip route

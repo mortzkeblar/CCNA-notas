@@ -1,3 +1,7 @@
+---
+tags:
+  - CCNA
+---
 Una dirección IPv4 es un número de 32 bits que se representa en octetos de 8 bits y que idenfica un host de capa 3 dentro del modelo TCP/IP. 
 
 > A diferencia de una MAC address (que tiene su destino como la dirección next-hop), una IP address envia su mensaje al destinatario final. 

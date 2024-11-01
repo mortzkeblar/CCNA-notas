@@ -33,4 +33,4 @@ R1(config-router)#neighbor 192.168.1.10
 
 
 ### linked 
-[passive interface in RIP](passive%20interface%20in%20RIP.md) 
+[passive interface in RIP](RIP/passive%20interface%20in%20RIP.md) 

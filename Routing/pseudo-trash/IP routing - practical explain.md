@@ -19,5 +19,5 @@ Vamos a tomar esta imagen como referencia para explicar el paso a paso que es lo
 
 ## connected
 
-- [routing table](routing%20table.md) 
+- [routing table](basics%20of%20routing/routing%20table.md) 
 - [longest prefix matching](longest%20prefix%20matching.md) 

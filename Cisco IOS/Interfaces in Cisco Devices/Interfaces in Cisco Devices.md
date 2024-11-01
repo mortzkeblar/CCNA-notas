@@ -1,3 +1,7 @@
+---
+tags:
+  - CCNA
+---
 ![[Pasted image 20241027043409.png]]
 
 > El termino _port_ y _interface_ aunque no existe un convenio sobre el uso adecuado, en general cuando se habla de  _port_ se suele hacer referencia a la capa 2 o bien a al puerto fisico del dispositivo. Cuando se habla de _interface_ se suele hacer referencia a capa 3 o bien a las interfaces logicas de un dispositivo.

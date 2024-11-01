@@ -1,3 +1,7 @@
+---
+tags:
+  - CCNA
+---
 ## Network address 
 La dirección de red es la primera address de cualquier red y se utiliza para identificar la red, esta no puede ser asignada a un host. 
 

@@ -3,9 +3,18 @@ tags:
   - routing
   - CCNA
 ---
+La tabla de enrutamiento es una base de datos que contiene los destinos conocidos por el router. Esta tiene una serie de instrucciones dependiendo el caso.
+- Para enviar el paquete a un destino X, reenviar el paquete por el next-hop Y
+- Si el destino esta directamente conectado a la red (a una interface i.e), reenviar el paquete directamente al destino 
+- Si el destino es la IP address del propio router, continua desencapsulando el paquete (no realiza el forwarding)
 
-Recordad que la tabla de enrutamiento o Routing Information Base (RIB) contiene la información para poder reenviar el trafico (en caso de que las haya). La tabla por si mismo, no reenvía el trafico.
+![[Pasted image 20241029042927.png|500]]
 
+En los router Cisco, podemos ver la tabla de enrutamiento con `show ip route`. 
+
+![[Pasted image 20241029043647.png]]
+
+### IMPORTANT: legacy information
 Los routers Cisco usan [administrative distance](basics%20of%20routing/administrative%20distance.md) , [metric]((OLD)%20metric.md)  y/o el [longest prefix matching](longest%20prefix%20matching.md)  para determinar cual ruta deberá ser agregada a la tabla de enrutamiento. 
 - Si la ruta entrante no existe actualmente en la tabla, se añade a la tabla de enrutamiento.
 - Si la ruta entrante es más especifica que otra ya existente en la tabla, se añade a la tabla. Notar que la ruta anterior aun permanece en la tabla.

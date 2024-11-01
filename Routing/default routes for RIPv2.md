@@ -21,7 +21,7 @@ R    10.0.0.0/8 [120/1] via 172.16.0.1, 00:00:00, FastEthernet0/0
 ```
 
 Se configuro una [default route](default%20routes%20for%20RIPv2.md) en R1, y se uso `default-information originate` para propagar hacia los otros  routers, la interface ethernet en R1 es `172.16.0.1`.
-R3 ahora deberia ver el [gateway of last resort](gateway%20of%20last%20resort.md) e agregarla en la tabla de enrutamiento.
+R3 ahora deberia ver el [gateway of last resort](pseudo-trash/gateway%20of%20last%20resort.md) e agregarla en la tabla de enrutamiento.
 
 ``` bash
 R3#show ip route
@@ -32,7 +32,7 @@ R   0.0.0.0/0 [120/1] via 172.16.0.1, 00:00:00, FastEthernet0/0
 ```
 
 
-R1 ahora tiene tanto el [gateway of last resort](gateway%20of%20last%20resort.md) como el next-hop address de R2.
+R1 ahora tiene tanto el [gateway of last resort](pseudo-trash/gateway%20of%20last%20resort.md) como el next-hop address de R2.
 
 ```
 R1#show ip route

@@ -6,7 +6,7 @@ tags:
   - CCNA
 ---
 
-Recordad que en [OSPF](OSPF/OSPF.md) se puede utilizar `passive-interface default` para configurar una [passive interface](passive%20interface.md). 
+Recordad que en [OSPF](OSPF.md) se puede utilizar `passive-interface default` para configurar una [passive interface](passive%20interface.md). 
 
 ``` bash
 R2#show ip ospf interface

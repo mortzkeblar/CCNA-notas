@@ -1,3 +1,7 @@
+---
+tags:
+  - CCNA
+---
 ![[Pasted image 20241024231150.png|600]]
 
 - El IPv4 header se debe leer de izquierda a derecha y de arriba hacia abajo. 

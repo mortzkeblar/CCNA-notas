@@ -1,3 +1,7 @@
+---
+tags:
+  - CCNA
+---
 
 Tanto la velocidad de transferencia como el duplex de una interface puede usar la autonegotiation para una configuración automatica. En este proceso, cada dispositivo anuncia a su vecino sus capacidades y estos se ponen de acuerdo para usar el mejor modo disponible de acuerdo a la prioridad. 
 

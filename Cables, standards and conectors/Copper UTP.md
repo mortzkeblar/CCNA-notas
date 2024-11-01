@@ -1,3 +1,7 @@
+---
+tags:
+  - CCNA
+---
 El cable de cobre (a menudo llamado cable ethernet, aunque el estandar puede usar tanto cables de cobre como de fibra).
 
 ![[Pasted image 20241027233523.png|500]]

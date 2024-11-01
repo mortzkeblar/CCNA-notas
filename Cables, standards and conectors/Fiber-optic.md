@@ -1,3 +1,7 @@
+---
+tags:
+  - CCNA
+---
 Los cables de fibra optica, transmiten señales de luz a través de una fibra de vidrio. Si bien este "vidrio" es mucho mas flexible que el tradicional, aun así existe riesgo de romper la fibra muy facilmente. Incluso si se doble de forma muy pronunciada puede causar que la luz tenga fugas hacia fuera del cable, lo cual resulta en un debilitamiento de la señal.  
 
 El cableado de fibra optica se prefiere sobre un [[Copper UTP]], por las limitaciones principalmente de tamaño maximo del cableado, que suele ser de 100 metros.

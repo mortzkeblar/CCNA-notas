@@ -6,7 +6,7 @@ tags:
   - CCNA
 ---
 
-Vamos a configurar RIPv1  (classful) y [RIPv2](RIP/RIPv2.md) (classless). Abajo esta la configuración para R1, sera la misma para R2 pero necesitará la dirección IP `.2` y no necesitará anunciar la red `172`.
+Vamos a configurar RIPv1  (classful) y [RIPv2](RIPv2.md) (classless). Abajo esta la configuración para R1, sera la misma para R2 pero necesitará la dirección IP `.2` y no necesitará anunciar la red `172`.
 
 ``` bash
 R1#conf t
@@ -60,7 +60,7 @@ R2#
 *Mar  1 06:15:42.906: RIP: sending v2 update to 224.0.0.9 via FastEthernet0/0 (192.168.1.2)
 ```
 
-La red `172` todavia se muestra en `/16` (Class B) en nuestra tabla. cuando nosotros configuramos la IP al principio en `/24`. Esto se llama [summarization](auto%20summarization.md) , algunos protocolos hacen esto por defecto. Podemos desactivarlo con:
+La red `172` todavia se muestra en `/16` (Class B) en nuestra tabla. cuando nosotros configuramos la IP al principio en `/24`. Esto se llama [summarization](RIP/auto%20summarization.md) , algunos protocolos hacen esto por defecto. Podemos desactivarlo con:
 
 ``` bash
 R1(config)#router rip
