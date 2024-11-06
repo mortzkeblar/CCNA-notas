@@ -8,9 +8,9 @@ tags:
 
 Los rutas por defecto, ahorran tiempo de administración al tener multiples routers finales que usan la misma ruta por defecto para el tráfico. La alternativa a esto es agregar [static route](static%20routing.md) en cada uno de los routers, lo cual puede ser tedioso y demorado. 
 
-En una topologia mental, cualquier trafico no local va hacia R1 para ser reenviado a R2, y entonces hacia internet. Se hubiera configurado [static routing](static%20routing.md) en R3 y R4, pero el [default route](default%20routes%20for%20RIPv2.md) se hace mucho más simple y sencillo de mantener. 
+En una topologia mental, cualquier trafico no local va hacia R1 para ser reenviado a R2, y entonces hacia internet. Se hubiera configurado [static routing](static%20routing.md) en R3 y R4, pero el [default route]((OLD)%20default%20routes%20for%20RIPv2.md) se hace mucho más simple y sencillo de mantener. 
 
-El comando `default-information originate` fue usado por el router gateway R2 para inyectar una ruta por defecto en la red [RIPv2](RIP/RIPv2.md) .
+El comando `default-information originate` fue usado por el router gateway R2 para inyectar una ruta por defecto en la red [RIPv2](../RIP/RIPv2.md) .
 
 ``` bash
 R3#show ip route
@@ -20,7 +20,7 @@ R    10.0.0.0/8 [120/1] via 172.16.0.1, 00:00:00, FastEthernet0/0
 [output truncated]
 ```
 
-Se configuro una [default route](default%20routes%20for%20RIPv2.md) en R1, y se uso `default-information originate` para propagar hacia los otros  routers, la interface ethernet en R1 es `172.16.0.1`.
+Se configuro una [default route]((OLD)%20default%20routes%20for%20RIPv2.md) en R1, y se uso `default-information originate` para propagar hacia los otros  routers, la interface ethernet en R1 es `172.16.0.1`.
 R3 ahora deberia ver el [gateway of last resort](pseudo-trash/gateway%20of%20last%20resort.md) e agregarla en la tabla de enrutamiento.
 
 ``` bash
