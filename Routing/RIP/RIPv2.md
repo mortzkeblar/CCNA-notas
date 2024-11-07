@@ -9,7 +9,7 @@ tags:
 
 Routing Information Protocol Version 2 (RFC 2453) es la segunda versión del protocolo [RIP](RIP.md), creado para tratar las limitaciones de RIPv1.
 
-- RIPv2 ahora es un protocolo [classless](../../IPv4%20addressing/classless.md) (entiende y trabaja sobre la información de las mascaras de red ([VLSM](../../VLSM.md)) en las actualizaciones de routing). 
+- RIPv2 ahora es un protocolo [classless](classless.md) (entiende y trabaja sobre la información de las mascaras de red ([VLSM](VLSM.md)) en las actualizaciones de routing). 
 - Soporta autenticación MD5
 - A diferencia de RIPv1 que utilizaba mensajes broadcast, RIPv2 ahora realiza actualizaciones multicast a `224.0.0.9` enviados solamente a otros dispositivos RIP.
 - Es compatible con RIPv1, ambos pueden trabajar de forma conjunta. Además, se puede configurar cada interface para enviar/recibir actualizaciones de RIP que se necesite: `ip rip <receive or send> version <1 or 2>`

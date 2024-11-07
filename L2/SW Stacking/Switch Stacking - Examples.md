@@ -16,5 +16,5 @@ _Dos switches 3750 con Stack_
 ![](_anexos_/Screenshot%20from%202024-01-05%2007-14-42.png)
 
 ### Nomenclatura de interfaces
-_Ver: [Interface Naming Conventions](../../Misc/Interface%20Naming%20Conventions.md)_
+_Ver: [Interface Naming Conventions](Interface%20Naming%20Conventions.md)_
 

@@ -25,4 +25,4 @@ La razon por la redes disponibles no sean igual a la cantidad de bits en la porc
 
 
 
-Como se puede ver este es un metodo obsoleto, ya que despues se desarrollaron nuevos metodos  de direccionamiento [classless](classless.md) como [CIDR](../IPv4%20addressing/CIDR.md).  
+Como se puede ver este es un metodo obsoleto, ya que despues se desarrollaron nuevos metodos  de direccionamiento [classless](classless.md) como [CIDR](CIDR.md).  

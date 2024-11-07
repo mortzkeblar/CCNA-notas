@@ -20,7 +20,7 @@ Tiene una [administrative distance](basics%20of%20routing/administrative%20dista
 Además de mejorar los metodos de protocolos anteriores, introduce caracteristicas como:
 - No limitaciones en hop-count
 - Rapida convergencia
-- [classless](../../IPv4%20addressing/classless.md)  (permite el uso de [VLSM](../../VLSM.md))
+- [classless](classless.md)  (permite el uso de [VLSM](VLSM.md))
 - Autenticación de contraseñas
 - Metodos avanzados de selección de rutas
 - Etiquetado para rutas externas
