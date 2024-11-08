@@ -1,3 +1,7 @@
+---
+tags:
+  - CCNA
+---
 _Fixed-Lenght Subnet Masking_ (FLSM), es un metodo [[classless]] para la creación de subredes. Divide los bloques en subredes de igual tamaño. 
 
 > En general, FLSM se considera un metodo legacy a favor del uso de [[VLSM]] debido a la eficiencia de este ultimo. 

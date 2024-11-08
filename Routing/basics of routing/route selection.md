@@ -1,3 +1,7 @@
+---
+tags:
+  - CCNA
+---
 Este concepto hace referencia a la toma de decisión a la hora de que el router tenga que hacer forwarding de un paquete en base a la [[routing table]]. Para esto se basa en el _most specific matching route_, que se puede definir como:
 - Matching route - El IP de destino del paquete es parte de la red especificada en la ruta 
 - Most specific - la ruta con el _longest prefix matching_. 

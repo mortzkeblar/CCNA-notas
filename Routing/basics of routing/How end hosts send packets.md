@@ -1,3 +1,7 @@
+---
+tags:
+  - CCNA
+---
 Es necesario recordar que siempre que un host envia un dato, el paquete de capa 3 siempre sale encapsulado dentro de un frame.
 
 La MAC address de destino depende del destino del paquete IP. 

@@ -1,3 +1,7 @@
+---
+tags:
+  - CCNA
+---
 Un _local route_ es una ruta hacia la IP especifica configurada en la interface del router. Al igual que una [[connected route]], estas se añaden de forma automatica en la [[routing table]]. 
 
 En este caso la ruta usa un prefijo de tamaño `/32` ya que todos los bits forma parte de la porción de red y no pueden ser cambiados. Lo cual lo diferencia de una [[connected route]]. 
