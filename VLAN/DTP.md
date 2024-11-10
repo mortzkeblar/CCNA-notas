@@ -3,7 +3,7 @@ tags:
   - VLAN
   - CCNA
 ---
-DPT es un protocolo propietario de Cisco que permite a los switches Cisco a determinar de forma dinámica el estado de sus interfaces (ya sea `trunk` o `access`) sin una intervención manual. 
+_Dynamic Trunking Protocol (DTP)_, es un protocolo propietario de Cisco que permite a los switches Cisco a determinar de forma dinámica el estado de sus interfaces (ya sea `trunk` o `access`) sin una intervención manual. 
 - Si DTP detecta otro switch en la conexión, forma un `trunk port`, de lo contrario, automaticamente lo convierte en un `access port`. 
 - DTP viene habilitado por default en todas las interfaces de switches Cisco
 - Por motivos de seguridad es recomendable desahabilitar DTP en todos los puertos de un switch
