@@ -76,7 +76,7 @@ Este campo de 8 bits indica el tipo de mensaje que se encapsula dentro del paque
 - 89 - Open Shortest Path First ([[OSPF]])
 
 ## The Header Checksum field 
-Este campo de 16 bits se usa para detectar errores en el IPv4 header. Este es un campo similar al campo FCS en [[Ethernet Header-Trailer]]. 
+Este campo de 16 bits se usa para detectar errores en el IPv4 header. Este es un campo similar al campo FCS en [[Ethernet Header (and Trailer)]]. 
 - La principal diferencia entre Header Checksum field y FCS es que el primero solo busca errores en el IPv4 header, no en todo el paquete. A diferencia de FCS que realiza la busqueda de errores en todo el frame
 
 ## The Source/Destination Address field 

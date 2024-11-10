@@ -2,7 +2,7 @@
 tags:
   - CCNA
 ---
-Este apartado cubre como los [[switch]]es usan el campo de origen y destino del [[Ethernet Header-Trailer]] para construir las _[[MAC address table]]_ y poder reenviar los frames a sus destinos dentro de la [[LAN]]. 
+Este apartado cubre como los [[switch]]es usan el campo de origen y destino del [[Ethernet Header (and Trailer)]] para construir las _[[MAC address table]]_ y poder reenviar los frames a sus destinos dentro de la [[LAN]]. 
 
 ## MAC address learning
 Cuando un [[switch]] recibe un frame, este examina la MAC address de origen y crea una entrada en la MAC address table asociandolo al puerto de donde recibio el frame. 

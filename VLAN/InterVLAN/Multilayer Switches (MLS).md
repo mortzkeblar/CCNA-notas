@@ -7,7 +7,7 @@ tags:
 
 _SVI: Switch VLAN interface (VLAN administrativa)_
 
-![](_anexos_/Screenshot%20from%202023-12-27%2013-15-58.png)
+![](Screenshot%20from%202023-12-27%2013-15-58.png)
 
 - La diferencia entre un switch comun y uno multilayer es que los mls si puede revisar, procesar y trabajar con los paquetes del protocolo IP al igual que un router y tomar decisiones de enrutamiento. 
 - Los switches MLS tienen unas tablas denominadas _[TCAM](https://www.ciscopress.com/articles/article.asp?p=101629&seqNum=4)_ y un sistema de conmutación llamado _[CEF](https://www.cisco.com/c/en/us/support/docs/routers/12000-series-routers/47321-ciscoef.html)_ que permite trabajar a un nivel, denominado _wirespeed_. Eso significa que la conmutación a nivel de capa 3 desde una VLAN a otra. Se hace una velocidad de la electronica que tenga el dispositivo. 
@@ -15,7 +15,7 @@ _SVI: Switch VLAN interface (VLAN administrativa)_
 
 _GNS3:_
 
-![](_anexos_/Screenshot%20from%202023-12-27%2013-26-14.png)
+![](Screenshot%20from%202023-12-27%2013-26-14.png)
 
 ``` bash
 # configuración del switch MLS

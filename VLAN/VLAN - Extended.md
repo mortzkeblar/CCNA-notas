@@ -22,4 +22,16 @@ Desde la versión 12.4(15)T de IOS de Cisco que se puede utilizar los VLAN IDs e
 > - No se pueden crear VLAN extendidas cuando la opción de MAC address reducidas esta desactiva (**spanning-tree extend system-id**)
 > - Solamente soportadas en VTPv3
 
-_Ver: [VLAN - Extended Syntax](VLAN%20-%20Extended%20Syntax.md)_
+``` bash
+S1(config)$ do show vtp status
+...
+Mode: Server
+...
+
+S1(config)$ vpt mode transparent
+S1(config)$ vlan 3000
+S1(config-vlan)$ name INVITADOS
+S1(config-vlan)$ exit
+
+S1(config)$ do show vlan brief
+```

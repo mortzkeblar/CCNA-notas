@@ -11,7 +11,7 @@ Los dispositivos Cisco IOS tienen varios contadores que indican diversos tipos d
 - _Giants_ - son frames recibidos con un payload mayor al MTU configurada en la interface. 
 	- Esto se debe generalmente a una mala configuración en la que los dispositivos no tienen valores MTUs consistentes entre sí
 - _Input errors_ - es un contador que incluye todos los errores para los frames recibidos 
-- _CRC (Cyclic Redundancy Check)_ - es un contador para los frames que fallaron la verificación FCS (Frame Check Secuence) del [[Ethernet Header-Trailer]]. 
+- _CRC (Cyclic Redundancy Check)_ - es un contador para los frames que fallaron la verificación FCS (Frame Check Secuence) del [[Ethernet Header (and Trailer)]]. 
 	- Esto puede ser causado por problemas electromagneticos, causando corrupción de datos 
 - _Output errors_ - es un contador que incluye todos los errores para los frames transmitidos 
 - _Collisions_ - es un contador para todos las colisiones detectadas cuando el dispositivo transmite frames. 

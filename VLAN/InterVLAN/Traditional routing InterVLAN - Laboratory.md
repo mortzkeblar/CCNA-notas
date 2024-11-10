@@ -6,7 +6,7 @@ tags:
 #TODO agregar teoria
 ## Enrutamiento tradicional
 
-![](_anexos_/Screenshot%20from%202023-12-27%2010-43-58.png)
+![](Screenshot%20from%202023-12-27%2010-43-58.png)
 
 ## Configuración de los hosts
 Asignamos las IPs a los tres hosts.

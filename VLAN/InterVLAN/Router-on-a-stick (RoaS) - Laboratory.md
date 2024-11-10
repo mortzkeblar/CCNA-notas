@@ -6,11 +6,11 @@ tags:
 
 #TODO agregar teoria
 
-![](_anexos_/Screenshot%20from%202023-12-27%2012-24-31.png)
+![](Screenshot%20from%202023-12-27%2012-24-31.png)
 
 *GNS3*:
 
-![](_anexos_/Screenshot%20from%202023-12-27%2012-25-28.png)
+![](Screenshot%20from%202023-12-27%2012-25-28.png)
 
 Configuramos el switch para agregar los hosts a sus respectivas VLANs.
 
