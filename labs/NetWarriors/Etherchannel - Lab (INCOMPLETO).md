@@ -15,7 +15,7 @@ NC-LAN1(config-if)#do sh etherchannel summary
 ```
 
 
-Vamos a configurar [Etherchannel](../../L2/Etherchannel/Etherchannel.md) primeramente en NC-LAN1 que pertenece al Core Central y asociamos las tres interfaces conectadas hacia SDC-1.
+Vamos a configurar [Etherchannel](Etherchannel.md) primeramente en NC-LAN1 que pertenece al Core Central y asociamos las tres interfaces conectadas hacia SDC-1.
 
 ``` bash
 NC-LAN1> en
@@ -93,7 +93,7 @@ Group  Port-channel  Protocol    Ports
 NC-LAN1(config-if)#~
 ```
 
-Como pueden ver, estamos en estado `SD` (Layer2 y Down), eso es porque [LACP (Link Aggregation Control Protocol)](../../L2/Etherchannel/LACP%20(Link%20Aggregation%20Control%20Protocol).md)  se encarga de verificar que ambos extremos esten configurados correctamente para poder habilitar etherchannel. Dicho esto nos vamos al otro extremo de la interface que configuramos, es decir SDC-1 para realizar el mismo procedimiento.  
+Como pueden ver, estamos en estado `SD` (Layer2 y Down), eso es porque [LACP (Link Aggregation Control Protocol)](LACP%20(Link%20Aggregation%20Control%20Protocol).md)  se encarga de verificar que ambos extremos esten configurados correctamente para poder habilitar etherchannel. Dicho esto nos vamos al otro extremo de la interface que configuramos, es decir SDC-1 para realizar el mismo procedimiento.  
 
 ``` bash
 SDC-1#conf t

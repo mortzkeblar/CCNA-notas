@@ -15,7 +15,7 @@ Lo ideal es que cada capa sea independiente de otras y a su vez tengan definidas
 - Capa de nucleo: proporciona un transporte rapido entre los switches de distribucion dentro del campus empresarial
 
 ![](_anexos_/038.jpg)
-_La conexión de cuatro cables y un aro (en Core Layer) hace referencia a una conexión etherchannel. Ver: [Etherchannel](../../L2/Etherchannel/Etherchannel.md)_
+_La conexión de cuatro cables y un aro (en Core Layer) hace referencia a una conexión etherchannel. Ver: [Etherchannel](Etherchannel.md)_
 
 ### Diseño de red empresarial en varios edificios
 TODO
@@ -27,7 +27,7 @@ TODO
 - Seguridad de puerto
 - Clasificacióny marcación de QoS, y limites de confianza
 - Listas de control de acceso virtual (VACL)
-- Arbol de expansión (_Ver: [STP](../../L2/STP/STP.md)_)
+- Arbol de expansión (_Ver: [STP](Project/Networking/CCNA-notas/(LEGACY)%20Layer%202%20concepts/(LEGACY)%20STP/STP.md)_)
 - Alimentacion por ethernet y VLAN auxiliares para VoIP
 ### Funciones en _Distribution Layer_
 - Agregación de enlaces LAN o WAN

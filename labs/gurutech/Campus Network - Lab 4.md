@@ -8,7 +8,7 @@ tags:
 
 Temas a tratar:
 - [RIPv2](RIPv2.md) 
-- [VLAN](../../VLAN/VLAN.md) 
+- [VLAN](VLAN.md) 
 
 La universidad Albion es un centro muy grande donde se ubican dos campus a 20 millas de distancia. Los estudiantes de la universidad y el staff estan distribuidos en cuatro facultades, estos incluyen a la facultad de Ciencias de la Salud, Negocios, Ingenieria/Computación y Arte/Diseño. Cada miembro del staff tiene una PC y los estudiantes tienen acceso a las PCs en los laboratorios. 
 
@@ -25,7 +25,7 @@ La universidad Albion es un centro muy grande donde se ubican dos campus a 20 mi
 	1. Cada departamento/facultad deberia tener su propia red IP y separada del resto. 
 	2. Los switches deben ser configurados con las VLAN correspondientes y configuraciones de seguridad.
 	3. [RIPv2](RIPv2.md) sera usado para proporcionar enrutamiento entre los routers en la red interna, además de enrutamiento estatico para el servidor externo. 
-	4. Se espera que los dispositivos en los edificios obtengan IPs de forma dinamica desde un router que actue como servidor [DHCP](../../DHCP/DHCP.md). 
+	4. Se espera que los dispositivos en los edificios obtengan IPs de forma dinamica desde un router que actue como servidor [DHCP](DHCP.md). 
 
 
 ## resolution
@@ -230,7 +230,7 @@ no sh
 exit
 ```
 
-Configuración de RMAIN y RMINOR como servidor [DHCP](../../DHCP/DHCP.md).
+Configuración de RMAIN y RMINOR como servidor [DHCP](DHCP.md).
 
 ``` bash
 # rmain 
