@@ -53,6 +53,51 @@ Los switches Cisco corren una versión propietaria de STP llamada **Per-VLAN Spa
 ![[Pasted image 20241110232819.png|400]]
 
 > Como la VLAN ID forma parte del BID, es significa que el campo _bridge priority_ es unico para cada instancia STP. 
+> - Esto implica tambien que cada BID es unico para cada bridge/switch ya que el BID se compone de $Bridge\ Priority + MAC\ Address$ (el valor es resultado de una concatenación, no una suma)
+
+
+#### Comparing BIDs 
+A pesar de que pueda parecer obvio, la MAC address que se agrega en el BID no es ninguno perteneciente a alguno de los puertos del switch. Esta MAC address es una dirección aparte que se usa para identificar al switch en su conjunto, esta dirección es la que se usa para el desempate de BID en la elección del _root bridge_. 
+
+Para encontrar el BID con el valor más bajo, se debe comparar los digitos más significativos (de izquierda a derecha) y ver cual es el menor entre todos. 
+
+- SW1: 32769:5254.000f.adab
+- SW2: 32769:5254.0013.cf9a
+- SW3: 32769:5254.0016.5d5e
+- SW4: 32769:5254.001d.d23a
+
+Para los siguientes valores, la parte `32769:5254.00` es igual para todos. Pero SW1 tiene el siguiente digito en $0$ mientras que los demás lo tiene en $1$. Esto es suficiente para saber que SW1 tiene el BID con el valor más bajo. En consecuencia, SW1 es elegido como _root bridge_.
+
+Esto se puede verificar esto usando `show spanning-tree`. 
+
+![[Pasted image 20241111015937.png]]
+
+> El switch con el segundo BID más bajo, se le asigna el rol de _secondary root bridge_
+
+
+#### Configuring the Bridge Priority 
+Para poder elegir un _root bridge_, podemos modificar el campo _bridge priority_ (por defecto tiene el valor $32768$). En general se usa esta forma si necesitamos tener la ruta más optima para llegar a un switch especifico, por ejemplo si este esta conectado al router que da acceso a redes externas.
+
+Para configurar el bridge priority se hace uso del comando `spanning-tree vlan <vlan-id> priority <priority>`. 
+
+![[Pasted image 20241111021330.png]]
+
+Recordar que el valor priority esta limitado a valores especificos ya que se encuentra dentro de un campo de 16 bits, de las cuales solo tiene poder sobre los primeros 4 bits más significativos. 
+
+Otra forma para configurar el bridge priority es mediante el uso del comando `spanning-tree vlan <vlan-id> root {primary | secondary}`
+- `secondary`, el valor se configura en $24576$ (se resta $4096$ por debajo del valor default)
+- `primary`, el valor se establece según:
+	- Se configura en $24576$ (se resta $4096$ dos veces por debajo del valor default)
+	- Si $24576$ no alcanza, configura el priority con el valor más alto que sea multiplo de 4096 pero menor al valor de BID más bajo en ese momento. 
+
+Se desaconseja el uso de los valores `primary | secondary` al configurar un valor priority.
+- El valor que se establece para el `secondary` root bridge es arbitrario y no verifica que pueda haber un BID que sea el segundo más bajo que el valor establecido 
+- No se puede establecer el priority en $0$ mediante este metodo, lo cual hace que si tienes un priority de $4096$ y luego usa `primary` command, este falle. 
+
+![[Pasted image 20241111023420.png]]
+> Para asegurar la asignación de un switch como root bridge, se recomienda usar el valor $0$ como priority, con el comando `spanning-tree vlan <vlan-id> priority 0`. 
+
+### Root port selection
 
 
 
