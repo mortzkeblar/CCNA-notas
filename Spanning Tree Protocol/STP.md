@@ -98,6 +98,30 @@ Se desaconseja el uso de los valores `primary | secondary` al configurar un valo
 > Para asegurar la asignación de un switch como root bridge, se recomienda usar el valor $0$ como priority, con el comando `spanning-tree vlan <vlan-id> priority 0`. 
 
 ### Root port selection
+Una vez elegido el _root bridge_, los switches non-root elegin uno de sus puertos como _root port_.
+- El _root port_ es el puerto con la mejor ruta para llegar al _root bridge_
+	- Este se calcula en base a la información recibida de los BPDUs vecinos. Los principales parametros para la selección del root port son:
+		- Lowest root cost 
+		- Lowest neighbor BID 
+		- Lowest neighbor port BID
+
+El _root cost_ de un puerto es el valor que indica que tan eficiente es la ruta por ese puerto al _root bridge_. Un valor menor es mejor, cada puerto tiene asociado un _cost_ asociado.
+
+**STP port cost values**
+![[Pasted image 20241112003701.png]]
+El root cost de un puerto es el costo total de los puertos que conducen hasta el root bridge. 
+- El puerto con el root cost más bajo se convierte en el _root port_.
+	- Si hay más de puerto con el root cost más bajo, el puerto conectado al vecino con el BID más bajo se convierte en el _root port_
+		- Si dos o más puertos tiene el mismo root cost y estan conectados al mismo vecino, el puerto conectado al puerto del switch vecino con el _port ID_ más bajo se convierte en el _root port_
+
+![[Pasted image 20241112015733.png]]
+- SW4 selecciona a G0/0 como root port ya que tiene el root cost más bajo de entre todos sus puertos 
+- Para SW2, tanto G0/0 como G0/1 tiene el mismo root cost, este selecciona a G0/1 como root port ya que esta conectado a SW1 que tiene el BID más bajo
+- Para SW1, tanto G0/0 como G0/1 tienen el mismo root cost y como ambos puertos estan conectado el root bridge SW3, no sirve usar el BID más bajo como desempate ya que en ambos casos son iguales. El desempate es a favor de G0/1 porque esta conectado al puerto vecino con el _port ID_ más bajo
+
+
+#### Lowest root cost 
+
 
 
 
