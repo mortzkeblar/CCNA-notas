@@ -122,10 +122,34 @@ El root cost de un puerto es el costo total de los puertos que conducen hasta el
 
 #### Lowest root cost 
 
+> Una vez que se elige un _root bridge_ solo este envia mensajes BPDUs que reciben los otros switches non-root y estos los reenvian a sus vecinos con las actualizaciones necesarias 
 
+Cuando el _root bridge_ envia mensajes BPDU, el valor del _root cost_ es igual a $0$. Cuando el mensaje BPDU pasa por un switch non-root este lo reenvia sumando el _port cost_ en el que recibieron las BPDU. 
 
+![[Pasted image 20241113043326.png]]
 
+En la imagen anterior, vemos que solo SW4 puede elegir su _root port_ en base al _root cost_ más bajo. Para SW1 y SW2, se necesita escalar al siguiente desempate: _lowest neighbor BID_.
 
+#### Lowest neighbor bridge BID 
+La BID del switch se envia dentro de la BPDU, la cual se usa para el desempate cuando hay más de un _lowest root cost_. En este caso el puerto conectado al switch vecino con el BID más bajo es elegido como _root port_.
 
+![[Pasted image 20241113045121.png]]
 
+> El puerto vecino conectado al _root port_ de un switch es llamado **designated port (forwarding)**. 
+> 
+> Como el root port proporciona al switch una unica ruta hacia el root bridge, se debe asegurar que el vecino no bloquee ese enlace. 
 
+#### Lowest neighbor port ID 
+Este es el desempate final al que se llega para la selección de un _root port_. 
+
+El port ID es un identificador unico (que corresponde al puerto vecino el cual envio el BPDU) para cada puerto en un [[switch]], contiene un valor de prioridad configurable (128 por defecto) seguido de un valor númerico secuencial al puerto. Para ver sus valores se puede usar `show spanning-tree`.
+
+![[Pasted image 20241113050009.png]]
+
+Para modificar el valor de prioridad se puede usar `spanning-tree vlan <vlan-id> port-priority <priority-value>`
+
+> Es importante remarcar que los valores de port ID que se usan para el desempate corresponden a los port ID de los vecinos, no los valores de los puertos propios.
+
+![[Pasted image 20241113050308.png]]
+
+### Designated port selection 
