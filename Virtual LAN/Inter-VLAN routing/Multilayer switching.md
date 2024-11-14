@@ -1,6 +1,7 @@
 ---
 tags:
   - VLAN
+  - CCNA
 ---
 Este metodo  de [[Inter-VLAN routing]] hace uso de [[switch]]es multilayer los cuales poseen un router integrado, estos permiten crear interfaces virtuales llamadas _Switch Virtual Interfaces (SVIs)_, cada SVI es un interface asociada con un [[VLAN]] y una IP address que los hosts finales usan como [[default gateway]]. 
 

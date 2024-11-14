@@ -1,6 +1,7 @@
 ---
 tags:
   - VLAN
+  - CCNA
 ---
 Este concepto hace referencia al enrutamiento entre subredes en una LAN que esta segmentada mediante [[VLAN]]s. 
 

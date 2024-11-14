@@ -1,6 +1,7 @@
 ---
 tags:
   - VLAN
+  - CCNA
 ---
 _[[VLAN]] Trunking Protocol (VTP)_ es un protocolo propietario de Cisco (al igual que [[DTP]]) que permite la administración de las [[VLAN]]s en [[switch]]es Cisco. 
 
