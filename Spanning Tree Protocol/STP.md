@@ -14,10 +14,16 @@ Spannign Tree Protocol se puede resumir como _la prevención de Layer 2 Loops me
 ![[Pasted image 20241110205531.png|500]]
 
 ## STP algorithm 
-Este es el proceso para crear un topologia loop-free, los pasos consisten en:
-- Root bridge election
-- Root port selection 
-- Designated port selection 
+Este es el proceso para crear un topologia loop-free, los pasos de forma summarized consisten en:
+- Root bridge election (uno por LAN)
+	- Lowest BID
+- Root port selection (uno por switch, excluyendo al root bridge)
+	- Lowest root cost 
+	- Lowest neighbor BID 
+	- Lowest neighbor port ID
+- Designated port selection (uno por segmento)
+	- Port on the switch with the lowest root cost 
+	- Port on the switch with the lowest BID 
 
 ![[Pasted image 20241110213336.png|500]]
 
@@ -153,3 +159,29 @@ Para modificar el valor de prioridad se puede usar `spanning-tree vlan <vlan-id>
 ![[Pasted image 20241113050308.png]]
 
 ### Designated port selection 
+Luego de que se hayan definido los _root ports_ para los switches non-root, el paso final es designar los _designated ports_.
+- Un root port es un puerto que reenvia la trafico apuntando hacia el root bridge 
+- Un designated port es un puerto que reenvia el trafico apuntando hacia afuera del root bridge
+	- El root bridge solo tiene designated ports, ya que todos apuntan hacia fuera del root bridge 
+
+Se considera que debe haber un _port designated_ por cada _segment_ en la LAN. En el contexto de STP definimos segmento como el enlace entre [[switch]]es. Los designated ports son elegidos según los siguientes criterios (en orden de prioridad)
+1. El puerto en el [[switch]] con el _lowest root cost_ es designated 
+2. El puerto en el [[switch]] con el _lowest BID_ es designated 
+
+En los pasos anteriores ya se habian establecido designated ports, tanto en la elección del root bridge (todos sus puertos son designated) como en la selección de los root ports (los puertos conectados a un root port son designated ports). 
+
+En este paso se debe definir los designated ports para los segmentos/enlaces restantes, por cada segmento solo puede haber un designated port. Lo que implica que el otro extremo del segmento queda como _non-designated port_ y estos se mantienen en estado **blocking**. 
+
+![[Pasted image 20241114005829.png]]
+
+#### Port on the switch with lowest root cost 
+Este es el primer parametro usado para seleccionar un designated port, es importante recalcar que cuando hace referencia al _lowest root cost_ esta hablando sobre las comparación de los valores root cost correspondientes al _root port_ del [[switch]], no sobre los valores de los puertos sobre los que se esta decidiendo. 
+
+![[Pasted image 20241114011523.png]]
+
+#### Port on switch with lowest Bridge ID 
+El desempate definitivo para seleccionar el designated port y consiste en la comparación entre los BID de los switches, el puerto en el switch con el BID más bajo es seleccionado como _designated port_. 
+
+![[Pasted image 20241114012324.png]]
+
+
