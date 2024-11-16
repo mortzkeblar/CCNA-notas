@@ -9,6 +9,7 @@ _Spannign Tree Protocol (STP)_, es un protocolo (habilitado por defecto en [[swi
 
 Este problema suele aparecer principalmente cuando se trata de introducir conexiones redundantes en la red. Se puede identificar dos problemas principales: _broadcast storn_ y _MAC address flapping_.
 
+
 ![[Pasted image 20241110201000.png]]
 
 - *Broadcast storn* - se conoce como tormenta broadcast cuando la cantidad de frames que hacen loop en la red. Comienzan a saturar al punto de consumir muchos recursos como CPU o ancho de banda haciendo que la red se inutilizable.
