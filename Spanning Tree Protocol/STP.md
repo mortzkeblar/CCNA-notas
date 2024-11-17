@@ -19,7 +19,7 @@ Spannign Tree Protocol se puede resumir como _la prevención de Layer 2 Loops me
 
 ![[Pasted image 20241110205531.png|500]]
 
-## STP algorithm
+## STP algorithm and port roles 
 El proceso STP para crear una loop-free topology es llamada [[STP algorithm]], que consiste fundamentalmente en tres pasos. 
 1. Root bridge election 
 2. Root port selection 
