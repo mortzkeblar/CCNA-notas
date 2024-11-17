@@ -4,7 +4,7 @@ tags:
   - CCNA
 ---
 
-> Recordar: En [STP](Project/Networking/CCNA-notas/(LEGACY)%20Layer%202%20concepts/(LEGACY)%20STP/STP.md), las palabras _bridge_ y _switch_ se pueden tomar como sinonimos.
+> Recordar: En [STP](Project/Networking/CCNA-notas/Spanning%20Tree%20Protocol/(LEGACY)%20STP/STP.md), las palabras _bridge_ y _switch_ se pueden tomar como sinonimos.
 
 
 ### Valores STP

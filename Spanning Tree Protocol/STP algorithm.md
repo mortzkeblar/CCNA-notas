@@ -1,7 +1,7 @@
 ---
 tags:
   - CCNA
-  - Spanning-TreeProtocol
+  - SpanningTreeProtocol
 ---
 
 Este es el proceso [[Project/Networking/CCNA-notas/Spanning Tree Protocol/STP|STP]] para crear un topologia loop-free, los pasos de forma summarized consisten en:

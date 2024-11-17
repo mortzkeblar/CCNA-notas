@@ -1,9 +1,9 @@
 ---
 tags:
   - CCNA
-  - Spanning-TreeProtocol
+  - SpanningTreeProtocol
 ---
-_Spannign Tree Protocol (STP)_, es un protocolo (habilitado por defecto en [[switch]]es Cisco) que ayuda a resolver problemas de tipo _Layer 2 loops_ dentro de una [[LAN]], estos son frames que estan en loop dentro de la red de forma indefinida. 
+_Spannign Tree Protocol (STP)_, es un protocolo (definido en el standard IEEE 802.1D) que ayuda a resolver problemas de tipo _Layer 2 loops_ dentro de una [[LAN]], estos son frames que estan en loop dentro de la red de forma indefinida. 
 
 > El problema que ataca STP es similar a [[TTL]] en la [[IPv4 Header]]. 
 

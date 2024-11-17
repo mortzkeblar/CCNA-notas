@@ -1,7 +1,7 @@
 ---
 tags:
   - CCNA
-  - Spanning-TreeProtocol
+  - SpanningTreeProtocol
 ---
 _PortFast_ es una caracteristica [[Project/Networking/CCNA-notas/Spanning Tree Protocol/STP|STP]] opcional que permite a un puerto pasar inmediatamente a un _forwarding_ state. Esto permite a los hosts finales conectarse inmediatamente a la red. 
 

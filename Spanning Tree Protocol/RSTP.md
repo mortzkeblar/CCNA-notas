@@ -1,3 +1,8 @@
+---
+tags:
+  - CCNA
+  - SpanningTreeProtocol
+---
 _Rapid Spanning Tree Protocol (RSTP)_, es un protocolo de red definido en el IEEE 802.1w como una mejora al protocol [[Project/Networking/CCNA-notas/Spanning Tree Protocol/STP|STP]] IEEE 802.1d. 
 
 > La versión RSTP propietaria de Cisco es **Rapid Per-VLAN Spanning Tree Plus (Rapid PVST+)** y es la que se usa en los [[switch]]es Cisco por defecto. La diferencia radica en que la versión propietaria genera un spanning tree diferente por cada [[VLAN]]. 
@@ -9,6 +14,7 @@ Para ver la versión de STP que corre un switch se puede usar `show spanning-tre
 La desventaja tanto de las versiones propietarias de Cisco (tanto _PVST+_ como _Rapid PVST+_) es que en un entorno con una gran cantidad de [[VLAN]]s tambien se ejecutan varias instancias de [[Project/Networking/CCNA-notas/Spanning Tree Protocol/STP|STP]], lo que puede causar problemas de rendimiento.
 
 Para solventar este problema es preferible usar **Multiple Spanning Tree Protocol (MSTP)**, esto permite agrupar varias VLANs dentro de una unica instancia, además usa el macanismo de RSTP para una rapida convergencia. 
+
 
 ![[Pasted image 20241115232044.png|400]]
 
@@ -47,7 +53,7 @@ Por defecto (tanto en STP como RSTP) se usa el metodo _short cost_. Para ver la 
 
 ### Port states 
 ![[Pasted image 20241116125421.png]]
-En RSTP, se conbinan el _blocking_ y _listening_ state en un solo estado: **discarding** state. 
+En RSTP, se combinan _blocking_,  _listening_ y _disabled_ state en un solo estado: **discarding** state. 
 - Cuando un puerto RSTP es habilitado por primera vez, entre en _discarding_ state. 
 	- Si se decide que el puerto va a tener un rol de _alternative_ o _backup_ port, se mantiene en este estado. En la que se bloquea el trafico para evitar los _layer 2 loops_.
 	- Si se decide que el puerto pasa a ser _root_ o _designated_ port, pasa a tener el estado _forwarding_. Esto puede ocurrir de dos formas. 
@@ -114,17 +120,6 @@ Los _link types_ influyen en como los puertos transicionan a través de los RSTP
 ### Root Guard, Loop Guard and BPDU Filter 
 > Todas las funciones opcionales como [[PortFast]], [[BPDU Guard]], Root Guard, Loop Guard y BPDU Filter funcionan tanto en [[Project/Networking/CCNA-notas/Spanning Tree Protocol/STP|STP]] como en [[RSTP]]. 
 
-#### Root Guard
-_Root Guard_ es una caracteristica para asegurar la estabilidad del STP topology al prevenir que switches o dispositivos externos puedan convertirse en _root bridge_. Se asegura de que la topologia se mantenga incluso si se conecta un switch con un _lower bridge ID_.
-
-> Esto caso puede darse en situaciones de una LAN controlada por dos entidades diferentes como un SP y un cliente. 
-
-![[Pasted image 20241116201241.png]]
-
-Cuando un puerto Root Guard-enabled recibe un BPDU superior, el puerto entra en _root-inconsistent_ state. Lo que provoca que se desactive el puerto, para solucionar el problema el nuevo switch debe configurar el _bridge ID_ a un valor más alto que el valor del switch que esta bloqueando su ingreso, para que este le permita conectarse. 
-
-Para habilitar Root Guard se usa el comando `spanning-tree guard root`.
-
-![[Pasted image 20241116201849.png]]
-
-#### Loop Guard
+- [[Root Guard]] 
+- [[Loop Guard]] 
+- [[BPDU Filter]] 

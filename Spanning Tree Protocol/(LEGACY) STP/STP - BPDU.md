@@ -4,7 +4,7 @@ tags:
   - CCNA
 ---
 
-Bridge Protocol Data Unit (BPDU) es el mecanismo para que [STP](Project/Networking/CCNA-notas/(LEGACY)%20Layer%202%20concepts/(LEGACY)%20STP/STP.md) pueda funcionar. 
+Bridge Protocol Data Unit (BPDU) es el mecanismo para que [STP](Project/Networking/CCNA-notas/Spanning%20Tree%20Protocol/(LEGACY)%20STP/STP.md) pueda funcionar. 
 A grandes rasgos consiste en un mensaje que envia a través de la red tratando de descubrir los caminos ciclicos (o _bucles_) que puedan existir en la red, tambien realiza configuraciones/modificaciones de ser necesaria.
 - _Solicitud:_ TCN (Topology Change Notification)
 - _Respuesta:_ TCA (Topology Change Acknowledgement)

@@ -27,7 +27,7 @@ TODO
 - Seguridad de puerto
 - Clasificacióny marcación de QoS, y limites de confianza
 - Listas de control de acceso virtual (VACL)
-- Arbol de expansión (_Ver: [STP](Project/Networking/CCNA-notas/(LEGACY)%20Layer%202%20concepts/(LEGACY)%20STP/STP.md)_)
+- Arbol de expansión (_Ver: [STP](Project/Networking/CCNA-notas/Spanning%20Tree%20Protocol/(LEGACY)%20STP/STP.md)_)
 - Alimentacion por ethernet y VLAN auxiliares para VoIP
 ### Funciones en _Distribution Layer_
 - Agregación de enlaces LAN o WAN

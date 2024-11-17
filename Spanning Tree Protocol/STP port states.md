@@ -1,7 +1,7 @@
 ---
 tags:
   - CCNA
-  - Spanning-TreeProtocol
+  - SpanningTreeProtocol
 ---
 Los principales port states en [[Project/Networking/CCNA-notas/Spanning Tree Protocol/STP|STP]] son: _blocking_, _listening_, _learning_ y _forwarding_.
 
