@@ -15,7 +15,7 @@ NC-LAN1(config-if)#do sh etherchannel summary
 ```
 
 
-Vamos a configurar [Etherchannel](Etherchannel.md) primeramente en NC-LAN1 que pertenece al Core Central y asociamos las tres interfaces conectadas hacia SDC-1.
+Vamos a configurar [(LEGACY)Etherchannel]((LEGACY)Etherchannel.md) primeramente en NC-LAN1 que pertenece al Core Central y asociamos las tres interfaces conectadas hacia SDC-1.
 
 ``` bash
 NC-LAN1> en
