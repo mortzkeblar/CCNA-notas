@@ -35,5 +35,16 @@ Esta regla sirve para determinar que rutas se deberían usar para enviar un paqu
 | 1.0.0.0/8           | 4th        |
 | 0.0.0.0/0           | 5th        |
 
-## connected 
-[best routing path selection criteria](best%20routing%20path%20selection%20criteria.md) 
+***Route selection example***
+> La mayor consideración a tener es encontrar la ruta de coincidencia más especifica (o _most specific matching route_).
+
+Se necesita saber viendo la tabla de enrutamiento de R1, cual es la ruta que sera seleccionada para reenviar el paquete dirigido a `203.0.113.65`.
+
+![[Pasted image 20241119012907.png]]
+
+El primer paso es identificar cuales rutas son coincidentes con el destino del paquete, debemos determinar si la IP address de destino se encuentra dentro de la redes especificadas en la tabla de enrutamiento.
+
+Para verificar eso, escribimos las rutas en su forma binaria, al igual que la IP address de destino. 
+
+![[Pasted image 20241119013116.png]]
+En esta forma, podemos ver que solo `203.0.113.0/24` y `203.0.113.0/25` son coincidentes con la IP address de destino. Luego tenemos que de las dos rutas coincidentes, `203.0.113.0/25` es la ruta más especifica (o _longest prefix match_), por lo cual el paquete sera reenviado por esta ruta. 

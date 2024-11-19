@@ -1,3 +1,7 @@
+---
+tags:
+  - CCNA
+---
 _Dynamic EtherChannel_ se apoya en protocolos de negociación, el switch usa el protocolo para enviar mensajes entre ellos y hacer el proceso de negociación par formar finalmente el etherchannel link. 
 
 > Al tratar de configurar etherchannel se pueden producir layer 2 loops. Por lo que se recomienda usar mayormente dynamic etherchannel sobre static. 

@@ -1,3 +1,7 @@
+---
+tags:
+  - CCNA
+---
 ![[Pasted image 20241118031901.png]]
 A diferencia de [[Dynamic EtherChannel]], en esta configuración no usamos protocolos de negociación para establecer los enlaces [[EtherChannel]]. 
 
