@@ -17,4 +17,4 @@ Todas la rutas conocidas por RIP son enviadas mediante broadcast fuera de las in
 
 Su única [metric]((OLD)%20metric.md)  consiste en el _hop count_, por ende, no considera ni la velocidad o la confiabilidad del enlace. 
 
-La [administrative distance](basics%20of%20routing/administrative%20distance.md)  de RIP es de 120 (tanto para RIPv1 como [RIPv2](RIPv2.md)). 
+La [(legacy)administrative distance]((legacy)administrative%20distance.md)  de RIP es de 120 (tanto para RIPv1 como [RIPv2](RIPv2.md)). 

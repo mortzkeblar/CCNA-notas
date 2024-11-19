@@ -2,7 +2,7 @@
 tags:
   - CCNA
 ---
-[[EIGRP]] usa una [[metric]] compuesta para determinar el mejor camino entre A y B. Esta composición se basa en cuatro atributos principales:
+[[EIGRP]] usa una [[(LEGACY) metric]] compuesta para determinar el mejor camino entre A y B. Esta composición se basa en cuatro atributos principales:
 - Bandwidth
 - Delay 
 - Load 
@@ -44,7 +44,7 @@ $$delay=256\cdot \text{sum of delays (expressed in 10s of microseconds)}$$
 Entonces, el valor default de la metrica EIGRP se puede expresar como:
 $$metric = [\frac{10^{7}}{\text{least bandwidth on path}}+\text{sum of all delays}]\cdot 256$$
 
-El calculo de esta [[metric]] puede ajustarse variando sobre los _k values_, con el comando `metric weights [tos] k1 k2 k3 k4 k5` (`tos` representa el type of service, normalmente esta seteado en `0`). Los _k values_ puede tomar valores de entre 0 a 255. 
+El calculo de esta [[(LEGACY) metric]] puede ajustarse variando sobre los _k values_, con el comando `metric weights [tos] k1 k2 k3 k4 k5` (`tos` representa el type of service, normalmente esta seteado en `0`). Los _k values_ puede tomar valores de entre 0 a 255. 
 
 ``` bash
 Router#show ip protocols

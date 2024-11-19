@@ -6,7 +6,7 @@ tags:
   - CCNA
 ---
 
-Si hay más de un camino igual (mismo [cost](cost.md) y [administrative distance](basics%20of%20routing/administrative%20distance.md)) para llegar a una ruta, entonces, por defecto [OSPF](OSPF.md) hace load balance para el trafico sobre cuatro caminos. 
+Si hay más de un camino igual (mismo [cost](cost.md) y [(legacy)administrative distance]((legacy)administrative%20distance.md)) para llegar a una ruta, entonces, por defecto [OSPF](OSPF.md) hace load balance para el trafico sobre cuatro caminos. 
 
 ``` bash
 R1#show ip protocols

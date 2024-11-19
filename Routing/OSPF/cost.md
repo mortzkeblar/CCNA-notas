@@ -37,7 +37,7 @@ Process ID 1, Router ID 10.0.0.1, Network Type BROADCAST, **Cost: 1**
 Transmit Delay is 1 sec, State BDR, Priority 1
 ```
 
-Puedes modificar el costo manualmente con `ip ospf cont [1-65535] interface`. Como el costo es acumulativo, cada interface suma en el costo de toda la red. El costo se puede ver con el comando `show ip route`. El costo para la ruta de abajo es 11, mientras que 110 es la [administrative distance](basics%20of%20routing/administrative%20distance.md) para [OSPF](OSPF.md). 
+Puedes modificar el costo manualmente con `ip ospf cont [1-65535] interface`. Como el costo es acumulativo, cada interface suma en el costo de toda la red. El costo se puede ver con el comando `show ip route`. El costo para la ruta de abajo es 11, mientras que 110 es la [(legacy)administrative distance]((legacy)administrative%20distance.md) para [OSPF](OSPF.md). 
 
 ``` bash
 R1#show ip route

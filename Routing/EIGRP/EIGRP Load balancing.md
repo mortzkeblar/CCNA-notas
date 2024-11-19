@@ -40,11 +40,11 @@ Loading 1/255, Hops 1
 ```
 
 > Por defecto [[EIGRP]] realiza equal-cost load balancing, para habilitar unequal-cost load balancing ejecutar `varience [multiplier]`.
-- `multiplier` es un numero el cual se multiplica por el enlace con la [[metric]]a más baja, indica que el load balancing se realiza sobre todos los enlaces que tenga la [[metric]]a  menor al resultado del número descrito anteriormente. 
+- `multiplier` es un numero el cual se multiplica por el enlace con la [[(LEGACY) metric]]a más baja, indica que el load balancing se realiza sobre todos los enlaces que tenga la [[(LEGACY) metric]]a  menor al resultado del número descrito anteriormente. 
 \
 Por ejemplo, si tenemos dos rutas:
-- Un enlace f0/0 con una [[metric]] de 409600 (por defecto)
-- Una enlace f0/1 con una [[metric]] de 2713600 (un [[metric]] mayor producto de un bandwidth menor por ejemplo)
+- Un enlace f0/0 con una [[(LEGACY) metric]] de 409600 (por defecto)
+- Una enlace f0/1 con una [[(LEGACY) metric]] de 2713600 (un [[(LEGACY) metric]] mayor producto de un bandwidth menor por ejemplo)
 
 Se puede realizar el unequal-cost load balancing ajustando el varience que en este caso, calculamos el multiplier como: $$multiplier=\frac{2713600\ (highest\ metric)}{409600\ (successor\ route\ metric)}=6.625=7$$
 Una vez seteado `multiplier 7`, este indica que el load balancing se va a realizar con los enlaces que tengan el valor de la metrica menor a $7\cdot 409600=2867200$, por lo cual f0/1 cumple la condición y pasaria a realizar el load balancing correspondiente. 

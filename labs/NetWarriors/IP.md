@@ -5,7 +5,7 @@ tags:
 ---
 
 ![](_anexos_/Screenshot%20from%202023-11-13%2008-56-34.png)
-IP (Internet Protocol) es un protocolo [[L3]] que sirve como esquema de direccionamiento lógico (la cual la diferencia de L2). Sirve para poder identificarnos en la red, también se puede particionar en varias partes llamadas subredes. Generalmente, se compone de cuatro octetos (8 bits) dado por: 
+IP (Internet Protocol) es un protocolo [[Layer 3]] que sirve como esquema de direccionamiento lógico (la cual la diferencia de L2). Sirve para poder identificarnos en la red, también se puede particionar en varias partes llamadas subredes. Generalmente, se compone de cuatro octetos (8 bits) dado por: 
 $$Porción\ de\ RED + Porcion\ de\ HOST$$
 
 ![[Pasted image 20241016084948.png]]

@@ -15,7 +15,7 @@ Temas a tratar:
 1. Configurar un dirección IP en las interfaces de los routers.
 2. Configurar [OSPF](OSPF.md) segun la descripción de la imagen.
 3. Verificar el correcto funcionamiento de OSPF multi-area.
-4. Verificar la [routing table](routing%20table.md). 
+4. Verificar la [Routing Table](Routing%20Table.md). 
 
 ## resolution
 
@@ -89,7 +89,7 @@ Gateway Distance Last Update
 Distance: (default is 110)
 ```
 
-3. Revisar la [routing table](routing%20table.md) en los routers. Deberiamos ver la red [OSPF](OSPF.md) anunciada, bajo _IA_ (que significa OSPF inter-area). 
+3. Revisar la [Routing Table](Routing%20Table.md) en los routers. Deberiamos ver la red [OSPF](OSPF.md) anunciada, bajo _IA_ (que significa OSPF inter-area). 
 
 ``` bash
 RouterA#sh ip route

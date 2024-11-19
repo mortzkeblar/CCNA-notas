@@ -15,7 +15,7 @@ Routing Information Protocol Version 2 (RFC 2453) es la segunda versión del pro
 - Es compatible con RIPv1, ambos pueden trabajar de forma conjunta. Además, se puede configurar cada interface para enviar/recibir actualizaciones de RIP que se necesite: `ip rip <receive or send> version <1 or 2>`
 
 
-Al igual que RIPv1, utiliza el puerto UDP 520 y tiene una [administrative distance](basics%20of%20routing/administrative%20distance.md) de 120. 
+Al igual que RIPv1, utiliza el puerto UDP 520 y tiene una [(legacy)administrative distance]((legacy)administrative%20distance.md) de 120. 
 
 
 ## swap RIP version 

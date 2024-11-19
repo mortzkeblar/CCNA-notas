@@ -7,15 +7,15 @@ tags:
   - CCNA
 ---
 
-Open Shortest Path First (OSPF protocol) es un protocolo estándar abierto que usa algoritmos _link state_ para calcular el mejor camino para llegar a una red particular. Desarrollado en el '98 por IETF para cubrir las necesidades y las carencias del [RIP](RIP.md). Es un protocolo más robusto y flexible que los predecesores [distance vector protocols](distance%20vector%20protocols.md) y es ideal para usarlo en entornos enterprise. 
+Open Shortest Path First (OSPF protocol) es un protocolo estándar abierto que usa algoritmos _link state_ para calcular el mejor camino para llegar a una red particular. Desarrollado en el '98 por IETF para cubrir las necesidades y las carencias del [RIP](RIP.md). Es un protocolo más robusto y flexible que los predecesores [(legacy) distance vector protocols]((legacy)%20distance%20vector%20protocols.md) y es ideal para usarlo en entornos enterprise. 
 
 OSPF emplea el uso de _areas_ para simplificar la administración de la red y confinar la inestabilidad de la red a un sector especifico. Además permite un amplio control sobre las actualizaciones de enrutamiento.
 
 OSPF usa Dijkstra's Shortest Path First (SPF) algorithm, eso hace referencia a que es abierto ya que este algoritmo no es propietario a ninguna empresa o organización.
 
-OSPF se considera un _Interior Gateway Protocol ([IGPs](../IGPs.md))_ porque es un protocolo que puede ser usado en grupos de routers que se encuentran dentro de un [AS](AS.md). 
+OSPF se considera un _Interior Gateway Protocol ([IGPs](IGPs.md))_ porque es un protocolo que puede ser usado en grupos de routers que se encuentran dentro de un [AS](AS.md). 
 
-Tiene una [administrative distance](basics%20of%20routing/administrative%20distance.md) de 110.
+Tiene una [(legacy)administrative distance]((legacy)administrative%20distance.md) de 110.
 
 Además de mejorar los metodos de protocolos anteriores, introduce caracteristicas como:
 - No limitaciones en hop-count

@@ -34,7 +34,7 @@ C       10.0.0.0 is directly connected, FastEthernet0/0
 R    192.168.1.0/24 [120/1] via 10.0.0.1, 00:00:07, FastEthernet0/0
 ```
 
-La red fue [auto summarization](auto%20summarization.md) a `/24`, la [administrative distance](basics%20of%20routing/administrative%20distance.md) es de 120 y el hop para llegar a esa red es de 1, fue aprendida 7 segundos antes via FastEthernet0/0.
+La red fue [auto summarization](auto%20summarization.md) a `/24`, la [(legacy)administrative distance]((legacy)administrative%20distance.md) es de 120 y el hop para llegar a esa red es de 1, fue aprendida 7 segundos antes via FastEthernet0/0.
 
 Vamos a desactivar [auto summarization](auto%20summarization.md) para que no resuma la red `192`.
 
