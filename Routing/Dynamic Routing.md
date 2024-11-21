@@ -29,9 +29,9 @@ Además de esta categorización, los protocolos de enrutamiento tambien pueden s
 ![[Pasted image 20241118150728.png]]
 
 ## Route selection 
-La selección de rutas ya fue definida anteriormente (ver [[Routing Table]]), esta hace referencia al reenvio de paquetes en base la ruta coincidente más especifica que haya dentro del tabla de enrutamiento.
+La selección de rutas ya fue definida anteriormente en [[Routing Table#Route selection]], esta hace referencia al reenvio de paquetes en base la ruta coincidente más especifica que haya dentro del tabla de enrutamiento.
 
-_Route selection_ tambien hace referencia al proceso de selección de rutas que terminan agregándose en la [[Routing Table]]. Por ejemplo si tenemos multiples rutas para llegar a un mismo destino, solo se agregara a la tabla de enrutamiento la mejor ruta para llegar a ese destino. 
+En el contexto de enrutamiento dinamico, **_route selection_** tambien hace referencia al proceso de selección de rutas que terminan agregándose en la [[Routing Table]]. Por ejemplo si tenemos multiples rutas para llegar a un mismo destino, solo se agregara a la tabla de enrutamiento la mejor ruta para llegar a ese destino. 
 
 Para determinar esa mejor ruta que sera agregada a la tabla de enrutamiento, se utilizan dos parametros.
 - Metric
@@ -126,9 +126,9 @@ Los wildcard masks se los puede ver también como las _subnet mask_ pero de form
 
 > El motivo de usar las _wildcard mask_ es vez de una _subnet mask_ es que nos permite definir rangos arbitrarios de direcciones IP que queremos que pertenezca a [[OSPF]] (estas no necesariamente forman parte de la misma subred). 
 > - Por ejemplo con una wildcard mask podemos definir algo como `network 192.168.0.0 0.0.5.255 area 0`
-> 	- La inversa de `0.0.5.255` es `255.255.250.0`, pero hacemos la conversión a binario. 
-> 		- Vemos que este no tiene un patron contiguo, por lo cual es invalido para su uso como subnet mask.
-> 		- Con wildcard mask no tenemos esa limitación porque no exigen que los 1s sean contiguos 
+> 	- La inversa de `0.0.5.255` es `255.255.250.0`, hacemos la conversión a binario. 
+> 		- Vemos que `255.255.250.0` no es un patron contiguo de 1s, por lo cual es invalido para su uso como subnet mask.
+> 		- Con wildcard mask no tenemos esa limitación porque no exigen que los 1s sean contiguos #TODO revisar este concepto
 
 La flexibilidad de la _wildcard mask_ nos permite activar OSPF en más de una interface siempre que los bits apropiados (0s) coincidan entre la IP usada en el comando `network` y la IP de la interface.
 

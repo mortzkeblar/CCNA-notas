@@ -4,6 +4,8 @@ tags:
   - routing
   - OSPF
   - CCNA
+aliases:
+  - Link State Advertisements
 ---
 
 [OSPF](OSPF.md) usa LSAs (Link State Advertisements) para notificar a los vecinos sobre camibiso en la red. Los LSA son usados para construir la OSPF database. 
@@ -19,9 +21,9 @@ Algunos de los LSA más comunes incluyen:
 
 > #exam Los LSA Types ya no son parte del examen de certificación 
 
-Se puede ver el contenido de la **link state database** usando `show ip ospf database`. 
+Se puede ver el contenido de la **Link State Database** usando `show ip ospf database`. 
 
-``` bash
+``` 
 R1#show ip ospf database ?
 adv-router Advertising Router link states
 asbr-summary ASBR Summary link states

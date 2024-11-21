@@ -5,9 +5,8 @@ tags:
   - dynamic
   - CCNA
 ---
-_Ver: [OSPF overview](OSPF%20overview.md) _
 
-[OSPF](OSPF.md) esta diseñado para localizar rapidamente los cambios locales dentro de una topologia de red y asi calcular el [(legacy) best routing path selection criteria]((legacy)%20best%20routing%20path%20selection%20criteria.md). La red completa se divide en areas, dentro de estas areas se inunda la red de LSAs (link state advertisements) para los routers vecinos. Esto asegura que los routers en otras areas [OSPF](OSPF.md) no son afectados por los cambios o problemas como p. ej. caida de enlaces (links flapping). 
+[OSPF](OSPF.md) esta diseñado para localizar rapidamente los cambios locales dentro de una topologia de red y asi poder realizar el [[Dynamic Routing#Route selection]] para agregar las mejor ruta para llegar a un determinado destino. La red completa se divide en areas, dentro de estas areas se inunda la red de LSAs (link state advertisements) para los routers vecinos. Esto asegura que los routers en otras areas [OSPF](OSPF.md) no son afectados por los cambios o problemas como p. ej. caida de enlaces (links flapping). 
 
 Contrario a [RIP](RIP.md), [OSPF](OSPF.md) funciona con una jerarquia de areas. En el nivel más alto esta los [AS](AS.md) (AS), una construcción logica para una colección de redes bajo un administrador comun. 
 - OSPF es un protocolo _Intra-AS (interior gateway)_ 

@@ -15,6 +15,6 @@ RIPv1 al ser un protocol [classful](classful.md) , no reconoce [VLSM](VLSM.md). 
 
 Todas la rutas conocidas por RIP son enviadas mediante broadcast fuera de las interfaces RIP cada 30 segundos (y que no pasen la frontera de 15 hops de [maximum hop count](maximum%20hop%20count.md), ni [split horizon](split%20horizon.md)), incluyendo routers no configurados en RIP. 
 
-Su única [metric]((OLD)%20metric.md)  consiste en el _hop count_, por ende, no considera ni la velocidad o la confiabilidad del enlace. 
+Su única [[Dynamic Routing#Metric parameter]]  consiste en el _hop count_, por ende, no considera ni la velocidad o la confiabilidad del enlace. 
 
-La [(legacy)administrative distance]((legacy)administrative%20distance.md)  de RIP es de 120 (tanto para RIPv1 como [RIPv2](RIPv2.md)). 
+La [[Dynamic Routing#Administrative Distance parameter]] de RIP es de 120 (tanto para RIPv1 como [RIPv2](RIPv2.md)). 

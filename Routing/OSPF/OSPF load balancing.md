@@ -6,9 +6,9 @@ tags:
   - CCNA
 ---
 
-Si hay más de un camino igual (mismo [cost](cost.md) y [(legacy)administrative distance]((legacy)administrative%20distance.md)) para llegar a una ruta, entonces, por defecto [OSPF](OSPF.md) hace load balance para el trafico sobre cuatro caminos. 
+Si hay más de un camino igual (mismo [cost](cost.md) y  [[Dynamic Routing#Administrative Distance parameter]] para llegar a una ruta, entonces, por defecto [OSPF](OSPF.md) hace load balance para el trafico sobre cuatro caminos. 
 
-``` bash
+```
 R1#show ip protocols
 Routing Protocol is “ospf 1”
 Router ID 10.0.0.1
