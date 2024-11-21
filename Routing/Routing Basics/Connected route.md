@@ -1,6 +1,8 @@
 ---
 tags:
   - CCNA
+date created: Tuesday, October 29th 2024, 4:33:43 am
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 Una ruta conectada es una ruta a la red a la que esta conectada una interface. Esta se añade automaticamente a la [[Routing Table]] para cada interface que tenga configurada una IP address y este en activo. 
 

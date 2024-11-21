@@ -1,6 +1,8 @@
 ---
 tags:
   - CCNA
+date created: Saturday, October 19th 2024, 11:08:14 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 > Declaración formal de las reglas y pautas que deben seguir los usuarios, contratistas y empleados temporales de la organización, así com cualquier persona que tenga acceso a los datos y activos informaticos de la empresa - _RFC 2196_
 

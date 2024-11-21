@@ -3,6 +3,8 @@ tags:
   - routing
   - static
   - CCNA
+date created: Saturday, October 19th 2024, 11:08:14 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 
 Este comando solo se utiliza en routers sin [IP routing](IP%20routing.md) habilitado. En ese caso, el router solo actua como un  host que necesita un default-gateway. 

@@ -4,6 +4,8 @@ tags:
   - dynamic
   - problem
   - CCNA
+date created: Saturday, October 19th 2024, 11:08:14 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 
 Esto siempre depende de si las ventajas superan las desventajas, pero en general los dos principales problemas al usar un protocolo como [OSPF](../OSPF/OSPF.md) son:

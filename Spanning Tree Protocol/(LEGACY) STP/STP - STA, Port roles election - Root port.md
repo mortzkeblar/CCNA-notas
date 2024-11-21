@@ -2,6 +2,8 @@
 tags:
   - STP
   - CCNA
+date created: Saturday, October 19th 2024, 11:08:14 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 
 > Para ver los valores de las distintas unidades, _ver: [STP - Bridges](STP%20-%20Bridges.md)_

@@ -1,6 +1,8 @@
 ---
 tags:
   - CCNA
+date created: Tuesday, October 29th 2024, 7:15:16 am
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 Un _local route_ es una ruta hacia la IP especifica configurada en la interface del router. Al igual que una [[Connected route]], estas se añaden de forma automatica en la [[Routing Table]]. 
 

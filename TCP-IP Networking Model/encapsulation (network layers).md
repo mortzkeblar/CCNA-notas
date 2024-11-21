@@ -1,6 +1,8 @@
 ---
 tags:
   - CCNA
+date created: Monday, October 21st 2024, 12:04:56 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 El concepto de encapsulación es el que permite al modelo de capas [[TCP-IP]] trabajar y comunicarse entre ellas. 
 

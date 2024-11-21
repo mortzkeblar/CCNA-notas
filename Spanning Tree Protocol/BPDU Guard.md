@@ -2,6 +2,8 @@
 tags:
   - CCNA
   - SpanningTreeProtocol
+date created: Thursday, November 14th 2024, 3:03:00 am
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 _BPDU Guard_ es una caracteristica [[Project/Networking/CCNA-notas/Spanning Tree Protocol/STP|STP]] opcional que sirva para deshabilitar un puerto si esta detecta que recibe BPDUs. 
 

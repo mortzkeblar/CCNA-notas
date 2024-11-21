@@ -2,6 +2,8 @@
 tags:
   - VLAN
   - CCNA
+date created: Sunday, November 10th 2024, 12:56:17 am
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 _Router on a stick (ROAS)_, este metodo [[Inter-VLAN routing]]  hace uso de un unico puerto físico (o aggregate) configurado como un enlace trunk o [[IEEE 802.1Q]] entre un [[switch]] y un router. De lado del router se deben crear subinterfaces, cada uno de estas con su propia IP address. 
 

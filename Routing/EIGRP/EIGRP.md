@@ -1,6 +1,8 @@
 ---
 tags:
   - CCNA
+date created: Saturday, October 19th 2024, 11:08:14 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 Enhanced Interior Gateway Routing Protocol (EIGRP) es un [[dynamic routing protocols]] de tipo hibrido, es decir combina las caracteristicas de los protocolos basados en [[(legacy) distance vector protocols]] y los [[(legacy) link state protocols]]. 
 

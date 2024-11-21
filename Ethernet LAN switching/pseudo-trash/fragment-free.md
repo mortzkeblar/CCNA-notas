@@ -1,6 +1,8 @@
 ---
 tags:
   - CCNA
+date created: Saturday, October 19th 2024, 11:08:14 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 También llamado _modified cut-through / runt-free_, este es un método intermedio entre [[cut-through]] y [[store-and-forward]], examina los frames en busca de errores pero no almacena todo su información, lo que resulta en mayor velocidad manteniendo la confiabilidad. 
 

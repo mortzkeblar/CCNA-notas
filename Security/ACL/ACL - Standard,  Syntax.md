@@ -2,6 +2,8 @@
 tags:
   - ACL
   - CCNA
+date created: Saturday, October 19th 2024, 11:08:14 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 
 > Las ACL Standard filtran paquetes IP basándose unica y exlusivamente en la _dirección IP de origen_. Son las ACL más antiguas y las que raramente se utilizan para filtrar tráfico.

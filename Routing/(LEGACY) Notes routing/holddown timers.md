@@ -3,6 +3,8 @@ tags:
   - routing
   - dynamic
   - CCNA
+date created: Saturday, October 19th 2024, 11:08:14 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 
 Este método es usado para prevenir el envió/recepción de mensajes de actualización en un periodo de tiempo, conocido como _holddown time_, previniendo así p. ej. agregar una ruta que en realidad esta caída. 

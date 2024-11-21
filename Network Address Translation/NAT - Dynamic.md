@@ -2,6 +2,8 @@
 tags:
   - NAT
   - CCNA
+date created: Saturday, October 19th 2024, 11:08:14 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 #TODO agregar mas teoria
 En el NAT dinámico, las IP internas de cada cliente de una LAN se asocian dinamicamente con cada IP externa (pública).

@@ -1,6 +1,8 @@
 ---
 tags:
   - CCNA
+date created: Sunday, October 27th 2024, 11:04:29 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 Se puede definir como un conjunto de requerimientos tecnicos y especificaciones que definen las reglas de comunicación en las redes. 
 

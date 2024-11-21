@@ -6,6 +6,8 @@ tags:
   - CCNA
 aliases:
   - Router ID
+date created: Saturday, October 19th 2024, 11:08:14 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 
 Cada router tiene su propio ID unico de 32-bit basado en la interface, esto sirve para [OSPF](OSPF.md) como identificador de cada router, el cual ayuda a detectar facilmente LSAs y endpoints duplicados de enlaces virtuales, así como para determinar los desempates entre DR y DBR. 

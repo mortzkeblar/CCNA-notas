@@ -3,6 +3,8 @@ tags:
   - routing
   - static
   - CCNA
+date created: Saturday, October 19th 2024, 11:08:14 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 
 Una ruta permanente puede omitir la regla de que la interface debe estar enabled y debe exister un next-hop IP alcanzable (reachable). 

@@ -5,6 +5,8 @@ tags:
   - RIP
   - protocol
   - CCNA
+date created: Saturday, October 19th 2024, 11:08:14 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 
 Routing Information Protocol Version 2 (RFC 2453) es la segunda versión del protocolo [RIP](RIP.md), creado para tratar las limitaciones de RIPv1.

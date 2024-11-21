@@ -4,6 +4,8 @@ tags:
   - lab
   - IPv6
   - CCNA
+date created: Saturday, October 19th 2024, 11:08:14 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 
 > "¿Habrá algo más horrible que la combinación de ACL e IPv6? Sí, intentar explicar la computación cuántica a un gato."

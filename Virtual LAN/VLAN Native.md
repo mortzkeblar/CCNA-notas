@@ -2,6 +2,8 @@
 tags:
   - VLAN
   - CCNA
+date created: Saturday, October 19th 2024, 11:08:14 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 La [[VLAN]] nativa es la VLAN a la que esta asignada el trafico _untagged_ que recibe un trunk port ([[IEEE 802.1Q]]). El trafico que esta en la VLAN nativa y pasa por un trunk port, se reenvia sin etiquetar. 
 

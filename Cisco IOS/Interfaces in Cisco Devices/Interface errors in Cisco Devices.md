@@ -1,6 +1,8 @@
 ---
 tags:
   - CCNA
+date created: Sunday, October 27th 2024, 8:51:00 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 Los dispositivos Cisco IOS tienen varios contadores que indican diversos tipos de errores que pueden producirse en la transmisión de datos. Estos se puede ver con `show interfaces <interface>`
 

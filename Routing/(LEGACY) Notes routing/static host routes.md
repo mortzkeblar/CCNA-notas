@@ -3,6 +3,8 @@ tags:
   - routing
   - static
   - CCNA
+date created: Saturday, October 19th 2024, 11:08:14 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 
 A diferencia de un subnet. Esta es una dirección de un unico host, quiere decir que tiene una mascara `255.255.255.255` o `/32` en la ruta. El router usa la [longest prefix matching](pseudo-trash/longest%20prefix%20matching.md) si es que hay otra entrada en la tabla de enrutamiento coincidente.

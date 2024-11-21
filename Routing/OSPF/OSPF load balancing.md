@@ -4,9 +4,11 @@ tags:
   - dynamic
   - OSPF
   - CCNA
+date created: Saturday, October 19th 2024, 11:08:14 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 
-Si hay más de un camino igual (mismo [cost](cost.md) y  [[Dynamic Routing#Administrative Distance parameter]] para llegar a una ruta, entonces, por defecto [OSPF](OSPF.md) hace load balance para el trafico sobre cuatro caminos. 
+Si hay más de un camino igual (mismo [OSPF cost](OSPF%20cost.md) y  [[Dynamic Routing#Administrative Distance parameter]] para llegar a una ruta, entonces, por defecto [OSPF](OSPF.md) hace load balance para el trafico sobre cuatro caminos. 
 
 ```
 R1#show ip protocols

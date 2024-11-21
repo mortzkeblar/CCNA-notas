@@ -5,6 +5,8 @@ tags:
   - OSPF
   - protocol
   - CCNA
+date created: Saturday, October 19th 2024, 11:08:14 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 
 Open Shortest Path First (OSPF protocol) es un protocolo estándar abierto que usa algoritmos _link state_ (ver [[Interior Gateway Protocols]]) para calcular el mejor camino para llegar a una red particular. 
@@ -57,7 +59,7 @@ Cuando el mapa es consistente, el algoritmo SPF calcula rutas _loop-free_ (sin b
 ## Link-State Database 
 En OSPF, el intercambio de información de enrutamiento se hace mediante el uso de una _data structure_ llamada [[LSA|Link State Advertisements]] (LSA). Cada router organiza los [[LSA]] que recibe en una base de datos llamada **_Link State Database (LSDB)_**.
 
-LSDB sirve como el mapa de la topologia de la red al router, que es utilizado para calcular el _shortest path_ a cada destino de la red. 
+LSDB sirve como el mapa de la topologia de la red al router, que es utilizado para calcular el _shortest path_ a cada destino de la red. Por lo cual es importante que todos los routers tengan el mismo LSDB. 
 
 ![[Pasted image 20241120002451.png]]
 
@@ -69,7 +71,7 @@ LSDB sirve como el mapa de la topologia de la red al router, que es utilizado pa
 - [OSPF explain summary - advanced](OSPF%20explain%20summary%20-%20advanced.md) 
 - [OSPF network types and neighbors](OSPF%20network%20types%20and%20neighbors.md) 
 - [OSPF routes](OSPF%20routes.md) 
-- [OSPF router types](OSPF%20router%20types.md) 
+- [(legacy) OSPF router types]((legacy)%20OSPF%20router%20types.md) 
 - [LSA](LSA.md) 
 
 #TODO ver este contenido y resumir: https://itskillbuilding.com/networking/network/ospf/ospf-protocol/#tab-3711

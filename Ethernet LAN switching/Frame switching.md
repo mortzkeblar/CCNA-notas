@@ -1,6 +1,8 @@
 ---
 tags:
   - CCNA
+date created: Wednesday, October 23rd 2024, 2:10:32 am
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 Este apartado cubre como los [[switch]]es usan el campo de origen y destino del [[Ethernet Header (and Trailer)]] para construir las _[[MAC address table]]_ y poder reenviar los frames a sus destinos dentro de la [[LAN]]. 
 

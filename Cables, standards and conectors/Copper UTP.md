@@ -1,6 +1,8 @@
 ---
 tags:
   - CCNA
+date created: Sunday, October 27th 2024, 11:14:03 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 El cable de cobre (a menudo llamado cable ethernet, aunque el estandar puede usar tanto cables de cobre como de fibra).
 

@@ -1,6 +1,8 @@
 ---
 tags:
   - CCNA
+date created: Saturday, October 26th 2024, 2:28:02 am
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 ## Network address 
 La dirección de red es la primera address de cualquier red y se utiliza para identificar la red, esta no puede ser asignada a un host. 

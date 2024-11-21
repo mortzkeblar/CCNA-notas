@@ -2,6 +2,8 @@
 tags:
   - CCNA
   - SpanningTreeProtocol
+date created: Sunday, November 17th 2024, 2:17:37 am
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 _Root Guard_ es una caracteristica para asegurar la estabilidad del STP topology al prevenir que switches o dispositivos externos puedan convertirse en _root bridge_. Se asegura de que la topologia se mantenga incluso si se conecta un switch con un _lower bridge ID_.
 

@@ -1,6 +1,8 @@
 ---
 tags:
   - CCNA
+date created: Monday, November 18th 2024, 3:09:36 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 Los _Interior Gateway Protocols (IGPs)_ se pueden dividir según sus _algorithm types_: distance-vector y link-state.
 

@@ -1,6 +1,8 @@
 ---
 tags:
   - CCNA
+date created: Saturday, October 19th 2024, 11:08:14 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 # Toma de desición, el mejor camino
 _Ver: [(legacy) best routing path selection criteria]((legacy)%20best%20routing%20path%20selection%20criteria.md)_

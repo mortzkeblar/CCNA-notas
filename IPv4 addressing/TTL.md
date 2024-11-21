@@ -3,6 +3,8 @@ tags:
   - routing
   - protocol
   - CCNA
+date created: Saturday, October 19th 2024, 11:08:14 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 
 > _Para más información, puede ver el especificación [RFC 1812](https://datatracker.ietf.org/doc/html/rfc1812#section-5.3.1), punto 5.3.1_

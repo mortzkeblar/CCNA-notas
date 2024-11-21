@@ -2,6 +2,8 @@
 tags:
   - CCNA
   - SpanningTreeProtocol
+date created: Sunday, November 17th 2024, 2:17:47 am
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 Como su nombre indica, _Loop Guard_ da protección contra los layer 2 loops en la [[LAN]]. Añadiendo una una capa de protección adicional contra la transición erronea de un puerto desde un _discarding state_ (_blocking state_ en [[Project/Networking/CCNA-notas/Spanning Tree Protocol/STP|STP]]) hacia un _forwarding state_. 
 

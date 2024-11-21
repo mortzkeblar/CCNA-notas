@@ -2,6 +2,8 @@
 tags:
   - general
   - CCNA
+date created: Saturday, October 19th 2024, 11:08:14 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 
 _Tomado de la clase 27, ACL estándar. [Link](https://youtu.be/nq1SoUM6XA0?list=PL2A7l6PiV52esSwosIAO86zf0RGe2pjTZ)_

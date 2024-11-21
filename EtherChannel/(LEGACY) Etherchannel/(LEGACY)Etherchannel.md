@@ -2,6 +2,8 @@
 tags:
   - ETHERCHANNEL
   - CCNA
+date created: Saturday, October 19th 2024, 11:08:14 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 
 Es una tecnologia desarrollada por Cisco destinada a funcionar entre switches, la idea detras de _Etherchannel_ es ofrecer mayor ancho de banda disponible para los enlaces que tienen una carga superior a la media.

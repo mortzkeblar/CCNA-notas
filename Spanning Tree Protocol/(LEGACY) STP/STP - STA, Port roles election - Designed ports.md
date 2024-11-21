@@ -2,6 +2,8 @@
 tags:
   - STP
   - CCNA
+date created: Saturday, October 19th 2024, 11:08:14 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 
 En este punto debemos calcular cuales interfaces quedan en rol _**Designated**_ y cuales quedan en _**Non-designated**_.

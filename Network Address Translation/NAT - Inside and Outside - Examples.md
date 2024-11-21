@@ -2,6 +2,8 @@
 tags:
   - NAT
   - CCNA
+date created: Saturday, October 19th 2024, 11:08:14 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 
 _Para entender mejor el concepto de inside/outside ver: [NAT - Inside and Outside](NAT%20-%20Inside%20and%20Outside.md)_

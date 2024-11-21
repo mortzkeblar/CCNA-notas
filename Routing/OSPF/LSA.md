@@ -6,6 +6,8 @@ tags:
   - CCNA
 aliases:
   - Link State Advertisements
+date created: Saturday, October 19th 2024, 11:08:14 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 
 [OSPF](OSPF.md) usa LSAs (Link State Advertisements) para notificar a los vecinos sobre camibiso en la red. Los LSA son usados para construir la OSPF database. 

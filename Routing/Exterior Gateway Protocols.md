@@ -1,6 +1,8 @@
 ---
 tags:
   - CCNA
+date created: Monday, November 18th 2024, 3:54:35 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 En la actualidad, solo un protocolo de tipo _Exterior Gateway Protocol o EGP_ es usado. 
 - Border Gateway Protocol (BGP) - este protocolo usa el _path-vector algorithm_ para calcular rutas. 

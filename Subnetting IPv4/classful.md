@@ -4,6 +4,8 @@ tags:
   - CCNA
 aliases:
   - IPv4 address classes
+date created: Saturday, October 19th 2024, 11:08:14 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 
 El direccionamiento [classful]() se hizo en la etapas tempranas de internet, se trata del asignamiento IP en base a octetos.

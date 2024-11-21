@@ -1,6 +1,8 @@
 ---
 tags:
   - CCNA
+date created: Saturday, October 19th 2024, 11:08:14 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 Public Key Infrastructure (PKI) es una técnica de autenticación compleja que funciona mediante certificados digitales. Estos proporciona un cierto nivel de confianza a la comunicación ya que autentican al remitente. PKI utiliza el concepto de _Certificate Authority (CA)_ para la entidad central que emite certs a los usuarios. CA confirma la identidad de cada usuario y todos los usuarios de una org confían en la CA.
 

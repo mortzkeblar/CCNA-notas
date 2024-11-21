@@ -4,6 +4,8 @@ tags:
   - dynamic
   - OSPF
   - CCNA
+date created: Saturday, October 19th 2024, 11:08:14 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 
 [OSPF](OSPF.md) funciona de diferentes formas dependiendo el tipo de enlace configurado. Por ejemplo puede ser que no haya elección DR/BDR y que los paquetes _Hello_ se envien a una dirección mulcast diferente. 

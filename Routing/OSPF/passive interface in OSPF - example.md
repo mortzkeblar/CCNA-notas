@@ -4,6 +4,8 @@ tags:
   - dynamic
   - OSPF
   - CCNA
+date created: Saturday, October 19th 2024, 11:08:14 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 
 Recordad que en [OSPF](OSPF.md) se puede utilizar `passive-interface default` para configurar una [passive interface](passive%20interface.md). 

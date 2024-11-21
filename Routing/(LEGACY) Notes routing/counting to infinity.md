@@ -4,6 +4,8 @@ tags:
   - dynamic
   - RIP
   - CCNA
+date created: Saturday, October 19th 2024, 11:08:14 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 
 Los [routing loops]((LEGACY)%20Notes%20routing/routing%20loops.md)  puede provocar otro problema, conocido como _counting to infinity_, cuando un paquete viaja a través de la red con un IP al que nunca llega. Esto sucede normalmente porque la red esta deshabilitada, pero pero el router emisor no es conciente de ello. 

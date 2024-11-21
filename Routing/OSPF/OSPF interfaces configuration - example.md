@@ -4,6 +4,8 @@ tags:
   - dynamic
   - OSPF
   - CCNA
+date created: Saturday, October 19th 2024, 11:08:14 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 
  > #exam Puede configurar alternativamente areas [OSPF](OSPF.md)  por interface, deberá estar familiarizado con ambos metodos para el examen (_Ver: [single area configuration ](single%20area%20configuration%20-%20example.md)_). 

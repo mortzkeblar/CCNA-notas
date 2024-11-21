@@ -4,6 +4,8 @@ tags:
   - dynamic
   - RIP
   - CCNA
+date created: Saturday, October 19th 2024, 11:08:14 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 
 Vamos a configurar RIPv1  (classful) y [RIPv2](RIPv2.md) (classless). Abajo esta la configuración para R1, sera la misma para R2 pero necesitará la dirección IP `.2` y no necesitará anunciar la red `172`.

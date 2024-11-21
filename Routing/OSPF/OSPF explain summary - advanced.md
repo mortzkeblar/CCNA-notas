@@ -4,6 +4,8 @@ tags:
   - OSPF
   - dynamic
   - CCNA
+date created: Saturday, October 19th 2024, 11:08:14 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 
 [OSPF](OSPF.md) esta diseñado para localizar rapidamente los cambios locales dentro de una topologia de red y asi poder realizar el [[Dynamic Routing#Route selection]] para agregar las mejor ruta para llegar a un determinado destino. La red completa se divide en areas, dentro de estas areas se inunda la red de LSAs (link state advertisements) para los routers vecinos. Esto asegura que los routers en otras areas [OSPF](OSPF.md) no son afectados por los cambios o problemas como p. ej. caida de enlaces (links flapping). 

@@ -2,6 +2,8 @@
 tags:
   - CyberSec
   - CCNA
+date created: Saturday, October 19th 2024, 11:08:14 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 Cada organización, sin importar su tamaño, debe tener políticas y procedimientos de seguridad escritos, junto con un plan de cumplimiento y un plan de recuperación ante desastres. Estos pueden incluir los siguientes pasos:
 

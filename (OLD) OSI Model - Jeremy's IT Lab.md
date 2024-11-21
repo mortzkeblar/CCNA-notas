@@ -1,6 +1,8 @@
 ---
 tags:
   - CCNA
+date created: Saturday, October 19th 2024, 11:08:14 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 > Reference: https://www.youtube.com/watch?v=t-ai8JzhHuY&list=PLxbwE86jKRgMpuZuLBivzlM8s2Dk5lXBQ&index=6
 

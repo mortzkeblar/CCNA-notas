@@ -2,6 +2,8 @@
 tags:
   - routing
   - CCNA
+date created: Saturday, October 19th 2024, 11:08:14 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 La tabla de enrutamiento es una base de datos que contiene los destinos conocidos por el router. Esta tiene una serie de instrucciones dependiendo el caso.
 - Para enviar el paquete a un destino X, reenviar el paquete por el next-hop Y

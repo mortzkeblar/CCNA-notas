@@ -2,6 +2,8 @@
 tags:
   - CCNA
   - SpanningTreeProtocol
+date created: Thursday, November 14th 2024, 11:46:48 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 _Rapid Spanning Tree Protocol (RSTP)_, es un protocolo de red definido en el IEEE 802.1w como una mejora al protocol [[Project/Networking/CCNA-notas/Spanning Tree Protocol/STP|STP]] IEEE 802.1d. 
 

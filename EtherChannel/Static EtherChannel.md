@@ -1,6 +1,8 @@
 ---
 tags:
   - CCNA
+date created: Monday, November 18th 2024, 3:17:47 am
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 ![[Pasted image 20241118031901.png]]
 A diferencia de [[Dynamic EtherChannel]], en esta configuración no usamos protocolos de negociación para establecer los enlaces [[EtherChannel]]. 

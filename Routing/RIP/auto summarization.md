@@ -4,6 +4,8 @@ tags:
   - RIP
   - dynamic
   - CCNA
+date created: Saturday, October 19th 2024, 11:08:14 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 
 Esta es una función de [RIPv2](RIPv2.md) que 'resume' automaticamente las redes en los limites de las clases [classful](classful.md). 

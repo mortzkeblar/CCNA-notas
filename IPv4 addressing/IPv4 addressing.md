@@ -1,6 +1,8 @@
 ---
 tags:
   - CCNA
+date created: Friday, October 25th 2024, 9:37:20 am
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 Una dirección IPv4 es un número de 32 bits que se representa en octetos de 8 bits y que idenfica un host de capa 3 dentro del modelo TCP/IP. 
 

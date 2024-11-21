@@ -2,6 +2,8 @@
 tags:
   - SW_stacking
   - CCNA
+date created: Saturday, October 19th 2024, 11:08:14 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 
 Switch stacking solo esta disponible en algunas plataformas. Permite apilar los switches y generar una cadena en modo _Daisy chain_  de hasta nueve switches, para esto usan cables _StackWise_.  

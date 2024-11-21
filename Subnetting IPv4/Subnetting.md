@@ -2,6 +2,8 @@
 tags:
   - routing
   - CCNA
+date created: Saturday, October 19th 2024, 11:08:14 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 Subnetting hace referencia al proceso de dividir bloques de direcciones dentro de subredes más pequeñas. Se puede difenciar principalmente dos tipos de metodos para la división de bloques. 
 

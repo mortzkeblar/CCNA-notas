@@ -3,6 +3,8 @@ tags:
   - ACL
   - lab
   - CCNA
+date created: Saturday, October 19th 2024, 11:08:14 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 
 _Ver: [ACL - Extended, Examples](ACL%20-%20Extended,%20Examples.md)_

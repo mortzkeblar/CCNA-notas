@@ -1,6 +1,8 @@
 ---
 tags:
   - CCNA
+date created: Saturday, October 19th 2024, 11:08:14 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 Un switch es un dispositivo de red que opera en la capa 2 del modelo OSI (capa de enlace de datos). Su función principal es interconectar dispositivos en la misma red local (LAN) y facilitar la comunicación entre ellos.
 

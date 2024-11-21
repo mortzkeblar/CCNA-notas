@@ -4,6 +4,8 @@ tags:
   - dynamic
   - OSPF
   - CCNA
+date created: Saturday, October 19th 2024, 11:08:14 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 Si bien puede forzar la elección de un DR/BDR con `router-id` o setear una [IP](../../labs/NetWarriors/IP.md) Loopback alta. La forma recomendada es utilizar `ip ospf priority`. 
 

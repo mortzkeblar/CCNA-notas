@@ -3,6 +3,8 @@ tags:
   - routing
   - dynamic
   - CCNA
+date created: Saturday, October 19th 2024, 11:08:14 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 
 Este concepto se utiliza cuando tenemos un caso de multiples rutas aprendidas para llegar al mismo destino. Las métricas se ejecutan sobre esas rutas aprendidas para elegir el mejor camino posible según un sistema de clasificación que permite dar preferencia a unas rutas sobre otras y estas sean agregadas en la tabla de enrutamiento.

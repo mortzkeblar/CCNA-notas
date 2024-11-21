@@ -1,6 +1,8 @@
 ---
 tags:
   - CCNA
+date created: Saturday, October 19th 2024, 11:08:14 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 
 - [GNS3 Documentation - Conectarse a la nube local](https://docs.gns3.com/docs/using-gns3/advanced/connect-gns3-internet/)

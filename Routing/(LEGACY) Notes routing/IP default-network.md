@@ -3,6 +3,8 @@ tags:
   - routing
   - static
   - CCNA
+date created: Saturday, October 19th 2024, 11:08:14 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 
 Cuando se usa este comando, las rutas hacia que pasan por el router son considerar como [[gateway of last resort]]. Si existe una ruta estatica, solo afectara al trafico que salga del mismo router. 

@@ -2,6 +2,8 @@
 tags:
   - routing
   - CCNA
+date created: Saturday, October 19th 2024, 11:08:14 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 
 Classless inter-domain routing es un metodo de asignamiento de IPs públicas, introducido en el '93 por la IETF con los siguientes objetivos.

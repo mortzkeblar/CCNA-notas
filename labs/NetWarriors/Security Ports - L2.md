@@ -1,6 +1,8 @@
 ---
 tags:
   - CCNA
+date created: Saturday, October 19th 2024, 11:08:14 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 https://www.youtube.com/watch?v=1RpvaxKwQTA&list=PLoqM5eIpDpUEhtUNKuOd-sGll7NrvlwD7&index=14
 Se trata de una restricción de puertos a nivel de MAC address.

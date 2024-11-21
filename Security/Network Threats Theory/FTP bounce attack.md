@@ -2,6 +2,8 @@
 tags:
   - CyberSec
   - CCNA
+date created: Saturday, October 19th 2024, 11:08:14 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 Este ataque se realiza con un servidor FTP, envía tráfico a un tercer dispositivo en la red. Utiliza FTP en modo pasivo y aprovecha que el cliente inicia las sesiones de comando y de datos. 
 

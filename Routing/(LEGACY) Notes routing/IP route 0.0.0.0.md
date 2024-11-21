@@ -3,6 +3,8 @@ tags:
   - routing
   - static
   - CCNA
+date created: Saturday, October 19th 2024, 11:08:14 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 
 Este comando resulta util para configurar varias rutas sin necesidad de  especificar cada una. En el ejemplo podemos configurar con un solo comando todas la rutas necesarias solo especificando la interface de salida, en este caso, `S0` en `stub router`.

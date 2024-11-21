@@ -1,6 +1,8 @@
 ---
 tags:
   - CCNA
+date created: Saturday, October 19th 2024, 11:08:14 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 Un dominio de colisión es un segmento de red en el que la transmisión simultanea provoca coalisiones, esto era comun en los hubs. Lo que hacia que los dispositivos conectados tuvieran que funcionar en half duplex. 
 

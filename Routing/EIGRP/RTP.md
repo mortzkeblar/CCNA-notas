@@ -1,6 +1,8 @@
 ---
 tags:
   - CCNA
+date created: Saturday, October 19th 2024, 11:08:14 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 Reliable Transport Protocol (RTP), es un protocolo usado por [[EIGRP]] para asegurar que los paquetes son enviados, recibidos, ordenados y reconocidos. Esta es la forma en la que EIGRP garantiza el envio y confiabilidad de los paquetes enrutados.  
 

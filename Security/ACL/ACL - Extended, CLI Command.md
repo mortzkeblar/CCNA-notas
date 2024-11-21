@@ -1,6 +1,8 @@
 ---
 tags:
   - CCNA
+date created: Saturday, October 19th 2024, 11:08:14 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 Ver las instrucciones de una `access-list`
 - Este comando tambien permite ver la cantidad de veces que un solicitud hizo `match` con alguna instrucción.

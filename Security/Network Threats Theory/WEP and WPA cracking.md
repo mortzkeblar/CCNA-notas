@@ -2,6 +2,8 @@
 tags:
   - CyberSec
   - CCNA
+date created: Saturday, October 19th 2024, 11:08:14 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 Con el cifrado WEP, el descifrado de los datos se puede lograr utilizando vectores de inicialización (IV).
 

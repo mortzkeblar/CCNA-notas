@@ -1,6 +1,8 @@
 ---
 tags:
   - CCNA
+date created: Tuesday, October 29th 2024, 4:08:47 am
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 Es necesario recordar que siempre que un host envia un dato, el paquete de capa 3 siempre sale encapsulado dentro de un frame.
 

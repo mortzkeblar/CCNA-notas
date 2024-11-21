@@ -1,6 +1,8 @@
 ---
 tags:
   - CCNA
+date created: Monday, October 21st 2024, 12:04:56 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 **The transport layer**, esta capa se encarga de enviar los datos a un proceso de una aplicación (session multiplexing) dentro del host de destino una vez que los datos hayan llegado a su destino mediante L2/L3. Al igual que L2 (MAC address) y L3 (IP address), L4 tambien tiene su propio esquema de direccionamiento llamado _port numbers_.
 

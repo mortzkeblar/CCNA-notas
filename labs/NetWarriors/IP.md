@@ -2,6 +2,8 @@
 tags:
   - general
   - CCNA
+date created: Monday, October 21st 2024, 12:04:56 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 
 ![](_anexos_/Screenshot%20from%202023-11-13%2008-56-34.png)

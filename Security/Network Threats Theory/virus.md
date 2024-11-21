@@ -2,6 +2,8 @@
 tags:
   - CyberSec
   - CCNA
+date created: Saturday, October 19th 2024, 11:08:14 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 Un virus es un término genérico para cualquier tipo de programa que se adjunta a archivos individuales en un sistema de destino. Después de que el virus agrega su código original al archivo de la víctima, la víctima se infecta y el archivo se modifica y puede infectar otros archivos mediante un proceso llamado replicación.
 

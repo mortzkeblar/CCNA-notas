@@ -2,6 +2,8 @@
 tags:
   - PNAC
   - CCNA
+date created: Saturday, October 19th 2024, 11:08:14 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 
 EAPOL es una modificación del protocolo EAP (un protocolo bastante usado en redes inalambricas, lo cual tiene sentido teniendo en cuenta la forma de autenticación). 

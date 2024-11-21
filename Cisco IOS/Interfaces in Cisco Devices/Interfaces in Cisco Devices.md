@@ -1,6 +1,8 @@
 ---
 tags:
   - CCNA
+date created: Sunday, October 27th 2024, 4:32:49 am
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 ![[Pasted image 20241027043409.png]]
 

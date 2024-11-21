@@ -4,6 +4,8 @@ tags:
   - routing
   - OSPF
   - CCNA
+date created: Saturday, October 19th 2024, 11:08:14 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 Tambien llamado **Router Link State Advertisements**, los LSA Type 1 son generados por cada tipo de router (backbone, stud, NSSA, non-stub, etc). 
 - Los LSA enumeran el [RID](RID.md) del router de origen

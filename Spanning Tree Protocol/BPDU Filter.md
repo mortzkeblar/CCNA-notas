@@ -2,6 +2,8 @@
 tags:
   - CCNA
   - SpanningTreeProtocol
+date created: Sunday, November 17th 2024, 2:18:10 am
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 _BPDU Filter_ es una caracteristica [[Project/Networking/CCNA-notas/Spanning Tree Protocol/STP|STP]] que se puede usar para prevenir que se envien o reciban BPDUs en un puerto especifico. Esto es deseable en puertos donde [[Project/Networking/CCNA-notas/Spanning Tree Protocol/STP|STP]] no es necesario (como en los puertos de hosts finales).
 

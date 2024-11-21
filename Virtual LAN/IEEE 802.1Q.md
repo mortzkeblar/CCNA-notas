@@ -2,6 +2,8 @@
 tags:
   - CCNA
   - VLAN
+date created: Saturday, November 9th 2024, 9:02:47 am
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 El protocolo IEEE 802.1.q, es usado para _taggear_ los frames en los puertos troncales o trunk ports. Es un campo de 4 bytes que se añade entre los campos source y ethertype del [[Ethernet Header (and Trailer)]]. 
 

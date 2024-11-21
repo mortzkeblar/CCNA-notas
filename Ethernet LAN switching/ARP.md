@@ -1,6 +1,8 @@
 ---
 tags:
   - CCNA
+date created: Wednesday, October 23rd 2024, 3:31:21 am
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 **Address Resolution Protocol**, este protocolo es el que permite a un host conocer la MAC address de otro host dentro de la LAN. ARP genera dos mensajes:
 - ARP Request, pregunta al otro host cual es su MAC address 

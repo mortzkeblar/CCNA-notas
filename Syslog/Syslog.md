@@ -2,6 +2,8 @@
 tags:
   - SYSLOG
   - CCNA
+date created: Saturday, October 19th 2024, 11:08:14 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 
 ![](_anexos_/Screenshot%20from%202024-01-02%2000-54-22.png)

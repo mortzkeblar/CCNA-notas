@@ -4,6 +4,8 @@ tags:
   - routing
   - OSPF
   - CCNA
+date created: Saturday, October 19th 2024, 11:08:14 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 **Summary Link State Advertisements**, proporciona información sobre destinos fuera del area local (inter-area routing information). A diferencia de las [LSA Type 1](LSA%20Type%201.md), las LSA Type 3 no brindan información de la topologia, sino que resumente la información topologica recibida de las [LSA Type 1](LSA%20Type%201.md) y [LSA Type 2](LSA%20Type%202.md) en un prefijo y su coste asociado. 
 
@@ -16,7 +18,7 @@ Estas LSA son generadas por el ABR, el proceso de flooding es:
 Con `show ip ospf database summary [options]` podemos ver los LSA resumidos en la DB de estados de enlace (LSDB). Podemos ver información sobre: 
 - Link ID
 - Subnet mask
-- [cost](cost.md) 
+- [OSPF cost](OSPF%20cost.md) 
 
 ``` bash
 R4#show ip ospf database summary

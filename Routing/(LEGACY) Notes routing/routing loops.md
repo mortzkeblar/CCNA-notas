@@ -3,6 +3,8 @@ tags:
   - routing
   - dynamic
   - CCNA
+date created: Saturday, October 19th 2024, 11:08:14 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 
 Los routing loops puede provocar castastrofes para la red, estos consumen ancho de banda y recursos causando perdida de información. Además puede tomar tiempo en localizarlo y depurarlo. 

@@ -2,6 +2,8 @@
 tags:
   - STP
   - CCNA
+date created: Saturday, October 19th 2024, 11:08:14 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 
 Bridge Protocol Data Unit (BPDU) es el mecanismo para que [STP](Project/Networking/CCNA-notas/Spanning%20Tree%20Protocol/(LEGACY)%20STP/STP.md) pueda funcionar. 

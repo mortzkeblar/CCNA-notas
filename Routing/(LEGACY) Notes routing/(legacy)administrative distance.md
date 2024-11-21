@@ -3,6 +3,8 @@ tags:
   - routing
   - dynamic
   - CCNA
+date created: Saturday, October 19th 2024, 11:08:14 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 
 Esto es usado por el router para determinar las rutas más _fiables_ dependiendo el protocolo de routing. Generalmente siempre se prefiere a los protocolos con el AD más bajo. 

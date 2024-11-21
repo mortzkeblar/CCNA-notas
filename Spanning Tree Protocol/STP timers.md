@@ -2,6 +2,8 @@
 tags:
   - CCNA
   - SpanningTreeProtocol
+date created: Thursday, November 14th 2024, 3:06:07 am
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 ![[Pasted image 20241114022110.png]]
 - **Hello** timer - define la frecuencia con la que los BPDUs son enviados (por defecto se envian cada 2 segundos).  

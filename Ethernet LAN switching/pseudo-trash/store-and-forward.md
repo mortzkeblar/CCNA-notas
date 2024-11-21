@@ -1,6 +1,8 @@
 ---
 tags:
   - CCNA
+date created: Saturday, October 19th 2024, 11:08:14 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 Este método lee el frame completo, lo copia dentro de un buffer. Realiza una _cyclic redundancy check (CRC)_, y reenvía el frame si pasa la verificación. 
 

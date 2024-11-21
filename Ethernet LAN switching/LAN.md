@@ -1,6 +1,8 @@
 ---
 tags:
   - CCNA
+date created: Monday, October 21st 2024, 1:43:48 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 **Local Area Network**, se define como un grupo de dispositivos interconectados dentro de un area limitada. 
 

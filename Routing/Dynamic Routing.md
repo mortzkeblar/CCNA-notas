@@ -3,6 +3,8 @@ tags:
   - routing
   - dynamic
   - CCNA
+date created: Saturday, October 19th 2024, 11:08:14 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 El routing dinamico hace uso de los llamados _routing protocols_ para descubrir redes alcanzables y poder definir las mejores rutas para poder llegar hacia ellas.
 
@@ -22,9 +24,9 @@ Los protocolos de enrutamiento se dividen en dos categorias:
 ![[Pasted image 20241118150505.png]]
 
 Además de esta categorización, los protocolos de enrutamiento tambien pueden ser categorizados por el _algorithm type_, que describe como los routers comparten la información y calculan las rutas.
-- Link State Protocols 
-- Distance Vector Protocols
-- Path Vector Protocols 
+- [[Interior Gateway Protocols#Link-State Protocols]]
+- [[Interior Gateway Protocols#Distance-Vector Protocols]]
+- Path Vector Protocols
 
 ![[Pasted image 20241118150728.png]]
 

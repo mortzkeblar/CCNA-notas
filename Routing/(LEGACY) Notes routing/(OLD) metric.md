@@ -1,6 +1,8 @@
 ---
 tags:
   - CCNA
+date created: Saturday, October 19th 2024, 11:08:14 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 
 La diferencia en métrica reside esencialmente en que la métrica rige cuando se aprende el prefijo a través de una único método de enrutamiento. 

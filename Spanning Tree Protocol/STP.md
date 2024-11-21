@@ -2,6 +2,8 @@
 tags:
   - CCNA
   - SpanningTreeProtocol
+date created: Sunday, November 10th 2024, 8:03:11 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 _Spannign Tree Protocol (STP)_, es un protocolo (definido en el standard IEEE 802.1D) que ayuda a resolver problemas de tipo _Layer 2 loops_ dentro de una [[LAN]], estos son frames que estan en loop dentro de la red de forma indefinida. 
 

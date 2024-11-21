@@ -3,6 +3,8 @@ tags:
   - lab
   - VLAN
   - CCNA
+date created: Saturday, October 19th 2024, 11:08:14 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 Este laboratorio parteneca al canal [Gurutech](https://www.youtube.com/@gurutechnetworks), playlist _Real-World Networking Projects_, [Cap2](https://www.youtube.com/watch?v=F_dSpaTMyuA&list=PLvUOx2WG6R7PlKlERb5zceXxHfC4P7gJn&index=16). 
 

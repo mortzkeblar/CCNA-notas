@@ -2,6 +2,8 @@
 tags:
   - NAT
   - CCNA
+date created: Saturday, October 19th 2024, 11:08:14 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 
 El tipo de NAT más ampliamente utilizado hoy en las organizaciones. Consiste en permitir que múltiples IP privadas se conecten a internet utilizando una sola IP (overloading). Aquí la traducción se hace en base a puertos.

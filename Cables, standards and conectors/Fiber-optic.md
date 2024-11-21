@@ -1,6 +1,8 @@
 ---
 tags:
   - CCNA
+date created: Monday, October 28th 2024, 1:23:48 am
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 Los cables de fibra optica, transmiten señales de luz a través de una fibra de vidrio. Si bien este "vidrio" es mucho mas flexible que el tradicional, aun así existe riesgo de romper la fibra muy facilmente. Incluso si se doble de forma muy pronunciada puede causar que la luz tenga fugas hacia fuera del cable, lo cual resulta en un debilitamiento de la señal.  
 

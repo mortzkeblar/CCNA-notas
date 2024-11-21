@@ -2,6 +2,8 @@
 tags:
   - VLAN
   - CCNA
+date created: Saturday, November 9th 2024, 6:51:25 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 Este concepto hace referencia al enrutamiento entre subredes en una LAN que esta segmentada mediante [[VLAN]]s. 
 

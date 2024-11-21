@@ -2,6 +2,8 @@
 tags:
   - CCNA
   - SpanningTreeProtocol
+date created: Thursday, November 14th 2024, 3:05:32 am
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 Los principales port states en [[Project/Networking/CCNA-notas/Spanning Tree Protocol/STP|STP]] son: _blocking_, _listening_, _learning_ y _forwarding_.
 

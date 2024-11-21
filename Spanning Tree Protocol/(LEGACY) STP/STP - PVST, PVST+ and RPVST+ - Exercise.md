@@ -3,6 +3,8 @@ tags:
   - STP
   - lab
   - CCNA
+date created: Saturday, October 19th 2024, 11:08:14 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 
 _Para ver el ejercicio y resolución: https://youtu.be/dcTzBa9A43g?list=PL2A7l6PiV52esSwosIAO86zf0RGe2pjTZ&t=270_

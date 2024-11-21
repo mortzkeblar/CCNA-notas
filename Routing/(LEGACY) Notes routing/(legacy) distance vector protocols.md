@@ -3,6 +3,8 @@ tags:
   - routing
   - dynamic
   - CCNA
+date created: Saturday, October 19th 2024, 11:08:14 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 
 Tambien lo puede encontrar como _Bellman-Ford algorithms_. Son algoritmos usados para calcular el mejor camino para llegar a las rutas definidas por otros routers, despues actualizan sus tablas de routing con esa información, esto permite que las rutas sean cambiantes en la topologia de red. 

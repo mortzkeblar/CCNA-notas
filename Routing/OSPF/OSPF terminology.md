@@ -4,6 +4,8 @@ tags:
   - dynamic
   - OSPF
   - CCNA
+date created: Saturday, October 19th 2024, 11:08:14 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 
 #exam En el examen de certificación se espera que tener conocimientos para configurar y hacer troubleshooting de [OSPF](OSPF.md) en IPv4 e IPv6, ambos en single y multi-area.
@@ -11,7 +13,7 @@ tags:
 
 Algunos terminologias usadas en OSPF son:
 
--  [cost](cost.md) 
+-  [OSPF cost](OSPF%20cost.md) 
 - _Area ID_ - un area OSPF es un grupo de routers dividido dentro de subdominios basados en ID de area, cada router dentro del mismo area comparte el mismo _link state_ información. Es identificable por un ID de area de 32-bit, se pueden representar en decimales o decimales con puntos (como las [IP](../../labs/NetWarriors/IP.md)). El area 0 y area 0.0.0.0 significan lo mismo. 
 - _Link_ - un enlace es una conexión hacia otro router, la _OSPF topology table_ se denomina _Link State Database_.
 - _Link state_ - es el estado del enlace con otro router, el _link state database_ consiste de una lista de el estado de los enlaces entre los routers en la misma área. 

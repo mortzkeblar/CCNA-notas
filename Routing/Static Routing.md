@@ -3,6 +3,8 @@ tags:
   - routing
   - static
   - CCNA
+date created: Saturday, October 19th 2024, 11:08:14 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 Esto es otro de los metodos por los cuales un dispositivo de capa 3 puede aprender rutas (junto con [[Connected route]], [[Local route]] y [[Dynamic Routing]]). Consiste en la agregación de rutas que no estan conectadas directamente al router, y se realiza de forma manual por el administrador. 
 

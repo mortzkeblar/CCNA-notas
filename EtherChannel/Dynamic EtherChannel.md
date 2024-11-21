@@ -1,6 +1,8 @@
 ---
 tags:
   - CCNA
+date created: Monday, November 18th 2024, 3:17:11 am
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 _Dynamic EtherChannel_ se apoya en protocolos de negociación, el switch usa el protocolo para enviar mensajes entre ellos y hacer el proceso de negociación par formar finalmente el etherchannel link. 
 

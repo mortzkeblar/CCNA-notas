@@ -1,6 +1,8 @@
 ---
 tags:
   - CCNA
+date created: Saturday, October 19th 2024, 11:08:14 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 La tabla CAM (Content Addressable Memory), asocia direcciones MAC de dispositivos conectados con los puertos específicos del [[switch]].
 

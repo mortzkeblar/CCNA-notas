@@ -1,6 +1,8 @@
 ---
 tags:
   - CCNA
+date created: Sunday, November 17th 2024, 3:17:58 am
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 > ***Bandwidth*** es el número total de bits que pueden ser transferidos sobre una conexión por segundo (4x enlaces de un 1Gbps significa 4Gbps de bandwidth). Es importante diferenciar el concepto de bandwidth del de **_speed_**, esta ultima hace referencia al ratio maximo de transferencia de una comunicación (o conexión) en particular. 
 

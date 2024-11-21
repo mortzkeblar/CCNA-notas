@@ -1,6 +1,8 @@
 ---
 tags:
   - CCNA
+date created: Saturday, October 19th 2024, 11:08:14 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 Diffusing Update Algorithm (DUAL) es el algoritmo que usa [[EIGRP]] para determinar el mejor camino (el caminio loop-free con la menor [[(LEGACY) metric]]) a una red de destino. 
 - La ruta seleccionada es conocida como _Successor route_
@@ -9,7 +11,7 @@ Diffusing Update Algorithm (DUAL) es el algoritmo que usa [[EIGRP]] para determi
 
 El _successor_ (next-hop router), anuncia la ruta con su propia [[(LEGACY) metric]] (tambien conocido como _reported distance (RD)_ o distancia anunciada). 
 
-La _feasible distance_ incluye la distancia informada y el [[cost]] para llegar al _successor_. 
+La _feasible distance_ incluye la distancia informada y el [[OSPF cost]] para llegar al _successor_. 
 
 > La _successor route_ se incluye en la IP [[Routing Table]] y en la EIGRP topology table, con el next-hop neighbor como _successor_.
 

@@ -4,6 +4,8 @@ tags:
   - dynamic
   - RIP
   - CCNA
+date created: Saturday, October 19th 2024, 11:08:14 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 
 Un router recibe una ruta (proveniente de un anuncio de otro router) automáticamente dentro de la routing table. Entonces, este router anuncia a través de sus interfaces las rutas del que dispone para que los demás routers tenga conocimiento de su tabla. 

@@ -2,6 +2,8 @@
 tags:
   - ETHERCHANNEL
   - CCNA
+date created: Saturday, October 19th 2024, 11:08:14 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 
 Se utiliza el protocolo LACP para negociar y mantener el etherchannel entre dos switches cisco o de otro vendor. Incluso permite levantar un etherchannel entre un switch Cisco y un servidor de virtualización (hypervisor).

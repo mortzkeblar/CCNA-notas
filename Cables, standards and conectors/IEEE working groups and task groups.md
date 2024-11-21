@@ -1,6 +1,8 @@
 ---
 tags:
   - CCNA
+date created: Sunday, October 27th 2024, 11:47:13 pm
+date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 La IEEE asigna _working groups_ para desarrollar tecnologias especificas. Los workings groups más relevantes para el CCNA son :
 - 802.3 - Ethernet Standard 
