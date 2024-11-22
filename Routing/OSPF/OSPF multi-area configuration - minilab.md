@@ -18,7 +18,7 @@ El concepto de OSPF multi-area es similar a OSPF single-area (tal como vimos en 
 
 ## lab objetives
 1. Planear un red usando los principios OSPF de Cisco y establecer los router DR/BDR (si es necesario).
-2. Asignar [RID](RID.md)s usando interfaces Loopback o `router id [id address]`. Este paso es opcional pero altamente recomendable.
+2. Asignar [(legacy) RID]((legacy)%20RID.md)s usando interfaces Loopback o `router id [id address]`. Este paso es opcional pero altamente recomendable.
 3. Habilitar OSPF con `router ospf [process ID]` 
 4. Configurar las interfaces que quieres que participen en OSPF con `network <ADDRESS> [wildcard] [area #]`.
 5. Configurar el soporte de vecinos (si es necesario, p. ej. para NBMA) con `neighbor [ip address]`.

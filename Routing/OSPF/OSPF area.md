@@ -28,7 +28,7 @@ Estas areas se basan en una estructura _two-level hierarchical_ entre el _backbo
 
 ![[Pasted image 20241120235545.png]]
 
-**OSPF router types**
+### OSPF router types
 OSPF tambien distigue diferentes tipos de routers dependiente su ubicación entre las areas, a saber:
 - _Internal Router_ - todas las interfaces OSPF estan habilitadas para el mismo area 
 - _Backbone Router_ - tienen al menos una de sus interfaces esta habilitada en el Area 0
@@ -36,7 +36,7 @@ OSPF tambien distigue diferentes tipos de routers dependiente su ubicación entr
 	- Esto se debe a que las areas _non-backbone_ no pueden estar conectadas entre sí, sin pasar antes por el _backbone_ area
 - _Autonomous System Boundary Router (ASBR)_ - routers que conectan el _OSPF Autonomous System_ a redes externas (i.e. internet)
 
-**OSPF route types**
+### OSPF route types
 Otra clasificación que realiza [[OSPF]] es sobre las rutas:
 - _Intra-area route_ - son rutas con destinos que se encuentran en el mismo area que el router 
 - _Inter-area route_ - son rutas a destinos que están en un area en la que el router no tiene interfaces conectadas a esa area 

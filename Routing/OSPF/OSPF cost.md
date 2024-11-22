@@ -46,7 +46,14 @@ Para cambiar el valor _reference bandwidth_ se usa el comando `auto-cost referen
 > 
 
 ## Modifying the cost of a link 
-asdf
+Existen dos metodos para poder modificar el costo del enlace.
+- Configurar un valor de costo directamente con el comando `ip ospf cost <cost>` en el modo _interface config_
+- Modificar el valor _bandwidth_ de la interface con el comando `bandwidth <kbps>` en el modo _interface config_
+	- Es importante no confundir el valor de _bandwidth_ con el de _reference bandwidth_.
+	- A diferencia del primer metodo, esto no modifica el valor de costo directamente sino que influye en el calculo del costo mediante la formula  $reference\ bandwidth/bandwidth$ 
+	- Modificar el _bandwidth_ de la interface tambien puede afectar otras funciones como el QoS, por lo cual no es el metodo primario recomendable a usar 
+
+> El comando `bandwidth <kbps>` solo afecta a las operaciones de los protocolos de enrutamiendo como OSPF, EIGRP, etc. No afecta a la forma en como opera la interface, para modificar la velocidad de funcionamiento en la interface se debe usar el `speeed` comando. 
 
 
 
@@ -62,41 +69,10 @@ asdf
 
 
 
-``` bash
-# output for a Ethernet interface running at 10 Mbps
 
-R1#show ip ospf int f0/0
-FastEthernet0/0 is up, line protocol is up
-Internet Address 192.168.1.1/24, Area 0
-Process ID 1, Router ID 10.0.0.1, Network Type BROADCAST, Cost: 10
-Transmit Delay is 1 sec, State DR, Priority 1
 
-# Here is an interface running at 100 Mbps:
 
-Router#show ip ospf int f0/0
-FastEthernet0/0 is up, line protocol is up
-Internet address is 192.168.1.1/24, Area 0
-Process ID 1, Router ID 10.0.0.1, Network Type BROADCAST, **Cost: 1**
-Transmit Delay is 1 sec, State BDR, Priority 1
-```
 
-Puedes modificar el costo manualmente con `ip ospf cont [1-65535] interface`. Como el costo es acumulativo, cada interface suma en el costo de toda la red. El costo se puede ver con el comando `show ip route`. El costo para la ruta de abajo es 11, mientras que 110 es la  [[Dynamic Routing#Administrative Distance parameter]] para [OSPF](OSPF.md). 
 
-``` bash
-R1#show ip route
-172.16.1.1 [110/**11**] via 192.168.1.2, 00:01:21, FastEthernet0/0
-```
 
-La siguiente salida muestra una interface `Loopback` con un costo de 1 y otra interface FastEthernet con un costo de 10, lo que resulta en un costo total de 11. 
 
-``` bash
-R2#show ip ospf interface
-Loopback0 is up, line protocol is up
-Internet Address 172.16.1.1/16, Area 0
-Process ID 1, Router ID 192.168.1.2, Network Type LOOPBACK, **Cost: 1**
-Loopback interface is treated as a stub Host
-FastEthernet0/0 is up, line protocol is up
-Internet Address 192.168.1.2/24, Area 0
-Process ID 1, Router ID 192.168.1.2, Network Type BROADCAST, **Cost: 10**
-Transmit Delay is 1 sec, State BDR, Priority 1
-```

@@ -8,9 +8,9 @@ date created: Saturday, October 19th 2024, 11:08:14 pm
 date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 Tambien llamado **Router Link State Advertisements**, los LSA Type 1 son generados por cada tipo de router (backbone, stud, NSSA, non-stub, etc). 
-- Los LSA enumeran el [RID](RID.md) del router de origen
+- Los LSA enumeran el [(legacy) RID]((legacy)%20RID.md) del router de origen
 - Contienen los enlaces conectados directamente en esa area
-- Para cada tipo de enlace, el LSA contiene un link ID y un ADV router, que es el que se anuncia como [RID](RID.md). 
+- Para cada tipo de enlace, el LSA contiene un link ID y un ADV router, que es el que se anuncia como [(legacy) RID]((legacy)%20RID.md). 
 
 Cada router en una area envia LSA Type 1 a toda el area, si el router esta en varias areas, genera un LSA Type 1 para cada area al que esta conectado. 
 
