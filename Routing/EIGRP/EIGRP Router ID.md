@@ -10,7 +10,7 @@ Router ID es una caracteristica que emplea [[EIGRP]] para la prevención de rout
 
 En EIGRP, Router ID se usa para identificar las fuentes de las rutas externas. Rutas externas con el mismo RID que el router local son descartadas, esto previene los routing loops cuando rutas externas son inyectadas dentro de un EIGRP [[AS]]. 
 
-El proceso de elección del RID es similar a OSPF, se elije la [[Project/Networking/CCNA-notas/labs/NetWarriors/IP]] más alta configurada en el router. En caso de que hayan loopback interfaces, se prefieren estas por encima de las interfaces fisicas. 
+El proceso de elección del RID es similar a OSPF, se elije la [[IP address]] más alta configurada en el router. En caso de que hayan loopback interfaces, se prefieren estas por encima de las interfaces fisicas. 
 
 RID puede ser configurado manualmente con `eigrp router-id`, si ya hay configurado una instancia EIGRP, esta se actualiza automaticamente con el nuevo RID y se forma una nueva adyacencia. El RID se puede consultar en la EIGRP topology table. 
 

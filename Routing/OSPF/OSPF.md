@@ -43,7 +43,7 @@ Además de mejorar los metodos de protocolos anteriores, introduce caracteristic
 > - Calcular las mejores rutas a cada destino
 
 
-[OSPF](OSPF.md) es un protocolo [[classless]] que establece relaciones con routers vecinos mediante paquetes multicast _Hello_ y temporizadores _Dead_. Las actualizaciones se realizan a través de _data structures_ llamadas _[[LSA|Link State Advertisements]]_. Estas LSA luego son organizadas en la **_Link State Database_** que actua como la tabla de topología de OSPF. Los LSAs se propagan por las áreas [OSPF](OSPF.md) hasta que todos los routers tienen un mapa consistente de la red (es decir, las bases de datos coinciden).
+[OSPF](OSPF.md) es un protocolo [[classless]] que establece relaciones con routers vecinos mediante paquetes multicast _Hello_ y temporizadores _Dead_. Las actualizaciones se realizan a través de _data structures_ llamadas _[[LSA|Link State Advertisements]]_. Estas LSA luego son organizadas en la **_Link State Database_** que actua como la tabla de topología de OSPF. Los LSAs se propagan por las [[OSPF area]]s, hasta que todos los routers tienen un mapa consistente de la red (es decir, todas las [[#Link-State Database]]s (LSDB) de los routers son iguales entre sí).
 
 Cuando el mapa es consistente, el algoritmo SPF calcula rutas _loop-free_ (sin bucles) para cada red de destino, generando un _SPF tree_ que se refleja en la tabla de enrutamiento.
 
