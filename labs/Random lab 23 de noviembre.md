@@ -150,3 +150,30 @@ wr
 ```
 
 ### OSPF configuration 
+
+``` 
+# RO-2 
+
+router ospf 1
+ network 192.168.10.0 0.0.0.255 area 0
+ network 192.168.20.0 0.0.0.255 area 0
+ network 192.168.30.0 0.0.0.255 area 0
+
+# RO-1 
+
+router ospf 1
+ network 10.0.254.0 0.0.0.7 area 0 # unnecessary
+ network 10.0.254.0 0.0.0.31 area 0
+
+# RO-3
+
+router ospf 1
+network 10.0.254.14 0.0.0.0 area 0 
+network 10.0.254.21 0.0.0.0 area 
+
+
+
+
+
+
+```
