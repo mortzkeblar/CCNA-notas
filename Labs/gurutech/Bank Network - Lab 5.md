@@ -5,7 +5,7 @@ date created: Saturday, October 19th 2024, 11:08:14 pm
 date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 
-![](_anexos_/Untitled%20Diagram.drawio.png)
+![](Untitled%20Diagram.drawio.png)
 
 Radeon Company Ltd. is una compañia de US que brinda servicios bancarios y de aseguramiento. Esta intentando expandir sus servicios a través del continente africano abriendo su primer sucursal en Nairobi, Kenya. La compañia adquirio un edificio de cuatro pisos para operar dentro de la capital Keniana, cada piso cuenta con varios departamentos. Los detalles de los requerimientos se encuentran descritos en este paper. 
 
@@ -44,7 +44,7 @@ Radeon Company Ltd. is una compañia de US que brinda servicios bancarios y de a
 1. Use un software de modelación de red para visualizar la topologia de red
 2. Puede usar un software de emulación para implementar la siguiente topologia
 	- Debe haber un router para cada piso (floor). Los routers debe esta conectados a los switches en ese piso
-	- Use [OSPF](OSPF.md) como protocolo de enrutamiento
+	- Use [OSPF](../../Routing/OSPF/OSPF.md) como protocolo de enrutamiento
 	- Cada departamento requiere tener una red inalambrica para sus usarios
 	- Se espera que cada departamento (excepto el server room) tenga al menos 60 usuarios totales
 	- Se espera que todos los hosts en la red deben obtener IP de forma automatica, con un servidor DHCP ubicado en el server room

@@ -19,7 +19,7 @@ host1$ nmap --script broadcast-dhcp-discover
 
 ```
 
-![](_anexos_/dhcp-helper-address.png)
+![](dhcp-helper-address.png)
 
 # Tareas a realizar
 - [ ] Configurar los _access ports_ para los switches que tengan interfaces conectadas hacia hosts finales
@@ -185,7 +185,7 @@ exit
 ```
 
 ## DHCP server
-Seguido a eso vamos a configurar el servidor [DHCP](DHCP.md) para que nuestros hosts de las VLAN 10, 20, 30 puedan recibir un IP de forma dinámica.
+Seguido a eso vamos a configurar el servidor [DHCP](../../DHCP/DHCP.md) para que nuestros hosts de las VLAN 10, 20, 30 puedan recibir un IP de forma dinámica.
 
 
 ``` bash

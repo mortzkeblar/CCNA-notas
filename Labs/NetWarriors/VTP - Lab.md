@@ -16,7 +16,7 @@ SW1$ show interfaces trunk
 
 La idea de este lab es implementar el protocolo _VTP_ para que las VLAN se configuren de forma dinamica en los switches.
 
-![](_anexos_/Screenshot%20from%202024-01-10%2004-30-49.png)
+![](Screenshot%20from%202024-01-10%2004-30-49.png)
 
 Primero habilitamos el servidor VTP en el switch central, este es el que va a actuar como VTP server.
 

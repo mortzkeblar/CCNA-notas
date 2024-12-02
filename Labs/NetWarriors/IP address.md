@@ -15,7 +15,7 @@ $$Porción\ de\ RED + Porcion\ de\ HOST$$
 # TODO: agregar concepto de peso en el sistema binario
 
 ### IP address range
-![](_anexos_/ip-classes.png)
+![](ip-classes.png)
 ### Calcular IPs disponibles para host
 Esto se hace usando la formula $2^{x}$ siendo $x$ la cantidad de bits disponibles en la porción de host. 
 - Por ejemplo en un rango clase A, tenemos 24 bits. Entonces tenemos disponibles $2^{24}$ host disponibles, es decir $16.777.216$ hosts disponibles

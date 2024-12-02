@@ -8,7 +8,7 @@ date modified: Wednesday, November 20th 2024, 11:33:50 pm
 Este laboratorio parteneca al canal [Gurutech](https://www.youtube.com/@gurutechnetworks), playlist _Real-World Networking Projects_, [Cap3](https://www.youtube.com/watch?v=RwFJTJTe-OM&list=PLvUOx2WG6R7PlKlERb5zceXxHfC4P7gJn&index=15).
 
 Temas a tratar:
-- [OSPF](OSPF.md) 
+- [OSPF](../../Routing/OSPF/OSPF.md) 
 
 ``` bash
 # comandos de ayuda
@@ -18,7 +18,7 @@ Switch$ show vlan brief
 Router$ show ip ospf neighbor 
 ```
 
-![](_anexos_/gtech%20lab%203.png)
+![](gtech%20lab%203.png)
 
 ## objetives
 Se requiere implementar una red moderna para un Hotel. El hotel consta de tres pisos:
@@ -54,12 +54,12 @@ Además, se deben seguir estas consideraciones a la hora de la implementación d
 		1. Admin - VLAN20, red: `192.168.2.0/24`
 		2. IT - VLAN10, red: `192.168.1.0/24`
 
-8. Usar [OSPF](OSPF.md) como protocolo de enrutamiento para anunciar rutas. 
+8. Usar [OSPF](../../Routing/OSPF/OSPF.md) como protocolo de enrutamiento para anunciar rutas. 
 9. Todos los dispositivos en la red deberian poder obtener una IP dinamicamente con sus respectivos routers configurados como DHCP server. 
 10. Todos los dispositivos de la red deberian poder comunicarse entre si.
 11. Configurar SSH en todos los routers para administración remota.
 12. En el departamento de IT, añadir una PC llamada `Test-PC` al puerto `G0/1` y usarlo como dispositivo donde hacer los tests de conección remota.
-13. Configurar port security para el IT-dept [switch](switch.md), para permitir el acceso solo a Test-PC en Gi0/1 (usar sticky method para obtener la MAC address con modo de violación: shutdown).
+13. Configurar port security para el IT-dept [switch](../../Ethernet%20LAN%20switching/pseudo-trash/switch.md), para permitir el acceso solo a Test-PC en Gi0/1 (usar sticky method para obtener la MAC address con modo de violación: shutdown).
 
 
 ## resolution
@@ -252,7 +252,7 @@ encapsulation dot1q 10
 ip address 192.168.1.1 255.255.255.0
 ```
 
-Configuramos [DHCP](DHCP.md) en cada uno de los routers.
+Configuramos [DHCP](../../DHCP/DHCP.md) en cada uno de los routers.
 
 ``` bash
 # RF1
@@ -314,7 +314,7 @@ exit
 
 ```
 
-Ahora configuramos [OSPF](OSPF.md) en los routers bajo el ID 10.
+Ahora configuramos [OSPF](../../Routing/OSPF/OSPF.md) en los routers bajo el ID 10.
 
 ``` bash
 # RF1

@@ -9,8 +9,8 @@ date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 
 Temas a tratar:
-- [RIPv2](RIPv2.md) 
-- [VLAN](VLAN.md) 
+- [RIPv2](../../Routing/RIP/RIPv2.md) 
+- [VLAN](../../Virtual%20LAN/VLAN.md) 
 
 La universidad Albion es un centro muy grande donde se ubican dos campus a 20 millas de distancia. Los estudiantes de la universidad y el staff estan distribuidos en cuatro facultades, estos incluyen a la facultad de Ciencias de la Salud, Negocios, Ingenieria/Computación y Arte/Diseño. Cada miembro del staff tiene una PC y los estudiantes tienen acceso a las PCs en los laboratorios. 
 
@@ -26,13 +26,13 @@ La universidad Albion es un centro muy grande donde se ubican dos campus a 20 mi
 2. Se espera que configures los dispositivos centrales y algunos host finales para proporcionar conectividad end-to-end y acceso a los servidores internos y al servidor externo.
 	1. Cada departamento/facultad deberia tener su propia red IP y separada del resto. 
 	2. Los switches deben ser configurados con las VLAN correspondientes y configuraciones de seguridad.
-	3. [RIPv2](RIPv2.md) sera usado para proporcionar enrutamiento entre los routers en la red interna, además de enrutamiento estatico para el servidor externo. 
-	4. Se espera que los dispositivos en los edificios obtengan IPs de forma dinamica desde un router que actue como servidor [DHCP](DHCP.md). 
+	3. [RIPv2](../../Routing/RIP/RIPv2.md) sera usado para proporcionar enrutamiento entre los routers en la red interna, además de enrutamiento estatico para el servidor externo. 
+	4. Se espera que los dispositivos en los edificios obtengan IPs de forma dinamica desde un router que actue como servidor [DHCP](../../DHCP/DHCP.md). 
 
 
 ## resolution
 
-Para planear la arquitectura nos basamos en el modelo de jerarquias de Cisco, algo que es abordado en [LAN y WAN - Jerarquias](../NetWarriors/LAN%20y%20WAN%20-%20Jerarquias.md). 
+Para planear la arquitectura nos basamos en el modelo de jerarquias de Cisco, algo que es abordado en [LAN y WAN - Jerarquias](LAN%20y%20WAN%20-%20Jerarquias.md). 
 
 Tanto las VLANs como las redes internas de cada departamento van a estar conformados de la siguiente manera.
 
@@ -232,7 +232,7 @@ no sh
 exit
 ```
 
-Configuración de RMAIN y RMINOR como servidor [DHCP](DHCP.md).
+Configuración de RMAIN y RMINOR como servidor [DHCP](../../DHCP/DHCP.md).
 
 ``` bash
 # rmain 
@@ -296,7 +296,7 @@ exit
 
 #TODO Asignar una ruta estatica al mail server 20.0.0.2 
 
-Configuración de [RIPv2](RIPv2.md) en los RMAIN y RMINOR.
+Configuración de [RIPv2](../../Routing/RIP/RIPv2.md) en los RMAIN y RMINOR.
 
 ``` bash
 # rmain 

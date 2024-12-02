@@ -26,7 +26,7 @@ Debemos crear tres VLANs con diferentes rangos IP. Estas se comunican a través 
 - 201
 - 202
 
-![](_anexos_/Screenshot%20from%202024-01-11%2003-16-12.png)
+![](Screenshot%20from%202024-01-11%2003-16-12.png)
 
 
 ## Creación de VLANs, access mode

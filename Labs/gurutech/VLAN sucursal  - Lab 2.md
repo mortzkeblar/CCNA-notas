@@ -16,7 +16,7 @@ Switch$ show vlan brief
 Switch$ show interfaces trunk
 ```
 
-![](_anexos_/Screenshot%20from%202024-02-13%2010-16-12.png)
+![](Screenshot%20from%202024-02-13%2010-16-12.png)
 ## objetives
 La compañia XYZ abre una nueva sucursal en Villa Bonobo y requiere un pasante IT para diseñar la red de esa sucursal. La cual consiste de una pequeña red con los siguientes requerimientos.
 - Un router y un switch para ser usados (solo CISCO)
@@ -106,7 +106,7 @@ encapsulation dot1q 30
 ip address 192.168.1.129 255.255.255.192
 ```
 
- Procedemos a configurar el servidor [DHCP](DHCP.md)  dentro del router.
+ Procedemos a configurar el servidor [DHCP](../../DHCP/DHCP.md)  dentro del router.
 
 ``` bash
 service dhcp

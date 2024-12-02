@@ -9,7 +9,7 @@ date modified: Wednesday, November 20th 2024, 11:33:50 pm
 
 https://www.youtube.com/watch?v=dpTCpqZH3zY&list=PLoqM5eIpDpUEhtUNKuOd-sGll7NrvlwD7&index=15
 
-![](_anexos_/Screenshot%20from%202024-01-09%2016-49-08.png)
+![](Screenshot%20from%202024-01-09%2016-49-08.png)
 
 Notas del  video:
 - El objetivo de las VLAN es el de segmentar el trafico de la red a nivel de L2.

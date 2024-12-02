@@ -16,7 +16,7 @@ Lo ideal es que cada capa sea independiente de otras y a su vez tengan definidas
 - Capa de distribución: proporciona una conectividad basada en politicas (NAC y ACLs) y controla el limite entre las capas de acceso y de nucleo.
 - Capa de nucleo: proporciona un transporte rapido entre los switches de distribucion dentro del campus empresarial
 
-![](_anexos_/038.jpg)
+![](038.jpg)
 _La conexión de cuatro cables y un aro (en Core Layer) hace referencia a una conexión etherchannel. Ver: [(LEGACY)Etherchannel]((LEGACY)Etherchannel.md)_
 
 ### Diseño de red empresarial en varios edificios
