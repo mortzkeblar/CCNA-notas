@@ -62,7 +62,7 @@ El proposito de los DR/DBR es para reducir la cantidad de trafico generado por e
 > - `224.0.0.6`, solo routers DR y DBR
 
 
-Algo a destacar es que la elección de DR/DBR se hace por _segmentos_, no por _area_.
+Algo a destacar es que la elección de DR/DBR se hace por _segmentos_, no por _areas_. Definimos segmento como una red compartida donde dos o más routers se pueden comunicar de forma directa. 
 
 ![[Pasted image 20241203070535.png]]
 
@@ -82,14 +82,13 @@ Para que los cambios hagan efecto, es necesario ejecutar `clear ip ospf process`
 - Si queremos que un router especifico sea DR, es necesario ejecutar `clear ip ospf process` y verificar que sea elegido como DR. Esto va a pasar una vez que nuestro router sea elegido BDR y ejecutemos el comando una vez más. 
 
 ### Point-to-Point network type  
+Una conexión _point-to-point_ es un enlace directo entre dos routers. Cuando se usa este tipo de red, se elimina el proceso de elección DR/DBR ya que de todas formas ambos routers forman _full adjacencies_ por lo que es innecesario, en este caso al eliminar el proceso de elección la adyacencia toma menos tiempo.
 
+![[Pasted image 20241203235222.png]]
 
+Para configurar un point-to-point network type se hace uso del comado `ip ospf network point-to-point` en el modo interface config.
 
-
-
-
-
-
+![[Pasted image 20241203235422.png]]
 
 
 
