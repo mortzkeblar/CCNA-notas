@@ -8,7 +8,7 @@ date created: Saturday, October 19th 2024, 11:08:14 pm
 date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 
- > #exam Puede configurar alternativamente areas [OSPF](OSPF.md)  por interface, deberá estar familiarizado con ambos metodos para el examen (_Ver: [single area configuration ](single%20area%20configuration%20-%20example.md)_). 
+ > #exam Puede configurar alternativamente areas [OSPF](../OSPF.md)  por interface, deberá estar familiarizado con ambos metodos para el examen (_Ver: [single area configuration ](Lab%20-%20OSPF%20single%20area%20configuration.md)_). 
 
 
 ![](15-7.jpg)

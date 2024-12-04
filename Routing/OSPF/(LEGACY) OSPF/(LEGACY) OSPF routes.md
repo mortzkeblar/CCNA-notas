@@ -8,9 +8,9 @@ date created: Saturday, October 19th 2024, 11:08:14 pm
 date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 
-[OSPF](OSPF.md) funciona de diferentes formas dependiendo el tipo de enlace configurado. Por ejemplo puede ser que no haya elección DR/BDR y que los paquetes _Hello_ se envien a una dirección mulcast diferente. 
+[OSPF](../OSPF.md) funciona de diferentes formas dependiendo el tipo de enlace configurado. Por ejemplo puede ser que no haya elección DR/BDR y que los paquetes _Hello_ se envien a una dirección mulcast diferente. 
 
-Cuando se configura [OSPF](OSPF.md) en un router, comienza a enviar paquetes _Hello_ desde todas la interfaces OSPF usando la dirección multicast `224.0.0.5`, esto se conoce como AIISPFRouter address en redes broadcast y point-to-point. En redes NBMA como frame relay, el paquete _Hello_ es unicast a vecinos específicos. 
+Cuando se configura [OSPF](../OSPF.md) en un router, comienza a enviar paquetes _Hello_ desde todas la interfaces OSPF usando la dirección multicast `224.0.0.5`, esto se conoce como AIISPFRouter address en redes broadcast y point-to-point. En redes NBMA como frame relay, el paquete _Hello_ es unicast a vecinos específicos. 
 
 ![](15-1.png)
 > OSPF multicast packet

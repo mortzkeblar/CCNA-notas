@@ -7,7 +7,7 @@ tags:
 date created: Saturday, October 19th 2024, 11:08:14 pm
 date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
-Algunos de los tipos de routers [OSPF](OSPF.md) más comunes son:
+Algunos de los tipos de routers [OSPF](../OSPF.md) más comunes son:
 - Area border routers 
 - Autonomous system boundary routers 
 - Internal routers 
@@ -25,7 +25,7 @@ En la imagen de abajo vemos una red OSPF basica:
 
 El router ABR conecta una o más areas con el area 0 (backbone). Debido a que ABR forma parte de distintas areas, mantiene una DB SPF distinta para cada una de las zonas a las que se conecta, y resume la información _link state_ entre las areas. R3 es ABR porque conecta el area 0 con area 2. 
 
-El router ASBR es el limite del AS ([AS](AS.md)). En el contexto [OSPF](OSPF.md), este es cualquier router que injecte rutas desde un origen de rutas diferente dentro de OSPF. Un ruta diferente puede ser otro protocolo de enrutamiento o incluso otro proceso OSPF distinto.  R2 es un ASBR porque tiene interfaces tanto en OSPF como en BGP. 
+El router ASBR es el limite del AS ([AS](../../(LEGACY)%20Notes%20routing/AS.md)). En el contexto [OSPF](../OSPF.md), este es cualquier router que injecte rutas desde un origen de rutas diferente dentro de OSPF. Un ruta diferente puede ser otro protocolo de enrutamiento o incluso otro proceso OSPF distinto.  R2 es un ASBR porque tiene interfaces tanto en OSPF como en BGP. 
 
 R4 es un internal router ya que tiene todas sus interfaces dentro de una misma area. 
 

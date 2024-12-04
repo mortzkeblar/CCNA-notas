@@ -160,9 +160,9 @@ Al ejecutar `show ip protocols` se puede ver que R1 ahora se categorizo como _Au
 ## connected
 
 - [OSPF terminology](OSPF%20terminology.md)
-- [OSPF explain summary - advanced](OSPF%20explain%20summary%20-%20advanced.md) 
-- [OSPF network types and neighbors](OSPF%20network%20types%20and%20neighbors.md) 
-- [OSPF routes](OSPF%20routes.md) 
+- [OSPF explain summary - advanced]((LEGACY)%20OSPF/OSPF%20explain%20summary%20-%20advanced.md) 
+- [OSPF network types](OSPF%20network%20types.md) 
+- [(LEGACY) OSPF routes]((LEGACY)%20OSPF%20routes.md) 
 - [(legacy) OSPF router types]((legacy)%20OSPF%20router%20types.md) 
 - [LSA](LSA.md) 
 

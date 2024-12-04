@@ -10,7 +10,7 @@ date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 
 Temas a tratar: 
-- [OSPF](OSPF.md) 
+- [OSPF](../OSPF.md) 
 - telnet
 - authentication
 
