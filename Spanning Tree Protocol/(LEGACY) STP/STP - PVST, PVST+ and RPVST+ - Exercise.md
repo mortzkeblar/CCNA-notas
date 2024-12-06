@@ -52,4 +52,4 @@ DLS2(config)$ spanning-tree vlan 10 root secundary
 DLS2(config)$ spanning-tree mode rapid-pvst
 ```
 
-_Ver: [STP](Project/Networking/CCNA-notas/Spanning%20Tree%20Protocol/(LEGACY)%20STP/STP.md)_
+_Ver: [STP (LEGACY)](STP%20(LEGACY).md)_

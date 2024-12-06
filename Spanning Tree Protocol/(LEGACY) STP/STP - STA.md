@@ -9,7 +9,7 @@ date modified: Wednesday, November 20th 2024, 11:33:50 pm
 # Spanning Tree Algorithm
 
 
-> STA es un algoritmo para [STP](Project/Networking/CCNA-notas/Spanning%20Tree%20Protocol/(LEGACY)%20STP/STP.md) que permite eliminar los caminos cíclicos de la topología lógica. Quedando como respaldo los caminos físicos en caso de que los primeros fallen.
+> STA es un algoritmo para [STP (LEGACY)](STP%20(LEGACY).md) que permite eliminar los caminos cíclicos de la topología lógica. Quedando como respaldo los caminos físicos en caso de que los primeros fallen.
 > Recordar: cuando se habla de _segmento_ en L2, se hace referencia al enlace cableado entre switches.
 
 ![](../../_anexos_/Screenshot%20from%202024-01-02%2011-31-24.png)

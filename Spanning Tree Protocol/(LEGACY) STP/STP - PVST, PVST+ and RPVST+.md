@@ -16,7 +16,7 @@ date modified: Wednesday, November 20th 2024, 11:33:50 pm
 	- Cada topologia en una VLAN puede ser totalmente independiente de otra 
 - PVST viene por defecto en los switches Cisco
 
-El estandar IEEE 802.1d/1w define una instancia de [STP](Project/Networking/CCNA-notas/Spanning%20Tree%20Protocol/(LEGACY)%20STP/STP.md)  en todas las [VLAN](../../Virtual%20LAN/VLAN.md).
+El estandar IEEE 802.1d/1w define una instancia de [STP (LEGACY)](STP%20(LEGACY).md)  en todas las [VLAN](../../Virtual%20LAN/VLAN.md).
 Habitualmente se conoce con el nombre de MST (Mono Spanning Tree). No confundir con MSTP (Multiple Spanning Tree).
 
 _IEEE_

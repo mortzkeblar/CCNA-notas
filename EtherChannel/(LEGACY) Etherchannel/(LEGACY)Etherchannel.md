@@ -8,7 +8,7 @@ date modified: Wednesday, November 20th 2024, 11:33:50 pm
 
 Es una tecnologia desarrollada por Cisco destinada a funcionar entre switches, la idea detras de _Etherchannel_ es ofrecer mayor ancho de banda disponible para los enlaces que tienen una carga superior a la media.
 - Funciona por ejemplo al tener enlaces redundantes pero en segmentos que son paralelos
-	- Aunque sean paralelos forman un bucle de conmutación , entonces [STP](Project/Networking/CCNA-notas/Spanning%20Tree%20Protocol/(LEGACY)%20STP/STP.md) actua para eliminar uno de los enlaces
+	- Aunque sean paralelos forman un bucle de conmutación , entonces [STP (LEGACY)](STP%20(LEGACY).md) actua para eliminar uno de los enlaces
 
 ![](Screenshot%20from%202024-01-04%2016-47-27.png)
 

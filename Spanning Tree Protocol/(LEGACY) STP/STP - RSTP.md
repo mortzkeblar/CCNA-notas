@@ -10,7 +10,7 @@ date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ## SPT vs RSPT - Differences
 ### Port State - Traditional STP
 ![](../../_anexos_/Screenshot%20from%202024-01-04%2011-33-33.png)
-Como se puede ver en el grafico, una de las prinicipales diferencias entre RSTP y [STP](Project/Networking/CCNA-notas/Spanning%20Tree%20Protocol/(LEGACY)%20STP/STP.md) tradicional (legacy) es que los estados de STP _disable, blocking y listening_ son fusionados en un solo estado _discarding_, los demas se mantienen.
+Como se puede ver en el grafico, una de las prinicipales diferencias entre RSTP y [STP (LEGACY)](STP%20(LEGACY).md) tradicional (legacy) es que los estados de STP _disable, blocking y listening_ son fusionados en un solo estado _discarding_, los demas se mantienen.
 Esto permite aumentar bastante la velocidad de transición para poder habilitar una interfaz.
 
 > Se considera que tanto _Listening_ como _Learning_ son estados transitorios y que los puntos finales siempre son _Forwarding_ o _Blocking_.

@@ -15,7 +15,7 @@ El _root bridge_ genera las BPDUs con costo inicial 0. Cada switch toma la BPDU 
 	- Al llegar a S3, este le suma otro costo de 19, quedando en 38.
 - Lo mismo ocurre a la inversa, como ambos tiene los mismos valores. No es suficiente para poder elegir los puertos designados.
 
-En caso de empate, [STP](Project/Networking/CCNA-notas/Spanning%20Tree%20Protocol/(LEGACY)%20STP/STP.md) contempla los siguientes casos hasta encontrar uno que pueda generar el desempate:
+En caso de empate, [STP (LEGACY)](STP%20(LEGACY).md) contempla los siguientes casos hasta encontrar uno que pueda generar el desempate:
 1. Prefiere siempre el switch con el Root Bridge ID más bajo
 2. Prefiere siempre el switch que tenga el costo de ruta más baja hacia el Root Bridge
 3. Prefiere siempre el switch que emita la BPDU con Bridge ID más bajo

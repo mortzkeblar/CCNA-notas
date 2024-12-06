@@ -36,7 +36,8 @@ Aunque los [[OSPF network types]] permite a los routers descubrir dinamicamente 
 - Configuración de autenticación debe coincidir 
 	- Comandos `ip ospf authentication` en la interface y `ip ospf authentication-key <password>` para setear una contraseña que permite que solo los routers que hagan match con esa contraseña puedan ser vecinos 
 - Configuración IP MTU debe coincidir 
-	- El valor MTU de una interface se puede modificar con `ip mtu <bytes>`. El valor por defecto es de 1500 bytes en una interface ethernet. 
+	- El valor MTU de una interface se puede modificar con `ip mtu <bytes>`. El valor por defecto es de 1500 bytes en una interface ethernet.
+	- Cuando hay un mismatch error de este tipo, el [[OSPF neighbor states]] no pasara de los estados _ExStart/Exchange_.
 - [[OSPF network types]] debe coincidir 
-	- Aunque surja este problema, los routers pueden formar una _full adjacencies_ pero con inconsistencias al revisar los estado del vecinos con `show ip ospf neighbor`, por lo cual es necesario revisar el enlace de ambos lados así como la tabla de enrutamiento para verificar si existe algún problema. 
+	- Aunque surja este problema, los routers pueden formar una _full adjacencies_ pero sus [[OSPF#Link-State Database]] no estaran sincronizado y generara inconsistencias al revisar los estado del vecinos con `show ip ospf neighbor`, por lo cual es necesario revisar el enlace de ambos lados así como la tabla de enrutamiento para verificar si existe algún problema. 
 

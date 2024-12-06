@@ -6,7 +6,7 @@ date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 > ***Bandwidth*** es el número total de bits que pueden ser transferidos sobre una conexión por segundo (4x enlaces de un 1Gbps significa 4Gbps de bandwidth). Es importante diferenciar el concepto de bandwidth del de **_speed_**, esta ultima hace referencia al ratio maximo de transferencia de una comunicación (o conexión) en particular. 
 
-_EtherChannel_ es una tecnologia que permite agrupar varios enlaces fisicos como un único enlace lógico (lo que permite superar la barrera que pueda establecer [[Project/Networking/CCNA-notas/Spanning Tree Protocol/(LEGACY) STP/STP|STP]] para prevenir los layer 2 loops), esto permite mayor disponibilidad del bandwidth además de generar resiliencia y facilidad en la administración. 
+_EtherChannel_ es una tecnologia que permite agrupar varios enlaces fisicos como un único enlace lógico (lo que permite superar la barrera que pueda establecer [[STP (LEGACY)|STP (LEGACY)]] para prevenir los layer 2 loops), esto permite mayor disponibilidad del bandwidth además de generar resiliencia y facilidad en la administración. 
 
 ![[Pasted image 20241117105419.png]]
 

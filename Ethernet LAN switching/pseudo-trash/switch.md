@@ -22,7 +22,7 @@ Tener multiples rutas hacia los destinos pueden provocar loops si se envian broa
 
 ![[_anexos_/Pasted image 20240519223611.png|500]]
 
-Esto se puede prevenir mediante [[Project/Networking/CCNA-notas/Spanning Tree Protocol/(LEGACY) STP/STP]]. 
+Esto se puede prevenir mediante [[STP (LEGACY)]]. 
 
 ### relacionados
 - [MAC address table](MAC%20address%20table.md)
