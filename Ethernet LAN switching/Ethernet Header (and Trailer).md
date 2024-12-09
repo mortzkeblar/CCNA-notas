@@ -3,6 +3,9 @@ tags:
   - CCNA
 date created: Monday, October 21st 2024, 1:51:38 pm
 date modified: Wednesday, November 20th 2024, 11:33:50 pm
+aliases:
+  - Ethernet
+  - Ethernet Header
 ---
 Los switches realizan el forwarding en base al contenido dentro del header y el trailer.
 
