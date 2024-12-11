@@ -65,7 +65,7 @@ Ambos metodos pueden ser combinados para simplificar direcciones IPv6.
 ![[Pasted image 20241209004354.png]]
 
 ### IPv6 Prefix 
-Un _network prefix_ es la combinación de una _network address_ y una _prefix length_, como se ve en [[Project/Networking/CCNA-notas/IPv6/IPv4 addressing|IPv4 addressing]], este concepto es igual para IPv6. 
+Un _network prefix_ es la combinación de una _network address_ y una _prefix length_, como se ve en [[IPv4 addressing]], este concepto es igual para IPv6. 
 
 Un motivo por el cual los prefix length `/64` son tan usados es que no necesitas convertir a binario, solo los ultimos 4 hextets. Los porción de host se puede omitar si se convierte todos a ceros. 
 
