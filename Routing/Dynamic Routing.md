@@ -31,7 +31,7 @@ Además de esta categorización, los protocolos de enrutamiento tambien pueden s
 ![[Pasted image 20241118150728.png]]
 
 ## Route selection 
-La selección de rutas ya fue definida anteriormente en [[Routing Table#Route selection]], esta hace referencia al reenvio de paquetes en base la ruta coincidente más especifica que haya dentro del tabla de enrutamiento.
+> Otro significado para _route selection_ ya fue definida anteriormente en [[Routing Table#Route selection]], esta hace referencia al reenvio de paquetes en base la ruta coincidente más especifica que haya dentro del tabla de enrutamiento.
 
 En el contexto de enrutamiento dinamico, **_route selection_** tambien hace referencia al proceso de selección de rutas que terminan agregándose en la [[Routing Table]]. Por ejemplo si tenemos multiples rutas para llegar a un mismo destino, solo se agregara a la tabla de enrutamiento la mejor ruta para llegar a ese destino. 
 
