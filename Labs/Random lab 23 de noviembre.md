@@ -1,3 +1,7 @@
+---
+tags:
+  - CCNA
+---
 ![[ospf_diagram_yed.svg]]
 
 

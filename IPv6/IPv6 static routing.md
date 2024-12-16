@@ -1,3 +1,7 @@
+---
+tags:
+  - CCNA
+---
 Al igual que otros conceptos de [[IPv6]], el enrutamiento estatico tiene los mismos principios que IPv4 [[Static Routing]]. 
 
 ![[Pasted image 20241212205600.png]]

@@ -1,3 +1,7 @@
+---
+tags:
+  - CCNA
+---
 **Gateway Load Balancing Protocol (GLBP)** es un protocol [[FHRP]] propietario de Cisco. 
 
 Una caracterista unica de GLBP frente a [[Project/Networking/CCNA-notas/First Hop Redundancy Protocols/HSRP|HSRP]] o [[VRRP]] es que es el unico protocolo que proporciona load balancing dentro de unica subred (no confundir con el load balancing por subred), el balanceo se realiza *por host*. 

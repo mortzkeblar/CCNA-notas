@@ -1,3 +1,7 @@
+---
+tags:
+  - CCNA
+---
 **First Hop Redundancy Protocols (FHRP)** es una categoria de protocolos que permiten que multiples routers puedan proporcionar una [[Default gateway]] redundante para los hosts de una [[LAN]], minimizando el downtime ante una falla de hardware. 
 
 **Tabla de diferencias entre protocolos FHRP**

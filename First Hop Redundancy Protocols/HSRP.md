@@ -1,3 +1,7 @@
+---
+tags:
+  - CCNA
+---
 **Hot Standby Router Protocol (HSRP)** es un protocolo propietario de Cisco de tipo [[FHRP]]. 
 - Este usa los terminos _active_ / _standby_ para los roles que asumen los routers que usan el protocolo. 
 - _Preemption_ - significa que el router que fue activo y cambio de rol por algún motivo, este puede reclamar nuevamente su rol como activo. Deshabilitado pro defecto en HSRP. 

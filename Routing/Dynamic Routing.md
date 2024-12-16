@@ -35,7 +35,7 @@ Además de esta categorización, los protocolos de enrutamiento tambien pueden s
 
 En el contexto de enrutamiento dinamico, **_route selection_** tambien hace referencia al proceso de selección de rutas que terminan agregándose en la [[Routing Table]]. Por ejemplo si tenemos multiples rutas para llegar a un mismo destino, solo se agregara a la tabla de enrutamiento la mejor ruta para llegar a ese destino. 
 
-Para determinar esa mejor ruta que sera agregada a la tabla de enrutamiento, se utilizan dos parametros.
+Para determinar esa mejor ruta que sera agregada a la tabla de enrutamiento, se utilizan los siguientes dos criterios de acuerdo a la configuración así como los protocolos involucrados.
 - Metric
 - Administrative distance 
 

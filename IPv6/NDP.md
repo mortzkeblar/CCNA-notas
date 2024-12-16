@@ -1,3 +1,7 @@
+---
+tags:
+  - CCNA
+---
 En [[IPv6]] a diferencia de [[IPv4 addressing|IPv4]] (tal como se describe en [[How end hosts send packets]]), no usa [[ARP]] para el reenvio de paquetes al next-hop.
 
 IPv6 usa el procotolo **Neighbor Discovery Procotol (NDP)** que tiene un rol similar a [[ARP]], realiza el mapping de direcciones [[Layer 3]] IPv6 a [[Layer 2]] MAC address. 

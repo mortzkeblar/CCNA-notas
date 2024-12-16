@@ -1,3 +1,7 @@
+---
+tags:
+  - CCNA
+---
 
 En general antes de que dos routers lleguen a un estado de adyancencia, suelen pasar por varios estados. Donde intercambian información de estado y verifican que se cumplan ciertos criterios para avanzar al siguiente estado.
 

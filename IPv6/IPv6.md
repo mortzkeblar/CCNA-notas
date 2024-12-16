@@ -1,3 +1,7 @@
+---
+tags:
+  - CCNA
+---
 **IPv6 protocol** es la siguiente versión del protocolo [[Project/Networking/CCNA-notas/IPv4 addressing/IPv4 addressing|IPv4]], esta surge para superar las limitaciones de IPv4. 
 
 Como una dirección IPv4 se compone de 32 bits, este tiene un tamaño máximo de $2^{32}=4,294,967,296$ direcciones IP, lo que en el principio de la era de internet parecía un limite muy lejano, en realidad resulta que ya llegamos al limite de direcciones disponibles. LACNIC por ejemplo fue el ultimo RIR en anunciar el agotamiento de sus direcciones IPv4 en 2020. 

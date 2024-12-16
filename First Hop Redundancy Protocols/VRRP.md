@@ -1,3 +1,7 @@
+---
+tags:
+  - CCNA
+---
 **Virtual Router Redundancy Protocol (VRRP)** es una standard [[FHRP]] definido por el IETF e respuesta a [[HSRP]]. 
 - VRRP usa la términos _master_ / _backup_ para llamar a los routers que participan en el proceso VRRP 
 - _Preemption_  (definición en [[HSRP]]) - se encuentra habilitado por defecto 

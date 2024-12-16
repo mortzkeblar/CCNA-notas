@@ -1,3 +1,7 @@
+---
+tags:
+  - CCNA
+---
 La tabla de enrutamiento en [[IPv6]] cumple las mismas funciones que la [[Routing Table]] en IPv4, con el agregado de que tambien aprende las _connected_ y _local_ routes cuando se configura una IP address en una interface. 
 
 ## Connected and local routes 

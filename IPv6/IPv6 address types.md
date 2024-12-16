@@ -1,3 +1,7 @@
+---
+tags:
+  - CCNA
+---
 Al igual que [[IPv4 addressing|IPv4]], en [[IPv6]] tenemos rangos de direcciones reservadas para propositos especificos.
 - **Global unicast** - direcciones globalmente unicas que se usan para la comunicación sobre internet 
 - **Unique local** - direcciones que no son globalmente unicas, puede ser usada para comunicaciones internas pero no sobre internet. 
