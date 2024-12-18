@@ -16,7 +16,7 @@ Es un modelo orientada a conexión, una vez que la conexión esta establecida, l
 - TCP is confiable, el receptor envía acknowledgments hacia el emisor. Informa si hay segmentos perdidos en base a los números de secuencia y estos son reenviados.
 
 ![[Pasted image 20241011204829.png|400]]
-> L4PDU
+> L4PDU, tambien llamada Layer 4 header 
 
 ## adjacent-layer and same-layer interactions 
 
