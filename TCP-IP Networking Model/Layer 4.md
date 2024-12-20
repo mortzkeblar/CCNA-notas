@@ -10,7 +10,7 @@ date modified: Wednesday, November 20th 2024, 11:33:50 pm
 
 Tambien es responsable de la recuperación de error end-to-end y el control de flujo. El control de flujo hace referencia al proceso de ajustar el flujo de los datos enviados para asegurar que el receptor pueda procesar esos datos correctamente.
 
-Los protocolos más usados dentro de L4 son [[TCP-IP]] y [[UDP]].
+Los protocolos más usados dentro de L4 son [[TCP]] y [[UDP]].
 ## Port numbers 
 Los _ports_ son el sistema de direccionamiento de los protocolos [[Layer 4]], estos cubren el rango `[0-65535)`. Los puertos de destino se usan para identificar el protocolo de capa superior. 
 - La combinación de puertos de origen y destino pueden ser usada para trackear las sesiones.
