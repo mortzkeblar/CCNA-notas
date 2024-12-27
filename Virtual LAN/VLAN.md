@@ -52,7 +52,6 @@ Para esto, el [[switch]] añade una etiqueta o tag antes de enviar el trafico po
 	- Si el destino se encuentra en un VLAN diferente al que se encuentra en el tag, el paquete no va a ser reenviado.  
 
 > Otro nombre comun para un puerto troncal es _tagged ports_.
-> 
 
 
 
