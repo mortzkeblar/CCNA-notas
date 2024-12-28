@@ -8,7 +8,7 @@ Cada ACL consiste en una serie de reglas llamadas _Access Control Entries (ACEs)
 
 ![[Pasted image 20241220090512.png]]
 
-> La acción final _deny_ no se define como un ACE sino que se encuentra implicito.
+> La acción final _deny_ no se define como un ACE sino que se encuentra implicito como el ultimo ACE, en todos los ACLs configurados.
 
 - Los paquetes son evaluados por cada ACE en forma ordenada, desde arriba hacia abajo.
 - Si un paquete hace match con una condición de ACE, el router toma la acción especificada y no sigue realizando la evaluación con los ACE restantes. 
