@@ -32,7 +32,7 @@ Es un campo de 2 bytes que puede utilizar para especificar el tipo del paquete e
 		- EtherType IPv6: 0x86DD (0d34525)
 
 ## Frame Check Sequence
-Frame Check Sequence (FCS), es un campo de 4 bytes que se usa para detectar si existen datos corrompidos en el frame.
+Frame Check Sequence (FCS), es un campo de 4 bytes que se usa para detectar si existen datos corruptos en el frame.
 
 Antes de que el dispositivo envie el frame, utiliza un algoritmo para calcular un _checksum_.
 > Un checksum es un pequeño bloque de datos que se añaden al final del frame en el campo FCS 

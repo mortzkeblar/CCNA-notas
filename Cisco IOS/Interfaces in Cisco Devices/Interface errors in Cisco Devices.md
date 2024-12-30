@@ -32,7 +32,7 @@ Sucede cuando dos interfaces conectadas intentan comunicarse a diferentes veloci
 Sucede cuando dos interfaces conectadas intentan comunicarse con diferentes configuraciones duplex. 
 > Aun con un problema de duplex mismatch, las interfaces pueden encontrarse operativas y en estado up/up con transmisión de trafico. 
 
-El principal efecto de un duplex mismatch es que hay una perdida de rendimiento (ver [[Autonegotiation]]). 
+El principal efecto de un duplex mismatch es que hay una perdida de rendimiento (ver [[Interface autonegotiation]]). 
 - El dispositivo half duplex espera que el otro dispositivo deje de transmitir para que el puede enviar sus datos. Si el dispositivo full duplex transmite datos al mismo tiempo que el half duplex, este ultimo va a interpretar que se produjo una colisión (aunque en realidad no ocurrio).
 
 En estos casos se espera que puedan aumentar los contadores _collisiones_ y _late collisions_ al usar `show interfaces` en el dispositivo half duplex. 

@@ -18,10 +18,10 @@ El switch realiza el forwarding mediante usando la información contenida de la 
 - Los frames enviados a un unico host de destino se llama _unicast frame_
 - Los frames enviados a un unico host de destino que ya tiene una entrada en la MAC address table se llaman _known unicast frame (forward)_
 
-Cuando el switch recibe un frame para el cual no tiene una entrada que corresponda a la MAC address de destino. Entonces el switch realiza un _flooding_ del frame en la red, reenvia este a todos los puertos de salida excepto al puerto de origen del frame. A la espera de que el receptor reciba la respuesta y generar una entrada para este cuando envie la respuesta de retorno. 
+Cuando el switch recibe un frame con una MAC address de destino para el cual no tiene una entrada en la [[MAC address table]]. Entonces el switch realiza un _flooding_ del frame reenviandolo a todos los puertos de salida excepto al puerto de origen del frame. A la espera de que el receptor reciba la respuesta y generar una entrada para este cuando envie la respuesta de retorno, esto es llamado ***unknown unicast frame***.
+
 
 ![[Pasted image 20241023024128.png|500]]
-- Los frames enviados a un unico host de destino que no tiene una entrada en la MAC address table se llaman _unknown unicast frame (flood)_
 
 ![[Pasted image 20241023024512.png|500]]
 
