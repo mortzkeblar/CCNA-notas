@@ -11,10 +11,14 @@ Los switches realizan el forwarding en base al contenido dentro del header y el 
 
 ![[Pasted image 20241023005647.png]]
 
-> A pesar de que en la imagen se encuentra el _Preamble_ y _Start Frame Delimiter_, estos no forman parte del ethernet header.
+> El packet o L3PDU, tiene un tamaño minino de _46 bytes_ y un maximo de _1500 bytes_ (debido el tamaño maximo de MTU permitido).
 > 
+
+
 ## Preamble and SFD 
 El _Preamble_ y el _Start Frame Delimiter (SFD)_ se envian en cada ethernet frame, permite sincronizar el receiver clock del dispositivo receptor para el frame entrante. 
+
+> A pesar de que en la imagen se encuentra el _Preamble_ y _Start Frame Delimiter_, estos no forman parte del ethernet header.
 
 La razon por la que no se considera parte del ethernet header es porque sus funciones son exclusivamente de L1 (physical layer) ya que se utiliza para que el receptor pueda interpretar las señales eléctricas recibidas y no influyen en la decisión a tomar para un frame determinado. 
 

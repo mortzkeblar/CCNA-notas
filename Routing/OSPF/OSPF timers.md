@@ -10,7 +10,7 @@ date modified: Wednesday, November 20th 2024, 11:33:50 pm
 
 [OSPF](OSPF.md) usa varios timers (temporizadores) para el control broadcast, link state propagation y otras operaciones. 
 
-Los timers por defecto pueden variar dependiendo el [[OSPF network types]] que se este configurando. 
+Los timers por defecto pueden variar dependiendo el [[OSPF network types and DR - DBR election]] que se este configurando. 
 
 > Es importante que los timers deban coincidir entre sí para que se forman que se puedan formar relaciones [[OSPF neighbors and adjacencies]]. 
 

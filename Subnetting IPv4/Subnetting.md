@@ -24,3 +24,15 @@ Estas se pueden dividir en 5 atributos principales.
 
 
 ![[Pasted image 20241107024210.png|600]]
+
+### Cheatsheet for subnetting 
+![[Pasted image 20250101072118.png]]
+
+#### Subnetting int he /17 - /24 range 
+
+![[Pasted image 20250101134506.png]]
+
+
+#### Subnetting int he /1 - /16 range 
+
+![[Pasted image 20250101135155.png]]

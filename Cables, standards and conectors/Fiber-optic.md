@@ -28,3 +28,17 @@ Dentro de los cables de fibra optica existen dos tipos.
 
 ![[Pasted image 20241028024621.png|500]]
 
+### IEEE standards
+**Types of Ethernet - Defined in IEEE 802.3**
+
+![[Pasted image 20250111233801.png]]
+
+**IEEE 802.3 10Gbps Fiber Standards**
+
+![[Pasted image 20250111233855.png]]
+
+- 10GBASE-SR, 10GBASE-LR, y 10GBASE-ER estan definidos en el standard IEEE 802.3ae
+- 1000BASE-LX tiene un tamaño maximo de cable:
+	- 550 metros (multimode)
+	- 5 KM (single-mode)
+- 10GBASE-ER tiene un tamaño maximo de cable: 30 KM

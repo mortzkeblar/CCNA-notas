@@ -17,7 +17,9 @@ Este problema suele aparecer principalmente cuando se trata de introducir conexi
 - *Broadcast storn* - se conoce como tormenta broadcast cuando la cantidad de frames que hacen loop en la red. Comienzan a saturar al punto de consumir muchos recursos como CPU o ancho de banda haciendo que la red se inutilizable.
 - *MAC address flapping* - este problema ocurre cuando un [[switch]] aprende la misma MAC address desde dos puertos diferentes. 
 
-Spannign Tree Protocol se puede resumir como _la prevención de Layer 2 Loops mediante el bloqueo de la conexiones redundantes  a nivel de  la topologia LÓGICA (no FÍSICA), manteniendo una unica ruta activa entre dos nodos cualquieras en un una [[LAN]]_. 
+Spanning Tree Protocol se puede resumir como _la prevención de Layer 2 Loops mediante el bloqueo de la conexiones redundantes  a nivel de  la topologia LÓGICA (no FÍSICA), manteniendo una unica ruta activa entre dos nodos cualquieras en un una [[LAN]]_. 
+
+> Es importante aclarar que los switches Cisco ejecutan una versión propietaria del STP que resulta equivalente al protocolo clásico 802.1D y es llamado **PVST+** (Per-VLAN Spanning Tree Plus)
 
 ![[Pasted image 20241110205531.png|500]]
 
@@ -29,6 +31,10 @@ El proceso STP para crear una loop-free topology es llamada [[STP algorithm]], q
 
 Este algoritmo termina por definir los roles que cumplen cada puerto y switch. Se genera un _root_, _designated_ y _non-designated_ ports, tambien llamados **STP port roles**. 
 
+
+> Los BPDUs son enviados a los switches STP-enabled usando direcciones MAC address multicast, dependiendo el protocolo STP que se este ejecutando.
+> - Para PVST+ / RPVST+ se usa la multicast adddress 0100.0CCC.CCCD
+> - Para IEEE 802.d / 802.1w se usa la multicast address 0180.C200.0000
 ## STP port states and times 
 En el proceso [[Project/Networking/CCNA-notas/Spanning Tree Protocol/STP|STP]], tambien tenemos los llamados **port states**, en la definición de [[STP algorithm]] se cubrieron el _forwarding_ state y el _blocking_ state. 
 

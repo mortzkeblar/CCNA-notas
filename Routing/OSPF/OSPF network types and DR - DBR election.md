@@ -7,7 +7,6 @@ tags:
 date created: Saturday, October 19th 2024, 11:08:14 pm
 date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
-
 _Network Type_ es una configuración en una interface [[OSPF]] que sirve para determinar como opera OSPF en una red particular. Esto influye en aspectos como los [[OSPF timers]], elección DR/BDR y si todas las _neighbor relationship_ se convertiran en _full adjacencies_.
 
 
@@ -16,13 +15,14 @@ _Network Type_ es una configuración en una interface [[OSPF]] que sirve para de
 
 
 - **Point-to-point** - un ejemplo de esto es un enlace simple T1 entre dos routers o una conexión frame relay point-to-point. 
-	- _Hellos_ son multicast a `224.0.0.5` (AllSPFRouters)
+	- Los mensajes _Hellos_ son multicast y se envian a `224.0.0.5` (AllSPFRouters)
 	- No hay elección DR/DBR en este tipo de red.
 - **Broadcast** - p. ej. ethernet, para más precisión nos referimos a este tipo como _Broadcast multi-access network_ porque se puede conectar varios dispositivos para que puedan recibir el mismo paquete. 
 	- En este tipo de red se elije un DR/BDR.
-	- Los _Hellos_ son multicast en `224.0.0.5`, al igual que todos los paquetes [OSPF](OSPF.md)  originados por el DR/BDR. 
-	- Los demás routers hacen actualizaciones multicast y paquetes acknowledgment en `224.0.0.5`, tambien conocidos como _ALLDRouters_. 
-- **NBMA** - incluye frame relay o conecciones multipoint.
+	- Los routers OSPF usan la dirección multicast `224.0.0.5` (AllSPFRouters) para enviar mensajes _Hello_
+		- Los DR/DBR usan esta misma dirección para actualizar el _Link State_
+	- Los DRothers pueden enviar mensajes que llegan solamente al DR/DBR mediante la dirección multicast `224.0.0.6`.
+- **Non-broadcast MA** - incluye frame relay o conecciones multipoint.
 	- los paquetes multicast no son reenviados a los vecinos porque no hay capacidad de broadcast. 
 	- Los vecinos [OSPF](OSPF.md) deben ser configurados por el administrador de red a través del comando `mode on DR/BDR`. 
 	- El DR/BDR elegido debe ser un router hub (un router con un circuito con todos lo demás routers). 
@@ -30,14 +30,6 @@ _Network Type_ es una configuración en una interface [[OSPF]] que sirve para de
 	- No hay DR/BDR.
 	- Los paquetes [OSPF](OSPF.md) son multicast.
 	- Se necesita mapear la [IP address](IP%20address.md) remota a la dirección L2 (DLCI para Frame Relay) y añadir la palabra broadcast para que [OSPF](OSPF.md) puede hacer multicast de sus paquetes Hello. 
-	``` bash
-		interface Serial0/1
-		ip address 10.0.0.1 255.255.0.
-		encapsulation frame-relay
-		ip ospf network point-to-multipoint
-		frame-relay map ip 10.0.0.2 20 broadcast
-		no frame-relay inverse-arp
-	```
 - **Virtual links** - estos son usados para enlazar areas que no estan conectadas directamente al Area 0. _Ver: [OSPF virtual links](OSPF%20virtual%20links.md)_.
 
 
@@ -66,7 +58,7 @@ Algo a destacar es que la elección de DR/DBR se hace por _segmentos_, no por _a
 
 ![[Pasted image 20241203070535.png]]
 
-En la imagen, se puede ver que las interfaces G0/1 en su segmente estan como DR a pesar de no haber adyacencias. Estas interfaces deben configurarse como [[passive interface]] para que no puedan enviar OSPF hello mensajes. 
+En la imagen, se puede ver que las interfaces G0/1 hacia redes que no conectan con otros routers en su segmento estan como DR a pesar de no haber adyacencias. Estas interfaces deben configurarse como [[passive interface]] para que no puedan enviar OSPF hello mensajes. 
 
 Para ver el estado de adyacencia con los otros vecinos se puede usar `show ip ospf neighbor`.
 

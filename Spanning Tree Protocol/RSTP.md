@@ -15,7 +15,7 @@ Para ver la versión de STP que corre un switch se puede usar `show spanning-tre
 
 La desventaja tanto de las versiones propietarias de Cisco (tanto _PVST+_ como _Rapid PVST+_) es que en un entorno con una gran cantidad de [[VLAN]]s tambien se ejecutan varias instancias de [[Project/Networking/CCNA-notas/Spanning Tree Protocol/STP|STP]], lo que puede causar problemas de rendimiento.
 
-Para solventar este problema es preferible usar **Multiple Spanning Tree Protocol (MSTP)**, esto permite agrupar varias VLANs dentro de una unica instancia, además usa el macanismo de RSTP para una rapida convergencia. 
+Para solventar este problema es preferible usar **Multiple Spanning Tree Protocol (MSTP)**, esto permite agrupar varias VLANs dentro de una unica instancia, además usa el mecanismo de RSTP para una rapida convergencia. 
 
 
 ![[Pasted image 20241115232044.png|400]]
@@ -42,7 +42,7 @@ El algoritmo usado para calcular la topologia en RSTP es identica a la usada en 
 ![[Pasted image 20241116130515.png]]
 
 A diferencia de [[Project/Networking/CCNA-notas/Spanning Tree Protocol/STP|STP]], en RSTP los puertos remanentes no terminan como _non-designated ports_, sino que cumplen uno o dos roles: **alternative** o **backup** ports.
-Otra diferencia es que en RSTP, todos los switches  BPDUs por sus _designated_ ports, independiente de si recibio BPDUs del root bridge o no. 
+Otra diferencia es que en RSTP, **todos** los switches envian BPDUs a través de sus _designated_ ports cada dos segundos, independiente de si recibio el BPDU del root bridge o no. 
 
 ### Port costs 
 RSTP agrega un conjunto de costos para los puertos de velocidades mayores a 10Gbps.
@@ -61,7 +61,7 @@ En RSTP, se combinan _blocking_,  _listening_ y _disabled_ state en un solo esta
 	- Si se decide que el puerto pasa a ser _root_ o _designated_ port, pasa a tener el estado _forwarding_. Esto puede ocurrir de dos formas. 
 		- Si el mecanismo de RSTP sync es exitoso, el puerto pasa inmediatamente al forwarding state 
 		- Si el mecanismo de RSTP sync falla, el puerto transiciona a el estado _learning_ para luego pasar al forwarding state. Como un [[Project/Networking/CCNA-notas/Spanning Tree Protocol/STP|STP]] tradicional. 
-			- Los motivos para que RSTP sync falle ocurren principalmente si el otro extremo del enlace no soporta o no tiene habilitado RSTP. Esto suele concluir en que el enlace funciona como una instancia [[Project/Networking/CCNA-notas/Spanning Tree Protocol/STP|STP]] tradicional.
+			- Los motivos para que RSTP sync falle ocurren principalmente si el otro extremo del enlace no soporta o no tiene habilitado RSTP. Esto suele concluir en que el enlace funcione como una instancia [[Project/Networking/CCNA-notas/Spanning Tree Protocol/STP|STP]] tradicional.
 
 ![[Pasted image 20241116132314.png]]
 
@@ -111,7 +111,7 @@ Los _link types_ influyen en como los puertos transicionan a través de los RSTP
 - _Shared_ - puerto half-duplex que no puede usar el mecanismo RSTP sync. Su transición de estados es igual a un puerto [[Project/Networking/CCNA-notas/Spanning Tree Protocol/STP|STP]] standard. Se puede configurar con `spanning-tree link-type shared`   
 - _Edge_ - puertos conectados a hosts finales que pueden usar [[PortFast]] para transicionar inmediatamente al forwarding state, no necesitan usar el RSTP sync porque no hay riesgo de un layer 2 loop. Para habilitar un edge link type se puede usar `spanning-tree portfast`
 	- Un puerto que no este configurado con [[PortFast]] debera esperar 30 segundos para pasar el forwarding state, como un puerto STP regular. 
-	- Una de las caracteristicas más importantes de los edge ports en RSTP, es que son excluidos de los enlaces a considerar cuando se realiza un cambio en la topologia. Por lo que si se producen cambios en esos puertos RSTP no realiza el proceso de convergencia.  
+	- Una de las caracteristicas más importantes de los edge ports en RSTP, es que son excluidos de los enlaces a considerar cuando se realiza un cambio en la topologia. Por lo que si se producen cambios en los puertos _edge_ no se activa el proceso de convergencia.  
 	- Al ejecutar `show spanning-tree` si el puerto edge esta configurado como half-duplex aparece como `shr edge`, si esta configurado como full-duplex aparece como `p2p edge`
 
 ![[Pasted image 20241116193020.png]]

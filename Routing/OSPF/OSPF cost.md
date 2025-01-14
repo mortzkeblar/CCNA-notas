@@ -21,7 +21,7 @@ Si bien la definición anterior es correcta, es más preciso hacer referencia al
 
  El costo de un enlace se calcula un valor de _reference bandwidth_ por el _bandwidth_ (o ancho de banda) del enlace en cuestión, el _reference bandwidth_ por defecto es de 100 Mbps y la formula queda como  $100/bandwidth$
 
-> Si el valor resultante del calculo del costo es menor a uno, el valor del costo se redondea a uno porque OSPF no aceptar valores fraccionarios o decimales como costo
+> Si el valor resultante del calculo del costo es menor a uno, el valor del costo se redondea a $1$ porque OSPF no aceptar valores fraccionarios o decimales como costo
 
 | Link       | Cost $100/bandwidth$ |
 | ---------- | -------------------- |

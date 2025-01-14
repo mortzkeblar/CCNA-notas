@@ -44,7 +44,7 @@ Otra clasificación que realiza [[OSPF]] es sobre las rutas:
 
 ![400](16-5-scaled.jpg)
 ## Backbone Area
-Todo el trafico debe pasar a través del backbone, y todas las areas deben estar conectadas a el area 0. El area 0 no puede ser particionado (es decir, debe ser continua), puedes ampliar el uso del area 0 con virtual links. 
+Todo el trafico debe pasar a través del backbone, y todas las areas deben estar conectadas a el area 0. El area 0 no puede ser particionado (es decir, debe ser continua), aunque se saltar esta limitación del area 0 con [[OSPF virtual links]]. 
 
 ## Stub Area 
 Las stub areas no permiten [[LSA]]s externos, este esta area, los [[LSA Type 5]] no se permiten dentro del area. 

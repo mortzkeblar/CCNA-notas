@@ -33,7 +33,7 @@ Al configurar etherchannel, es importante que los puertos de ambos extremos coin
 	- Si esta en access mode, VLAN de acceso 
 
 ## EtherChannel load balancing 
-Etherchannel load balancing es una función que determina por donde son reenviados los frames, basado en el flujo o _flow_. 
+Etherchannel load balancing es una función que determina por donde son reenviados los frames, basado en el flujo o _flow_. Para ver el funcionamiento del mismo se puede usar `show etherchannel load-balance`.
 - Todos los mensajes que pertenecen al mismo flujo sobre reenviados por el mismo enlace dentro del etherchannel 
 
 > Un _flow_ es una comunicación entre dos nodos  

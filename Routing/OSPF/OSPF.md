@@ -17,7 +17,7 @@ OSPF emplea el uso de _areas_ para simplificar la administración de la red y co
 
 OSPF usa Dijkstra's Shortest Path First (SPF) algorithm, hace referencia a que es abierto ya que este algoritmo no es propietario a ninguna empresa o organización.
 
-OSPF se considera un [[Interior Gateway Protocols]] porque es un protocolo que puede ser usado en grupos de routers que se encuentran dentro de un [AS](AS.md). 
+OSPF se considera un [[Interior Gateway Protocols]] porque se usa en los conjuntos de routers _dentro_ de un [AS](AS.md). 
 
 Tiene una  [[Dynamic Routing#Administrative Distance parameter]] de 110.
 
@@ -161,7 +161,7 @@ Al ejecutar `show ip protocols` se puede ver que R1 ahora se categorizo como _Au
 
 - [OSPF terminology](OSPF%20terminology.md)
 - [OSPF explain summary - advanced]((LEGACY)%20OSPF/OSPF%20explain%20summary%20-%20advanced.md) 
-- [OSPF network types](OSPF%20network%20types.md) 
+- [OSPF network types and DR - DBR election](OSPF%20network%20types%20and%20DR%20-%20DBR%20election.md) 
 - [(LEGACY) OSPF routes]((LEGACY)%20OSPF%20routes.md) 
 - [(legacy) OSPF router types]((legacy)%20OSPF%20router%20types.md) 
 - [LSA](LSA.md) 

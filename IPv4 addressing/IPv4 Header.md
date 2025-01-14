@@ -35,7 +35,8 @@ Este es un campo de 16 bits que indica el tamaño total del paquete. Que incluye
 
 ![[Pasted image 20241025002536.png|400]]
 Los valores que se asignan en este campo están expresados en términos de bytes y no es necesario realizar conversiones como en el campo IHL.
-
+- El valor mínimo que puede tener el campo _Total Length_ es de 20 bytes, que representa el el IPv4 header sin datos encapsulados. 
+- El valor maximo que puede tener el campo _Total Length_ es de $2^{16}=65535$ bytes
 ## Identification, Flags and Fragment Offset field 
 Estos campos forman un tamaño total de 32 bits, son usados para la *fragmentación* de paquetes.
 
@@ -73,7 +74,7 @@ Este mecanismo evita que los paquetes puedan formar _loops_ dentro de la red.
 ## Protocol field 
 Este campo de 8 bits indica el tipo de mensaje que se encapsula dentro del paquete. Estos son algunos valores que puede tener este campo. 
 - 1 - ICMP 
-- 6 - Transmission Control Protocol ([[TCP-IP]])
+- 6 - Transmission Control Protocol ([[TCP]])
 - 17 - User Datagram Protocol ([[UDP]])
 - 89 - Open Shortest Path First ([[OSPF]])
 

@@ -15,7 +15,7 @@ Cisco [[switch]]es soportan dos protocolos de negociación dynamic etherchannel:
 **Etherchannel mode combinations**
 ![[Pasted image 20241118032436.png]]
 ## PAgP configuration
-Cisco PAgP permite configurar hasta 8 enlaces fisicos como un unico enlace [[EtherChannel]]. 
+Cisco PAgP (Port Aggregation Protocol) permite configurar hasta 8 enlaces fisicos como un unico enlace [[EtherChannel]]. 
 
 Para configurar un enlace PAgP se usa `channel-group <group-number> mode {disarable | auto}` dentro de interface config.
 - `group-number` identifica el etherchannel en el [[switch]], permite saber que puertos pertenecen a determinado etherchannel 

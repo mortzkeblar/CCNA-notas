@@ -25,7 +25,6 @@ Primeramente STP elige un [[switch]] para como _root bridge_ para la LAN. Un roo
 
 > Todos los switches en la red tienen garantizado una ruta activa hacia el root bridge 
 
-> En STP se puede tomar como equivalentes _bridge_ y _switch_.
 
 - La elección del _root bridge_ se lleva a cabo con los switches que comparten el _STP Bridge Protocol Data Unit (BPDU)_ entre sí
 	- Los BPDU se usa para tomar todas las decisiones en el STP algorithm, no solo para la elección del root bridge 
@@ -35,6 +34,9 @@ Primeramente STP elige un [[switch]] para como _root bridge_ para la LAN. Un roo
 		- Al iniciar un [[switch]], todos se identifican asi mismos como el root bridge
 			- Esto significa que el [[switch]] al iniciarse, pone su propio BID en el campo del BID del que cree que es el root bridge
 
+> Los BPDUs son enviados switches STP-enabled usando la direcciones MAC address multicast, dependiendo el protocolo STP que se este ejecutando.
+> - Para PVST+ / RPVST+ se usa la multicast adddress 0100.0CCC.CCCD
+> - Para IEEE 802.d / 802.1w se usa la multicast address 0180.C200.0000
 #### Bridge Identifier (BID)
 El switch con el BID superior es el elegido como root bridge de la [[LAN]], este criterio se basa en los parametros que considere el STP algorithm. 
 - El bridge root elegido implica que envio el BPDU con el campo _My BID_ numericamente más bajo
@@ -83,7 +85,7 @@ Para configurar el bridge priority se hace uso del comando `spanning-tree vlan <
 Recordar que el valor priority esta limitado a valores especificos ya que se encuentra dentro de un campo de 16 bits, de las cuales solo tiene poder sobre los primeros 4 bits más significativos. 
 
 Otra forma para configurar el bridge priority es mediante el uso del comando `spanning-tree vlan <vlan-id> root {primary | secondary}`
-- `secondary`, el valor se configura en $24576$ (se resta $4096$ por debajo del valor default)
+- `secondary`, el valor se configura en $28672$ (se resta $4096$ por debajo del valor default)
 - `primary`, el valor se establece según:
 	- Se configura en $24576$ (se resta $4096$ dos veces por debajo del valor default)
 	- Si $24576$ no alcanza, configura el priority con el valor más alto que sea multiplo de 4096 pero menor al valor de BID más bajo en ese momento. 
@@ -97,11 +99,12 @@ Se desaconseja el uso de los valores `primary | secondary` al configurar un valo
 
 ### Root port selection
 Una vez elegido el _root bridge_, los switches non-root elegin uno de sus puertos como _root port_.
-- El _root port_ es el puerto con la mejor ruta para llegar al _root bridge_
-	- Este se calcula en base a la información recibida de los BPDUs vecinos. Los principales parametros para la selección del root port son:
-		- Lowest root cost 
-		- Lowest neighbor BID 
-		- Lowest neighbor port BID
+
+El _root port_ es el puerto con la mejor ruta para llegar al _root bridge_. Este se calcula en base a la información recibida de los BPDUs vecinos. La elección se realiza en base a los siguientes procesos los cuales se accionan cuando surge un empate en el proceso anterior:
+- Lowest root cost
+- Lowest neighbor BID (en caso de no haber elección en el proceso anterior)
+- Lowest neighbor port BID (en caso de no haber elección en el proceso anterior)
+
 
 El _root cost_ de un puerto es el valor que indica que tan eficiente es la ruta por ese puerto al _root bridge_. Un valor menor es mejor, cada puerto tiene asociado un _cost_ asociado.
 

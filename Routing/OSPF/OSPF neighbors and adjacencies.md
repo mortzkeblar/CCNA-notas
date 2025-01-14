@@ -27,7 +27,7 @@ Cuando OSPF se activa en una interface, esta comienza a enviar mensajes _OSPF he
 
 
 ## Neighbor requirements 
-Aunque los [[OSPF network types]] permite a los routers descubrir dinamicamente vecinos [[OSPF]]. No garantiza que se puedan formar _neighbor relationships_. Se deben cumplir una serie de requisitos entre las cuales se encuetran.
+Aunque los [[OSPF network types and DR - DBR election]] permite a los routers descubrir dinamicamente vecinos [[OSPF]]. No garantiza que se puedan formar _neighbor relationships_. Se deben cumplir una serie de requisitos entre las cuales se encuetran.
 - Número de [[OSPF area]] coincidente 
 - Subnet (network address, netmask), debe coincidir 
 - El proceso OSPF no debe ser shutdown
@@ -38,6 +38,6 @@ Aunque los [[OSPF network types]] permite a los routers descubrir dinamicamente 
 - Configuración IP MTU debe coincidir 
 	- El valor MTU de una interface se puede modificar con `ip mtu <bytes>`. El valor por defecto es de 1500 bytes en una interface ethernet.
 	- Cuando hay un mismatch error de este tipo, el [[OSPF neighbor states]] no pasara de los estados _ExStart/Exchange_.
-- [[OSPF network types]] debe coincidir 
+- [[OSPF network types and DR - DBR election]] debe coincidir 
 	- Aunque surja este problema, los routers pueden formar una _full adjacencies_ pero sus [[OSPF#Link-State Database]] no estaran sincronizado y generara inconsistencias al revisar los estado del vecinos con `show ip ospf neighbor`, por lo cual es necesario revisar el enlace de ambos lados así como la tabla de enrutamiento para verificar si existe algún problema. 
 
