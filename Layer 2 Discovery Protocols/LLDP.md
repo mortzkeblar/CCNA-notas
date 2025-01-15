@@ -15,7 +15,7 @@ En los dispositivos Cisco, LLDP no esta habilitado por defecto. Esto se puede ha
 - `LLDP reinitialization delay` - valor de 2 segundos por defecto, agrega un delay en situaciones donde sucede _bouncing_ y al alternación del estado del puerto en UP / DOWN, esto da tiempo a que la interface puede estabilizarse antes de volver a enviar nuevamente menajes LLDP
 	- Puede ser modificado con `lldp reinit <seconds>`
 
-Una de las mayores diferencias con [[CDP]], es que LLDP te permite controlar el envio o la recepción de mensajes de forma independiente. Esto se puede lograr con `[no] lldp transmit` y `[no] lldp receive` respectivamente, para verificar esta configuración se puede usar `show lldp interface <interface>`
+Una de las mayores diferencias con [[CDP]], es que LLDP te permite controlar el envio o la recepción de mensajes por interface de forma independiente. Esto se puede lograr con `[no] lldp transmit` y `[no] lldp receive` en el _interface config mode_ respectivamente, para verificar esta configuración se puede usar `show lldp interface <interface>`
 
 ![[Pasted image 20250114065353.png]]
 

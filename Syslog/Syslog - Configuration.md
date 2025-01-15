@@ -17,5 +17,5 @@ R1$ show logging
 _Recomendaciones:_
 - Habilitar el registro de hora y fecha (timestamp) en los mensajes de log
 - Deshabilitar el registro de consola, ya que podría causar aumento de uso de CPU
-- Habilitar [NTP](NTP.md) (mucho muy importante)
+- Habilitar [NTP](Project/Networking/CCNA-notas/Network%20Time%20Protocol/NTP(LEGACY)/NTP.md) (mucho muy importante)
 - Utilizar con precaución los niveles de log, porque podrían causar un aumento en el tráfico syslog en una red saturada
