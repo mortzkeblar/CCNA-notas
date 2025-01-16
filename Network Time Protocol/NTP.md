@@ -77,6 +77,8 @@ Cuando se configura un router / [[switch]] como un NTP client, esta ya puede ser
 
 Una practica recomendada para usar un NTP server en un dispositivo Cisco es configurar una interface _loopback_ y que la [[IP address]] de esa interface se use para el NTP server. El comando `ntp source <interface>` indica que el equipo debe generar mensajes NTP desde la interface configurada.
 
+> Los clientes NTP envian mensajes NTP request al puerto UDP 23 de los NTP servers
+
 ![[Pasted image 20250115013228.png]]
 ![[Pasted image 20250115013507.png]]
 
