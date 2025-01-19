@@ -27,7 +27,7 @@ La universidad Albion es un centro muy grande donde se ubican dos campus a 20 mi
 	1. Cada departamento/facultad deberia tener su propia red IP y separada del resto. 
 	2. Los switches deben ser configurados con las VLAN correspondientes y configuraciones de seguridad.
 	3. [RIPv2](../../Routing/RIP/RIPv2.md) sera usado para proporcionar enrutamiento entre los routers en la red interna, además de enrutamiento estatico para el servidor externo. 
-	4. Se espera que los dispositivos en los edificios obtengan IPs de forma dinamica desde un router que actue como servidor [DHCP](../../DHCP/DHCP.md). 
+	4. Se espera que los dispositivos en los edificios obtengan IPs de forma dinamica desde un router que actue como servidor [DHCP (LEGACY)](DHCP%20(LEGACY).md). 
 
 
 ## resolution
@@ -232,7 +232,7 @@ no sh
 exit
 ```
 
-Configuración de RMAIN y RMINOR como servidor [DHCP](../../DHCP/DHCP.md).
+Configuración de RMAIN y RMINOR como servidor [DHCP (LEGACY)](DHCP%20(LEGACY).md).
 
 ``` bash
 # rmain 

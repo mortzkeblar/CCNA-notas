@@ -106,7 +106,7 @@ encapsulation dot1q 30
 ip address 192.168.1.129 255.255.255.192
 ```
 
- Procedemos a configurar el servidor [DHCP](../../DHCP/DHCP.md)  dentro del router.
+ Procedemos a configurar el servidor [DHCP (LEGACY)](DHCP%20(LEGACY).md)  dentro del router.
 
 ``` bash
 service dhcp

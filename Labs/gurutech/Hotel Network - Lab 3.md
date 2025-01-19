@@ -252,7 +252,7 @@ encapsulation dot1q 10
 ip address 192.168.1.1 255.255.255.0
 ```
 
-Configuramos [DHCP](../../DHCP/DHCP.md) en cada uno de los routers.
+Configuramos [DHCP (LEGACY)](DHCP%20(LEGACY).md) en cada uno de los routers.
 
 ``` bash
 # RF1

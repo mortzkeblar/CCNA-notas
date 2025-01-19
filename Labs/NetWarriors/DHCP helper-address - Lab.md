@@ -185,7 +185,7 @@ exit
 ```
 
 ## DHCP server
-Seguido a eso vamos a configurar el servidor [DHCP](../../DHCP/DHCP.md) para que nuestros hosts de las VLAN 10, 20, 30 puedan recibir un IP de forma dinámica.
+Seguido a eso vamos a configurar el servidor [DHCP (LEGACY)](DHCP%20(LEGACY).md) para que nuestros hosts de las VLAN 10, 20, 30 puedan recibir un IP de forma dinámica.
 
 
 ``` bash

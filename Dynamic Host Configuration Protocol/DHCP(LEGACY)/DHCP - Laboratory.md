@@ -8,7 +8,7 @@ date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 
 
-![](../_anexos_/Screenshot%20from%202024-01-01%2023-03-50.png)
+![](Screenshot%20from%202024-01-01%2023-03-50.png)
 
 ##### Objetivos
 - Configurar un router Cisco como servidor DHCP de una o más redes locales

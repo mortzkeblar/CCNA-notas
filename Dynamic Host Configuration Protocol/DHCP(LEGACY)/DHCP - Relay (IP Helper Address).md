@@ -21,7 +21,7 @@ La solución que plantea DHCP relay es:
  - La interfaz en la que el router recibe el mensaje _broadcast_ del host solicitante (la interfaz conectada a la LAN). El router recibe el mensaje y lo convierte en _unicast_, la cual se envía hasta llegar al servidor DHCP.
  - El servidor DHCP responde el mensaje con otro mensaje _unicast_ al router, el cual se lo reenvia al host por el mismo metodo _unicast_, así hasta que concluye el proceso con el host configurado (o rechazado por el servidor).
  
- ![](../_anexos_/Screenshot%20from%202024-01-01%2021-30-07.png)
+ ![](Screenshot%20from%202024-01-01%2021-30-07.png)
 
 **Códigos DHCP**
  > Considerar que DHCP se rige netamente por el uso de codigos.

@@ -22,12 +22,12 @@ Luego de presionar `Enter` en el cuadro de busqueda:
 
 ![[Pasted image 20250116000711.png]]
 
-> Las DNS queries son enviadas al puerto 53 del DNS server, se puede usar tanto [[TCP]] como [[UDP]] 
+> Las DNS queries son enviadas al puerto 53 del DNS server, se puede usar tanto [[TCP]] como [[UDP]]. Para enviar mensajes DNS con tamaño mayor a 512 bytes se usa TCP.
 
 #### The `hosts` file 
 Antes de que se realice un DNS request, el dispositivo revisa el archivo `host` (`C:\Windows\System32\drivers\etc`) por si ya existe una asignación para lo solicitado. Anterior a DNS, este era la forma en que se realizaba la resolución de nombres, pero como se puede ver, no es escalable a comparación de DNS.
 
-## DNS hierachy
+## DNS hierarchy
 DNS es un _hierarchical naming system_ para la computadores en internet. Esta se organiza sobre una estructura _tree-like_. Un dominio es una subarbol o _subtree_ de esa estructura, bajo el control administrativo de un ente particular.
 
 ![[Pasted image 20250116003134.png]]
