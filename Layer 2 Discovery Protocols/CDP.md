@@ -1,3 +1,7 @@
+---
+tags:
+  - CCNA
+---
 **Cisco Discovery Protocol (CDP)** es un protocolo propietario de Cisco de tipo layer-2, este se encuentra habilitado por defecto en los [[switch]]es Cisco sin necesidad de más configuraciones. 
 
 ![[Pasted image 20250114055526.png|400]]

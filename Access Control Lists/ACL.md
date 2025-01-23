@@ -1,3 +1,7 @@
+---
+tags:
+  - CCNA
+---
 **Access Control List (ACL)** son un lista ordenada de reglas que filtran paquetes recibidos o reenviados desde una interface.
 
 Cada ACL consiste en una serie de reglas llamadas _Access Control Entries (ACEs)_. Cada ACE consiste en:

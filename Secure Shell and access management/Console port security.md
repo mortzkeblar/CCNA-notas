@@ -1,3 +1,7 @@
+---
+tags:
+  - CCNA
+---
 Consiste en el _physical access control_, es decir el control del acceso por medios fisicos a un dispositivo. En esta entrada, se habla sobre el control de acceso a la CLI de los dispositivos Cisco IOS. 
 
 Cuando nos conectamos al _console port_ de un equipo para acceder a la CLI, se dice que se esta conectando a la **_console line_**. 

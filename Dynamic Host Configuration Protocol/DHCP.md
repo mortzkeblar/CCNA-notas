@@ -1,3 +1,7 @@
+---
+tags:
+  - CCNA
+---
 **Dynamic Host Configuration Protocol (DHCP)** es un protocolo que permite automatizar la asignación de [[IP address]], [[Default gateway]] y otras configuraciones de red que se le asigna a un host, definimos _host_ como cualquier dispositivo que envia y recibe paquetes sobre la red. 
 
 > DHCP usa [[UDP]] como protocolo de [[Layer 4]]

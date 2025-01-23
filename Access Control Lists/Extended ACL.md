@@ -1,3 +1,7 @@
+---
+tags:
+  - CCNA
+---
 **Extended ACL** es una mejora sobre standard [[Project/Networking/CCNA-notas/Security/ACL/ACL|ACL]], ya que te permite realizar el control de tráfico en base a varios parametros (a diferencia del standard [[Project/Networking/CCNA-notas/Security/ACL/ACL|ACL]] que solo filtra por el _source IP address_).
 - El protocolo del payload dentro del paquete ([[TCP]], [[UDP]], ICMP, etc)
 - Source / Destination [[IP address]] 

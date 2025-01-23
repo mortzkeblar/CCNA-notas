@@ -1,3 +1,7 @@
+---
+tags:
+  - CCNA
+---
 **Transmission Control Protocol (TCP)**, es un un protocolo de tipo [[Layer 4]].
 
 Ademas de proporcionar direccionamiento y [[Layer 4#Session multiplexing]], tiene caracteristicas destacadas como _connection-oriented communication_, data sequencing, comunicación confiable por medio del _acknowledgement_ y _retransmission_, y flow control.

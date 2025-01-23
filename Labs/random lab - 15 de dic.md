@@ -1,3 +1,7 @@
+---
+tags:
+  - CCNA
+---
 ![[Pasted image 20241215182354.png]]
 
 Tambien se tiene configuraciones adicionales como los puertos trunk/access en los switches y los tuneles GRE pero no esta en la conf que adjunto abajo.

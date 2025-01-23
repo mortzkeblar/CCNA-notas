@@ -1,3 +1,7 @@
+---
+tags:
+  - CCNA
+---
 **Link Layer Discovery Protocol (LLDP)** es protocolo de descubrimiento de vecinos, este es la versión vendor-neutral desarrollado por el IEEE (**IEEE 802.1ab**) equivalente a [[CDP]].
 
 > Los mensajes LLDP son enviados a la multicast MAC address `0180.c200.000e`. Al igual que en CDP, cuando un [[switch]] recibe un mensaje LDDP no realiza el flooding sino que se lo conserva para si mismo.

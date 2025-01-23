@@ -1,3 +1,7 @@
+---
+tags:
+  - CCNA
+---
 Para la administración remota de los dispositivos Cisco, se tiene principalmente dos opciones a considerar:
 - Telnet 
 - [[SSH]] 

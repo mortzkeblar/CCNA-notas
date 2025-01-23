@@ -1,3 +1,7 @@
+---
+tags:
+  - CCNA
+---
 **Domain Name System (DNS)** es un sistema de nombres jerárquico que permite la comunicación entre dispositivos en una red. Traduce nombres de dominio que puede ser legibles para humanos a direcciones de protocolos de internet, en general IP. 
 
 ### Uniform resource locators 

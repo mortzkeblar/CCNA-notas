@@ -1,3 +1,7 @@
+---
+tags:
+  - CCNA
+---
 **Network Time Protocol (NTP)** es un protocolo que nos permite sincronizar los dispositivos en base a una fuente de tiempo comun. Es importante mantener esto ya que muchos protocolos como TLS u OSPF tienen mecanismos que necesitan tener precisión con las fechas. 
 
 ### Setting the date and time 
