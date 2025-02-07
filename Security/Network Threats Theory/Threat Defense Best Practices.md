@@ -6,7 +6,7 @@ date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 - Usar servicios [[AAA]] con servidores RADIUS/TACACS+
 - Usar IEEE 802.1X
-- Registros usando [[Syslog]] para crear informes completos 
+- Registros usando [[(LEGACY) Syslog]] para crear informes completos 
 - Usar SSH en vez de Telnet para evitar que el trafico de administración pase por la red en texto plano
 - Usar versiones seguras de protocolos de administración, como SNMPv3 (autenticación en el cliente y servidor), NTPv3 y SFTP
 - Reforzar los dispositivos de red asegurandose de que los servicios innecesarios esten deshabilitados

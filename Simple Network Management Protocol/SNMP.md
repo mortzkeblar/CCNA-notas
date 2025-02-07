@@ -99,3 +99,19 @@ Para usar mensajes _Trap_ en los dispositivos administrados Cisco, primeramente 
 - El _community-string_ en el `snmp-server host` determina la contraseña que el dispositivo va a usar cuando envie mensajes _trap_ e _inform_ al NMS. No necesariamente tienen que coincidir con `snmp-server community` que se usan desde el NMS para obtener o modificar valores.
 
 ### SNMPv3 security 
+Es importante recordar que los _community-strings_ son enviados en texto plano sin ningún tipo de encriptación, por lo que los datos de una comunicación SNMP pueden ser interceptados. SNMPv3 proporciona un enfoque más fuerte en la seguridad: 
+- _User-based_ - en lugar del modelo de seguridad basado en _community strings_, SNMPv3 permite basar su modelo de seguridad basado en usuarios y los accesos que estos tienen sobre determinado recurso 
+- _Message integrity_ - SNMPv3 verifica que el mensaje no haya sido alterado antes de llegar a su destino
+- _Authentication_ - la autenticación username/password se asegura mediante algoritmos de hashing para que las credenciales no sean visibles en texto plano
+- _Encryption_ - los mensajes SNMPv3 ahora pueden ser encriptadas para que solo el destinatario puede leerlos 
+
+Las opciones de autenticación y encriptación son opcionales y pueden ser adaptadas según se desee, SNMPv3 ofrece tres niveles de seguridad: 
+- **_NoAuthNoPriv_** - sin autenticación y sin encriptación 
+- **_AuthNoPriv_** - autenticación, pero sin encriptación 
+- **_AuthPriv_** - autenticación y encriptación 
+
+![[Pasted image 20250124045655.png]]
+Para la configuración de SNMPv3 se debe crear primero un grupo con el nivel de seguridad que va a ser usado (`priv` en este caso es _AuthPriv_). Luego se puede asignar usuarios a ese grupo con el comando `snmp-server user`
+
+![[Pasted image 20250124050647.png]]
+

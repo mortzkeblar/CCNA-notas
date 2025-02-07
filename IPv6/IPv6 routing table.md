@@ -31,7 +31,7 @@ Se puede observar de que no hay _local_ ni _connected_ routes para los _link-loc
 
 La ruta final en la routing table de R1 es una ruta a `ff00::/8`, el _multicast address range_. Esta ruta se inserta forma automatica por el router y esta asociada con la interface virtual `Null0`, los paquetes enviados por estas ruta son dropped.
 - Los routers Cisco no reenvian los paquetes multicast por defecto, por lo que esta ruta asegura que todos esos paquetes sean droppeados. 
-	- Esto no previene al router de enviar o recibir paquetes multicast, ya que esos paquetes son usados por ejemplo en procesos [[NDP]]. Solo se limita al reenvio de los paquetes multicast.
+	- Esto no previene al router de enviar o recibir paquetes multicast, ya que esos paquetes son usados por ejemplo en procesos [[IPv6 NDP]]. Solo se limita al reenvio de los paquetes multicast.
 
 
 ## IPv6 route selection 

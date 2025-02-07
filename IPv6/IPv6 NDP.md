@@ -9,7 +9,7 @@ IPv6 usa el procotolo **Neighbor Discovery Procotol (NDP)** que tiene un rol sim
 ### Solicited-node multicast
 Algunas funciones de NDP usan una dirección llamada _solicited-node multicast address_, este se genera a partir de una dirección de host unicast ([[IPv6 address types#Global unicast]], [[IPv6 address types#Unique local]] o [[IPv6 address types#Link-local]]).
 
-Para generar un solicited-node multicast address, anteponer `ff02:0000:0000:0000:0000:0001:ff` (abrev. `ff02::1:ff`) a los ultimos 6 digitos de la _unicast address_.
+Para generar un solicited-node multicast address, anteponer `ff02:0000:0000:0000:0000:0001:ff` (abrev. `ff02::1:ff`) a los ultimos 6 digitos hexadecimales de la _unicast address_.
 
 ![[Pasted image 20241211223725.png]]
 
@@ -39,7 +39,7 @@ Consiste en el mapping de direcciones IPv6 de [[Layer 3]] a direcciones MAC de [
 - El destino del mensaje NS respondera con un _Neighbor Advertisement (NA)_ (equivalente a un [[ARP]] reply) informando la MAC address
 	- El mensaje _NA_ es de tipo unicast 
 
-La tabla en la que se mapean las relaciones de direcciones L2-L3 se llama _[[IPv6]] neighbor table_, esta puede ser consultada con `show ipv6 neighbor`.
+La tabla en la que se mapean las relaciones de direcciones [[Layer 2]]  - [[Layer 3]]  se llama _[[IPv6]] neighbor table_, esta puede ser consultada con `show ipv6 neighbor`.
 
 ![[Pasted image 20241211231024.png]]
 

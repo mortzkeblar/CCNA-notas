@@ -33,9 +33,9 @@ Este conceto ya fue abarcado en IPv4 con [[Static Routing#Static routes specifyi
 
 > Es importante aclarar que este ruta es que NO funciona, por más que el router permita configurarla y que haya una entrada añadida en la tabla de enrutamiento. 
 
-En IPv4 este mismo tipo de rutas acarrea problemas, que pueden ser parchados usando _proxy ARP_. Pero IPv6 no usa [[ARP]], usa [[NDP]] y este protocolo no tiene un equivalente al _proxy ARP_.
+En IPv4 este mismo tipo de rutas acarrea problemas, que pueden ser parchados usando _proxy ARP_. Pero IPv6 no usa [[ARP]], usa [[IPv6 NDP]] y este protocolo no tiene un equivalente al _proxy ARP_.
 
-Esto significa que [[NDP]] no es capaz de aprender la MAC address de un host remoto, a menos que realmente se encuentre conectado a la interface. 
+Esto significa que [[IPv6 NDP]] no es capaz de aprender la MAC address de un host remoto, a menos que realmente se encuentre conectado a la interface. 
 
 ![[Pasted image 20241212223700.png]]
 

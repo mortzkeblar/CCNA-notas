@@ -10,7 +10,7 @@ tags:
 
 DHCP usa un modelo cliente - servidor en donde los clientes envia request al DHCP server, este ultimo realiza el _lease_ o alquiler de direcciones IP a los hosts y proporciona otras configuraciones a los clientes como el [[Default gateway]]. 
 
-> DHCP es _stateful_, que significa que realiza el seguienmiento de las direcciones que _leases_ a los clientes. Se contrasta con el modelo [[NDP#SLAAC]] de [[IPv6]]. 
+> DHCP es _stateful_, que significa que realiza el seguienmiento de las direcciones que _leases_ a los clientes. Se contrasta con el modelo [[IPv6 NDP#SLAAC]] de [[IPv6]]. 
 
 ![[Pasted image 20250117024254.png]]
 
