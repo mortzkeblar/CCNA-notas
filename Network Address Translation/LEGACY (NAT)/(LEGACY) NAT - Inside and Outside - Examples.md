@@ -6,11 +6,11 @@ date created: Saturday, October 19th 2024, 11:08:14 pm
 date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 
-_Para entender mejor el concepto de inside/outside ver: [NAT - Inside and Outside](NAT%20-%20Inside%20and%20Outside.md)_
+_Para entender mejor el concepto de inside/outside ver: [(LEGACY) NAT - Inside and Outside]((LEGACY)%20NAT%20-%20Inside%20and%20Outside.md)_
 
 #### Example 1
 
-![](../_anexos_/Screenshot%20from%202024-01-01%2008-51-30.png)
+![](Screenshot%20from%202024-01-01%2008-51-30.png)
 
 ``` bash
 ## En este caso, el trafico siempre va desde la LAN hacia internet
@@ -27,7 +27,7 @@ R1(config-if)$ ip nat inside
 
 #### Example 2
 
-![](../_anexos_/Screenshot%20from%202024-01-01%2008-55-59.png)
+![](Screenshot%20from%202024-01-01%2008-55-59.png)
 
 ``` bash
 # Aca como estamos trabajando con interfaces virtuales, la instruccion solo enciende la interfaz fisica pero no lo configura en ip nat porque no tiene asignada una IP. Recordad que NAT trabaja sobre L3, entonces asignamos ip nat sobre las interfaces virtuales.

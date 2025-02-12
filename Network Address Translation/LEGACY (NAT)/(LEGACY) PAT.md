@@ -13,7 +13,7 @@ En este caso podemos multiples IPs privadas con una unica IP publica (en el ejem
 - Esto es comun en router domesticos tipo SOHO (small office, home office)
 ```
 
-![](../_anexos_/Screenshot%20from%202023-12-31%2017-57-51.png)
+![](Screenshot%20from%202023-12-31%2017-57-51.png)
 
 Cuando un host quiera salir por internet, llega al router el cual lo agrega en un tabla `stateful` donde va a asociarlo con un puerto de la IP publica. Si tenemos en cuenta que la cantidad de puertos disponibles son $2^{16}$. Esa es la cantidad maxima de IPs que podemos conectar simultáneamente hacia internet por PAT. 
 

@@ -8,7 +8,7 @@ date modified: Wednesday, November 20th 2024, 11:33:50 pm
 
 Este tipo de NAT es uan variación del PAT tradicional pero se agrega un grupo de IP publicas para hacer la traducción. Esto permite tener más $2^{16}$ conexiones simultaneas (que es lo que permite una sola IP).
 
-![](../_anexos_/Screenshot%20from%202023-12-31%2018-36-22.png)
+![](Screenshot%20from%202023-12-31%2018-36-22.png)
 
 ``` bash
 Router(config)$ ip nat pool RANGO_PUBLICO 200.1.1.1 200.1.1.4 netmask 255.255.255.248

@@ -5,15 +5,15 @@ date created: Saturday, October 19th 2024, 11:08:14 pm
 date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 
-![](../_anexos_/Screenshot%20from%202024-01-01%2009-57-09.png)
+![](Screenshot%20from%202024-01-01%2009-57-09.png)
 
 ### Descripción de la topología
-![](../_anexos_/Screenshot%20from%202024-01-01%2010-07-46.png)
+![](Screenshot%20from%202024-01-01%2010-07-46.png)
 
 #### Consigna
 
-![](../_anexos_/Screenshot%20from%202024-01-01%2010-08-33.png)
-![](../_anexos_/Screenshot%20from%202024-01-01%2012-16-10.png)
+![](Screenshot%20from%202024-01-01%2010-08-33.png)
+![](Screenshot%20from%202024-01-01%2012-16-10.png)
 
 
 > Recordad: cuando se este utilizando `access-list` con NAT. No quiere decir que estemos utilizando el router como un `firewall`, sino más bien seleccionando que host son lo que pueden salir a internet.
@@ -95,4 +95,4 @@ R4(config)$ ip nat inside source static 192.168.10.4 199.43.128.195
 ```
 
 
-![](../_anexos_/Screenshot%20from%202024-01-01%2012-54-51.png)
+![](Screenshot%20from%202024-01-01%2012-54-51.png)

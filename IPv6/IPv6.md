@@ -20,7 +20,7 @@ IPv6 se representa usando el sistema [[hexadecimal]], esto significa que cada di
 ![[Pasted image 20241208223932.png]]
 
 ## IPv6 header 
-La cabecera IPv6 consta de los campos: version, traffic class, flow label, payload length, next header, hop limit, source address, destination address. Este ocupa un total de _40 bytes_.
+La cabecera IPv6 consta de los campos: version, traffic class, flow label, payload length, next header, hop limit, source address, destination address. Este ocupa un total de _41 bytes_.
 ![[Pasted image 20241208233857.png]]
 - _Version field_ - al igual que [[Project/Networking/CCNA-notas/IPv4 addressing/IPv4 addressing|IPv4]], campo de 4 bits que esta configurado como $0b0110$ para indicar IPv6 
 - _Traffic class field_ - 8 bits de tamaño, usado para [[Quality of Service]], este campo se divide en dos partes 
