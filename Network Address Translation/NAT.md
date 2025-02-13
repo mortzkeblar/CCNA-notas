@@ -3,4 +3,8 @@ NAT es un proceso diseñado específicamente para tratar el tema de [[IPv4 addre
 
 > Es importante recalcar que las direcciones privadas no son enrutables en internet, por lo que si se tiene hosts con direcciones privadas se necesita tener NAT para que estos puedan salir a internet 
 
-NAT permite modificar la direcci
+El proceso NAT consiste en la modificación de la dirección de origen o destino enmascarándolo generalmente en una IP publica. 
+
+
+
+
