@@ -12,6 +12,8 @@ FTP usa [[TCP]] como protocolo [[Layer 4]], esto significa que debe haber primer
 ![[Pasted image 20250205123304.png]]
 
 Luego del establishing [[TCP]] (TCP three-way handshake), el cliente y el server tienen que establecer una **_FTP control connection_** en el TCP port 21 siguiendo lo siguente 
+
+
 	- El server autenticara al cliente verificando el usuario y contraseña 
 	- Si la autenticación es exitosa, ahora el cliente puede enviar _FTP commands_ al server, estos comandos indican al server que es lo que quiere hacer el cliente 
 
