@@ -10,4 +10,9 @@ El comando para realizar el mapping one-to-one es `ip nat inside source static <
 
 - El `inside` keyboard indica al router que debe realizar las traducciones de las [[IP address]] originadas desde la _inside network_, a medida que vayan reenviandose hacia el _outside netwok_.
 - El `source` keyboard le indica que debe traducir las _source IP address_ provenientes desde los hosts en el _inside network_
-	- Es importante aclarar que el reverso es cierto cuando se tiene la respuesta del _outside host_. 
+	- Es importante aclarar que el reverso tambien es valido cuando se genera la respuesta desde el _outside host_, en este caso el router tomara la respuesta y realizara la traducción para que pueda llegar al _internal host_
+
+Para poder verificar el funcionamiento se puede usar `show ip nat translations` que nos muestra la tabla de traducciones del router.
+
+![[Pasted image 20250227063627.png]]
+

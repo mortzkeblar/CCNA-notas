@@ -12,7 +12,7 @@ $$Porción\ de\ RED + Porcion\ de\ HOST$$
 
 ![[Pasted image 20241016084948.png]]
 
-# TODO: agregar concepto de peso en el sistema binario
+#TODO: agregar concepto de peso en el sistema binario
 
 ### IP address range
 ![](ip-classes.png)
