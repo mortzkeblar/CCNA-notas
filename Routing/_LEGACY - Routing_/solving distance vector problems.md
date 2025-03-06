@@ -11,7 +11,7 @@ _Lectura complementaria: [counting to infinity - Rahmati-academy ](https://yaser
 - [maximum hop count](maximum%20hop%20count.md) 
 - [split horizon](split%20horizon.md) 
 - [holddown timers](holddown%20timers.md) 
-- [route poisoning]((LEGACY)%20Notes%20routing/route%20poisoning.md) 
+- [route poisoning](route%20poisoning.md) 
 - [triggered updates](triggered%20updates.md) 
 
 

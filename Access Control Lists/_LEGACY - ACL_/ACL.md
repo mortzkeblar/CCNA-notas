@@ -28,7 +28,7 @@ A las cuales se les aplica un acción, como pueden ser permitir o bloquear, VPN 
 _Dispositivos orientados a ACL_
 - Integrated Service Router (ISR) G2
 
-![](_anexos_/Screenshot%20from%202023-12-28%2009-57-15.png)
+![](Screenshot%20from%202023-12-28%2009-57-15.png)
 
 Para crear una ACL:
 - Definir una lista interesante

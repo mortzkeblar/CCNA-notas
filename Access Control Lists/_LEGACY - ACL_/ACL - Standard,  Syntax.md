@@ -8,7 +8,7 @@ date modified: Wednesday, November 20th 2024, 11:33:50 pm
 
 > Las ACL Standard filtran paquetes IP basándose unica y exlusivamente en la _dirección IP de origen_. Son las ACL más antiguas y las que raramente se utilizan para filtrar tráfico.
 
-![](_anexos_/Screenshot%20from%202023-12-28%2011-41-24.png)
+![](Screenshot%20from%202023-12-28%2011-41-24.png)
 
 _Que hace exactamente ACL1?_
 ``` bash
@@ -33,7 +33,7 @@ _Ver: [ACL - Standard, List of rules and laws (IMPORTANT)](ACL%20-%20Standard,%2
 
 #### Exercise
 
-![](_anexos_/Screenshot%20from%202023-12-28%2013-03-09.png)
+![](Screenshot%20from%202023-12-28%2013-03-09.png)
 
 ``` bash
 # Solución 1

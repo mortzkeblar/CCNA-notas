@@ -14,12 +14,12 @@ date modified: Wednesday, November 20th 2024, 11:33:50 pm
 _Ver: [ACL - Extended, IN OUT](ACL%20-%20Extended,%20IN%20OUT.md)_
 _Ver: [ACL - Extended, Examples](ACL%20-%20Extended,%20Examples.md)_
 
-![](_anexos_/Screenshot%20from%202023-12-29%2000-38-49.png)
+![](Screenshot%20from%202023-12-29%2000-38-49.png)
 
 > #exam 
 > Importante: practicar ACL named, es posible encontrar con un ejercicio de este tipo en el examen de CCNA
 
 #### Composition
-![](_anexos_/Screenshot%20from%202023-12-29%2000-43-38.png)
-- El argumento `IP` engloba a todo el packet stack, sin importar el protocolo L4, los puertos o demás. ![](_anexos_/Screenshot%20from%202023-12-29%2000-46-47.png)
+![](Screenshot%20from%202023-12-29%2000-43-38.png)
+- El argumento `IP` engloba a todo el packet stack, sin importar el protocolo L4, los puertos o demás. ![](Screenshot%20from%202023-12-29%2000-46-47.png)
 

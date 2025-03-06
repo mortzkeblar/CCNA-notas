@@ -10,9 +10,9 @@ date modified: Wednesday, November 20th 2024, 11:33:50 pm
 
 [OSPF](../OSPF.md) esta diseñado para localizar rapidamente los cambios locales dentro de una topologia de red y asi poder realizar el [[Dynamic Routing#Route selection]] para agregar las mejor ruta para llegar a un determinado destino. La red completa se divide en areas, dentro de estas areas se inunda la red de LSAs (link state advertisements) para los routers vecinos. Esto asegura que los routers en otras areas [OSPF](../OSPF.md) no son afectados por los cambios o problemas como p. ej. caida de enlaces (links flapping). 
 
-Contrario a [RIP](../../RIP/RIP.md), [OSPF](../OSPF.md) funciona con una jerarquia de areas. En el nivel más alto esta los [AS](../../(LEGACY)%20Notes%20routing/AS.md) (AS), una construcción logica para una colección de redes bajo un administrador comun. 
+Contrario a [RIP](../../RIP/RIP.md), [OSPF](../OSPF.md) funciona con una jerarquia de areas. En el nivel más alto esta los [AS](../../_LEGACY%20-%20Routing_/AS.md) (AS), una construcción logica para una colección de redes bajo un administrador comun. 
 - OSPF es un protocolo _Intra-AS (interior gateway)_ 
-- Un protocolo externo se encarga de intercambiar información entre los distintos [AS](../../(LEGACY)%20Notes%20routing/AS.md). 
+- Un protocolo externo se encarga de intercambiar información entre los distintos [AS](../../_LEGACY%20-%20Routing_/AS.md). 
 
 Un AS puede dividirse en varias areas con direccionamiento de red continua, dependiendo los requisitos en ese momento. Los routers con multiples interfacces pueden participar en multiples areas si se requiere. Estos routers son llamados _area border routers_ y mantienen bases de datos topológicas separadas para cada area.
 

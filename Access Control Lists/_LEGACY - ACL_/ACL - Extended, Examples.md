@@ -8,7 +8,7 @@ date modified: Wednesday, November 20th 2024, 11:33:50 pm
 
 #### Example 1
 _Que hace esta ACL?_
-![](_anexos_/Screenshot%20from%202023-12-29%2000-49-18.png)
+![](Screenshot%20from%202023-12-29%2000-49-18.png)
 ``` 
 - Permita el acceso de la IP 10.0.0.1 a toda la red 20.0.0.0/24
 - Denega el acceso de todo el rango IP <10.0.0.0 - 10.0.0.255> hacia cualquier IP dentro del rago <20.0.0.0 - 20.0.0.255>
@@ -16,7 +16,7 @@ _Que hace esta ACL?_
 ```
 
 #### Example 2
-![](_anexos_/Screenshot%20from%202023-12-29%2000-57-31.png)
+![](Screenshot%20from%202023-12-29%2000-57-31.png)
 ``` bash 
 R1(config)$ access-list 100 deny tcp host 199.34.209.1 host 192.168.2.2 eq 22
 R1(config)$ access-list 100 permit ip any any # IMPORTANTE para no bloquear otras IPs
@@ -27,7 +27,7 @@ R1(config)$ ip access-group 100 in
 # Exercices
 
 ### Exercise 1
-![](_anexos_/Screenshot%20from%202023-12-29%2001-23-51.png)
+![](Screenshot%20from%202023-12-29%2001-23-51.png)
 ``` bash
 
 ## Solución (MAL hecha), esto no es una solución
@@ -42,7 +42,7 @@ R1(config)$ip access-group 100 in
 ```
 
 _Solución_
-![](_anexos_/Screenshot%20from%202023-12-29%2001-55-01.png)
+![](Screenshot%20from%202023-12-29%2001-55-01.png)
 ``` bash
 # La misma solución de la imagen pero codificada
 R1(config)$ ip access-list extended TRAFICO_HACIA_INTERNET
@@ -61,7 +61,7 @@ R1(config)$ ip access-group TRAFICO_DESDE_INTERNET in
 > En una situación de bloqueo es mejor aplicar el flltro en la interfaz de entrada y no de salida, porque eso implica ser procesado por el router (consumiendo recursos en el paso) solo para que al final salga filtrado. 
 
 ### Exercise 2
-![](_anexos_/Screenshot%20from%202023-12-29%2002-13-49.png)
+![](Screenshot%20from%202023-12-29%2002-13-49.png)
 ``` bash
 R1(config)$ ip access-list extended VTY_RESTRICTED
 R1(config-ext-nacl)$ permit 192.168.0.128

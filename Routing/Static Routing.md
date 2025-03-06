@@ -77,7 +77,7 @@ R1(config)# ip route 192.168.3.0 255.255.255.0 g0/0 192.168.12.2
 - [IP route 0.0.0.0](IP%20route%200.0.0.0.md) 
 - [IP default-network](IP%20default-network.md) 
 - [static host routes](static%20host%20routes.md) 
-- [permanent routes]((LEGACY)%20Notes%20routing/permanent%20routes.md) 
+- [permanent routes](permanent%20routes.md) 
 - [(legacy) floating static route]((legacy)%20floating%20static%20route.md) 
 
 

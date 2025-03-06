@@ -7,7 +7,7 @@ date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 
 
-![](_anexos_/Screenshot%20from%202023-12-29%2000-35-26.png)
+![](Screenshot%20from%202023-12-29%2000-35-26.png)
 
 - Una standard ACL solo mira la `IP address origin/source`
 - Una extended ACL revisa las `IP src/dest` y ademas los `puertos src/dest (TCP/UDP)`

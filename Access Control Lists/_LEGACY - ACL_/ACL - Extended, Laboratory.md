@@ -8,10 +8,10 @@ date modified: Wednesday, November 20th 2024, 11:33:50 pm
 ---
 
 _Ver: [ACL - Extended, Examples](ACL%20-%20Extended,%20Examples.md)_
-![](_anexos_/Screenshot%20from%202023-12-29%2008-36-59.png)
+![](Screenshot%20from%202023-12-29%2008-36-59.png)
 
 ### GNS3 
-![](_anexos_/Screenshot%20from%202023-12-29%2009-37-51.png)
+![](Screenshot%20from%202023-12-29%2009-37-51.png)
 
 #### Solución
 

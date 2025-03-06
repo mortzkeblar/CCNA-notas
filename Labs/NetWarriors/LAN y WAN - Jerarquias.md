@@ -34,7 +34,7 @@ TODO
 ### Funciones en _Distribution Layer_
 - Agregación de enlaces LAN o WAN
 	- Esto conlleva a la configuración de los enlaces etherchannel y para la redundancia entre el Core Layer y el Access Layer
-- Seguridad basada en politicas en forma de listas de control de acceso (_Ver: [ACL](../../Security/ACL/ACL.md)_) y filtrado
+- Seguridad basada en politicas en forma de listas de control de acceso (_Ver: [ACL](1000%20Project/1100%20Networking%20and%20Security/1110%20CCNA-notas/Security/_LEGACY%20-%20ACL_/ACL.md)_) y filtrado
 - Servicios de routing entre redes LAN y VLAN y entre dominios de routing (p. ej. EIGRP a OSPF)
 - Redundancia y balanceo de carga
 - Un limite para la agregacion y la sumarizacion de rutas que se configura en las interfaces hacia la capa de nucleo

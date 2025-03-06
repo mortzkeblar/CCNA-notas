@@ -20,11 +20,11 @@ date modified: Wednesday, November 20th 2024, 11:33:50 pm
 	- IPv6: `ipv6 traffic-filter`
 ### Consigna
 
-![](_anexos_/Screenshot%20from%202023-12-29%2010-48-13.png)
+![](Screenshot%20from%202023-12-29%2010-48-13.png)
 
 ### GNS3
 
-![](_anexos_/zyro-image.png)
+![](zyro-image.png)
 
 ### Solución
 
