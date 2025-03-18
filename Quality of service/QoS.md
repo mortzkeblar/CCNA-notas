@@ -158,5 +158,48 @@ Cuando el _PQ scheduler_ decide cual queue va a ser servido, este escanea los qu
 
 Debido al queue starvation, hace que PQ sea un opción muy poco usada a pesar que sea mejor que el FIFO simple. 
 
-### Class-Based Weighted Fair Queuing 
+### Class-Based Weighted Fair Queuing (CBWFQ)
+Este método esta basado en el _round-robin scheduling_, cada queue es atendido en orden cíclico. La planificación  _round-robin_ original trata a todas las queues por igual, por lo que para poder priorizar cierto tipo de trafico sobre otro se usa una variante llamada _weighted round-robin_. 
+
+_Weighted round-robin_ permite especificar una cantidad minima de ancho de banda para cada queue, significa que en un contexto de congestión de la red, el _scheduler_ asegura que cada queue recibe minimamente la cantidad del ancho de banda especificado. 
+
+![[Pasted image 20250317215339.png]]
+
+> CBWFQ puede soportar hasta 64 queues
+
+CBWFQ evita el problema de _queue starvation_ de [[#Priority Queuing (PQ)]] al garantizar un ancho de banda minimo para cada queue. A pesar de eso, este scheduler tiene la desventaja de que puede introducir latencia al trafico _delay-sensitive_, ya que aunque estas queues tengan aseguradas suficiente ancho de banda, es posible que tenga que esperar para ser transmitidas mientras el scheduler atiene otras queues. 
+
+### Low Latency Queuing (LLQ)
+_LLQ_ se puede considerar como una combinación de [[#Class-Based Weighted Fair Queuing (CBWFQ)]] y [[#Priority Queuing (PQ)]]. En terminos simples, LLQ es CBWFQ con un _priority queue_, en donde el tráfico delay-sensitive es asignado al priority queue. 
+- Si hay paquetes esperando dentro del _priority queue_, el scheduler siempre va atender primero a esos paquetes 
+- Si el _priority queue_ esta vacio, el scheduler va a atender a los demás paquetes usando la lógica de CBWFQ
+
+![[Pasted image 20250318000621.png]]
+La asignación del trafico garantizado que se observa en la imagen para el _priority queue_ esta definiendo el _máximo_ ancho de banda garantizado, lo que se diferencia con los otros queues donde se garantiza el _minimo_. Esto se defino así para evitar que el priority queue pueda generar un escenario de _queue starvation_ en el que se apropie de todo el ancho de banda disponible. 
+
+En la imagen se puede observar que los paquetes marcados como EF son los que van al _priority queue_, en caso de que la cantidad de paquetes prioritarios que van al priority queue sean mayores que el ancho de banda asignado estos van a comenzar a ser dropped o bien se realizan el _re-mark_ y se les asigna en un queue más bajo (un ejemplo de _policing_). 
+
+
+## Policing and shaping 
+Policing y shaping son dos _rate-limit techniques_, estos son usados para limitar el ratio/velocidad en la que una interface envía o recibe trafico. 
+
+> Ambos conceptos funcionan primero definiendo un _rate-limit_ (i.e. 300 Mbps) para luego tomar una acción sobre el tráfico que excede el limite configurado 
+
+- _Policing_ hace dropping del tráfico que excede el limite de velocidad 
+	- Tambien esta la opción de poder hacer el _re-mark_ de los paquetes excedentes para que luego puedan ser transmitidos desde un queue de menor prioridad, en lugar de ser droppeados. 
+- _Shaping_ almacena el tráfico excedente del limite de velocidad en un queue aparta llamado _shaping queue_ que luego se va transmitiendo en un ratio que cumpla con el limite configurado 
+
+![[Pasted image 20250318003141.png]]
+
+Policing y shaping pueden ser configurados _per-class basis_ o _per-interface basis_:
+- Por _class_, este significa que los paquetes dentro de cada clase (por tanto, de cada queue) son policed / shaped de forma separada 
+- Por _interface_, es significa que las configuraciones de policing y shaping son aplicados a todos los paquetes transmitidos o recibidos por la interface 
+
+![[Pasted image 20250318005158.png]]
+En la imagen se puede observar que el cliente esta realizando el _shaping_ del tráfico de salida a los 300 Mbps para asegurarse que sus paquetes no sean dropped por el ISP, que tiene configurado un _police_ traffic a los 300 Mbps.
+
+> Tanto policing como shaping pueden ser configurados para permitir _bursts_, picos temporales en el tráfico que exceden el rate-limit configurado. 
+
+
+
 
