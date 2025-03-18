@@ -200,6 +200,35 @@ En la imagen se puede observar que el cliente esta realizando el _shaping_ del t
 
 > Tanto policing como shaping pueden ser configurados para permitir _bursts_, picos temporales en el tráfico que exceden el rate-limit configurado. 
 
+## Congestion avoidance 
+Las _congestion avoidance techniques_ se usan para tratar de disminuir la congestión mediante el uso de mecanismo avanzados de [[TCP]], esto puede ocurrir en un contexto donde la congestión de la red esta tan grande que incluso termina saturando los _queues_, por lo cual inevitablemente se termina produciendo la perdida de paquetes. 
 
+### Tail drop and TCP global synchronization 
+Cuando un paquete es asignado a un queue determinado pero este no puede ingresar debido a que el _queue_ ya esta lleno, el paquete es dropped. Esto es llamado tambien _tail drop_.
 
+![[Pasted image 20250318011355.png]]
 
+Los _packet loss_ en primera instancia no afectan tanto a [[TCP]] ya que esté tiene un mecanismo de recuperación de mensajes usando _retransmissions_, el problema surge debido a que el tail drop puede generar un fenomeno no deseado llamado _TCP global synchronization_. 
+
+En un intercambio [[TCP]] entre dos hosts, cada host especifica su propio valor de _window size_ dependiendo de las condiciones que tenga un determinado host (ver [[TCP#Flow Control]]). 
+
+_Global synchronization_ ocurre cuando muchos hosts comienzan a reducir y luego incremente el tamaño de sus _window sizes_ de forma simultanea en respuesta a los packets loss, esto suele ser resultado del _tail drop_ y puede conducir a un ciclo vicioso. 
+
+![[Pasted image 20250318013438.png]]
+- La congestión en la red genera el _tail drop_
+- Tail drop conduce a que el _global window size_ reduzca su tamaño, todos los hosts que tengan packet loss comienzan a reducir el _window size_
+- La reducción del window size en todos los hosts hace que la red sea infrautilizada, que conduce a niveles de transmisión más bajos
+- Niveles de transmisión bajos hace que el _global TCP window size_ incremente su tamaño, lo que genera nuevamente congestión en la red 
+- El ciclo se repite 
+
+### Random Early Detection and Weighted Random Early Detection 
+En lugar de esperar a que los queues se saturen, generando el _tail drop_ y el _TCP global synchronization_, se puede comenzar a hacer dropping de algunos paquetes antes de llegar al punto del tail drop. Esto hace que la reducción del tamaño del _window size_ solo ocurra en algunos dispositivos que experimentaron el packet loss. 
+
+> Esto es llamado _Random Early Detection (RED)_ y _Weighted Random Early Detection (WRED)_
+
+- RED hace dropping de un porcentaje de paquetes una vez el queue se comienze a llenar en determinado punto
+	- Los hosts que perciban el dropping de paquetes, comenzaran a reducir sus _window size_, y si es posible reducir el ratio de tráfico y el tamaño de los queues 
+- WRED, funciona de la misma manera pero permite tener más control sobre los paquetes que deben ser dropped. 
+	- I.E.  pueden haber paquetes marcados como _AF_ y que tiene designado una _drop precedence_, para la decisión del dropped de paquetes se puede tomar esos valores como referencia para la implementación de WRED  
+
+> RED / WRED no deberia ser usado para tráfico que es sensible al packet loss, no se recomienda usarlo en combinación con [[#Low Latency Queuing (LLQ)]]
