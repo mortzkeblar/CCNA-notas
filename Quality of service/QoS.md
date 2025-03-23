@@ -1,10 +1,23 @@
 **_Quality of Service (QoS)_** es un conjunto de tecnologías que permiten realizar la _priorization_ del trafico más importante (y la _de-priorization_ del menos importante). Esto resulta especialmente relevante cuando se este en un contexto de congestión en la red, y se necesita garantizar la calidad en trafico sensible como [[IP telephony]]. 
 
+Cuando los paquetes para ser reenviados llegan más rápidos al router del que este los puede transmitir por una interface determinada, los paquetes se alojan en _queues_ a la espera de ser transmitidos. Este es el punto donde [[QoS]] comienza a hacer efecto.
+- Por defecto, hay un único queue y los paquetes son reenviado bajo el metodo _FIFO (first in, first out)_, no hay prioridad de ningún tráfico sobre otro. 
+
+[[QoS]] permite clasificar los paquetes basado en función de su tipo y ponerlos en diferentes _queues_, para usar luego técnicas avanzadas de _scheduling_ como [[#Priority Queuing (PQ)]], [[#Class-Based Weighted Fair Queuing (CBWFQ)]] o [[#Low Latency Queuing (LLQ)]] que permiten determinar el orden en que los paquetes deben ser transmitidos. 
+
+![[Pasted image 20250318081648.png]]
+Es importante aclarar las diferencias entre _classification_ y _scheduling_:
+- _Classification_ (ver [[#Classification and marking]])
+	- Es el proceso de identificar y categorizar el tráfico de red baja determinados criterios, para lo cual se puede hacer uso de valores dentro los headers como DSCP de [[IPv4 Header]] o PCP de [[Ethernet Header (and Trailer)]] 
+	- El resultado de este proceso es la asignación de los paquetes a _queues_ especificos en función de su clasificación 
+- _Scheduling_ (ver [[#Queuing and scheduling]])
+	- Es el mecanismo que permiter determinar el orden en que los paquetes salen de los _queues_ para ser transmitidos por la interface de red. Para esto se hace uso de algoritmos avanzados de planificación como PQ, CBWFQ o LLQ. 
+	- Es importante aclarar que el scheduling no participara en el proceso de clasificación, sino en el proceso de transmisión de paquetes
 ## QoS concepts
 ### Bandwidth
 El _bandwidth_ hace referencia a la capacidad del enlace, cuantos datos puede _carry per second_. 
 
-![[Pasted image 20250314020552.png]]
+![[Pasted image 20250314020552.png|400]]
 En una situación normal, generalmente los host que se conectan a la red tienen enlaces `GigabitEthernet` que les permite tener bastante capacidad, en cambio los enlaces WAN suelen ser un potencial _bottleneck_ debido al costo. 
 
 En una situación de alto consumo de un enlace, se pueden presentar problemas relacionado con el _delay_, _jitter_ o _loss_. 
@@ -14,13 +27,13 @@ En una situación de alto consumo de un enlace, se pueden presentar problemas re
 	- _Round-Trip Time (RTT)_ es un concepto relacionado que muestra el delay de forma bidireccional, es la cantidad de tiempo que toma en viajar al destino y que el paquete de respuesta llegue de vuelta al origen.
 	- El _delay_ se mide generalmente en milisegundos (ms), Cisco recomiendo que el trafico de [[IP telephony]] tenga un delay menor o igual a 150ms. 
 
-![[Pasted image 20250314021715.png]]
+![[Pasted image 20250314021715.png|500]]
 
 
 - _Jitter_ es la variación del _delay_ en una serie de paquetes. Si bien el _delay_ es inevitable en una comunición, se espera que esos valores sean minimos y se mantengan constantes. Tener valores altos de jitter afectan significativamente la experiencia de las app real-time. 
 	- El _jitter_ se mide generalmente en milisegundos (ms), Cisco recomienda que el trafico de [[IP telephony]] tenga un jitter menor o igual a 30ms.
 
-![[Pasted image 20250314022635.png]]
+![[Pasted image 20250314022635.png|400]]
 
 - _Loss_ es el porcentaje de paquetes que se perdieron (que no llegaron a destino) en un periodo de tiempo. En una situación normal los valores optimos serian menores a 0%, cuando se tiene congestión es posible que algunos paquetes comienzen a ser droppeados. 
 	- Cisco recomienda un _loss_ menor al 1% para [[IP telephony]] 
@@ -97,7 +110,9 @@ La mayor ventaja de usar _DSCP marking_ frente a _PCP marking_ es que el primero
 
 Otra ventaja del _DSCP marking_ frente a _PCP_ y _IPP_ es que su campo es de 6-bits, lo que permite $2^{6} = 64$ valores únicos que se pueden usar para aplicar los políticas de [[QoS]]. 
 
-El propósito que cumplen cada uno de estos valores esta definido de forma estándar, existen dos conjuntos de DSCP marking estandarizados: _Class Selector_ y _Assured Forwarding_
+El propósito que cumplen cada uno de estos valores esta definido de forma estándar, existen dos conjuntos de DSCP marking estandarizados: _Class Selector_ y _Assured Forwarding_. Algunos de estos valores son:
+- _Default Forwarding (DF)_ - marcado por defecto usado para el best-effort traffic, en DSCP usa el valor decimal $0$
+- _Expedited Forwarding (EF)_ - usado para el delay/jitter/loss sensitive traffic, en DSCP usa el valor decimal $46$
 
 ##### Class Selector 
 _Class Selector_ es un conjunto standard de DSCP marking creado para ser retrocompatible con el sistema de marking de IPP, por lo que solo usa los primeros 3-bits del _ToS/DiffServ byte_ al igual que IPP, los ultimos 3-bits menos significativos se dejan seteados en $0$.  
@@ -107,6 +122,7 @@ _Class Selector_ es un conjunto standard de DSCP marking creado para ser retroco
 Como los campos usados para los valores _CS_ son los primeros bits más significativos, esto implica realizar una traducción cuando se quiera ver el valor total del campo DSCP incluyendo a los bits menos significativos. Por ejemplo el valor $7$ IPP es equivalente a $CS7$ ($0b111$) que es equivalente al valor del campo DSCP $56$ ($0b111000$).
 
 Si bien el objetivo de _CS_ es ser retrocompatible con sistema IPP, tiene como desventaja que no aprovecha las valores adicionales que se agregan el campo DSCP.
+
 ##### Assured Forwarding 
 _Assured Forwarding (AF)_ define 12 valores de marking estandarizados adicionales: cuatro _traffic classes_, y dentro de cada clase se puede encontrar tres niveles de _drop precedence_.
 
@@ -141,7 +157,7 @@ Los [[IP telephony]] realizan el _marking_ de sus propios paquetes (los configur
 ## Queuing and scheduling 
 _Queuing_ es el proceso de almacenar paquetes en queues (o colas) mientras esperan su turno a ser transmitidos, esto ocurre en un contexto de congestión de la red cuando una interface recibe paquetes a un mayor ritmo del que puede reenviarlos. 
 
-Cuando no hay QoS, cada interface usa un  _single egress queue_ y el dispositivo transmite los paquetes mediante la forma _FIFO (first in, first out)_, lo que implica que los paquetes ingresan al queue en orden de llegada, los metodos en que los paquetes se ordenan es llamado _scheduling_.
+Cuando no hay QoS, cada interface usa un  _single egress queue_ y el dispositivo transmite los paquetes mediante la forma _FIFO (first in, first out)_, lo que implica que los paquetes ingresan y salen del queue en orden de llegada.
 
 > _Scheduling_ es el proceso de decisión sobre en que orden deben ser transmitidos los paquetes que estan dentro del queue. 
 
